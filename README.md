@@ -12,4 +12,4 @@ Guide can be downloaded from Open Group site: https://publications.opengroup.org
 
 ---
 
-Date: 2025/05/19
+Comments are welcome, leave your thoughts in Discussion Board. (Date: 2025/05/19)
