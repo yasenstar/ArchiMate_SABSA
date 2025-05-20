@@ -27,3 +27,6 @@ Then we can recap the purpose of this document, which are from the guide:
 
 Why not other models? Not limited, you're freely to choose any other models or modeling language to perform your work, as long as you and your colleague, your stakeholders and your partners have those as common language.
 
+---
+
+Any comments are welcome, feel free to raise pull-request or post in Discussion Board
