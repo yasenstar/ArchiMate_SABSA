@@ -24,6 +24,8 @@ Then we can recap the purpose of this document, which are from the guide:
 
 - "This document discusses how security architecture concepts can be expressed using The Open Group ArchiMate® modeling language."
 - "This document describes a model-based approach for creating SABSA® artifacts using ArchiMate notation and tooling."
+- "The integration of security into Enterprise Architecture methodologies, through the alignment of SABSA® concepts with the Zachman Framework™, the TOGAF® Standard, and other popular frameworks, has been established for several years." -- positive side
+- "In practice, however, the lack of native support for security concepts in Enterprise Architecture modeling notations (and therefore tools and processes) has placed security architects at a disadvantage to their architectural peers." -- negative side
 
 Why not other models? Not limited, you're freely to choose any other models or modeling language to perform your work, as long as you and your colleague, your stakeholders and your partners have those as common language.
 

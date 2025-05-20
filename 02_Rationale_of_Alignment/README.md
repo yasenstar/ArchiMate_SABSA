@@ -1,4 +1,4 @@
-# 02 Rationale of Alignment
+# 02 Rationale for the Alignment of SABSA and ArchiMate
 
 ---
 
