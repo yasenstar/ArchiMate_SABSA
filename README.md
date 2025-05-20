@@ -19,6 +19,14 @@ Get [Freeplane](https://docs.freeplane.org/getting-started/getting-started.html)
 
 SABSA® is a methodology for developing risk-driven enterprise information security and information assurance architectures and for delivering security infrastructure solutions that support critical business initiatives. It is an open standard, comprising a number of frameworks, models, methods and processes, free for use by all, with no licensing required for end-user organizations who make use of the standard in developing and implementing architectures and solutions. (Source: W100 - SABSA® White Paper)
 
+The Joint Working Group, between SABSA and the Open Group, was established around 2024, aims to following variable purpose:
+
+- develop a settled consensus of core security elements, relationships, and properties - referred to collectively as the "Security Overlay".
+- propose a reference of vocabulary, patterns, and conventions in this domain, to further enterprise security as a practice, and encourage the wider appreciation of security concepts in general and the SABSA approach in particular.
+- incentivize toolmakers to facilitate support for security within their products, no need to focus on how to model the security perspective.
+
+The practice in this repository is to detail go through the guide, and using Archi (ArchiMate® modeling tool) to create the hands-on model step-by-step, so that it can be tailored by every architecture team to their own company's EA+Security meta-model creation.
+
 ## Read and Check Detail
 
 - [01. Introduction](./01_Introduction/README.md)
