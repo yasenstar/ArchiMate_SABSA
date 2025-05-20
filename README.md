@@ -42,4 +42,4 @@ The practice in this repository is to detail go through the guide, and using Arc
 
 ---
 
-Comments are welcome, leave your thoughts in Discussion Board. (Date: 2025-05-20)
+Comments are welcome, leave your thoughts in [Discussion Board](https://github.com/yasenstar/ArchiMate_SABSA/discussions).
