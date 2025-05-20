@@ -1,5 +1,7 @@
 # 01 Introduction
 
+## 01.0 Opening Question
+
 One first questions from [alidayani](https://github.com/alidayani) in Discussion Board, responding the modeling challenge, are
 
 - why ArchiMate® for security architect, why not other models? and
@@ -28,6 +30,33 @@ Then we can recap the purpose of this document, which are from the guide:
 - "In practice, however, the lack of native support for security concepts in Enterprise Architecture modeling notations (and therefore tools and processes) has placed security architects at a disadvantage to their architectural peers." -- negative side
 
 Why not other models? Not limited, you're freely to choose any other models or modeling language to perform your work, as long as you and your colleague, your stakeholders and your partners have those as common language.
+
+## 01.1 Background
+
+If you look for "Information Security Framework" via any search engine, you may get following, but not limited, list of the IT security standards and frameworks:
+
+- ISO 27001 series
+- NIST SP 800-53
+- NIST SP 800-171
+- NIST CSF
+- NIST SP 1800 series
+- COBIT (from ISACA)
+- CIS Controls
+- HITRUST Common Security Framework
+- GDPR
+- COSO
+- FISMA
+- NERC CIP
+
+Searching "Top Security Frameworks used by CISOs in 2025", got below 5 ones:
+
+- NIST Cybersecurity Framework (CSF 2.0)
+- ISO/IEC 27001
+- CIS Controls (Version 8)
+- Zero Trust Architecture
+- Factor Analysis of Information Risk (FAIR)
+
+Interesting is I found SABSA is not popular as I expected, from another point of view, that's also meaning there're quite a lot of work need to communicate SABSA to the broader audience, even to the CISOs group as well.
 
 ---
 
