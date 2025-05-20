@@ -34,4 +34,4 @@ SABSA® is a methodology for developing risk-driven enterprise information secur
 
 ---
 
-Comments are welcome, leave your thoughts in Discussion Board. (Date: 2025/05/19)
+Comments are welcome, leave your thoughts in Discussion Board. (Date: 2025-05-20)
