@@ -69,6 +69,23 @@ Check here the "SABSA Blue Book" (Executive Summary):
 
 "Ultimately, real-world systems recognize a single, _de facto_ architecture: what __ISO 42010__ calls the __Entity of Interest (EoI)__. It makes sense to strive towards a single holistic model of the EoI, capable of describing, validating, querying and analyzing all its pertinet (相关的) functional and non-functional aspects, including the security perspective.
 
+## 01.2 The ArchiMate Specification
+
+Get the specification here: https://www.opengroup.org/archimate-forum/archimate-overview。
+
+Put into the analogy in below since all of them are __visual modeling languange__:
+
+- ArchiMate: supports the description, analysis, and development of enterprise business and IT systems
+- UML: describes software design
+- BPMN: describes business processes
+
+Referred from nice article by Paradigm (https://guides.visual-paradigm.com/uml-vs-bpmn-vs-archimate-in-visual-modeling/), below I'm putting the comparison into a table (prevent that online page may be not available someday ;-p):
+
+| Aspect | ![uml](./img/UML-logo.png) | ![BMMN](./img/BPMN-logo.png) | ![ArchiMate](./img/ArchiMate-text-logo.png) |
+| --- | --- | --- | --- |
+| Purpose | General-purpose modeling langauge used for software engineering, system design, and various other domains. | Specifically designed for modeling business processes, workflows, and interactions within organizations. | Enterprise architecture modeling language for describing and visualizing an organization's architecture across business, information, application, and technology layers. |
+| Notation | Provides a wide range of diagram types, including class diagrams, use case diagrams, sequence diagrams, state diagrams, etc., each with its own set of symbols. | Uses a standardized set of symbols and notation specifically tailored for modeling business processes and activities. Symbols include tasks, events, gateways, and flows. | Offers a defined set of concepts and symbols to represent elements, such as business processes, applications, technology, and relationships betwen them. |
+
 ---
 
 Any comments are welcome, feel free to raise pull-request or post in Discussion Board
