@@ -78,12 +78,14 @@
 </stylenode>
 </map_styles>
 </hook>
-<node TEXT="00. Preface" POSITION="bottom_or_right" ID="ID_1250732886" CREATED="1747712086744" MODIFIED="1747712091853">
+<node TEXT="00. Preface" FOLDED="true" POSITION="bottom_or_right" ID="ID_1250732886" CREATED="1747712086744" MODIFIED="1747712091853">
 <node TEXT="Mission of The Open Group: drive the creation of Boundaryless Information Flow" ID="ID_1626036026" CREATED="1747712115404" MODIFIED="1747712147392"/>
 <node TEXT="The Joint Working Group aims to develop a settled consensus of core security elements, relationships, and properties - referred to collectively as the &quot;Security Overlay&quot;." ID="ID_122874273" CREATED="1747712200253" MODIFIED="1747712257126"/>
 </node>
-<node TEXT="01. Introduction" FOLDED="true" POSITION="bottom_or_right" ID="ID_391432534" CREATED="1747668068857" MODIFIED="1747668149775">
-<node TEXT="01.01 Background" ID="ID_251119085" CREATED="1747712041846" MODIFIED="1747712048675"/>
+<node TEXT="01. Introduction" POSITION="bottom_or_right" ID="ID_391432534" CREATED="1747668068857" MODIFIED="1747668149775">
+<node TEXT="01.01 Background" ID="ID_251119085" CREATED="1747712041846" MODIFIED="1747712048675">
+<node TEXT="SABSA Blue Book (Executive Summary)" ID="ID_312024013" CREATED="1747792851224" MODIFIED="1747792865515" LINK="https://sabsa.org/sabsa-executive-summary/"/>
+</node>
 <node TEXT="01.02 The ArchiMate® Specification" ID="ID_1514485112" CREATED="1747712048846" MODIFIED="1747712064670"/>
 <node TEXT="01.03 Purpose" ID="ID_1338795508" CREATED="1747712065296" MODIFIED="1747712068780"/>
 </node>

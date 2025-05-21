@@ -31,8 +31,6 @@ Then we can recap the purpose of this document, which are from the guide:
 
 Why not other models? Not limited, you're freely to choose any other models or modeling language to perform your work, as long as you and your colleague, your stakeholders and your partners have those as common language.
 
-## 01.1 Background
-
 If you look for "Information Security Framework" via any search engine, you may get following, but not limited, list of the IT security standards and frameworks:
 
 - ISO 27001 series
@@ -57,6 +55,19 @@ Searching "Top Security Frameworks used by CISOs in 2025", got below 5 ones:
 - Factor Analysis of Information Risk (FAIR)
 
 Interesting is I found SABSA is not popular as I expected, from another point of view, that's also meaning there're quite a lot of work need to communicate SABSA to the broader audience, even to the CISOs group as well.
+
+## 01.1 Background
+
+Purposes of "Security Architecture":
+
+- Protect the organization's information assets and capabilities
+- Produce artifacts that guide the Enteprise Architecture development
+
+Check here the "SABSA Blue Book" (Executive Summary):
+
+[![SABSA-Blue-Book](./img/SABSA-blue-book.png)](https://sabsa.org/sabsa-executive-summary/)
+
+"Ultimately, real-world systems recognize a single, _de facto_ architecture: what __ISO 42010__ calls the __Entity of Interest (EoI)__. It makes sense to strive towards a single holistic model of the EoI, capable of describing, validating, querying and analyzing all its pertinet (相关的) functional and non-functional aspects, including the security perspective.
 
 ---
 
