@@ -76,8 +76,8 @@ Get the specification here: https://www.opengroup.org/archimate-forum/archimate-
 Put into the analogy in below since all of them are __visual modeling languange__:
 
 - ArchiMate: supports the description, analysis, and development of enterprise business and IT systems
-- UML: describes software design
-- BPMN: describes business processes
+- UML (Unified Modeling Language): describes software design
+- BPMN (Business Process Model and Notation): describes business processes
 
 Referred from nice article by Paradigm (https://guides.visual-paradigm.com/uml-vs-bpmn-vs-archimate-in-visual-modeling/), below I'm putting the comparison into a table (prevent that online page may be not available someday ;-p):
 
@@ -88,7 +88,15 @@ Referred from nice article by Paradigm (https://guides.visual-paradigm.com/uml-v
 | Scope | Versatile and can be used for various aspects of software and system modeling, ranging form high-level architecture to detailed design. | Focused on modeling business processes and workflows, making it suitable for porocess analysis, improvement, and automation. | Primarily used for enterprise architecture modeling and aligning business and IT aspects, less suitable for detailed software design. |
 | Audience| Typically used by software architects, designers, and developers, as well as other stakeholders involved in software engineering. | Targeted at business analysts, procss modelers, and non-technical stakeholders involved in business process management and optimization. | Mainly intended for enterprise architects and stakeholders involved in strategic planning and aligning of business and IT. |
 | Clarity | Offers a wide range of diagrams, which can sometimes lead to complexity, but also allows for detailed specification. | Provides clear and intuitive (直观的) visual representations of business processes, making it accessible to both technical and non-technical audiences. | Promotes a holistic and clear view of an organization's architecture, facilitating alignment between business and IT. |
-| Adoption | Widespread
+| Adoption | Widespread adoption in the software industry, with many UML modeling tools and resources available. | Widely used in organizations for business process modeling and automation, with numerous BPMN-compliant tools. | Commonly used in enterprise architecture practices, often alongside TOGAF (The Open Group Architecture Framework). |
+| Complexity | Can be complex due to its broand range of diagrams and elements, making it potentially overwhelming for simple tasks. | Designed to be relatively simple and straighforward for modeling business processes, reducing complexity. | Provides a structured and systematic approach to enterprise architecture modeling, but can be complex for beginners. |
+| Learning Curve | May have a steep learning curve, especially for beginners, due to its versatility and extensive features. | Generally easier to learn, particularly for those with a business process background, as it focuses on specific aspects of an organization. | Requires understanding of enterprise architecture concepts which can be challenging for newcomers. |
+| Integration | Often integrated into software development processes and used with various methodologies like Agile, Waterfall, etc. | Frequently used alongside business process management (BPM) and automation tools to execute and monitor processes. | Often used in conjunction for comprehensive enterprise architecture management. |
+| Use Cases | Suitable for software design, system architecture, object-oriented modeling, and more. | Best suited for modeling and optimizing business processes and workflows within organizations. | Ideal for capturing and communicting the structure and dynamics of an organizaiton's architecture. |
+| Industry Standards | Standardized by the Object Management Group (OMG), with various UML profiles available for specific domains. | Developed and maintained by the OMG as well, with the focus on business process modeling and management. | Also maintained by the OMG, it complements TOGAF for enterprise architecture standards. |
+| Example Diagrams | Class Diagram, Use Case Diagram, Sequence Diagram, State Machine Diagram, Activity Diagram, etc. | Process Flow Diagram, Collaboration Diagram, Choreography Diagram, Message Flow Diagram, etc. | Business Layer Diagram, Application Layer Diagram, Technology Layer Diagram, Motivation Diagram, etc. |
+
+Question: is ArchiMate maintained by OMG? Strange to me.
 
 ---
 
