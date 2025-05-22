@@ -3,7 +3,7 @@
 <node TEXT="Modeling SABSA®&#xa;in ArchiMate®" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_1090958577" CREATED="1409300609620" MODIFIED="1747668057865">
 <hook NAME="accessories/plugins/AutomaticLayout.properties" VALUE="ALL"/>
 <font BOLD="true"/>
-<hook NAME="MapStyle" background="#eeeeeeff">
+<hook NAME="MapStyle" background="#eeeeeeff" zoom="0.9090909">
     <properties show_icon_for_attributes="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_note_icons="true" fit_to_viewport="false" show_icons="BESIDE_NODES" associatedTemplateLocation="template:/light_grey_straight_template.mm" show_tags="UNDER_NODES"/>
     <tags category_separator="::"/>
 
@@ -83,10 +83,13 @@
 <node TEXT="The Joint Working Group aims to develop a settled consensus of core security elements, relationships, and properties - referred to collectively as the &quot;Security Overlay&quot;." ID="ID_122874273" CREATED="1747712200253" MODIFIED="1747712257126"/>
 </node>
 <node TEXT="01. Introduction" POSITION="bottom_or_right" ID="ID_391432534" CREATED="1747668068857" MODIFIED="1747668149775">
-<node TEXT="01.01 Background" ID="ID_251119085" CREATED="1747712041846" MODIFIED="1747712048675">
+<node TEXT="01.01 Background" FOLDED="true" ID="ID_251119085" CREATED="1747712041846" MODIFIED="1747712048675">
 <node TEXT="SABSA Blue Book (Executive Summary)" ID="ID_312024013" CREATED="1747792851224" MODIFIED="1747792865515" LINK="https://sabsa.org/sabsa-executive-summary/"/>
 </node>
-<node TEXT="01.02 The ArchiMate® Specification" ID="ID_1514485112" CREATED="1747712048846" MODIFIED="1747712064670"/>
+<node TEXT="01.02 The ArchiMate® Specification" ID="ID_1514485112" CREATED="1747712048846" MODIFIED="1747793346490">
+<arrowlink DESTINATION="ID_1998308929"/>
+<node TEXT="Figure 1； A Simple ArchiMate Diagram" ID="ID_50668471" CREATED="1747831808407" MODIFIED="1747831819126"/>
+</node>
 <node TEXT="01.03 Purpose" ID="ID_1338795508" CREATED="1747712065296" MODIFIED="1747712068780"/>
 </node>
 <node TEXT="02. Rationale for the Alignment of SABSA and ArchiMate" POSITION="bottom_or_right" ID="ID_1822791611" CREATED="1747668075855" MODIFIED="1747668151281"/>

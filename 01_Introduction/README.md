@@ -79,7 +79,7 @@ Put into the analogy in below since all of them are __visual modeling languange_
 - UML (Unified Modeling Language): describes software design
 - BPMN (Business Process Model and Notation): describes business processes
 
-Referred from nice article by Paradigm (https://guides.visual-paradigm.com/uml-vs-bpmn-vs-archimate-in-visual-modeling/), below I'm putting the comparison into a table (prevent that online page may be not available someday ;-p):
+Referred from nice article by Visual Paradigm (https://guides.visual-paradigm.com/uml-vs-bpmn-vs-archimate-in-visual-modeling/), below I'm putting the comparison into a table (prevent that online page may be not available someday ;-p):
 
 | Aspect | ![uml](./img/UML-logo.png) | ![BMMN](./img/BPMN-logo.png) | ![ArchiMate](./img/ArchiMate-text-logo.png) |
 | --- | --- | --- | --- |
@@ -93,10 +93,20 @@ Referred from nice article by Paradigm (https://guides.visual-paradigm.com/uml-v
 | Learning Curve | May have a steep learning curve, especially for beginners, due to its versatility and extensive features. | Generally easier to learn, particularly for those with a business process background, as it focuses on specific aspects of an organization. | Requires understanding of enterprise architecture concepts which can be challenging for newcomers. |
 | Integration | Often integrated into software development processes and used with various methodologies like Agile, Waterfall, etc. | Frequently used alongside business process management (BPM) and automation tools to execute and monitor processes. | Often used in conjunction for comprehensive enterprise architecture management. |
 | Use Cases | Suitable for software design, system architecture, object-oriented modeling, and more. | Best suited for modeling and optimizing business processes and workflows within organizations. | Ideal for capturing and communicting the structure and dynamics of an organizaiton's architecture. |
-| Industry Standards | Standardized by the Object Management Group (OMG), with various UML profiles available for specific domains. | Developed and maintained by the OMG as well, with the focus on business process modeling and management. | Also maintained by the OMG, it complements TOGAF for enterprise architecture standards. |
+| Industry Standards | Standardized by the Object Management Group (OMG), with various UML profiles available for specific domains. | Developed and maintained by the OMG as well, with the focus on business process modeling and management. | Also maintained by the OMG (?), it complements TOGAF for enterprise architecture standards. |
 | Example Diagrams | Class Diagram, Use Case Diagram, Sequence Diagram, State Machine Diagram, Activity Diagram, etc. | Process Flow Diagram, Collaboration Diagram, Choreography Diagram, Message Flow Diagram, etc. | Business Layer Diagram, Application Layer Diagram, Technology Layer Diagram, Motivation Diagram, etc. |
 
-Question: is ArchiMate maintained by OMG? Strange to me.
+Question: is ArchiMate maintained by OMG? Strange to me. (Checked with Open Group, seems this statement is wrong on the page: ArchiMate is owned by The Open Group)
+
+Here is the ArchiMate® language structure:
+
+![ArchiMate_Lang_Structure](./img/fig-ArchiMate-Full-Framework.png)
+
+Find certified ArchiMate individuals: https://archimate-cert.opengroup.org/certified-individuals
+
+## 01.3 Purpose
+
+
 
 ---
 

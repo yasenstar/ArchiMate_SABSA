@@ -17,6 +17,10 @@ Joint ArchiMate with Ontology in Modeling:
 
 Welcome to have your support to my packaged course, well you may also view a series of those videos in YouTube as I'd like that can be shared more.
 
+## About ArchiMate License and Trademark
+
+Look at this post: https://ea.rna.nl/2016/05/23/is-archimate-an-open-standard-not-really/comment-page-1/ (Also I put [PDF version](./Is_ArchiMate_an_Open_Standard_Not_really.pdf) extracted)
+
 ---
 
 Any comments are welcome, feel free to raise pull-request or post in Discussion Board
