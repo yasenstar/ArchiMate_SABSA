@@ -93,10 +93,10 @@ Referred from nice article by Visual Paradigm (https://guides.visual-paradigm.co
 | Learning Curve | May have a steep learning curve, especially for beginners, due to its versatility and extensive features. | Generally easier to learn, particularly for those with a business process background, as it focuses on specific aspects of an organization. | Requires understanding of enterprise architecture concepts which can be challenging for newcomers. |
 | Integration | Often integrated into software development processes and used with various methodologies like Agile, Waterfall, etc. | Frequently used alongside business process management (BPM) and automation tools to execute and monitor processes. | Often used in conjunction for comprehensive enterprise architecture management. |
 | Use Cases | Suitable for software design, system architecture, object-oriented modeling, and more. | Best suited for modeling and optimizing business processes and workflows within organizations. | Ideal for capturing and communicting the structure and dynamics of an organizaiton's architecture. |
-| Industry Standards | Standardized by the Object Management Group (OMG), with various UML profiles available for specific domains. | Developed and maintained by the OMG as well, with the focus on business process modeling and management. | Also maintained by the OMG (?), it complements TOGAF for enterprise architecture standards. |
+| Industry Standards | Standardized by the Object Management Group (OMG), with various UML profiles available for specific domains. | Developed and maintained by the OMG as well, with the focus on business process modeling and management. | Also maintained by the OMG (*?), it complements TOGAF for enterprise architecture standards. |
 | Example Diagrams | Class Diagram, Use Case Diagram, Sequence Diagram, State Machine Diagram, Activity Diagram, etc. | Process Flow Diagram, Collaboration Diagram, Choreography Diagram, Message Flow Diagram, etc. | Business Layer Diagram, Application Layer Diagram, Technology Layer Diagram, Motivation Diagram, etc. |
 
-Question: is ArchiMate maintained by OMG? Strange to me. (Checked with Open Group, seems this statement is wrong on the page: ArchiMate is owned by The Open Group)
+*Question: is ArchiMate maintained by OMG? Strange to me. (Checked with Open Group, seems this statement is wrong on the page: ArchiMate is owned by The Open Group)
 
 Here is the ArchiMate® language structure:
 
