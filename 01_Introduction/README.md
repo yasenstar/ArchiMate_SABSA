@@ -106,7 +106,10 @@ Find certified ArchiMate individuals: https://archimate-cert.opengroup.org/certi
 
 ## 01.3 Purpose
 
+From the guide, it aims to answer following two main focus area questions:
 
+1. What can currently be achieved within the constraints of ArchiMate language and certified tools?
+2. What might further be achieved via a security-specific extension to the core language, and what would such an extension look like?
 
 ---
 
