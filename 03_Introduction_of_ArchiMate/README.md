@@ -63,8 +63,8 @@ Then below is the mapping of the ArchiMate Specification to the TOGAF Architectu
 
 Joint ArchiMate with Ontology in Modeling:
 
-- [Udemy - Master ArchiMate 3.2 Specification - Ontology and Modeling](https://www.udemy.com/course/build-ontology-view-with-learning-archimate/)
-  [![ArchiMate-Ontology](./img/Master-ArchiMate-Specification-with-Ontology.png)](https://www.udemy.com/course/build-ontology-view-with-learning-archimate/)
+- [Udemy - Master ArchiMate 3.2 Specification - Ontology and Modeling](https://www.udemy.com/course/build-ontology-view-with-learning-archimate/?referralCode=6A3B23ADD67551B38D2B)
+  [![ArchiMate-Ontology](./img/Master-ArchiMate-Specification-with-Ontology.png)](https://www.udemy.com/course/build-ontology-view-with-learning-archimate/?referralCode=6A3B23ADD67551B38D2B)
 - [YouTube video list - Build Ontology View on ArchiMate 3.2 Language Meta-Model](https://studio.youtube.com/playlist/PL6DEHvciXKeUWWe--FiiSIyga0vt3kBpI/edit)
 
 Welcome to have your support to my packaged course, well you may also view a series of those videos in YouTube as I'd like that can be shared more.
