@@ -4,7 +4,7 @@
 <hook NAME="accessories/plugins/AutomaticLayout.properties" VALUE="ALL"/>
 <font BOLD="true"/>
 <hook NAME="MapStyle" background="#eeeeeeff" zoom="0.9090909">
-    <properties show_icon_for_attributes="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_note_icons="true" fit_to_viewport="false" show_icons="BESIDE_NODES" associatedTemplateLocation="template:/light_grey_straight_template.mm" show_tags="UNDER_NODES"/>
+    <properties show_icon_for_attributes="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_tags="UNDER_NODES" show_note_icons="true" associatedTemplateLocation="template:/light_grey_straight_template.mm" fit_to_viewport="false" show_icons="BESIDE_NODES"/>
     <tags category_separator="::"/>
 
 <map_styles>
@@ -92,9 +92,32 @@
 </node>
 <node TEXT="01.03 Purpose" ID="ID_1338795508" CREATED="1747712065296" MODIFIED="1747712068780"/>
 </node>
-<node TEXT="02. Rationale for the Alignment of SABSA and ArchiMate" POSITION="bottom_or_right" ID="ID_1822791611" CREATED="1747668075855" MODIFIED="1747668151281"/>
-<node TEXT="03. Introduction of ArchiMate" POSITION="bottom_or_right" ID="ID_1998308929" CREATED="1747668100492" MODIFIED="1747668152719"/>
-<node TEXT="04. Aligning SABSA and ArchiMate Framework" POSITION="bottom_or_right" ID="ID_344461701" CREATED="1747668110732" MODIFIED="1747668154143"/>
+<node TEXT="02. Rationale for the Alignment of SABSA and ArchiMate" FOLDED="true" POSITION="bottom_or_right" ID="ID_1822791611" CREATED="1747668075855" MODIFIED="1747668151281">
+<node TEXT="02.1 Benefits of Modeling" ID="ID_1168898154" CREATED="1748057939111" MODIFIED="1748057948751"/>
+<node TEXT="02.2 The Case of an ArchiMate Security Perspective" ID="ID_870145059" CREATED="1748057949470" MODIFIED="1748057965577"/>
+<node TEXT="02.3 Benefits that Modeling Can Bring to SABSA" ID="ID_1242750720" CREATED="1748057965798" MODIFIED="1748057975313"/>
+<node TEXT="02.4 Benefits of Modeling to the Practitioner" ID="ID_938277925" CREATED="1748057975489" MODIFIED="1748057985147"/>
+<node TEXT="02.5 Vendor Neutrality" ID="ID_1827134213" CREATED="1748057985409" MODIFIED="1748057993898"/>
+</node>
+<node TEXT="03. Introduction of ArchiMate" FOLDED="true" POSITION="bottom_or_right" ID="ID_1998308929" CREATED="1747668100492" MODIFIED="1747668152719">
+<node TEXT="03.1 Core Elements" ID="ID_1116681250" CREATED="1748057997598" MODIFIED="1748058002818"/>
+<node TEXT="03.2 Core Relationships" ID="ID_897208137" CREATED="1748058006589" MODIFIED="1748058025190"/>
+<node TEXT="03.3 Extension Layers and Elements" ID="ID_1508528739" CREATED="1748058025887" MODIFIED="1748058032911"/>
+<node TEXT="03.4 ArchiMate Language Customization" ID="ID_1994971986" CREATED="1748058033646" MODIFIED="1748058042370">
+<node TEXT="03.4.1 User-Defined Attributes" ID="ID_652248063" CREATED="1748058090164" MODIFIED="1748058099847"/>
+<node TEXT="03.4.2 Specializations and &quot;Stereotypes&quot;" ID="ID_1780826726" CREATED="1748058099996" MODIFIED="1748058114161">
+<node TEXT="Figure 2: In-Model versus Out-of-Model Specialization" ID="ID_290948251" CREATED="1748058118628" MODIFIED="1748058142747"/>
+</node>
+<node TEXT="03.4.3 Overloaded Relationships" ID="ID_1249370188" CREATED="1748058175540" MODIFIED="1748058182114"/>
+</node>
+<node TEXT="03.5 The ArchiMate Full Framework" ID="ID_588638179" CREATED="1748058057335" MODIFIED="1748058065401"/>
+</node>
+<node TEXT="04. Aligning SABSA and ArchiMate Framework" POSITION="bottom_or_right" ID="ID_344461701" CREATED="1747668110732" MODIFIED="1747668154143">
+<node TEXT="04.1 Introduction to the Security Overlay" ID="ID_1521200450" CREATED="1748058067237" MODIFIED="1748058075081"/>
+<node TEXT="04.2 An Overview of the Task" ID="ID_415552271" CREATED="1748070675582" MODIFIED="1748070686491"/>
+<node TEXT="04.3 Risk &amp; Security Modeling in the ArchiMate Specification" ID="ID_658624177" CREATED="1748070686671" MODIFIED="1748070698847"/>
+<node TEXT="04.4 The Basic Element and Relationships" ID="ID_832733419" CREATED="1748070699012" MODIFIED="1748070709263"/>
+</node>
 <node TEXT="05. The Motivation Aspect" POSITION="bottom_or_right" ID="ID_1121778975" CREATED="1747668134684" MODIFIED="1747668155500"/>
 <node TEXT="06. Modeling Contextual Security Architecture" POSITION="bottom_or_right" ID="ID_1741078159" CREATED="1747668140692" MODIFIED="1747668176080"/>
 <node TEXT="07. Modeling Conceptual Security Architecture" POSITION="bottom_or_right" ID="ID_747127767" CREATED="1747668176251" MODIFIED="1747668187597"/>
