@@ -1,5 +1,56 @@
 # 03 Introduction of ArchiMate
 
+## 03.1 Core Elements
+
+The ArchiMate core elements belong to one of 3 categories (think about them from one graph / triple aspect):
+
+ - Active Structure Elements (Subject)
+ - Behavior Elements (Predicate)
+ - Passive Structure Elements (Object)
+
+Support _service-oriented_ viewpoints:
+
+- Enternal Behavior Elements (Services)
+- Internal Behavior Elements (Processes & Functions)
+- External Active Structure Elements (Interfaces)
+- Internal Active Structure Elements (Actors, Roles, Applications, Devices)
+
+## 03.2 Core Relationships
+
+Four relationships categories:
+
+| Category | Purpose | Relationships |
+| --- | --- | --- |
+| Structural | Model the static construction or composition of elements | composition, aggregation, realization, assignment |
+| Dependency | How elements support each other | serving, access, influence, association |
+| Dynamic | Model information and control flows between elements | triggering, flow |
+| Specialization | others | specializing |
+
+The language __does not allow__ elements and relationships to be combined arbitrarily (任意地).
+
+## 03.3 Extension Layers and Elements
+
+- Strategy Layer (change to "Layer" from 3.2)
+- Motivation Elements
+- Implementation and Migration Layer
+- Composition Elements
+
+## 03.4 ArchiMate Language Customization
+
+- User-Defined Attributes
+- Sepcialization and "Stereotypes"
+- Overloaded Relationships
+
+## 03.5 The ArchiMate Full Framework
+
+You already see this in [Chapter 1: Introduction](../01_Introduction/README.md):
+
+![ArchiMate Framework](../01_Introduction/img/fig-ArchiMate-Full-Framework.png)
+
+Then below is the mapping of the ArchiMate Specification to the TOGAF Architecture Development Method (ADM):
+
+![ArchiMate-TOGAF](./img/ArchiMate-TOGAF.png)
+
 ## Some Learning Sources about ArchiMate
 
 - ArchiMate Modeling Case Study - ArchiSurance
@@ -13,7 +64,8 @@
 Joint ArchiMate with Ontology in Modeling:
 
 - [Udemy - Master ArchiMate 3.2 Specification - Ontology and Modeling](https://www.udemy.com/course/build-ontology-view-with-learning-archimate/)
-- [YouTube videolist - Build Ontology View on ArchiMate 3.2 Language Meta-Model](https://studio.youtube.com/playlist/PL6DEHvciXKeUWWe--FiiSIyga0vt3kBpI/edit)
+  [![ArchiMate-Ontology](./img/Master-ArchiMate-Specification-with-Ontology.png)](https://www.udemy.com/course/build-ontology-view-with-learning-archimate/)
+- [YouTube video list - Build Ontology View on ArchiMate 3.2 Language Meta-Model](https://studio.youtube.com/playlist/PL6DEHvciXKeUWWe--FiiSIyga0vt3kBpI/edit)
 
 Welcome to have your support to my packaged course, well you may also view a series of those videos in YouTube as I'd like that can be shared more.
 
