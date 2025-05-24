@@ -17,3 +17,32 @@ From SABSA perspective, back to upper link https://sabsa.org/category/working-gr
 | WG102 | SABSA Attributes Catalogue (SABAC) | https://sabsa.org/category/working-groups/sabsa-attributes-catalogue/ |
 | WG103 | Modelling SABSA with ArchiMate (MSA) | https://sabsa.org/category/working-groups/modelling-sabsa-archimate/ |
 
+## 04.2 An Overview of the Task
+
+High-level perspective of aligning of SABSA and ArchiMate frameworks is as below (Figure 05 in Guide):
+
+![Figure05](./img/Figure05-align-SABSA-ArchiMate-framework.png)
+
+The left are the horizontal view for SABSA in 5 layers, looks like ArchiMate misses one "Concept" layer, while there's some other EA tooling may provide tailored meta-model that can fit the cross mapping.
+
+Wierda recommended to partition the Architecture Description into three planes:
+
+1. A primary (No.1) architecture showing how the Enterprise Architecture supports business processes at run-time
+2. A secondary (No.2) management plane that shows how the primary (No.1) Enterprise Architecture is created, deployed, and operated
+3. A tertiary (No.3) plane that deals with ownership, administration and goverannce
+
+Base on SABSA Executive Summary Whitepaper, below is the SABSA MATRIX (Simplified):
+
+| | ASSETS (What) | MOTIVATION (Why) | PROCESS (How) | PEOPLE (Who) | LOCATION (Where) | TIME (When) |
+| --- | --- | --- | --- | --- | --- | --- |
+| CONTEXTUAL ARCHITECTURE | Business Decisions | Business Risk | Business Processes | Business Governance | Business Geography | Business Time Dependence |
+| CONCEPTUAL ARCHITECTURE | Business Knowledge & Risk Strategy | Risk Management Objectives | Strategies for Process Assurance | Roles & Responsibilites | Domain Framework | Time Management Framework |
+| LOGICAL ARCHITECTURE | Information Assets | Risk Management Policies | Process Maps & Services | Entity & Trust Framework | Domain Maps | Calendar & Timetable |
+| PHYSICAL ARCHITECTURE | Data Assets | Risk Management Practices | Process Mechanisms | Human Interface | ICT Infrastructure | Processing Schedule |
+| COMPONENT ARCHITECTURE | ICT Components | Risk Management Tools & Standards | Process Tools & Standards | Personnel Management Tools & Standards | Locators Tools & Standards | Step Timing & Sequencing Tools |
+| SERVICE MANAGEMENT ARCHITECTURE | Service Delivery Management | Operational Risk Management | Process Delivery Management | Personnel Management | Management of Environment | Time & Performance Management |
+
+
+
+## 04.3 Risk & Security Modeling in the ArchiMet Specification
+
