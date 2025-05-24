@@ -42,7 +42,17 @@ Base on SABSA Executive Summary Whitepaper, below is the SABSA MATRIX (Simplifie
 | COMPONENT ARCHITECTURE | ICT Components | Risk Management Tools & Standards | Process Tools & Standards | Personnel Management Tools & Standards | Locators Tools & Standards | Step Timing & Sequencing Tools |
 | SERVICE MANAGEMENT ARCHITECTURE | Service Delivery Management | Operational Risk Management | Process Delivery Management | Personnel Management | Management of Environment | Time & Performance Management |
 
+Those 6 pillars are in the same terminology to Zachman Framework, see below for comparison (sequence is not same):
 
+| Audience Perspective | What | How | Where | Who | When | Why | Model Names |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| Executive Perspective | Inventory Identification | Process Identification | Distribution Identification | Responsibility Identification | Timing Identification | Motivation Identification | Scope Contexts |
+| Business Management Perspective | Inventory Definition | Process Definition | Distribution Definition | Responsibility Definition | Timing Definition | Motivation Definition | Business Concepts |
+| Architect Perspective | Inventory Representation | Process Representation | Distribution Representation | Responsibility Representation | Timing Representation | Motivation Repreventation | System Logic |
+| Engineer Perspective | Inventory Specification | Process Specification | Distribution Specification | Responsibility Specification | Timing Specification | Motivation Specification | Technology Physics |
+| Technician Perspective | Inventory Configuration | Process Configuration | Distribution Configuration | Responsibility Configuration | Timing Configuration | Motivation Configuration | Tool Components |
+| Enterprise Perspective | Inventory Instantiations | Process Instantiations | Distribution Instantiations | Responsibility Instantiations | Timing Instantiations | Motivation Instantiations | Operations Instances |
+| | Inventory Sets | Process Flows | Distribution Networks | Responbility Assignments | Timing Cycles | Motivation Intentions | |
 
 ## 04.3 Risk & Security Modeling in the ArchiMet Specification
 
