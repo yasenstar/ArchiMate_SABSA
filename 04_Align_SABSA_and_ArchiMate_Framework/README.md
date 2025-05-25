@@ -56,3 +56,15 @@ Those 6 pillars are in the same terminology to Zachman Framework, see below for 
 
 ## 04.3 Risk & Security Modeling in the ArchiMet Specification
 
+| ArchiMate Concepts | Risk & Security Context |
+| --- | --- |
+| Information domains are cited as an appropriate use of the Grouping element | describe as "_a set of users, their information objects and a security policy_" |
+| Driver | defined as "an external or internal condition that motivates an organization to define its goals and implement the changes necessary to achieve them" |
+| Assessment | specialized into Risk and Vulnerability |
+| Business Event | specialized into Threat and Loss Event |
+| Business Actor | specialized into Threat Agent |
+| Goal | specialized into Control Objective |
+| Principle | specialized into Business Policy |
+| Requirement | specialized inot Control Measure |
+| Grouping | specialized inot Risk Domain |
+
