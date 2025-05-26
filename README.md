@@ -15,6 +15,8 @@ Get [Freeplane](https://docs.freeplane.org/getting-started/getting-started.html)
 
 [![mindmap-l1](img/Modeling-SABSA-in-ArchiMate_small.png)](Modeling-SABSA-in-ArchiMate.mm)
 
+You can check [markdown format of mindmap](./Modeling-SABSA-in-ArchiMate.md) if you haven't installed Freeplane yet.
+
 ## Brief Introduction
 
 SABSA® (Sherwood Applied Business Security Architecture) is a methodology for developing risk-driven enterprise information security and information assurance architectures and for delivering security infrastructure solutions that support critical business initiatives. It is an open standard, comprising a number of frameworks, models, methods and processes, free for use by all, with no licensing required for end-user organizations who make use of the standard in developing and implementing architectures and solutions. (Source: W100 - SABSA® White Paper)
