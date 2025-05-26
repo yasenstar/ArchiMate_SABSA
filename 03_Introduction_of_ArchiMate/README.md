@@ -1,4 +1,4 @@
-# 03 Introduction of ArchiMate
+# 03 Introduction of ArchiMate®
 
 ## 03.1 Core Elements
 
