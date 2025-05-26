@@ -13,7 +13,7 @@ From SABSA perspective, back to upper link https://sabsa.org/category/working-gr
 | ID | Working Group (SABSA) | Info & Updates |
 | --- | --- | --- |
 | WG100 | Security Services Catalogue (SSC) | https://sabsa.org/category/working-groups/security-services-catalogue |
-| wg101 | SABSA Enhanced NIST Cybersecurity Framework (SENC) | https://sabsa.org/category/working-groups/sabsa-nist-csf/ |
+| WG101 | SABSA Enhanced NIST Cybersecurity Framework (SENC) | https://sabsa.org/category/working-groups/sabsa-nist-csf/ |
 | WG102 | SABSA Attributes Catalogue (SABAC) | https://sabsa.org/category/working-groups/sabsa-attributes-catalogue/ |
 | WG103 | Modelling SABSA with ArchiMate (MSA) | https://sabsa.org/category/working-groups/modelling-sabsa-archimate/ |
 

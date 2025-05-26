@@ -78,11 +78,11 @@
 </stylenode>
 </map_styles>
 </hook>
-<node TEXT="00. Preface" FOLDED="true" POSITION="bottom_or_right" ID="ID_1250732886" CREATED="1747712086744" MODIFIED="1747712091853">
+<node TEXT="00. Preface" POSITION="bottom_or_right" ID="ID_1250732886" CREATED="1747712086744" MODIFIED="1747712091853">
 <node TEXT="Mission of The Open Group: drive the creation of Boundaryless Information Flow" ID="ID_1626036026" CREATED="1747712115404" MODIFIED="1747712147392"/>
 <node TEXT="The Joint Working Group aims to develop a settled consensus of core security elements, relationships, and properties - referred to collectively as the &quot;Security Overlay&quot;." ID="ID_122874273" CREATED="1747712200253" MODIFIED="1747712257126"/>
 </node>
-<node TEXT="01. Introduction" POSITION="bottom_or_right" ID="ID_391432534" CREATED="1747668068857" MODIFIED="1747668149775">
+<node TEXT="01. Introduction" FOLDED="true" POSITION="bottom_or_right" ID="ID_391432534" CREATED="1747668068857" MODIFIED="1747668149775">
 <node TEXT="01.01 Background" FOLDED="true" ID="ID_251119085" CREATED="1747712041846" MODIFIED="1747712048675">
 <node TEXT="SABSA Blue Book (Executive Summary)" ID="ID_312024013" CREATED="1747792851224" MODIFIED="1747792865515" LINK="https://sabsa.org/sabsa-executive-summary/"/>
 </node>
@@ -92,14 +92,14 @@
 </node>
 <node TEXT="01.03 Purpose" ID="ID_1338795508" CREATED="1747712065296" MODIFIED="1747712068780"/>
 </node>
-<node TEXT="02. Rationale for the Alignment of SABSA and ArchiMate" POSITION="bottom_or_right" ID="ID_1822791611" CREATED="1747668075855" MODIFIED="1747668151281">
+<node TEXT="02. Rationale for the Alignment of SABSA and ArchiMate" FOLDED="true" POSITION="bottom_or_right" ID="ID_1822791611" CREATED="1747668075855" MODIFIED="1747668151281">
 <node TEXT="02.1 Benefits of Modeling" ID="ID_1168898154" CREATED="1748057939111" MODIFIED="1748057948751"/>
 <node TEXT="02.2 The Case of an ArchiMate Security Perspective" ID="ID_870145059" CREATED="1748057949470" MODIFIED="1748057965577"/>
 <node TEXT="02.3 Benefits that Modeling Can Bring to SABSA" ID="ID_1242750720" CREATED="1748057965798" MODIFIED="1748057975313"/>
 <node TEXT="02.4 Benefits of Modeling to the Practitioner" ID="ID_938277925" CREATED="1748057975489" MODIFIED="1748057985147"/>
 <node TEXT="02.5 Vendor Neutrality" ID="ID_1827134213" CREATED="1748057985409" MODIFIED="1748057993898"/>
 </node>
-<node TEXT="03. Introduction of ArchiMate" POSITION="bottom_or_right" ID="ID_1998308929" CREATED="1747668100492" MODIFIED="1747668152719">
+<node TEXT="03. Introduction of ArchiMate" FOLDED="true" POSITION="bottom_or_right" ID="ID_1998308929" CREATED="1747668100492" MODIFIED="1747668152719">
 <node TEXT="03.1 Core Elements" ID="ID_1116681250" CREATED="1748057997598" MODIFIED="1748058002818"/>
 <node TEXT="03.2 Core Relationships" ID="ID_897208137" CREATED="1748058006589" MODIFIED="1748058025190"/>
 <node TEXT="03.3 Extension Layers and Elements" ID="ID_1508528739" CREATED="1748058025887" MODIFIED="1748058032911"/>
@@ -112,7 +112,7 @@
 </node>
 <node TEXT="03.5 The ArchiMate Full Framework" ID="ID_588638179" CREATED="1748058057335" MODIFIED="1748058065401"/>
 </node>
-<node TEXT="04. Aligning SABSA and ArchiMate Framework" POSITION="bottom_or_right" ID="ID_344461701" CREATED="1747668110732" MODIFIED="1747668154143">
+<node TEXT="04. Aligning SABSA and ArchiMate Framework" FOLDED="true" POSITION="bottom_or_right" ID="ID_344461701" CREATED="1747668110732" MODIFIED="1747668154143">
 <node TEXT="04.1 Introduction to the Security Overlay" ID="ID_1521200450" CREATED="1748058067237" MODIFIED="1748058075081"/>
 <node TEXT="04.2 An Overview of the Task" ID="ID_415552271" CREATED="1748070675582" MODIFIED="1748070686491"/>
 <node TEXT="04.3 Risk &amp; Security Modeling in the ArchiMate Specification" ID="ID_658624177" CREATED="1748070686671" MODIFIED="1748070698847">
@@ -123,7 +123,7 @@
 </node>
 <node TEXT="04.4 The Basic Element and Relationships" ID="ID_832733419" CREATED="1748070699012" MODIFIED="1748070709263"/>
 </node>
-<node TEXT="05. The Motivation Aspect" POSITION="bottom_or_right" ID="ID_1121778975" CREATED="1747668134684" MODIFIED="1747668155500">
+<node TEXT="05. The Motivation Aspect" FOLDED="true" POSITION="bottom_or_right" ID="ID_1121778975" CREATED="1747668134684" MODIFIED="1748271358209" VGAP_QUANTITY="3 pt">
 <node TEXT="Figure 10: Security Enhanced Motivation Metamodel" POSITION="bottom_or_right" ID="ID_321030896" CREATED="1748180460960" MODIFIED="1748180473333"/>
 <node TEXT="05.1 Value &amp; Loss" POSITION="bottom_or_right" ID="ID_906105716" CREATED="1748180505615" MODIFIED="1748180513492">
 <node TEXT="Figure 11: Modeling Assets using Value" ID="ID_91858292" CREATED="1748180518192" MODIFIED="1748180526787"/>
@@ -143,7 +143,7 @@
 <node TEXT="Figure 20: Attribute Traceability Across Layers" ID="ID_1219676788" CREATED="1748265289228" MODIFIED="1748265302479"/>
 </node>
 </node>
-<node TEXT="05.4 Meaning" POSITION="bottom_or_right" ID="ID_1741951927" CREATED="1748265307260" MODIFIED="1748265312420">
+<node TEXT="05.4 Meaning" POSITION="bottom_or_right" ID="ID_1741951927" CREATED="1748265307260" MODIFIED="1748271358208">
 <node TEXT="Figure 21: Applying Attribute Metrics to Multiple controls" ID="ID_399408634" CREATED="1748265312427" MODIFIED="1748265327482"/>
 <node TEXT="Figure 22: Use of Meaning to Externalize Context-Sensitive Metrics" ID="ID_836465482" CREATED="1748265330414" MODIFIED="1748265344200"/>
 </node>
@@ -166,7 +166,7 @@
 </node>
 <node TEXT="05.11 Trust" POSITION="bottom_or_right" ID="ID_1990445651" CREATED="1748266457045" MODIFIED="1748266459912"/>
 </node>
-<node TEXT="06. Modeling Contextual Security Architecture" POSITION="bottom_or_right" ID="ID_1741078159" CREATED="1747668140692" MODIFIED="1747668176080">
+<node TEXT="06. Modeling Contextual Security Architecture" FOLDED="true" POSITION="bottom_or_right" ID="ID_1741078159" CREATED="1747668140692" MODIFIED="1747668176080">
 <node TEXT="Figure 29: Developing and Maintaining the Contextual Security Architecture" ID="ID_851538053" CREATED="1748266465932" MODIFIED="1748266481193"/>
 <node TEXT="06.1 Business Assets" ID="ID_1375619284" CREATED="1748266484331" MODIFIED="1748266489324">
 <node TEXT="6.1.1 Capability and Value Stream" ID="ID_694837151" CREATED="1748266489330" MODIFIED="1748266499337">
@@ -193,7 +193,7 @@
 <node TEXT="06.5 Business Geography" ID="ID_584071588" CREATED="1748266656005" MODIFIED="1748266664251"/>
 <node TEXT="06.6 Business Time Dependencies" ID="ID_404870642" CREATED="1748266666164" MODIFIED="1748266672274"/>
 </node>
-<node TEXT="07. Modeling Conceptual Security Architecture" POSITION="bottom_or_right" ID="ID_747127767" CREATED="1747668176251" MODIFIED="1747668187597">
+<node TEXT="07. Modeling Conceptual Security Architecture" FOLDED="true" POSITION="bottom_or_right" ID="ID_747127767" CREATED="1747668176251" MODIFIED="1747668187597">
 <node TEXT="Figure 37: Developing the SABSA Conceptual Security Architecture" ID="ID_932491572" CREATED="1748266678068" MODIFIED="1748266693567"/>
 <node TEXT="07.1 Attribute Profiling" ID="ID_1678146401" CREATED="1748266695236" MODIFIED="1748266704467">
 <node TEXT="Figure 38: Attribute Profiling (i)" ID="ID_336292302" CREATED="1748266704473" MODIFIED="1748266713694"/>
@@ -234,7 +234,7 @@
 <node TEXT="07.5 Domain Framework Model" ID="ID_1723640648" CREATED="1748267496968" MODIFIED="1748267504336"/>
 <node TEXT="07.6 Security Events" ID="ID_100637633" CREATED="1748267508808" MODIFIED="1748267512970"/>
 </node>
-<node TEXT="08. Modeling Logical Security Architecture" POSITION="bottom_or_right" ID="ID_138632075" CREATED="1747668187747" MODIFIED="1747668200415">
+<node TEXT="08. Modeling Logical Security Architecture" FOLDED="true" POSITION="bottom_or_right" ID="ID_138632075" CREATED="1747668187747" MODIFIED="1747668200415">
 <node TEXT="Figure 54; Developing the SABSA Logical Security Architecture" ID="ID_1270087165" CREATED="1748267518672" MODIFIED="1748267531019"/>
 <node TEXT="08.1 Information Assets" ID="ID_1365768468" CREATED="1748267534470" MODIFIED="1748267539094">
 <node TEXT="8.1.1 Application Components" ID="ID_346699810" CREATED="1748267539100" MODIFIED="1748267545892">
@@ -271,7 +271,7 @@
 <node TEXT="8.6.1 Application Security Events" ID="ID_699441374" CREATED="1748269087344" MODIFIED="1748269096691"/>
 </node>
 </node>
-<node TEXT="09. Modeling Physical Security Architecture" POSITION="bottom_or_right" ID="ID_263707404" CREATED="1747668200563" MODIFIED="1747668211797">
+<node TEXT="09. Modeling Physical Security Architecture" FOLDED="true" POSITION="bottom_or_right" ID="ID_263707404" CREATED="1747668200563" MODIFIED="1747668211797">
 <node TEXT="Figure 64: Developing the SABSA Physical Security Architecture" ID="ID_556451012" CREATED="1748269109269" MODIFIED="1748269125721"/>
 <node TEXT="09.1 Data and Technology Assets" ID="ID_1240008125" CREATED="1748269142750" MODIFIED="1748269154320">
 <node TEXT="9.1.1 Artifact" ID="ID_1064839346" CREATED="1748269155493" MODIFIED="1748269161617">
