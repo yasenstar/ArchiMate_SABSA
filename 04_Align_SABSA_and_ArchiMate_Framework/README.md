@@ -68,3 +68,6 @@ Those 6 pillars are in the same terminology to Zachman Framework, see below for 
 | Requirement | specialized inot Control Measure |
 | Grouping | specialized inot Risk Domain |
 
+---
+
+Any comments, feel free to post to the Discussion Board.
