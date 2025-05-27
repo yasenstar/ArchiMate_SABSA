@@ -68,6 +68,16 @@ Those 6 pillars are in the same terminology to Zachman Framework, see below for 
 | Requirement | specialized inot Control Measure |
 | Grouping | specialized inot Risk Domain |
 
+Relationship between Event (Threat Agent/Event) to Assessment (Vulnerability or Impact):
+
+| Relationship | Explanation |
+| --- | --- |
+| [Event]-(Influcing)->[Assessment] | Event is a relevant factor in making an Assessment |
+| [Event]-(Associating)->[Assessment] | Threat Agent/Event «_exploits_» Vulnerability |
+| [Event]<-(Associating)-[Assessment] | Loss Event «_materializes_» Risk |
+
+
+
 ---
 
 Any comments, feel free to post to the Discussion Board.
