@@ -78,11 +78,11 @@
 </stylenode>
 </map_styles>
 </hook>
-<node TEXT="00. Preface" POSITION="bottom_or_right" ID="ID_1250732886" CREATED="1747712086744" MODIFIED="1747712091853">
+<node TEXT="00. Preface" FOLDED="true" POSITION="bottom_or_right" ID="ID_1250732886" CREATED="1747712086744" MODIFIED="1747712091853">
 <node TEXT="Mission of The Open Group: drive the creation of Boundaryless Information Flow" ID="ID_1626036026" CREATED="1747712115404" MODIFIED="1747712147392"/>
 <node TEXT="The Joint Working Group aims to develop a settled consensus of core security elements, relationships, and properties - referred to collectively as the &quot;Security Overlay&quot;." ID="ID_122874273" CREATED="1747712200253" MODIFIED="1747712257126"/>
 </node>
-<node TEXT="01. Introduction" FOLDED="true" POSITION="bottom_or_right" ID="ID_391432534" CREATED="1747668068857" MODIFIED="1747668149775">
+<node TEXT="01. Introduction" POSITION="bottom_or_right" ID="ID_391432534" CREATED="1747668068857" MODIFIED="1747668149775">
 <node TEXT="01.01 Background" FOLDED="true" ID="ID_251119085" CREATED="1747712041846" MODIFIED="1747712048675">
 <node TEXT="SABSA Blue Book (Executive Summary)" ID="ID_312024013" CREATED="1747792851224" MODIFIED="1747792865515" LINK="https://sabsa.org/sabsa-executive-summary/"/>
 </node>
@@ -112,7 +112,7 @@
 </node>
 <node TEXT="03.5 The ArchiMate Full Framework" ID="ID_588638179" CREATED="1748058057335" MODIFIED="1748058065401"/>
 </node>
-<node TEXT="04. Aligning SABSA and ArchiMate Framework" POSITION="bottom_or_right" ID="ID_344461701" CREATED="1747668110732" MODIFIED="1747668154143">
+<node TEXT="04. Aligning SABSA and ArchiMate Framework" FOLDED="true" POSITION="bottom_or_right" ID="ID_344461701" CREATED="1747668110732" MODIFIED="1747668154143">
 <node TEXT="04.1 Introduction to the Security Overlay" ID="ID_1521200450" CREATED="1748058067237" MODIFIED="1748058075081"/>
 <node TEXT="04.2 An Overview of the Task" ID="ID_415552271" CREATED="1748070675582" MODIFIED="1748070686491"/>
 <node TEXT="04.3 Risk &amp; Security Modeling in the ArchiMate Specification" FOLDED="true" ID="ID_658624177" CREATED="1748070686671" MODIFIED="1748354300968">
