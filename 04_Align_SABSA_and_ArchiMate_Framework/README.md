@@ -76,7 +76,7 @@ Relationship between Event (Threat Agent/Event) to Assessment (Vulnerability or 
 | [Event]-(Associating)->[Assessment] | Threat Agent/Event «_exploits_» Vulnerability |
 | [Event]<-(Associating)-[Assessment] | Loss Event «_materializes_» Risk |
 
-
+## 4.4 The Basic Element and Relationships
 
 ---
 

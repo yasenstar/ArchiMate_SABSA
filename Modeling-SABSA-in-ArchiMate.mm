@@ -3,7 +3,7 @@
 <node TEXT="Modeling SABSA®&#xa;in ArchiMate®" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_1090958577" CREATED="1409300609620" MODIFIED="1747668057865">
 <hook NAME="accessories/plugins/AutomaticLayout.properties" VALUE="ALL"/>
 <font BOLD="true"/>
-<hook NAME="MapStyle" background="#eeeeeeff" zoom="0.9090909">
+<hook NAME="MapStyle" background="#eeeeeeff" zoom="0.6830134">
     <properties show_icon_for_attributes="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_tags="UNDER_NODES" show_note_icons="true" associatedTemplateLocation="template:/light_grey_straight_template.mm" fit_to_viewport="false" show_icons="BESIDE_NODES"/>
     <tags category_separator="::"/>
 
@@ -112,10 +112,12 @@
 </node>
 <node TEXT="03.5 The ArchiMate Full Framework" ID="ID_588638179" CREATED="1748058057335" MODIFIED="1748058065401"/>
 </node>
-<node TEXT="04. Aligning SABSA and ArchiMate Framework" FOLDED="true" POSITION="bottom_or_right" ID="ID_344461701" CREATED="1747668110732" MODIFIED="1747668154143">
+<node TEXT="04. Aligning SABSA and ArchiMate Framework" POSITION="bottom_or_right" ID="ID_344461701" CREATED="1747668110732" MODIFIED="1747668154143">
 <node TEXT="04.1 Introduction to the Security Overlay" ID="ID_1521200450" CREATED="1748058067237" MODIFIED="1748058075081"/>
 <node TEXT="04.2 An Overview of the Task" ID="ID_415552271" CREATED="1748070675582" MODIFIED="1748070686491"/>
-<node TEXT="04.3 Risk &amp; Security Modeling in the ArchiMate Specification" ID="ID_658624177" CREATED="1748070686671" MODIFIED="1748070698847">
+<node TEXT="04.3 Risk &amp; Security Modeling in the ArchiMate Specification" FOLDED="true" ID="ID_658624177" CREATED="1748070686671" MODIFIED="1748354300968">
+<arrowlink DESTINATION="ID_1707637259"/>
+<arrowlink DESTINATION="ID_1603541117"/>
 <node TEXT="Figure 6: The Risk-Modeling Example in the ArchiMate 3.2 Specification" ID="ID_728792560" CREATED="1748177831182" MODIFIED="1748177848057"/>
 <node TEXT="Figure 7: Risk Modeling Relationships" ID="ID_297337276" CREATED="1748180005899" MODIFIED="1748180015199"/>
 <node TEXT="Figure 8: Mapping of Risk and Security Elements" ID="ID_1789885429" CREATED="1748180414528" MODIFIED="1748180427928"/>
