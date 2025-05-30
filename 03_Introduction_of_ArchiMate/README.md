@@ -75,4 +75,4 @@ Look at this post: https://ea.rna.nl/2016/05/23/is-archimate-an-open-standard-no
 
 ---
 
-Any comments are welcome, feel free to raise pull-request or post in Discussion Board
+Any comments are welcome, feel free to raise pull-request or post in [Discussion Board](https://github.com/yasenstar/ArchiMate_SABSA/discussions)

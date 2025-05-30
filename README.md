@@ -42,6 +42,19 @@ The practice in this repository is to detail go through the guide, and using Arc
 - [09. Modeling Physical Security Architecture](./09_Modeling_Physical_Security_Architecture/README.md)
 - [10. Conclusion](./10_Conclusion/README.md)
 
+## Other Reference
+
+Key in special character in Markdown through ALT + code (need to use number pad):
+
+- « : Alt + 0171
+- » : Alt + 0187
+- ® : Copyright, Alt + 0174
+
+Key in special characters in Markdown through HTML syntax:
+
+- superstrike: use "sup" tag
+- substrike: use "sub" tag
+
 ---
 
 Comments are welcome, leave your thoughts in [Discussion Board](https://github.com/yasenstar/ArchiMate_SABSA/discussions).

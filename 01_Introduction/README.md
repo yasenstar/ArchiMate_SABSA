@@ -113,4 +113,4 @@ From the guide, it aims to answer following two main focus area questions:
 
 ---
 
-Any comments are welcome, feel free to raise pull-request or post in Discussion Board
+Any comments are welcome, feel free to raise pull-request or post in [Discussion Board](https://github.com/yasenstar/ArchiMate_SABSA/discussions)
