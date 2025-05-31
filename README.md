@@ -8,6 +8,7 @@ Practice of Modeling SABSA with the ArchiMate Specification
 
 - This Guide "A Guide to Modeling SABSA® with the ArchiMate® Specification" can be downloaded from Open Group site: https://publications.opengroup.org/guides/archimate/g24b
 - You may request variable SABSA® whitepaper from site: https://sabsa.org/white-paper-requests/, notice it would require you use your company's business email address
+  - [TSI-T100-Modeling-SABSA-with-ArchiMate](https://sabsacourses.com/wp-content/uploads/2021/02/TSI-T100-Modelling-SABSA-with-ArchiMate.pdf), here is the [local downloadable link](./Docs/TSI-T100-Modelling-SABSA-with-ArchiMate.pdf)
 
 ## Content Mindmap
 
