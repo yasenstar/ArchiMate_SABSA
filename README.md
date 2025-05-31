@@ -48,8 +48,13 @@ The practice in this repository is to detail go through the guide, and using Arc
 
 - [SABSA Framework for Enterprise Architects (avolution)](./Docs/SABSA_Framework_Viewed_from_avolution.md)
 - [SABSA – In 3 Minutes](https://www.vanharen.net/standards/sabsa/sabsa-in-3-minutes/), local copy: [LINK](./Docs/SABSA_in_3min_Van-Haren-Group.pdf)
+- [Enterprise Security Architect - A Top-down Approach from ISACA in 2017](https://www.isaca.org/resources/isaca-journal/issues/2017/volume-4/enterprise-security-architecturea-top-down-approach), local copy: [LINK](./Docs/Enterprise_Security_Architecture—A_Top-down_Approach_ISACA_2017.pdf)
 
-## Other Reference
+## Other References
+
+- [David Lynas Consulting on SABSA](https://davidlynas.com/sabsa/)
+
+## Markdown Editing Tips
 
 Key in special character in Markdown through ALT + code (need to use number pad):
 
