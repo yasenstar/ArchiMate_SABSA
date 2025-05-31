@@ -1,0 +1,18 @@
+{
+    "ApplicationComponent": {
+        "attributes": {
+            "id": "",
+            "acquisitionType": "",
+            "criticality": "",
+            "classificationDate": "",
+            "classifiedBy": "",
+            "isMobile": "",
+            "applicationOwner": "",
+            "technicalOwner": ""
+        },
+        "instance": {
+            "tog:name": "",
+            "tog:description": ""
+        }
+    }
+}

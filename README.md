@@ -56,6 +56,15 @@ The practice in this repository is to detail go through the guide, and using Arc
 
 - [David Lynas Consulting on SABSA](https://davidlynas.com/sabsa/)
 
+## Tools Used for Demo and Tutorial
+
+- Repository tracking: [VS Code](https://code.visualstudio.com/)
+- Video cover and contents: Microsoft Powerpoint
+- Mindmap: [FreePlane](https://www.freeplane.org/)
+- ArchiMate Modeling: [Archi](https://archimatetool.com/)
+- Schema Documentation in JSON: visualized via "JSON Crack", and many others similar extension
+- Non-ArchiMate Diagramming, e.g. hierarchical chart: [PlantUML](https://plantuml.com/)
+
 ## Markdown Editing Tips
 
 Key in special character in Markdown through ALT + code (need to use number pad):
