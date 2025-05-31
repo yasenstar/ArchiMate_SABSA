@@ -60,4 +60,8 @@ The ArchiMate diagrams featured in this guide document and realted models have b
 
 ---
 
+[<button type="button">«Chapter 01</button>](../01_Introduction/README.md) [<button type="button">Chapter 03»</button>](../03_Introduction_of_ArchiMate/README.md) [<button type="button">HOME</button>](../README.md)
+
+---
+
 Any comments are welcome, feel free to raise pull-request or post in [Discussion Board](https://github.com/yasenstar/ArchiMate_SABSA/discussions)

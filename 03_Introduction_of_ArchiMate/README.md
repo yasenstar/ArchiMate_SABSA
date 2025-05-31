@@ -75,4 +75,8 @@ Look at this post: https://ea.rna.nl/2016/05/23/is-archimate-an-open-standard-no
 
 ---
 
+[<button type="button">«Chapter 02</button>](../02_Rationale_of_Alignment/README.md) [<button type="button">Chapter 04»</button>](../04_Align_SABSA_and_ArchiMate_Framework/README.md) [<button type="button">HOME</button>](../README.md)
+
+---
+
 Any comments are welcome, feel free to raise pull-request or post in [Discussion Board](https://github.com/yasenstar/ArchiMate_SABSA/discussions)
