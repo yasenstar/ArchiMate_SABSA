@@ -11,7 +11,7 @@
         "name": "",
         "description": "",
         "confidence range": {
-            "executionFrequence": ["min", "mode","max"],
+            "executionFrequence": ["min", "mode", "max"],
             "executionPeriod": ""
             }
     }
