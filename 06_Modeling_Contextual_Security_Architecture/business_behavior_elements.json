@@ -1,0 +1,18 @@
+{
+    "attributes": {
+        "behaviorAttributes": {
+            "id": "",
+            "criticality": "",
+            "privilege": "",
+            "piiLegalBasis": ""
+        }
+    },
+    "instance": {
+        "name": "",
+        "description": "",
+        "confidence range": {
+            "executionFrequence": ["min", "mode","max"],
+            "executionPeriod": ""
+            }
+    }
+}

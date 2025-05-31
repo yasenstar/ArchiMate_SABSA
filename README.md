@@ -11,6 +11,7 @@ Practice of Modeling SABSA with the ArchiMate Specification
   - [TSI-W100-SABSA-White-Paper](./Docs/TSI-W100-SABSA-White-Paper.pdf)
   - [TSI-T100-Modeling-SABSA-with-ArchiMate, Release 1.0, October 2019](https://sabsacourses.com/wp-content/uploads/2021/02/TSI-T100-Modelling-SABSA-with-ArchiMate.pdf), here is the [local downloadable link](./Docs/TSI-T100-Modelling-SABSA-with-ArchiMate.pdf)
   - [TSI-W117-SABSA-TOGAF-Integration](./Docs/TSI-W117-SABSA-TOGAF-Integration.pdf)
+  - [TSI-R101-SABSA-Matrices-2018-Release-Notes](./Docs/TSI-R101-SABSA-Matrices-2018-Release-Notes.pdf)
 
 ## Content Mindmap
 
