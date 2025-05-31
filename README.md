@@ -52,8 +52,8 @@ Key in special character in Markdown through ALT + code (need to use number pad)
 
 Key in special characters in Markdown through HTML syntax:
 
-- superstrike: use "sup" tag
-- substrike: use "sub" tag
+- superscript: use "sup" tag
+- subscript: use "sub" tag
 
 ---
 
