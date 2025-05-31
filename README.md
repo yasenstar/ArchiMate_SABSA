@@ -59,7 +59,7 @@ The practice in this repository is to detail go through the guide, and using Arc
 ## Tools Used for Demo and Tutorial
 
 - Repository tracking: [VS Code](https://code.visualstudio.com/)
-- Video cover and contents: Microsoft Powerpoint
+- Video cover and contents: Microsoft Powerpoint or any slide tool
 - Mindmap: [FreePlane](https://www.freeplane.org/)
 - ArchiMate Modeling: [Archi](https://archimatetool.com/)
 - Schema Documentation in JSON: visualized via "JSON Crack", and many others similar extension
