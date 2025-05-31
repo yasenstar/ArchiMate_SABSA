@@ -15,3 +15,7 @@ _Source: https://www.alctraining.com.sg/course/sabsa-foundation/_
 ---
 
 [<button type="button">«Chapter 05</button>](../05_Motivation_Aspect/README.md) [<button type="button">Chapter 07»</button>](../07_Modeling_Conceptual_Security_Architecture/README.md) [<button type="button">HOME</button>](../README.md)
+
+---
+
+Any comments, feel free to post to the [Discussion Board](https://github.com/yasenstar/ArchiMate_SABSA/discussions).
