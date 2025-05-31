@@ -10,6 +10,7 @@ Practice of Modeling SABSA with the ArchiMate Specification
 - You may request variable SABSA® whitepaper from site: https://sabsa.org/white-paper-requests/, notice it would require you use your company's business email address
   - [TSI-W100-SABSA-White-Paper](./Docs/TSI-W100-SABSA-White-Paper.pdf)
   - [TSI-T100-Modeling-SABSA-with-ArchiMate, Release 1.0, October 2019](https://sabsacourses.com/wp-content/uploads/2021/02/TSI-T100-Modelling-SABSA-with-ArchiMate.pdf), here is the [local downloadable link](./Docs/TSI-T100-Modelling-SABSA-with-ArchiMate.pdf)
+  - [TSI-W117-SABSA-TOGAF-Integration](./Docs/TSI-W117-SABSA-TOGAF-Integration.pdf)
 
 ## Content Mindmap
 
