@@ -8,7 +8,8 @@ Practice of Modeling SABSA with the ArchiMate Specification
 
 - This Guide "A Guide to Modeling SABSA® with the ArchiMate® Specification" can be downloaded from Open Group site: https://publications.opengroup.org/guides/archimate/g24b
 - You may request variable SABSA® whitepaper from site: https://sabsa.org/white-paper-requests/, notice it would require you use your company's business email address
-  - [TSI-T100-Modeling-SABSA-with-ArchiMate](https://sabsacourses.com/wp-content/uploads/2021/02/TSI-T100-Modelling-SABSA-with-ArchiMate.pdf), here is the [local downloadable link](./Docs/TSI-T100-Modelling-SABSA-with-ArchiMate.pdf)
+  - [TSI-W100-SABSA-White-Paper](./Docs/TSI-W100-SABSA-White-Paper.pdf)
+  - [TSI-T100-Modeling-SABSA-with-ArchiMate, Release 1.0, October 2019](https://sabsacourses.com/wp-content/uploads/2021/02/TSI-T100-Modelling-SABSA-with-ArchiMate.pdf), here is the [local downloadable link](./Docs/TSI-T100-Modelling-SABSA-with-ArchiMate.pdf)
 
 ## Content Mindmap
 
@@ -42,6 +43,11 @@ The practice in this repository is to detail go through the guide, and using Arc
 - [08. Modeling Logical Security Architecture](./08_Modeling_Logical_Security_Architecture/README.md)
 - [09. Modeling Physical Security Architecture](./09_Modeling_Physical_Security_Architecture/README.md)
 - [10. Conclusion](./10_Conclusion/README.md)
+
+## Extended Variable Views on SABSA
+
+- [SABSA Framework for Enterprise Architects (avolution)](./Docs/SABSA_Framework_Viewed_from_avolution.md)
+- [SABSA – In 3 Minutes](https://www.vanharen.net/standards/sabsa/sabsa-in-3-minutes/), local copy: [LINK](./Docs/SABSA_in_3min_Van-Haren-Group.pdf)
 
 ## Other Reference
 

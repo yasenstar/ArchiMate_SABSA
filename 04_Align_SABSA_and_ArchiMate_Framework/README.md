@@ -17,6 +17,10 @@ From SABSA perspective, back to upper link https://sabsa.org/category/working-gr
 | WG102 | SABSA Attributes Catalogue (SABAC) | https://sabsa.org/category/working-groups/sabsa-attributes-catalogue/ |
 | WG103 | Modelling SABSA with ArchiMate (MSA) | https://sabsa.org/category/working-groups/modelling-sabsa-archimate/ |
 
+SABSA Service Management Matrix can be shown as below:
+
+![SABSA SM Matrix](../img/SABSA-Service-Management-Matrix.png)
+
 ## 04.2 An Overview of the Task
 
 High-level perspective of aligning of SABSA and ArchiMate frameworks is as below (Figure 05 in Guide):
