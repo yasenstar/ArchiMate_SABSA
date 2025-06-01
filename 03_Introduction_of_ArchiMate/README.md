@@ -17,6 +17,8 @@ Support _service-oriented_ viewpoints:
 - External Active Structure Elements (Interfaces)
 - Internal Active Structure Elements (Actors, Roles, Applications, Devices)
 
+![Hierarchy](./img/Hierarchy_of_Behavior_and_Structure_Elements.png)
+
 ## 03.2 Core Relationships
 
 Four relationships categories:
