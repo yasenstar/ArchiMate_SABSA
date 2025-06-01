@@ -67,6 +67,8 @@ Check here the "SABSA Blue Book" (Executive Summary):
 
 [![SABSA-Blue-Book](./img/SABSA-blue-book.png)](https://sabsa.org/sabsa-executive-summary/) (Note: book cover is just for illustration, AI generated)
 
+SABSA is a proven methodology for developing business-driven, risk and opportunity focused Security Architectures at both enterprise and solutions level that traceably support business objectives.
+
 "Ultimately, real-world systems recognize a single, _de facto_ architecture: what __ISO 42010__ calls the __Entity of Interest (EoI)__. It makes sense to strive towards a single holistic model of the EoI, capable of describing, validating, querying and analyzing all its pertinet (相关的) functional and non-functional aspects, including the security perspective.
 
 ## 01.2 The ArchiMate Specification
