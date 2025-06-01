@@ -1,4 +1,4 @@
-# 03 Introduction of ArchiMate®
+# 03 An Introduction to the ArchiMate® Language
 
 [![ArchiMate_Cover](./img/ArchiMate_Spec_Cover.png)](https://www.opengroup.org/archimate-forum/archimate-overview)
 
