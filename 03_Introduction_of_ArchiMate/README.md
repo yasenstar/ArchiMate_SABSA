@@ -32,6 +32,8 @@ Four relationships categories:
 
 The language __does not allow__ elements and relationships to be combined arbitrarily (任意地).
 
+![Overview_Relationships](./img/Overview_of_Relationships.png)
+
 ## 03.3 Extension Layers and Elements
 
 - Strategy Layer (change to "Layer" from 3.2)
