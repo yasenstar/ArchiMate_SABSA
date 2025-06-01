@@ -65,6 +65,11 @@ The practice in this repository is to detail go through the guide, and using Arc
 - Schema Documentation in JSON: visualized via "JSON Crack", and many others similar extension
 - Non-ArchiMate Diagramming, e.g. hierarchical chart: [PlantUML](https://plantuml.com/)
 
+## Modeling Tutorial Videos
+
+- [YouTube Video List](https://youtu.be/57ePWEl1giE)
+- Udemy Course: TBA
+
 ## Markdown Editing Tips
 
 Key in special character in Markdown through ALT + code (need to use number pad):
