@@ -24,6 +24,14 @@ The characteristics of modeling are:
 - Stakeholder buy-in
 - Standarization
 
+![d-m-r](./img/Diagramming-Modeling-Repository.png)
+
+| Name | Detail | Archi Context |
+| --- | --- | --- |
+| Diagramming | A diagram is a picture that shows elements and their relationships, while a second diagram that displays the same elements and relationships but does not share an underlying model may easily become inconsistent with the original diagram. | Archi Sketch View can be sample of Diagramming |
+| Modeling | A model is a non-visual artifact that defines elements and the relationships between them, which you can choose to produce a diagram | Standalone Archi Usage is one typical Modeling Tool |
+| Architecture Repository | A central storage system that maintains and provides access to all architecture artifacts, models, principles, standards, and governance assets created and used by an enterprise. | Archi with coArchi plug-in and utilizing source control within whole architecture team for collaborating |
+
 ## 02.2 The Case for an ArchiMate Security Perspective
 
 With a Security Overlay (安全覆盖) extending the language with a means of expressing security perspectives, the ArchiMate® modeling language has the potential to unify the distinct but intrinsically (本质上) interrelated domains between "Enterprise Architecture" and "Enterprise Security Architecture".

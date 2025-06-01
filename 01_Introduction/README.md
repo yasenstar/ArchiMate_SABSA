@@ -71,7 +71,7 @@ Check here the "SABSA Blue Book" (Executive Summary):
 
 ## 01.2 The ArchiMate Specification
 
-Get the specification here: https://www.opengroup.org/archimate-forum/archimate-overview。
+Get the specification here: https://www.opengroup.org/archimate-forum/archimate-overview
 
 Put into the analogy in below since all of them are __visual modeling languange__:
 
