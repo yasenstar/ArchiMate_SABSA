@@ -37,7 +37,7 @@ The practice in this repository is to detail go through the guide, and using Arc
 
 - [01. Introduction](./01_Introduction/README.md)
 - [02. Rationale for the Alignment of SABSA® and ArchiMate®](./02_Rationale_of_Alignment/README.md)
-- [03. Introduction of ArchiMate®](./03_Introduction_of_ArchiMate/README.md)
+- [03. An Introduction to the ArchiMate® Language](./03_Introduction_of_ArchiMate/README.md)
 - [04. Aigning SABSA® and ArchiMate® Framework](./04_Align_SABSA_and_ArchiMate_Framework/README.md)
 - [05. The Motivation Aspect](./05_Motivation_Aspect/README.md)
 - [06. Modeling Contextual Security Architecture](./06_Modeling_Contextual_Security_Architecture/README.md)
