@@ -67,7 +67,8 @@ The practice in this repository is to detail go through the guide, and using Arc
 
 ## Modeling Tutorial Videos
 
-- [YouTube Video List](https://youtu.be/57ePWEl1giE)
+- [YouTube Video List](https://www.youtube.com/playlist?list=PL6DEHvciXKeVoCRsMg9Z3_eZSilbf8W1e)
+- [Video List in DouYin](https://www.douyin.com/video/7510864092345765156)
 - Udemy Course: TBA
 
 ## Markdown Editing Tips
