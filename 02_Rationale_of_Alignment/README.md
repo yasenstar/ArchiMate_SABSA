@@ -16,7 +16,7 @@ Models serves a system's structure or behavior in following ways, without intera
 
 The characteristics of modeling are:
 
-| | |
+| Characteristics | Illustration |
 | --- | --- |
 | - Resolving complexity<br>- Quality of documentation<br>- Efficiency<br>- Better collaboration<br>- Reuse<br>- Stakeholder buy-in<br>- Standarization | ![character-modeling](./img/Characteristics-of-Modeling.png) |
 
