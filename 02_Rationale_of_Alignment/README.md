@@ -9,7 +9,7 @@ Models serves a system's structure or behavior in following ways, without intera
 - analyze
 - explain
 - explore
-- valide
+- validate
 - plan
 - teach
 - predict
@@ -62,7 +62,7 @@ In short, the discipline of modeling is likely to train the practitioner into be
 
 ## 02.5 Vendor Neutrality
 
-The ArchiMate diagrams featured in this guide document and realted models have been created usin gthe free Archi® modeling tool.
+The ArchiMate diagrams featured in this guide document and realted models have been created using the free Archi® modeling tool.
 
 ---
 
