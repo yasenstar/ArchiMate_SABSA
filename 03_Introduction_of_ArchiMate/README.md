@@ -1,5 +1,7 @@
 # 03 Introduction of ArchiMate®
 
+[![ArchiMate_Cover](./img/ArchiMate_Spec_Cover.png)](https://www.opengroup.org/archimate-forum/archimate-overview)
+
 ## 03.1 Core Elements
 
 The ArchiMate core elements belong to one of 3 categories (think about them from one graph / triple aspect):
