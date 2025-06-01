@@ -3,7 +3,7 @@
 <node TEXT="Modeling SABSA®&#xa;in ArchiMate®" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_1090958577" CREATED="1409300609620" MODIFIED="1747668057865">
 <hook NAME="accessories/plugins/AutomaticLayout.properties" VALUE="ALL"/>
 <font BOLD="true"/>
-<hook NAME="MapStyle" background="#eeeeeeff" zoom="0.6830134">
+<hook NAME="MapStyle" background="#eeeeeeff">
     <properties show_icon_for_attributes="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_tags="UNDER_NODES" show_note_icons="true" associatedTemplateLocation="template:/light_grey_straight_template.mm" fit_to_viewport="false" show_icons="BESIDE_NODES"/>
     <tags category_separator="::"/>
 
@@ -82,7 +82,7 @@
 <node TEXT="Mission of The Open Group: drive the creation of Boundaryless Information Flow" ID="ID_1626036026" CREATED="1747712115404" MODIFIED="1747712147392"/>
 <node TEXT="The Joint Working Group aims to develop a settled consensus of core security elements, relationships, and properties - referred to collectively as the &quot;Security Overlay&quot;." ID="ID_122874273" CREATED="1747712200253" MODIFIED="1747712257126"/>
 </node>
-<node TEXT="01. Introduction" POSITION="bottom_or_right" ID="ID_391432534" CREATED="1747668068857" MODIFIED="1747668149775">
+<node TEXT="01. Introduction" FOLDED="true" POSITION="bottom_or_right" ID="ID_391432534" CREATED="1747668068857" MODIFIED="1747668149775">
 <node TEXT="01.01 Background" FOLDED="true" ID="ID_251119085" CREATED="1747712041846" MODIFIED="1747712048675">
 <node TEXT="SABSA Blue Book (Executive Summary)" ID="ID_312024013" CREATED="1747792851224" MODIFIED="1747792865515" LINK="https://sabsa.org/sabsa-executive-summary/"/>
 </node>
@@ -99,11 +99,11 @@
 <node TEXT="02.4 Benefits of Modeling to the Practitioner" ID="ID_938277925" CREATED="1748057975489" MODIFIED="1748057985147"/>
 <node TEXT="02.5 Vendor Neutrality" ID="ID_1827134213" CREATED="1748057985409" MODIFIED="1748057993898"/>
 </node>
-<node TEXT="03. Introduction of ArchiMate" FOLDED="true" POSITION="bottom_or_right" ID="ID_1998308929" CREATED="1747668100492" MODIFIED="1747668152719">
+<node TEXT="03. Introduction of ArchiMate" POSITION="bottom_or_right" ID="ID_1998308929" CREATED="1747668100492" MODIFIED="1747668152719">
 <node TEXT="03.1 Core Elements" ID="ID_1116681250" CREATED="1748057997598" MODIFIED="1748058002818"/>
 <node TEXT="03.2 Core Relationships" ID="ID_897208137" CREATED="1748058006589" MODIFIED="1748058025190"/>
 <node TEXT="03.3 Extension Layers and Elements" ID="ID_1508528739" CREATED="1748058025887" MODIFIED="1748058032911"/>
-<node TEXT="03.4 ArchiMate Language Customization" ID="ID_1994971986" CREATED="1748058033646" MODIFIED="1748058042370">
+<node TEXT="03.4 ArchiMate Language Customization" FOLDED="true" ID="ID_1994971986" CREATED="1748058033646" MODIFIED="1748058042370">
 <node TEXT="03.4.1 User-Defined Attributes" ID="ID_652248063" CREATED="1748058090164" MODIFIED="1748058099847"/>
 <node TEXT="03.4.2 Specializations and &quot;Stereotypes&quot;" ID="ID_1780826726" CREATED="1748058099996" MODIFIED="1748058114161">
 <node TEXT="Figure 2: In-Model versus Out-of-Model Specialization" ID="ID_290948251" CREATED="1748058118628" MODIFIED="1748058142747"/>

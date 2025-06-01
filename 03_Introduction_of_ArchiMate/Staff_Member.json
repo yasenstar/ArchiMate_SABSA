@@ -1,0 +1,8 @@
+{
+    "Staff Member": {
+        "isAbstract": "true",
+        "departmentName": "string",
+        "employeeID": "xs:NMTOKEN",
+        "employmentStart": "date"
+    }
+}
