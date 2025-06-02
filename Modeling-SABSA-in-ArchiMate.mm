@@ -3,7 +3,7 @@
 <node TEXT="Modeling SABSA®&#xa;in ArchiMate®" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_1090958577" CREATED="1409300609620" MODIFIED="1747668057865">
 <hook NAME="accessories/plugins/AutomaticLayout.properties" VALUE="ALL"/>
 <font BOLD="true"/>
-<hook NAME="MapStyle" background="#eeeeeeff">
+<hook NAME="MapStyle" background="#eeeeeeff" zoom="0.62092125">
     <properties show_icon_for_attributes="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_tags="UNDER_NODES" show_note_icons="true" associatedTemplateLocation="template:/light_grey_straight_template.mm" fit_to_viewport="false" show_icons="BESIDE_NODES"/>
     <tags category_separator="::"/>
 
@@ -78,11 +78,11 @@
 </stylenode>
 </map_styles>
 </hook>
-<node TEXT="00. Preface" FOLDED="true" POSITION="bottom_or_right" ID="ID_1250732886" CREATED="1747712086744" MODIFIED="1747712091853">
+<node TEXT="00. Preface" FOLDED="true" POSITION="top_or_left" ID="ID_1250732886" CREATED="1747712086744" MODIFIED="1747712091853">
 <node TEXT="Mission of The Open Group: drive the creation of Boundaryless Information Flow" ID="ID_1626036026" CREATED="1747712115404" MODIFIED="1747712147392"/>
 <node TEXT="The Joint Working Group aims to develop a settled consensus of core security elements, relationships, and properties - referred to collectively as the &quot;Security Overlay&quot;." ID="ID_122874273" CREATED="1747712200253" MODIFIED="1747712257126"/>
 </node>
-<node TEXT="01. Introduction" FOLDED="true" POSITION="bottom_or_right" ID="ID_391432534" CREATED="1747668068857" MODIFIED="1747668149775">
+<node TEXT="01. Introduction" FOLDED="true" POSITION="top_or_left" ID="ID_391432534" CREATED="1747668068857" MODIFIED="1747668149775">
 <node TEXT="01.01 Background" FOLDED="true" ID="ID_251119085" CREATED="1747712041846" MODIFIED="1747712048675">
 <node TEXT="SABSA Blue Book (Executive Summary)" ID="ID_312024013" CREATED="1747792851224" MODIFIED="1747792865515" LINK="https://sabsa.org/sabsa-executive-summary/"/>
 </node>
@@ -92,17 +92,22 @@
 </node>
 <node TEXT="01.03 Purpose" ID="ID_1338795508" CREATED="1747712065296" MODIFIED="1747712068780"/>
 </node>
-<node TEXT="02. Rationale for the Alignment of SABSA and ArchiMate" FOLDED="true" POSITION="bottom_or_right" ID="ID_1822791611" CREATED="1747668075855" MODIFIED="1747668151281">
+<node TEXT="02. Rationale for the Alignment of SABSA and ArchiMate" FOLDED="true" POSITION="top_or_left" ID="ID_1822791611" CREATED="1747668075855" MODIFIED="1747668151281">
 <node TEXT="02.1 Benefits of Modeling" ID="ID_1168898154" CREATED="1748057939111" MODIFIED="1748057948751"/>
 <node TEXT="02.2 The Case of an ArchiMate Security Perspective" ID="ID_870145059" CREATED="1748057949470" MODIFIED="1748057965577"/>
 <node TEXT="02.3 Benefits that Modeling Can Bring to SABSA" ID="ID_1242750720" CREATED="1748057965798" MODIFIED="1748057975313"/>
 <node TEXT="02.4 Benefits of Modeling to the Practitioner" ID="ID_938277925" CREATED="1748057975489" MODIFIED="1748057985147"/>
 <node TEXT="02.5 Vendor Neutrality" ID="ID_1827134213" CREATED="1748057985409" MODIFIED="1748057993898"/>
 </node>
-<node TEXT="03. Introduction of ArchiMate" POSITION="bottom_or_right" ID="ID_1998308929" CREATED="1747668100492" MODIFIED="1747668152719">
+<node TEXT="03. Introduction of ArchiMate" FOLDED="true" POSITION="top_or_left" ID="ID_1998308929" CREATED="1747668100492" MODIFIED="1747668152719">
 <node TEXT="03.1 Core Elements" ID="ID_1116681250" CREATED="1748057997598" MODIFIED="1748058002818"/>
 <node TEXT="03.2 Core Relationships" ID="ID_897208137" CREATED="1748058006589" MODIFIED="1748058025190"/>
-<node TEXT="03.3 Extension Layers and Elements" ID="ID_1508528739" CREATED="1748058025887" MODIFIED="1748058032911"/>
+<node TEXT="03.3 Extension Layers and Elements" FOLDED="true" ID="ID_1508528739" CREATED="1748058025887" MODIFIED="1748058032911">
+<node TEXT="3.3.1 Strategy Layer" ID="ID_173742266" CREATED="1748781084980" MODIFIED="1748781090148"/>
+<node TEXT="3.3.2 Motivation Elements" ID="ID_1478883973" CREATED="1748781090320" MODIFIED="1748781097524"/>
+<node TEXT="3.3.3 Implementation and Migration Layer" ID="ID_916292844" CREATED="1748781101064" MODIFIED="1748781110787"/>
+<node TEXT="3.3.4 Composite Elements" ID="ID_737329" CREATED="1748781114601" MODIFIED="1748781120514"/>
+</node>
 <node TEXT="03.4 ArchiMate Language Customization" FOLDED="true" ID="ID_1994971986" CREATED="1748058033646" MODIFIED="1748058042370">
 <node TEXT="03.4.1 User-Defined Attributes" ID="ID_652248063" CREATED="1748058090164" MODIFIED="1748058099847"/>
 <node TEXT="03.4.2 Specializations and &quot;Stereotypes&quot;" ID="ID_1780826726" CREATED="1748058099996" MODIFIED="1748058114161">
@@ -112,10 +117,10 @@
 </node>
 <node TEXT="03.5 The ArchiMate Full Framework" ID="ID_588638179" CREATED="1748058057335" MODIFIED="1748058065401"/>
 </node>
-<node TEXT="04. Aligning SABSA and ArchiMate Framework" FOLDED="true" POSITION="bottom_or_right" ID="ID_344461701" CREATED="1747668110732" MODIFIED="1747668154143">
+<node TEXT="04. Aligning SABSA and ArchiMate Framework" FOLDED="true" POSITION="top_or_left" ID="ID_344461701" CREATED="1747668110732" MODIFIED="1748837741636" VGAP_QUANTITY="3 pt">
 <node TEXT="04.1 Introduction to the Security Overlay" ID="ID_1521200450" CREATED="1748058067237" MODIFIED="1748058075081"/>
 <node TEXT="04.2 An Overview of the Task" ID="ID_415552271" CREATED="1748070675582" MODIFIED="1748070686491"/>
-<node TEXT="04.3 Risk &amp; Security Modeling in the ArchiMate Specification" FOLDED="true" ID="ID_658624177" CREATED="1748070686671" MODIFIED="1748354300968">
+<node TEXT="04.3 Risk &amp; Security Modeling in the ArchiMate Specification" FOLDED="true" ID="ID_658624177" CREATED="1748070686671" MODIFIED="1748837741634">
 <arrowlink DESTINATION="ID_1707637259"/>
 <arrowlink DESTINATION="ID_1603541117"/>
 <node TEXT="Figure 6: The Risk-Modeling Example in the ArchiMate 3.2 Specification" ID="ID_728792560" CREATED="1748177831182" MODIFIED="1748177848057"/>
@@ -125,17 +130,20 @@
 </node>
 <node TEXT="04.4 The Basic Element and Relationships" ID="ID_832733419" CREATED="1748070699012" MODIFIED="1748070709263"/>
 </node>
-<node TEXT="05. The Motivation Aspect" FOLDED="true" POSITION="bottom_or_right" ID="ID_1121778975" CREATED="1747668134684" MODIFIED="1748271358209" VGAP_QUANTITY="3 pt">
+<node TEXT="05. The Motivation Aspect" POSITION="bottom_or_right" ID="ID_1121778975" CREATED="1747668134684" MODIFIED="1748271358209" VGAP_QUANTITY="3 pt">
 <node TEXT="Figure 10: Security Enhanced Motivation Metamodel" POSITION="bottom_or_right" ID="ID_321030896" CREATED="1748180460960" MODIFIED="1748180473333"/>
-<node TEXT="05.1 Value &amp; Loss" POSITION="bottom_or_right" ID="ID_906105716" CREATED="1748180505615" MODIFIED="1748180513492">
+<node TEXT="05.1 Value &amp; Loss" FOLDED="true" POSITION="bottom_or_right" ID="ID_906105716" CREATED="1748180505615" MODIFIED="1748180513492">
 <node TEXT="Figure 11: Modeling Assets using Value" ID="ID_91858292" CREATED="1748180518192" MODIFIED="1748180526787"/>
+<node TEXT="Table 10: Proposed Value Property Overlay" ID="ID_1159239546" CREATED="1748851852558" MODIFIED="1748851864534"/>
 </node>
-<node TEXT="05.2 Value Chain" POSITION="bottom_or_right" ID="ID_1983013192" CREATED="1748180747253" MODIFIED="1748180752262">
+<node TEXT="05.2 Value Chain" FOLDED="true" POSITION="bottom_or_right" ID="ID_1983013192" CREATED="1748180747253" MODIFIED="1748180752262">
 <node TEXT="Figure 12: Composition of Value Chains" ID="ID_247946098" CREATED="1748180752267" MODIFIED="1748180763089"/>
+<node TEXT="Table 11: Value Chain Properties" ID="ID_603329795" CREATED="1748852049250" MODIFIED="1748852059761"/>
 </node>
 <node TEXT="05.3 SABSA Business Attributes" POSITION="bottom_or_right" ID="ID_1183827331" CREATED="1748180790318" MODIFIED="1748180799444">
 <node TEXT="Figure 13: SABSA Business Attributes Represented in the ArchiMate Language" ID="ID_1817507809" CREATED="1748180803069" MODIFIED="1748180821506"/>
-<node TEXT="5.3.1 Structural Placement of Business Attributes" ID="ID_1841880917" CREATED="1748229017663" MODIFIED="1748229032044">
+<node TEXT="Table 12: SABSA Attribute Properties" ID="ID_467781429" CREATED="1748865985044" MODIFIED="1748865995560"/>
+<node TEXT="5.3.1 Structural Placement of Business Attributes" FOLDED="true" ID="ID_1841880917" CREATED="1748229017663" MODIFIED="1748229032044">
 <node TEXT="Figure 16: Principle in the ArchiMate Motivation Hierarchy" ID="ID_1658090413" CREATED="1748229053502" MODIFIED="1748229066770"/>
 <node TEXT="Figure 17: Highlighting the Control Hierarchy Mismatch (i)" ID="ID_1563001622" CREATED="1748229072606" MODIFIED="1748229087011"/>
 <node TEXT="Figure 18: Highlighting the Control Hierarchy Mismatch (ii)" ID="ID_1260826359" CREATED="1748229072606" MODIFIED="1748265218469"/>
@@ -145,25 +153,25 @@
 <node TEXT="Figure 20: Attribute Traceability Across Layers" ID="ID_1219676788" CREATED="1748265289228" MODIFIED="1748265302479"/>
 </node>
 </node>
-<node TEXT="05.4 Meaning" POSITION="bottom_or_right" ID="ID_1741951927" CREATED="1748265307260" MODIFIED="1748271358208">
+<node TEXT="05.4 Meaning" FOLDED="true" POSITION="bottom_or_right" ID="ID_1741951927" CREATED="1748265307260" MODIFIED="1748271358208">
 <node TEXT="Figure 21: Applying Attribute Metrics to Multiple controls" ID="ID_399408634" CREATED="1748265312427" MODIFIED="1748265327482"/>
 <node TEXT="Figure 22: Use of Meaning to Externalize Context-Sensitive Metrics" ID="ID_836465482" CREATED="1748265330414" MODIFIED="1748265344200"/>
 </node>
 <node TEXT="05.5 Impact, Threat, Vulnerability, and Risk" POSITION="bottom_or_right" ID="ID_1182153628" CREATED="1748265351764" MODIFIED="1748265363037"/>
-<node TEXT="05.6 Controls: Objectives, Requirements, and Measures" POSITION="bottom_or_right" ID="ID_1603541117" CREATED="1748265363042" MODIFIED="1748266014256">
+<node TEXT="05.6 Controls: Objectives, Requirements, and Measures" FOLDED="true" POSITION="bottom_or_right" ID="ID_1603541117" CREATED="1748265363042" MODIFIED="1748266014256">
 <node TEXT="Figure 23: Expressing Composite Requirements" ID="ID_314020606" CREATED="1748266025501" MODIFIED="1748266035743"/>
 <node TEXT="Figure 24: Example of a Control Pattern" ID="ID_688179235" CREATED="1748266035972" MODIFIED="1748266043616"/>
 </node>
-<node TEXT="05.7 Multi-Tiered Security" POSITION="bottom_or_right" ID="ID_647472870" CREATED="1748266047588" MODIFIED="1748266153182">
+<node TEXT="05.7 Multi-Tiered Security" FOLDED="true" POSITION="bottom_or_right" ID="ID_647472870" CREATED="1748266047588" MODIFIED="1748266153182">
 <node TEXT="Figure 25: Example of Multi-Tiered Security" ID="ID_1763341137" CREATED="1748266153187" MODIFIED="1748266171440"/>
 </node>
-<node TEXT="05.8 Regulations and Standards" POSITION="bottom_or_right" ID="ID_748157745" CREATED="1748266185709" MODIFIED="1748266198972">
+<node TEXT="05.8 Regulations and Standards" FOLDED="true" POSITION="bottom_or_right" ID="ID_748157745" CREATED="1748266185709" MODIFIED="1748266198972">
 <node TEXT="Figure 26: The Structure of Standards and Regulations" ID="ID_1954645238" CREATED="1748266198977" MODIFIED="1748266210553"/>
 </node>
-<node TEXT="05.9 Articles, Mandates, and Compliance Objectives" POSITION="bottom_or_right" ID="ID_1145480025" CREATED="1748266235171" MODIFIED="1748266247068">
+<node TEXT="05.9 Articles, Mandates, and Compliance Objectives" FOLDED="true" POSITION="bottom_or_right" ID="ID_1145480025" CREATED="1748266235171" MODIFIED="1748266247068">
 <node TEXT="Figure 27: Articles and Compliance Objectives" ID="ID_217883454" CREATED="1748266247074" MODIFIED="1748266259479"/>
 </node>
-<node TEXT="05.10 Control Mechanisms" POSITION="bottom_or_right" ID="ID_1707637259" CREATED="1748266435061" MODIFIED="1748266443047">
+<node TEXT="05.10 Control Mechanisms" FOLDED="true" POSITION="bottom_or_right" ID="ID_1707637259" CREATED="1748266435061" MODIFIED="1748266443047">
 <node TEXT="Figure 28: Use Cases and Iconography for Control" ID="ID_560327897" CREATED="1748266443053" MODIFIED="1748266454313"/>
 </node>
 <node TEXT="05.11 Trust" POSITION="bottom_or_right" ID="ID_1990445651" CREATED="1748266457045" MODIFIED="1748266459912"/>
