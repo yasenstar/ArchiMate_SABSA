@@ -78,6 +78,7 @@ Key in special character in Markdown through ALT + code (need to use number pad)
 - « : Alt + 0171
 - » : Alt + 0187
 - ® : Copyright, Alt + 0174
+- ™ : Alt + 0153
 
 Key in special characters in Markdown through HTML syntax:
 

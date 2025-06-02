@@ -1,10 +1,10 @@
 # 04 Alignment the SABSA and ArchiMate Frameworks
 
-# 04.1 Introduction to the Security Overlay
+# 4.1 Introduction to the Security Overlay
 
 The Security Overlay for the ArchiMate language focuses on extending the architectural layers and Motivation aspect to create a model-based framework for SABSA.
 
-The Security Overlay for the ArchiMate langugae uses the inbuilt customization capabilities of the ArchiMate Specification to define a Security Overlay: a set of security profiles for existing ArchiMate elements, supplemented by a set of new stereotyped elements, to express security concepts.
+The Security Overlay for the ArchiMate langugae uses the inbuilt customization capabilities of the ArchiMate Specification to define **a Security Overlay: a set of security profiles for existing ArchiMate elements, supplemented by a set of new stereotyped elements, to express security concepts.**
 
 Link https://sabsa.org/category/working-groups/modelling-sabsa-archimate/ is to the MSA Working Group (Modeling SABSA ArchiMate), it has one whitepaper but still in ArchiMate v2.01, you need to register as SABSA member to be allowed for downloading the resources. (Whitepaper is downloaded and can be read [here](./T100-Modelling-SABSA-with-ArchiMate_v2.01.pdf))
 
@@ -21,7 +21,7 @@ SABSA Service Management Matrix can be shown as below:
 
 ![SABSA SM Matrix](../img/SABSA-Service-Management-Matrix.png)
 
-## 04.2 An Overview of the Task
+## 4.2 An Overview of the Task
 
 High-level perspective of aligning of SABSA and ArchiMate frameworks is as below (Figure 05 in Guide):
 
@@ -58,7 +58,7 @@ Those 6 pillars are in the same terminology to Zachman Framework, see below for 
 | Enterprise Perspective | Inventory Instantiations | Process Instantiations | Distribution Instantiations | Responsibility Instantiations | Timing Instantiations | Motivation Instantiations | Operations Instances |
 | | Inventory Sets | Process Flows | Distribution Networks | Responbility Assignments | Timing Cycles | Motivation Intentions | |
 
-## 04.3 Risk & Security Modeling in the ArchiMet Specification
+## 4.3 Risk & Security Modeling in the ArchiMet Specification
 
 | ArchiMate Concepts | Risk & Security Context |
 | --- | --- |

@@ -1,6 +1,6 @@
 # 01 Introduction
 
-## 01.0 Opening Question
+## 1.0 Opening Question
 
 One first questions from [alidayani](https://github.com/alidayani) in Discussion Board, responding the modeling challenge, are
 
@@ -56,7 +56,7 @@ Searching "Top Security Frameworks used by CISOs in 2025", got below 5 ones:
 
 Interesting is I found SABSA is not popular as I expected, from another point of view, that's also meaning there're quite a lot of work need to communicate SABSA to the broader audience, even to the CISOs group as well.
 
-## 01.1 Background
+## 1.1 Background
 
 Purposes of "Security Architecture":
 
@@ -71,7 +71,7 @@ SABSA is a proven methodology for developing business-driven, risk and opportuni
 
 "Ultimately, real-world systems recognize a single, _de facto_ architecture: what __ISO 42010__ calls the __Entity of Interest (EoI)__. It makes sense to strive towards a single holistic model of the EoI, capable of describing, validating, querying and analyzing all its pertinet (相关的) functional and non-functional aspects, including the security perspective.
 
-## 01.2 The ArchiMate Specification
+## 1.2 The ArchiMate Specification
 
 Get the specification here: https://www.opengroup.org/archimate-forum/archimate-overview
 
@@ -105,6 +105,11 @@ Here is the ArchiMate® language structure:
 ![ArchiMate_Lang_Structure](./img/fig-ArchiMate-Full-Framework.png)
 
 Find certified ArchiMate individuals: https://archimate-cert.opengroup.org/certified-individuals
+
+Working files:
+
+- [Snapshot ArchiMate Model - Figure01](./ArchiMate_SABSA_Figure01.archimate)
+- [Exported Figure01 Image](./Figure01_A-Simple-ArchiMate-Diagram.png)
 
 ## 01.3 Purpose
 

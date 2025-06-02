@@ -2,7 +2,7 @@
 
 [![ArchiMate_Cover](./img/ArchiMate_Spec_Cover.png)](https://www.opengroup.org/archimate-forum/archimate-overview)
 
-## 03.1 Core Elements
+## 3.1 Core Elements
 
 The ArchiMate core elements belong to one of 3 categories (think about them from one graph / triple aspect):
 
@@ -19,7 +19,7 @@ Support _service-oriented_ viewpoints:
 
 ![Hierarchy](./img/Hierarchy_of_Behavior_and_Structure_Elements.png)
 
-## 03.2 Core Relationships
+## 3.2 Core Relationships
 
 Four relationships categories:
 
@@ -34,20 +34,38 @@ The language __does not allow__ elements and relationships to be combined arbitr
 
 ![Overview_Relationships](./img/Overview_of_Relationships.png)
 
-## 03.3 Extension Layers and Elements
+## 3.3 Extension Layers and Elements
 
-- Strategy Layer (change to "Layer" from 3.2)
-- Motivation Elements
-- Implementation and Migration Layer
-- Composition Elements
+- Strategy Layer (change to "Layer" from 3.2): Resource, Capability, Course of Action, Value Stream
+- Motivation Elements: Stakeholder, Driver, Assessment, Goal, Outcome, Principle, Requirement, Constraint, Meaning, Value
+- Implementation and Migration Layer: Work Package, Deliverable, Implementation Event, Plateau, Gap
+- Composition Elements: Location, Grouping
 
-## 03.4 ArchiMate Language Customization
+## 3.4 ArchiMate Language Customization
 
-- User-Defined Attributes
-- Sepcialization and "Stereotypes"
-- Overloaded Relationships
+### 3.4.1 User-Defined Attributes
 
-## 03.5 The ArchiMate Full Framework
+link to ArchiMate Specification 14.1 "Adding Attributes to ArchiMate Concepts"
+- Both the ArchiMate Specification and the Model Exchange File Format support basic property types: string, integer, real, boolean, currency, date, time, URL, etc.
+- In order to support compound properties, the Security Overlay occasionally uses text strings in JavaScript™ Object Notation (JSON) format
+
+### 3.4.2 Sepcialization and "Stereotypes" -- IMPORTANT
+
+- "In-Model" specialization uses the specoialization relationship introducted in [3.2.1](#32-core-relationships) to show that one element is a particular kind of another (i.e. a subtype)
+- "Out-of-Model" specialization is denoted by double chevrons in a type-qualified name (resembinling a UML stereotype: « »)
+  - "Staff Member" is modeled using Specialization relation
+  - "Threat Agent" is modeled using «_stereotype_» notation, emphasizing that it is somewhat untypical of "a _buisness entity of performing behavior_", it is not derived from another Actor via inheritance.
+- "isAbstract" property is denoted by Security Overlay with its name in _Italics_.
+
+### 3.4.3 Overloaded Relationships
+
+The ArchiMate language uses relationship overloading: the same symbol represents different but semantically compatible concepts in different context.
+
+Overloading trades minimization of the vocabulary for a minor loss of precision.
+
+The Security Overlay will further overload relationships in keeping with this general principles.
+
+## 3.5 The ArchiMate Full Framework
 
 You already see this in [Chapter 1: Introduction](../01_Introduction/README.md):
 
