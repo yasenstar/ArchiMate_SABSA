@@ -6,3 +6,6 @@
         "employmentStart": "date"
     }
 }
+
+// xs: (same as xsd:), in XML Schema, is called namespace prefixes, which is declared using `xmlns` elements in the root element.
+// By convention people tend to choose either `xs:` or `xsd:` and map that to `http://www.w3.org/2001/XMLSchema`

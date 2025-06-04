@@ -55,7 +55,7 @@ link to ArchiMate Specification 14.1 "Adding Attributes to ArchiMate Concepts"
 - "Out-of-Model" specialization is denoted by double chevrons in a type-qualified name (resembinling a UML stereotype: « »)
   - "Staff Member" is modeled using Specialization relation
   - "Threat Agent" is modeled using «_stereotype_» notation, emphasizing that it is somewhat untypical of "a _buisness entity of performing behavior_", it is not derived from another Actor via inheritance.
-- "isAbstract" property is denoted by Security Overlay with its name in _Italics_.
+- "isAbstract" property is denoted by Security Overlay with its name in _Italics_, which is another UML convention.
 
 ### 3.4.3 Overloaded Relationships
 
