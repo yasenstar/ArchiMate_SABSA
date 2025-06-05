@@ -3,7 +3,7 @@
 <node TEXT="Modeling SABSA®&#xa;in ArchiMate®" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_1090958577" CREATED="1409300609620" MODIFIED="1747668057865">
 <hook NAME="accessories/plugins/AutomaticLayout.properties" VALUE="ALL"/>
 <font BOLD="true"/>
-<hook NAME="MapStyle" background="#eeeeeeff" zoom="0.62092125">
+<hook NAME="MapStyle" background="#eeeeeeff" zoom="1.7715613">
     <properties show_icon_for_attributes="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_tags="UNDER_NODES" show_note_icons="true" associatedTemplateLocation="template:/light_grey_straight_template.mm" fit_to_viewport="false" show_icons="BESIDE_NODES"/>
     <tags category_separator="::"/>
 
@@ -99,7 +99,7 @@
 <node TEXT="02.4 Benefits of Modeling to the Practitioner" ID="ID_938277925" CREATED="1748057975489" MODIFIED="1748057985147"/>
 <node TEXT="02.5 Vendor Neutrality" ID="ID_1827134213" CREATED="1748057985409" MODIFIED="1748057993898"/>
 </node>
-<node TEXT="03. Introduction of ArchiMate" FOLDED="true" POSITION="top_or_left" ID="ID_1998308929" CREATED="1747668100492" MODIFIED="1747668152719">
+<node TEXT="03. Introduction of ArchiMate" POSITION="top_or_left" ID="ID_1998308929" CREATED="1747668100492" MODIFIED="1747668152719">
 <node TEXT="03.1 Core Elements" ID="ID_1116681250" CREATED="1748057997598" MODIFIED="1748058002818"/>
 <node TEXT="03.2 Core Relationships" ID="ID_897208137" CREATED="1748058006589" MODIFIED="1748058025190"/>
 <node TEXT="03.3 Extension Layers and Elements" FOLDED="true" ID="ID_1508528739" CREATED="1748058025887" MODIFIED="1748058032911">
@@ -108,7 +108,7 @@
 <node TEXT="3.3.3 Implementation and Migration Layer" ID="ID_916292844" CREATED="1748781101064" MODIFIED="1748781110787"/>
 <node TEXT="3.3.4 Composite Elements" ID="ID_737329" CREATED="1748781114601" MODIFIED="1748781120514"/>
 </node>
-<node TEXT="03.4 ArchiMate Language Customization" FOLDED="true" ID="ID_1994971986" CREATED="1748058033646" MODIFIED="1748058042370">
+<node TEXT="03.4 ArchiMate Language Customization" ID="ID_1994971986" CREATED="1748058033646" MODIFIED="1748058042370">
 <node TEXT="03.4.1 User-Defined Attributes" ID="ID_652248063" CREATED="1748058090164" MODIFIED="1748058099847"/>
 <node TEXT="03.4.2 Specializations and &quot;Stereotypes&quot;" ID="ID_1780826726" CREATED="1748058099996" MODIFIED="1748058114161">
 <node TEXT="Figure 2: In-Model versus Out-of-Model Specialization" ID="ID_290948251" CREATED="1748058118628" MODIFIED="1748058142747"/>
@@ -117,10 +117,10 @@
 </node>
 <node TEXT="03.5 The ArchiMate Full Framework" ID="ID_588638179" CREATED="1748058057335" MODIFIED="1748058065401"/>
 </node>
-<node TEXT="04. Aligning SABSA and ArchiMate Framework" FOLDED="true" POSITION="top_or_left" ID="ID_344461701" CREATED="1747668110732" MODIFIED="1748837741636" VGAP_QUANTITY="3 pt">
+<node TEXT="04. Aligning SABSA and ArchiMate Framework" POSITION="top_or_left" ID="ID_344461701" CREATED="1747668110732" MODIFIED="1748837741636" VGAP_QUANTITY="3 pt">
 <node TEXT="04.1 Introduction to the Security Overlay" ID="ID_1521200450" CREATED="1748058067237" MODIFIED="1748058075081"/>
 <node TEXT="04.2 An Overview of the Task" ID="ID_415552271" CREATED="1748070675582" MODIFIED="1748070686491"/>
-<node TEXT="04.3 Risk &amp; Security Modeling in the ArchiMate Specification" FOLDED="true" ID="ID_658624177" CREATED="1748070686671" MODIFIED="1748837741634">
+<node TEXT="04.3 Risk &amp; Security Modeling in the ArchiMate Specification" ID="ID_658624177" CREATED="1748070686671" MODIFIED="1749051343853">
 <arrowlink DESTINATION="ID_1707637259"/>
 <arrowlink DESTINATION="ID_1603541117"/>
 <node TEXT="Figure 6: The Risk-Modeling Example in the ArchiMate 3.2 Specification" ID="ID_728792560" CREATED="1748177831182" MODIFIED="1748177848057"/>
