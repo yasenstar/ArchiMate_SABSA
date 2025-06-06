@@ -86,6 +86,10 @@ Relationship between Event (Threat Agent/Event) to Assessment (Vulnerability or 
 | [Event]-(Associating)->[Assessment] | Threat Agent/Event «_exploits_» Vulnerability |
 | [Event]<-(Associating)-[Assessment] | Loss Event «_materializes_» Risk |
 
+Figure 06:
+- ArchiMate Model File: [ArchiMate_SABSA_Figure06.archimate](./ArchiMate_SABSA_Figure06.archimate)
+- ArchiMate Figure02 Exported Image: [Figure06_The-Risk-Modeling-Example.png](./Figure06_The-Risk-Modeling-Example.png)
+
 ## 4.4 The Basic Element and Relationships
 
 | Basic Elements & Relationships | Detail |
