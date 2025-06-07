@@ -44,7 +44,7 @@ The language __does not allow__ elements and relationships to be combined arbitr
 ## 3.4 ArchiMate Language Customization
 
 - ArchiMate Model File: [ArchiMate_SABSA_Figure02.archimate](./ArchiMate_SABSA_Figure02.archimate)
-- ArchiMate Figure02 Exported Image: [Figure02_In-Model-vs-Out-of-Model-Specialization.png](./Figure02_In-Model-vs-Out-of-Model-Specialization.png)
+- ArchiMate Exported Image: [Figure02_In-Model-vs-Out-of-Model-Specialization.png](./Figure02_In-Model-vs-Out-of-Model-Specialization.png)
 
 ### 3.4.1 User-Defined Attributes
 

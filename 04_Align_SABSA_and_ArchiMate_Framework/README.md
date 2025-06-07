@@ -88,7 +88,11 @@ Relationship between Event (Threat Agent/Event) to Assessment (Vulnerability or 
 
 Figure 06:
 - ArchiMate Model File: [ArchiMate_SABSA_Figure06.archimate](./ArchiMate_SABSA_Figure06.archimate)
-- ArchiMate Figure02 Exported Image: [Figure06_The-Risk-Modeling-Example.png](./Figure06_The-Risk-Modeling-Example.png)
+- ArchiMate Exported Image: [Figure06_The-Risk-Modeling-Example.png](./Figure06_The-Risk-Modeling-Example.png)
+
+Figure 07:
+- ArchiMate Model File: [ArchiMate_SABSA_Figure07.archimate](./ArchiMate_SABSA_Figure07.archimate)
+- ArchiMate Exported Image: [Figure07_Risk-Modeling-Relationships](./Figure07_Risk-Modeling-Relationships)
 
 ## 4.4 The Basic Element and Relationships
 

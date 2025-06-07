@@ -109,7 +109,7 @@ Find certified ArchiMate individuals: https://archimate-cert.opengroup.org/certi
 Working files:
 
 - [Snapshot ArchiMate Model - Figure01](./ArchiMate_SABSA_Figure01.archimate)
-- [Exported Figure01 Image](./Figure01_A-Simple-ArchiMate-Diagram.png)
+- [ArchiMate Exported Image](./Figure01_A-Simple-ArchiMate-Diagram.png)
 
 ## 01.3 Purpose
 
