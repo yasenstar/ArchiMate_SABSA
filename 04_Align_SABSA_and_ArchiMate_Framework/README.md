@@ -92,7 +92,11 @@ Figure 06:
 
 Figure 07:
 - ArchiMate Model File: [ArchiMate_SABSA_Figure07.archimate](./ArchiMate_SABSA_Figure07.archimate)
-- ArchiMate Exported Image: [Figure07_Risk-Modeling-Relationships](./Figure07_Risk-Modeling-Relationships)
+- ArchiMate Exported Image: [Figure07_Risk-Modeling-Relationships](./Figure07_Risk-Modeling-Relationships.png)
+
+Figure 08:
+- ArchiMate Model File: [ArchiMate_SABSA_Figure08.archimate](./ArchiMate_SABSA_Figure08.archimate)
+- ArchiMate Exported Image: [Figure08_Mapping-of-Risk-and-Security-Elements](./Figure08_Mapping-of-Risk-and-Security-Elements.png)
 
 ## 4.4 The Basic Element and Relationships
 
