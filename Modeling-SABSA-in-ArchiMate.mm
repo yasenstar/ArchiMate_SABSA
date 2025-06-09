@@ -3,7 +3,7 @@
 <node TEXT="Modeling SABSA®&#xa;in ArchiMate®" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_1090958577" CREATED="1409300609620" MODIFIED="1747668057865">
 <hook NAME="accessories/plugins/AutomaticLayout.properties" VALUE="ALL"/>
 <font BOLD="true"/>
-<hook NAME="MapStyle" background="#eeeeeeff" zoom="0.75131476">
+<hook NAME="MapStyle" background="#eeeeeeff" zoom="1.7715613">
     <properties show_icon_for_attributes="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_tags="UNDER_NODES" show_note_icons="true" associatedTemplateLocation="template:/light_grey_straight_template.mm" fit_to_viewport="false" show_icons="BESIDE_NODES"/>
     <tags category_separator="::"/>
 
@@ -117,7 +117,7 @@
 </node>
 <node TEXT="03.5 The ArchiMate Full Framework" ID="ID_588638179" CREATED="1748058057335" MODIFIED="1748058065401"/>
 </node>
-<node TEXT="04. Aligning SABSA and ArchiMate Framework" FOLDED="true" POSITION="top_or_left" ID="ID_344461701" CREATED="1747668110732" MODIFIED="1748837741636" VGAP_QUANTITY="3 pt">
+<node TEXT="04. Aligning SABSA and ArchiMate Framework" POSITION="top_or_left" ID="ID_344461701" CREATED="1747668110732" MODIFIED="1748837741636" VGAP_QUANTITY="3 pt">
 <node TEXT="04.1 Introduction to the Security Overlay" ID="ID_1521200450" CREATED="1748058067237" MODIFIED="1748058075081"/>
 <node TEXT="04.2 An Overview of the Task" ID="ID_415552271" CREATED="1748070675582" MODIFIED="1748070686491"/>
 <node TEXT="04.3 Risk &amp; Security Modeling in the ArchiMate Specification" ID="ID_658624177" CREATED="1748070686671" MODIFIED="1749051343853">
@@ -130,14 +130,14 @@
 </node>
 <node TEXT="04.4 The Basic Element and Relationships" ID="ID_832733419" CREATED="1748070699012" MODIFIED="1748070709263"/>
 </node>
-<node TEXT="06. Modeling Contextual Security Architecture" POSITION="bottom_or_right" ID="ID_1741078159" CREATED="1747668140692" MODIFIED="1747668176080">
+<node TEXT="06. Modeling Contextual Security Architecture" FOLDED="true" POSITION="bottom_or_right" ID="ID_1741078159" CREATED="1747668140692" MODIFIED="1747668176080">
 <node TEXT="06.0 Overview" FOLDED="true" ID="ID_1454281063" CREATED="1749098978488" MODIFIED="1749098982100">
 <node TEXT="Table 19: SABSA Contextual Architecture" POSITION="bottom_or_right" ID="ID_1189986251" CREATED="1749098234900" MODIFIED="1749098246367"/>
 <node TEXT="Figure 29: Developing and Maintaining the Contextual Security Architecture" POSITION="bottom_or_right" ID="ID_851538053" CREATED="1748266465932" MODIFIED="1748266481193"/>
 <node TEXT="Table 20: Contextual Elements" POSITION="bottom_or_right" ID="ID_380959367" CREATED="1749098832367" MODIFIED="1749098843826"/>
 </node>
 <node TEXT="06.1 Business Assets" ID="ID_1375619284" CREATED="1748266484331" MODIFIED="1748266489324">
-<node TEXT="6.1.1 Capability and Value Stream" ID="ID_694837151" CREATED="1748266489330" MODIFIED="1748266499337">
+<node TEXT="6.1.1 Capability and Value Stream" FOLDED="true" ID="ID_694837151" CREATED="1748266489330" MODIFIED="1748266499337">
 <node TEXT="Table 21: The Value Stream Element" ID="ID_133549157" CREATED="1749098993174" MODIFIED="1749099007128"/>
 <node TEXT="Figure 30: Value Modeling" ID="ID_758075284" CREATED="1748266502004" MODIFIED="1748266507359"/>
 </node>
@@ -145,7 +145,7 @@
 <node TEXT="Table 22: Business Object Security Properties" ID="ID_1926561917" CREATED="1749099107261" MODIFIED="1749099116983"/>
 <node TEXT="Figure 31: Element Properties and SABSA Attributes" ID="ID_1338079299" CREATED="1748266522123" MODIFIED="1748266531646"/>
 </node>
-<node TEXT="6.1.3 Business Service, Interface, and Service Level Agreements" ID="ID_655927215" CREATED="1748266533994" MODIFIED="1748266552499">
+<node TEXT="6.1.3 Business Service, Interface, and Service Level Agreements" FOLDED="true" ID="ID_655927215" CREATED="1748266533994" MODIFIED="1748266552499">
 <node TEXT="Table 23: Business Service Properties" ID="ID_1628575207" CREATED="1749099163861" MODIFIED="1749099171384"/>
 </node>
 </node>
