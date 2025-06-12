@@ -105,7 +105,7 @@ Figure 08:
 | **identifier** | An **identifier** used to provide a globally unique reference for the element within the model. |
 | **_isAbstract_** | An **_isAbstract_** flag, set to false by default, indicating that an element cannot be instantiated; it must have a non-abstract specialization (visually, an abstract element name is displayed in Italics) |
 | **Stereotype/stereotypeOf** | **Stereotype/stereotypeOf** used to declare out-of-model specialization structurally, rather than having to parse the structure of the («­sterettype») name format |
-| **Cardinality** | **Cardinality** indicators at the source and target ends of relationships are expressed in UML notation; i.e., <sub>n (exactly), n..m (range n to m), * (any)</sub> (the meaning of the cardinality varies wiht context) |
+| **Cardinality** | **Cardinality** indicators at the source and target ends of relationships are expressed in UML notation; i.e., <sub>n (exactly), n..m (range n to m), * (any)</sub> (the meaning of the cardinality varies with context) |
 
 ---
 
