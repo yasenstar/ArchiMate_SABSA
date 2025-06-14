@@ -17,6 +17,8 @@ A quick table shows the ArchiMate notations matching SABSA attributes:
 
 ## 5.1 Value & Loss
 
+The "What" column of the SABSA Architecture Matrix acknowledges the business value of assets.
+
 ## 5.2 Value Chain
 
 ## 5.3 SABSA Business Attributes

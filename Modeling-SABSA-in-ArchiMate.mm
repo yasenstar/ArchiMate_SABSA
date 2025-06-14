@@ -78,6 +78,60 @@
 </stylenode>
 </map_styles>
 </hook>
+<node TEXT="05. The Motivation Aspect" POSITION="bottom_or_right" ID="ID_1121778975" CREATED="1747668134684" MODIFIED="1748271358209" VGAP_QUANTITY="3 pt">
+<node TEXT="Figure 10: Security Enhanced Motivation Metamodel" POSITION="bottom_or_right" ID="ID_321030896" CREATED="1748180460960" MODIFIED="1748180473333"/>
+<node TEXT="05.1 Value &amp; Loss" FOLDED="true" POSITION="bottom_or_right" ID="ID_906105716" CREATED="1748180505615" MODIFIED="1748180513492">
+<node TEXT="Figure 11: Modeling Assets using Value" ID="ID_91858292" CREATED="1748180518192" MODIFIED="1748180526787"/>
+<node TEXT="Table 10: Proposed Value Property Overlay" ID="ID_1159239546" CREATED="1748851852558" MODIFIED="1748851864534"/>
+</node>
+<node TEXT="05.2 Value Chain" FOLDED="true" POSITION="bottom_or_right" ID="ID_1983013192" CREATED="1748180747253" MODIFIED="1748180752262">
+<node TEXT="Figure 12: Composition of Value Chains" ID="ID_247946098" CREATED="1748180752267" MODIFIED="1748180763089"/>
+<node TEXT="Table 11: Value Chain Properties" ID="ID_603329795" CREATED="1748852049250" MODIFIED="1748852059761"/>
+</node>
+<node TEXT="05.3 SABSA Business Attributes" FOLDED="true" POSITION="bottom_or_right" ID="ID_1183827331" CREATED="1748180790318" MODIFIED="1748180799444">
+<node TEXT="Figure 13: SABSA Business Attributes Represented in the ArchiMate Language" ID="ID_1817507809" CREATED="1748180803069" MODIFIED="1748180821506"/>
+<node TEXT="Table 12: SABSA Attribute Properties" ID="ID_467781429" CREATED="1748865985044" MODIFIED="1748865995560"/>
+<node TEXT="5.3.1 Structural Placement of Business Attributes" FOLDED="true" ID="ID_1841880917" CREATED="1748229017663" MODIFIED="1748229032044">
+<node TEXT="Figure 16: Principle in the ArchiMate Motivation Hierarchy" ID="ID_1658090413" CREATED="1748229053502" MODIFIED="1748229066770"/>
+<node TEXT="Figure 17: Highlighting the Control Hierarchy Mismatch (i)" ID="ID_1563001622" CREATED="1748229072606" MODIFIED="1748229087011"/>
+<node TEXT="Figure 18: Highlighting the Control Hierarchy Mismatch (ii)" ID="ID_1260826359" CREATED="1748229072606" MODIFIED="1748265218469"/>
+<node TEXT="Figure 19: Achieving the Desired Hierarchy" ID="ID_1325434171" CREATED="1748265195710" MODIFIED="1748265230714"/>
+</node>
+<node TEXT="5.3.2 Traceability of Business Attributes" ID="ID_955512661" CREATED="1748265231396" MODIFIED="1748265241458">
+<node TEXT="Figure 20: Attribute Traceability Across Layers" ID="ID_1219676788" CREATED="1748265289228" MODIFIED="1748265302479"/>
+</node>
+</node>
+<node TEXT="05.4 Meaning" FOLDED="true" POSITION="bottom_or_right" ID="ID_1741951927" CREATED="1748265307260" MODIFIED="1748271358208">
+<node TEXT="Figure 21: Applying Attribute Metrics to Multiple controls" ID="ID_399408634" CREATED="1748265312427" MODIFIED="1748265327482"/>
+<node TEXT="Figure 22: Use of Meaning to Externalize Context-Sensitive Metrics" ID="ID_836465482" CREATED="1748265330414" MODIFIED="1748265344200"/>
+</node>
+<node TEXT="05.5 Impact, Threat, Vulnerability, and Risk" FOLDED="true" POSITION="bottom_or_right" ID="ID_1182153628" CREATED="1748265351764" MODIFIED="1748265363037">
+<node TEXT="Table 13: Risk Element Properties" ID="ID_863664839" CREATED="1749093990114" MODIFIED="1749094003352"/>
+</node>
+<node TEXT="05.6 Controls: Objectives, Requirements, and Measures" FOLDED="true" POSITION="bottom_or_right" ID="ID_1603541117" CREATED="1748265363042" MODIFIED="1748266014256">
+<node TEXT="Figure 23: Expressing Composite Requirements" ID="ID_314020606" CREATED="1748266025501" MODIFIED="1748266035743"/>
+<node TEXT="Figure 24: Example of a Control Pattern" ID="ID_688179235" CREATED="1748266035972" MODIFIED="1748266043616"/>
+</node>
+<node TEXT="05.7 Multi-Tiered Security" FOLDED="true" POSITION="bottom_or_right" ID="ID_647472870" CREATED="1748266047588" MODIFIED="1748266153182">
+<node TEXT="Table 14: Control Element Properties" ID="ID_1872466531" CREATED="1749097112293" MODIFIED="1749097128663"/>
+<node TEXT="Figure 25: Example of Multi-Tiered Security" ID="ID_1763341137" CREATED="1748266153187" MODIFIED="1748266171440"/>
+</node>
+<node TEXT="05.8 Regulations and Standards" FOLDED="true" POSITION="bottom_or_right" ID="ID_748157745" CREATED="1748266185709" MODIFIED="1748266198972">
+<node TEXT="Figure 26: The Structure of Standards and Regulations" ID="ID_1954645238" CREATED="1748266198977" MODIFIED="1748266210553"/>
+<node TEXT="Table 15: Standard and Regulation Properties" ID="ID_1075351765" CREATED="1749097332548" MODIFIED="1749097341177"/>
+</node>
+<node TEXT="05.9 Articles, Mandates, and Compliance Objectives" FOLDED="true" POSITION="bottom_or_right" ID="ID_1145480025" CREATED="1748266235171" MODIFIED="1748266247068">
+<node TEXT="Figure 27: Articles and Compliance Objectives" ID="ID_217883454" CREATED="1748266247074" MODIFIED="1748266259479"/>
+<node TEXT="Table 16: Compliance Conceptual Element Properties" ID="ID_1709955040" CREATED="1749097488637" MODIFIED="1749097500319"/>
+</node>
+<node TEXT="05.10 Control Mechanisms" FOLDED="true" POSITION="bottom_or_right" ID="ID_1707637259" CREATED="1748266435061" MODIFIED="1748266443047">
+<node TEXT="Figure 28: Use Cases and Iconography for Control" ID="ID_560327897" CREATED="1748266443053" MODIFIED="1748266454313"/>
+<node TEXT="Table 17: Control Properties" ID="ID_315619173" CREATED="1749097675852" MODIFIED="1749097682583"/>
+</node>
+<node TEXT="05.11 Trust" POSITION="bottom_or_right" ID="ID_1990445651" CREATED="1748266457045" MODIFIED="1748266459912">
+<node TEXT="Table 18: Trust Profile" ID="ID_99753518" CREATED="1749097916995" MODIFIED="1749097922858"/>
+</node>
+</node>
 <node TEXT="00. Preface" FOLDED="true" POSITION="top_or_left" ID="ID_1250732886" CREATED="1747712086744" MODIFIED="1747712091853">
 <node TEXT="Mission of The Open Group: drive the creation of Boundaryless Information Flow" ID="ID_1626036026" CREATED="1747712115404" MODIFIED="1747712147392"/>
 <node TEXT="The Joint Working Group aims to develop a settled consensus of core security elements, relationships, and properties - referred to collectively as the &quot;Security Overlay&quot;." ID="ID_122874273" CREATED="1747712200253" MODIFIED="1747712257126"/>
@@ -117,7 +171,7 @@
 </node>
 <node TEXT="03.5 The ArchiMate Full Framework" ID="ID_588638179" CREATED="1748058057335" MODIFIED="1748058065401"/>
 </node>
-<node TEXT="04. Aligning SABSA and ArchiMate Framework" POSITION="top_or_left" ID="ID_344461701" CREATED="1747668110732" MODIFIED="1748837741636" VGAP_QUANTITY="3 pt">
+<node TEXT="04. Aligning SABSA and ArchiMate Framework" FOLDED="true" POSITION="top_or_left" ID="ID_344461701" CREATED="1747668110732" MODIFIED="1748837741636" VGAP_QUANTITY="3 pt">
 <node TEXT="04.1 Introduction to the Security Overlay" ID="ID_1521200450" CREATED="1748058067237" MODIFIED="1748058075081"/>
 <node TEXT="04.2 An Overview of the Task" ID="ID_415552271" CREATED="1748070675582" MODIFIED="1748070686491"/>
 <node TEXT="04.3 Risk &amp; Security Modeling in the ArchiMate Specification" ID="ID_658624177" CREATED="1748070686671" MODIFIED="1749051343853">
@@ -276,59 +330,5 @@
 </node>
 </node>
 <node TEXT="10. Conclusion" POSITION="bottom_or_right" ID="ID_1163288408" CREATED="1747668215002" MODIFIED="1747668220034"/>
-<node TEXT="05. The Motivation Aspect" FOLDED="true" POSITION="top_or_left" ID="ID_1121778975" CREATED="1747668134684" MODIFIED="1748271358209" VGAP_QUANTITY="3 pt">
-<node TEXT="Figure 10: Security Enhanced Motivation Metamodel" POSITION="bottom_or_right" ID="ID_321030896" CREATED="1748180460960" MODIFIED="1748180473333"/>
-<node TEXT="05.1 Value &amp; Loss" FOLDED="true" POSITION="bottom_or_right" ID="ID_906105716" CREATED="1748180505615" MODIFIED="1748180513492">
-<node TEXT="Figure 11: Modeling Assets using Value" ID="ID_91858292" CREATED="1748180518192" MODIFIED="1748180526787"/>
-<node TEXT="Table 10: Proposed Value Property Overlay" ID="ID_1159239546" CREATED="1748851852558" MODIFIED="1748851864534"/>
-</node>
-<node TEXT="05.2 Value Chain" FOLDED="true" POSITION="bottom_or_right" ID="ID_1983013192" CREATED="1748180747253" MODIFIED="1748180752262">
-<node TEXT="Figure 12: Composition of Value Chains" ID="ID_247946098" CREATED="1748180752267" MODIFIED="1748180763089"/>
-<node TEXT="Table 11: Value Chain Properties" ID="ID_603329795" CREATED="1748852049250" MODIFIED="1748852059761"/>
-</node>
-<node TEXT="05.3 SABSA Business Attributes" FOLDED="true" POSITION="bottom_or_right" ID="ID_1183827331" CREATED="1748180790318" MODIFIED="1748180799444">
-<node TEXT="Figure 13: SABSA Business Attributes Represented in the ArchiMate Language" ID="ID_1817507809" CREATED="1748180803069" MODIFIED="1748180821506"/>
-<node TEXT="Table 12: SABSA Attribute Properties" ID="ID_467781429" CREATED="1748865985044" MODIFIED="1748865995560"/>
-<node TEXT="5.3.1 Structural Placement of Business Attributes" FOLDED="true" ID="ID_1841880917" CREATED="1748229017663" MODIFIED="1748229032044">
-<node TEXT="Figure 16: Principle in the ArchiMate Motivation Hierarchy" ID="ID_1658090413" CREATED="1748229053502" MODIFIED="1748229066770"/>
-<node TEXT="Figure 17: Highlighting the Control Hierarchy Mismatch (i)" ID="ID_1563001622" CREATED="1748229072606" MODIFIED="1748229087011"/>
-<node TEXT="Figure 18: Highlighting the Control Hierarchy Mismatch (ii)" ID="ID_1260826359" CREATED="1748229072606" MODIFIED="1748265218469"/>
-<node TEXT="Figure 19: Achieving the Desired Hierarchy" ID="ID_1325434171" CREATED="1748265195710" MODIFIED="1748265230714"/>
-</node>
-<node TEXT="5.3.2 Traceability of Business Attributes" ID="ID_955512661" CREATED="1748265231396" MODIFIED="1748265241458">
-<node TEXT="Figure 20: Attribute Traceability Across Layers" ID="ID_1219676788" CREATED="1748265289228" MODIFIED="1748265302479"/>
-</node>
-</node>
-<node TEXT="05.4 Meaning" FOLDED="true" POSITION="bottom_or_right" ID="ID_1741951927" CREATED="1748265307260" MODIFIED="1748271358208">
-<node TEXT="Figure 21: Applying Attribute Metrics to Multiple controls" ID="ID_399408634" CREATED="1748265312427" MODIFIED="1748265327482"/>
-<node TEXT="Figure 22: Use of Meaning to Externalize Context-Sensitive Metrics" ID="ID_836465482" CREATED="1748265330414" MODIFIED="1748265344200"/>
-</node>
-<node TEXT="05.5 Impact, Threat, Vulnerability, and Risk" FOLDED="true" POSITION="bottom_or_right" ID="ID_1182153628" CREATED="1748265351764" MODIFIED="1748265363037">
-<node TEXT="Table 13: Risk Element Properties" ID="ID_863664839" CREATED="1749093990114" MODIFIED="1749094003352"/>
-</node>
-<node TEXT="05.6 Controls: Objectives, Requirements, and Measures" FOLDED="true" POSITION="bottom_or_right" ID="ID_1603541117" CREATED="1748265363042" MODIFIED="1748266014256">
-<node TEXT="Figure 23: Expressing Composite Requirements" ID="ID_314020606" CREATED="1748266025501" MODIFIED="1748266035743"/>
-<node TEXT="Figure 24: Example of a Control Pattern" ID="ID_688179235" CREATED="1748266035972" MODIFIED="1748266043616"/>
-</node>
-<node TEXT="05.7 Multi-Tiered Security" FOLDED="true" POSITION="bottom_or_right" ID="ID_647472870" CREATED="1748266047588" MODIFIED="1748266153182">
-<node TEXT="Table 14: Control Element Properties" ID="ID_1872466531" CREATED="1749097112293" MODIFIED="1749097128663"/>
-<node TEXT="Figure 25: Example of Multi-Tiered Security" ID="ID_1763341137" CREATED="1748266153187" MODIFIED="1748266171440"/>
-</node>
-<node TEXT="05.8 Regulations and Standards" FOLDED="true" POSITION="bottom_or_right" ID="ID_748157745" CREATED="1748266185709" MODIFIED="1748266198972">
-<node TEXT="Figure 26: The Structure of Standards and Regulations" ID="ID_1954645238" CREATED="1748266198977" MODIFIED="1748266210553"/>
-<node TEXT="Table 15: Standard and Regulation Properties" ID="ID_1075351765" CREATED="1749097332548" MODIFIED="1749097341177"/>
-</node>
-<node TEXT="05.9 Articles, Mandates, and Compliance Objectives" FOLDED="true" POSITION="bottom_or_right" ID="ID_1145480025" CREATED="1748266235171" MODIFIED="1748266247068">
-<node TEXT="Figure 27: Articles and Compliance Objectives" ID="ID_217883454" CREATED="1748266247074" MODIFIED="1748266259479"/>
-<node TEXT="Table 16: Compliance Conceptual Element Properties" ID="ID_1709955040" CREATED="1749097488637" MODIFIED="1749097500319"/>
-</node>
-<node TEXT="05.10 Control Mechanisms" FOLDED="true" POSITION="bottom_or_right" ID="ID_1707637259" CREATED="1748266435061" MODIFIED="1748266443047">
-<node TEXT="Figure 28: Use Cases and Iconography for Control" ID="ID_560327897" CREATED="1748266443053" MODIFIED="1748266454313"/>
-<node TEXT="Table 17: Control Properties" ID="ID_315619173" CREATED="1749097675852" MODIFIED="1749097682583"/>
-</node>
-<node TEXT="05.11 Trust" POSITION="bottom_or_right" ID="ID_1990445651" CREATED="1748266457045" MODIFIED="1748266459912">
-<node TEXT="Table 18: Trust Profile" ID="ID_99753518" CREATED="1749097916995" MODIFIED="1749097922858"/>
-</node>
-</node>
 </node>
 </map>
