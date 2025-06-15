@@ -1,0 +1,19 @@
+{
+    "Value or <<Loss>>": {
+        "attributes": {
+            "id": "",
+            "valueType": ["FINANCIAL", "REGULATORY", "REPUTATION"],
+            "currencyUnits": "",
+            "currencyCode": "",
+            "rating": ""
+        },
+        "instance": {
+            "tog:name": "",
+            "tog:description": "",
+            "optional": {
+                "tog:valuation": "",
+                "top:valueDistribution": ""
+            }
+        }
+    }
+}

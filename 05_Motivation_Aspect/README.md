@@ -15,6 +15,11 @@ A quick table shows the ArchiMate notations matching SABSA attributes:
 
 \* Control is unique in the Security Overlay in that it can extend any base type.
 
+Figure 10: Security Enhanced Motivation Metamodel
+
+- Image: [Figure10_Security-Enhanced-Motivation-Metamodel.png](./Figure10/Figure10_Security-Enhanced-Motivation-Metamodel.png)
+- Archi Model: [ArchiMate_SABSA_Figure10.archimate](./Figure10/ArchiMate_SABSA_Figure10.archimate)
+
 ## 5.1 Value & Loss
 
 The "What" column of the SABSA Architecture Matrix acknowledges the business value of assets.

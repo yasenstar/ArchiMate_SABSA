@@ -62,7 +62,7 @@ The practice in this repository is to detail go through the guide, and using Arc
 - Video cover and contents: Microsoft Powerpoint or any slide tool
 - Mindmap: [FreePlane](https://www.freeplane.org/)
 - ArchiMate Modeling: [Archi](https://archimatetool.com/)
-- Schema Documentation in JSON: visualized via "JSON Crack", and many others similar extension
+- Schema Documentation in JSON: visualized via "JSON Crack" or "JSON Lens", and many others similar extension
 - Knowlege on Metamodel with relationship: [Protégé](https://protege.stanford.edu/software.php#desktop-protege)
 - Non-ArchiMate Diagramming, e.g. hierarchical chart: [PlantUML](https://plantuml.com/)
 
