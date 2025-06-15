@@ -1,0 +1,14 @@
+@startuml
+title 11-c
+archimate #Motivation "Stakeholer 1" as st1 <<stakeholder-filled>>
+archimate #Motivation "Stakeholer 2" as st2 <<stakeholder-filled>>
+archimate #Motivation "Stakeholer 3" as st3 <<stakeholder-filled>>
+(Value)
+rectangle "Asset A" as AssetA
+rectangle "Asset B" as AssetB
+st1 -- Value
+st2 -- Value
+st3 -- Value
+Value -- AssetA
+Value -- AssetB
+@enduml

@@ -1,0 +1,6 @@
+@startuml
+title 11-a Simple Model
+(AssetValue)
+rectangle Asset
+AssetValue -- Asset
+@enduml

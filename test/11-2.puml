@@ -1,0 +1,8 @@
+@startuml
+title 11-b(1) Modeling Value to Stakeholder
+archimate #Motivation "Stakeholer" <<stakeholder-filled>>
+(AssetValue)
+rectangle Asset
+Stakeholer - AssetValue
+AssetValue - Asset
+@enduml
