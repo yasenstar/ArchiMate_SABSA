@@ -1,0 +1,17 @@
+@startuml
+title Figure 11 - c) Avoid Ambiguity/Unintended Coupling
+
+archimate #Motivation "Stakeholder 1" as st1 <<stakeholder-filled>>
+archimate #Motivation "Stakeholder 2" as st2 <<stakeholder-filled>>
+archimate #Motivation "Stakeholder 3" as st3 <<stakeholder-filled>>
+(Value)
+rectangle "Asset A" as AA
+rectangle "Asset B" as AB
+
+st1 -- Value
+st2 -- Value
+st3 -- Value
+Value -- AA
+Value -- AB
+
+@enduml

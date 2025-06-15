@@ -1,0 +1,11 @@
+@startuml
+title Figure 11 - b)-1 Modeling Value to Stakeholder (CAUTION)
+
+archimate #Motivation "Stakeholder" <<stakeholder-filled>>
+(AssetValue)
+rectangle Asset
+
+Stakeholder - AssetValue
+AssetValue - Asset
+
+@enduml

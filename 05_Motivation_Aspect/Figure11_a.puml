@@ -1,0 +1,10 @@
+@startuml
+title Figure 11 - a) Simple Model
+
+' archimate #Motivation "AssetValue" <<motivation-value>>
+(AssetValue)
+rectangle Asset
+
+AssetValue -- Asset
+
+@enduml
