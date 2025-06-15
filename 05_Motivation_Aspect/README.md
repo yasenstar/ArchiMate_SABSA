@@ -19,6 +19,20 @@ A quick table shows the ArchiMate notations matching SABSA attributes:
 
 The "What" column of the SABSA Architecture Matrix acknowledges the business value of assets.
 
+**Business Value** may be expressed in several forms (financial, legal, brand, social, economic, health & safety) in combination or with others.
+
+This evolution brings it closer to the ArchiMate Specification, which has no element to represent an abstract Asset but instead offers the ability to associate a **Value** element with any model element.
+
+Models containing many Values will have following consideration for reflecting the associated Element name through adopting of a naming conversion:
+
+| Figure 11 | Diagram | Source |
+| --- | --- | --- |
+| a) Simple model, shows the simple association of a Value with a generic eelment, thereby making it as an asset. | ![11-a](./Figure11/Figure11_a.png) | [11-a](./Figure11/Figure11_a.puml) |
+| b1) Modeling Value to Stakeholder, this model needs CAUTION when a Value is appreciated by several Stakeholder or associated with multiple assets. | ![11-b1](./Figure11/Figure11_b1.png) | [11-b1](./Figure11/Figure11_b1.puml) |
+| b2) Modeling Value to Stakeholder, this in-line (teritiary) relationship is better pattern and is recommended | ![11-b2](./Figure11/Figure11_b2.png) | [11-b2](./Figure11/Figure11_b2.puml) |
+| c) Avoice this kind of Amibiguity/Unintended Coupling | ![11-c](./Figure11/Figure11_c.png) | [11-c](./Figure11/Figure11_c.puml) |
+
+
 ## 5.2 Value Chain
 
 ## 5.3 SABSA Business Attributes
