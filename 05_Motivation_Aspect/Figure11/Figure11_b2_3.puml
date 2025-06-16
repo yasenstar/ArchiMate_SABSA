@@ -1,0 +1,13 @@
+@startuml
+
+!include <archimate/Archimate>
+
+rectangle aaa "<$Archimate>\Application_Service" as app_s
+
+Motivation_Stakeholder(StakeholderElement, "Stakeholder Description")
+Motivation_Value(ValueElement, "Value Description")
+Application_Service(AssetElement, "Asset")
+
+StakeholderElement - AssetElement
+ValueElement .. (StakeholderElement, AssetElement)
+@enduml

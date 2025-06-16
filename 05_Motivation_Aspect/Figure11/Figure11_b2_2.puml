@@ -1,0 +1,19 @@
+@startuml
+!include <archimate/Archimate.puml>
+
+Motivation_Stakeholder(StakeholderElement, "Stakeholder Description")
+
+class Stakeholder <<motivation>>
+class AssetValue <<motivation>>
+class Asset <<element>>
+
+hide <<motivation>> circle
+hide <<element>> circle
+
+hide <<motivation>> members
+hide <<element>> members
+
+Stakeholder - Asset
+AssetValue .. (Stakeholder, Asset)
+
+@enduml
