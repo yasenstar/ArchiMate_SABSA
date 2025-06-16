@@ -73,7 +73,11 @@ Detail is to be discussed in [Chapter 6.1](../06_Modeling_Contextual_Security_Ar
 
 - The key measures of meta-processes are rooted in cost-accounting: production cost, sales prices, and margin.
 - The organization seeks to identify which activities generate value and which are inefficient or uneconomic.
-- 
+- The security perspective is concerned with enhancing and protecting the value of the value generators while containing the costs of the inefficient process.
+- The ValueChain stereotype models the breakdown of costs and is, therefore, principally a financial measure.
+- The Security Overlay can be used to map the composition of a Value Chain to any behavioral element in the Enterprise Architecture model.
+
+
 
 ## 5.3 SABSA Business Attributes
 
