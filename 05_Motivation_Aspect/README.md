@@ -37,6 +37,32 @@ Models containing many Values will have following consideration for reflecting t
 | b2) Modeling Value to Stakeholder, this in-line (teritiary) relationship is better pattern and is recommended | ![11-b2](./Figure11/Figure11_b2.png) | [11-b2](./Figure11/Figure11_b2.puml) |
 | c) Avoice this kind of Amibiguity/Unintended Coupling | ![11-c](./Figure11/Figure11_c.png) | [11-c](./Figure11/Figure11_c.puml) |
 
+For 11-b2, here is the updated code for diagramming, after checking with PlantUML team:
+
+```bash
+@startuml
+title Figure 11 - b)-2 Modeling Value to Stakeholder (Recommended)
+
+class Stakeholder <<motivation>>
+class AssetValue <<motivation>>
+class Asset <<element>>
+
+hide <<motivation>> circle
+hide <<element>> circle
+
+hide <<motivation>> members
+hide <<element>> members
+
+Stakeholder - Asset
+AssetValue .. (Stakeholder, Asset)
+
+@enduml
+```
+
+Fullying using Class Diagram notations with the link to the link:
+
+![11_b2_1](./Figure11/Figure11_b2_1.png)
+
 Visualized Schema for Element Value / «Loss» is modeled in JSON format: [Value_Loss.json](./Table10/Value_Loss.json)
 
 ## 5.2 Value Chain
