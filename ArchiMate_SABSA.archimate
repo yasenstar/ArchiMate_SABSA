@@ -146,6 +146,171 @@
       <element xsi:type="archimate:Principle" name="«Trust»" id="id-79b5361671ed4d4f9b76f1cc902f6f5e"/>
       <element xsi:type="archimate:Principle" name="«SABSA Attribute»" id="id-552f8244444e4e1d973f88d9e88b37f4"/>
     </folder>
+    <folder name="Figure13_SABSA_BusinessAttributes" id="id-24e31d126d0d40fe9f8e821d26575280">
+      <folder name="1_Data_Attributes" id="id-9f987963f3f94be3bfc8e2d94b61ec17">
+        <element xsi:type="archimate:Principle" name="1_01_Accurate" id="id-71152afdd2d6415aa68f1f1b3a22c0f3"/>
+        <element xsi:type="archimate:Principle" name="1_02_Adequate" id="id-9d5f2597a4f0404b85ab4bde88f5915c"/>
+        <element xsi:type="archimate:Principle" name="1_03_Anonymised" id="id-e9f135022b8e4ebd89b173b48c5708d6"/>
+        <element xsi:type="archimate:Principle" name="1_04_Authoritative" id="id-faac82a053aa4e8a9daeed62876ccace"/>
+        <element xsi:type="archimate:Principle" name="1_05_Current" id="id-be96946bbd5449178d82e1ebd6bddeec"/>
+        <element xsi:type="archimate:Principle" name="1_06_Identifiable" id="id-ded563cbf1fd41208eb5385b8917f2db"/>
+        <element xsi:type="archimate:Principle" name="1_07_Integrity_Protected" id="id-6928c772e8654ad8b11d252012628d8d"/>
+        <element xsi:type="archimate:Principle" name="1_08_Limited" id="id-320036301d794cdeb34370c0c0f41cba"/>
+        <element xsi:type="archimate:Principle" name="1_09_Protected" id="id-ff467bce0fb14ebfb58f3edb21f420a0"/>
+        <element xsi:type="archimate:Principle" name="1_10_Portable" id="id-b8ec243da8514046b53d29d82d2c11e0"/>
+        <element xsi:type="archimate:Principle" name="1_11_Relevant" id="id-0370330cdb3e4d7bb4441760c552fead"/>
+        <element xsi:type="archimate:Principle" name="1_12_Specific" id="id-b3df3815fcdc4c8fac98b1c4b11901c5"/>
+      </folder>
+      <folder name="2_User_Attributes" id="id-0eae3fd937c344b6bae185fed954e49c">
+        <documentation>These attributes are related to the user's experience of interacting with the business system.</documentation>
+        <element xsi:type="archimate:Principle" name="2_01_Accessible" id="id-f8b2fed0b44d4e4f9f19a67a64cc238e">
+          <documentation>Information to which the user is entitled to gain access should be easily found and accessed by that user.</documentation>
+          <property key="Namespace" value="SABSA"/>
+          <property key="Stereotype" value="«UserAttribute»"/>
+          <property key="Metric-Soft" value="Search tree depth necessary to find the information"/>
+        </element>
+        <element xsi:type="archimate:Principle" name="2_02_Accurate" id="id-47d9d581c7b641e78040765bfd239d71">
+          <documentation>The information provided to users should be accurate within a range that has been preagreed upon as being applicable to the service being delivered.</documentation>
+          <property key="Namespace" value="SABSA"/>
+          <property key="Stereotype" value="«UserAttribute»"/>
+          <property key="Metric-Hard" value="Acceptance testing on key data to demonstrate compliance with design rules."/>
+        </element>
+        <element xsi:type="archimate:Principle" name="2_03_Anonymous" id="id-1fef6dbeeae9480e90bb00498cda74fe">
+          <documentation>For certain specialized types of service, the anonymity of the user should be protected.</documentation>
+          <property key="Namespace" value="SABSA"/>
+          <property key="Stereotype" value="«UserAttribute»"/>
+          <property key="Metric-Hard" value="Rigorous proof of system functionality."/>
+          <property key="Metric-Soft" value="Red team review"/>
+        </element>
+        <element xsi:type="archimate:Principle" name="2_04_Consistent" id="id-e7d65b55569c4fc09216f2a78facad73">
+          <documentation>The way in which log-in, navigation, and target services are presented to the user should be consistent across different times, locations, and channels of access.</documentation>
+          <property key="Namespace" value="SABSA"/>
+          <property key="Stereotype" value="«UserAttribute»"/>
+          <property key="Metric-Hard" value="Conformance with design style guides."/>
+          <property key="Metric-Soft" value="Red team review"/>
+        </element>
+        <element xsi:type="archimate:Principle" name="2_05_Current" id="id-e6f68cf125d94fad858c9a090f13ad71">
+          <documentation>Information provided to users should be current and kept up to date, within a range that has been preagreed upon as being applicable for the service being delivered.</documentation>
+          <property key="Namespace" value="SABSA"/>
+          <property key="Stereotype" value="«UserAttribute»"/>
+          <property key="Metric-Hard" value="Refresh rates at the data source and replicaton of refreshed data to the destination."/>
+        </element>
+        <element xsi:type="archimate:Principle" name="2_06_Duty_Segregated" id="id-6c9f724cf24e42c1a502bda93a480fc3">
+          <documentation>For certain sensitive tasks, the detuies should be segregated so that no user has access to both aspects of the task.</documentation>
+          <property key="Namespace" value="SABSA"/>
+          <property key="Stereotype" value="«UserAttribute»"/>
+          <property key="Metric-Hard" value="Functional testing"/>
+        </element>
+        <element xsi:type="archimate:Principle" name="2_07_Educated_&amp;_Aware" id="id-094b52ffcbf3418ba1cc34022435e661">
+          <documentation>The user community should be educated and trained so that they can embrace the security culture.&#xD;
+There should be sufficient user awareness of security issues so that behavior of users is compliant with security policies.</documentation>
+          <property key="Namespace" value="SABSA"/>
+          <property key="Stereotype" value="«UserAttribute»"/>
+          <property key="Metric-Soft" value="Competence surveys"/>
+        </element>
+        <element xsi:type="archimate:Principle" name="2_08_Informed" id="id-1abc2351fd2f422ca1e6cefef1ba7b93">
+          <documentation>The user should be kept fully informed about services, operating procedures, operational schedules, planned outages, and so on.</documentation>
+          <property key="Namespace" value="SABSA"/>
+          <property key="Stereotype" value="«UserAttribute»"/>
+          <property key="Metric-Soft" value="Focus groups or satisfaction surveys"/>
+        </element>
+        <element xsi:type="archimate:Principle" name="2_09_Motivated" id="id-1a7c6b62efba4e43a1f0bcb26c80247b">
+          <documentation>The interaction with the system should add positive motivation to the user to complete the business tasks at hand.</documentation>
+          <property key="Namespace" value="SABSA"/>
+          <property key="Stereotype" value="«UserAttribute»"/>
+          <property key="Metric-Soft" value="Focus groups or satisfaction surveys"/>
+        </element>
+        <element xsi:type="archimate:Principle" name="2_10_Protected" id="id-18d37d8de2e540f1bee4f3e621169039"/>
+        <element xsi:type="archimate:Principle" name="2_11_Reliable" id="id-00255faf76154dceba020269ef5a5992"/>
+        <element xsi:type="archimate:Principle" name="2_12_Responsible" id="id-a981f885320048be8585c6ad70be8e21"/>
+        <element xsi:type="archimate:Principle" name="2_13_Transparent" id="id-7f874ddb18d0458eb393a1e10c1494b2"/>
+        <element xsi:type="archimate:Principle" name="2_14_Supported" id="id-a19ea4b27da44348828f21805b7830fc"/>
+        <element xsi:type="archimate:Principle" name="2_15_Timely" id="id-c56e6f2946424f1bacf327faa8988d7d"/>
+        <element xsi:type="archimate:Principle" name="2_16_Usable" id="id-92f243bec1f84adf831826731b9ee65d"/>
+      </folder>
+      <folder name="3_Management_Attributes" id="id-96f231dc148e49a8b1457875783c41c2">
+        <element xsi:type="archimate:Principle" name="3_01_Automated" id="id-2abd11ce0a9b4748a5f498e618da4339"/>
+        <element xsi:type="archimate:Principle" name="3_02_Change-Managed" id="id-8e3a4668c5224fd281a838440d140e9a"/>
+        <element xsi:type="archimate:Principle" name="3_03_Continuous" id="id-0e9abfe080054f73bb536005cb2a7ad9"/>
+        <element xsi:type="archimate:Principle" name="3_04_Controlled" id="id-0799ca078d3a46e6b4d30f2a2be2905d"/>
+        <element xsi:type="archimate:Principle" name="3_05_Cost-Effective" id="id-c8f1413670504ccf98e14ad25bd1b3eb"/>
+        <element xsi:type="archimate:Principle" name="3_06_Efficient" id="id-dac8f11e9d7d4c9b85a8740084ab12b0"/>
+        <element xsi:type="archimate:Principle" name="3_07_Maintainable" id="id-9fbb9b99b3fa4201aa0111e398b4dbab"/>
+        <element xsi:type="archimate:Principle" name="3_08_Measured" id="id-534387bf646e46cda8f106b575ef1da1"/>
+        <element xsi:type="archimate:Principle" name="3_09_Monitored" id="id-9b1d608ec6e24cb4acc27ad41993612f"/>
+        <element xsi:type="archimate:Principle" name="3_10_Supportable" id="id-44acaddf82584ba08b75d9f1bf78f50a"/>
+      </folder>
+      <folder name="4_Operational_Attributes" id="id-2c5ac677a2c04f1f8f6d45a8fcfc41e1">
+        <element xsi:type="archimate:Principle" name="4_01_Available" id="id-10e13342f5464851b2ac060d49a2951f"/>
+        <element xsi:type="archimate:Principle" name="4_02_Detectable" id="id-634327c6cd32488d8caebba5cab7bdf0"/>
+        <element xsi:type="archimate:Principle" name="4_03_Error-Free" id="id-ff98751dafa7423186ae208e371aea7a"/>
+        <element xsi:type="archimate:Principle" name="4_04_Inter-Operable" id="id-de4224aed7df48d2ab2f68d7fdfc6726"/>
+        <element xsi:type="archimate:Principle" name="4_05_Productive" id="id-92977a25590242a0a5e00db7dcb8a1af"/>
+        <element xsi:type="archimate:Principle" name="4_06_Recoverable" id="id-56e4eaa4f2ee49ef911be47aec8c146a"/>
+      </folder>
+      <folder name="5_Risk_Management_Attributes" id="id-6dea8ebd552f449ab9092dd2114e7836">
+        <element xsi:type="archimate:Principle" name="5_01_Access-controlled" id="id-08d41d1407a3472d9ed48907f54452b3"/>
+        <element xsi:type="archimate:Principle" name="5_02_Accountable" id="id-3aa452d6bf344760902a75109b96f2b9"/>
+        <element xsi:type="archimate:Principle" name="5_03_Assurable" id="id-9043be2d67ca470c89c01edc63612740"/>
+        <element xsi:type="archimate:Principle" name="5_04_Assuring_Honesty" id="id-dec83ba5acf94d2c8c8a04d6c43b0166"/>
+        <element xsi:type="archimate:Principle" name="5_05_Auditable" id="id-eb74a7d201a64ec08220a74e5ee26785"/>
+        <element xsi:type="archimate:Principle" name="5_06_Authenticated" id="id-35b5eb0fe9cb4523b4bf166d39ec5847"/>
+        <element xsi:type="archimate:Principle" name="5_07_Authorised" id="id-b01b9267a70e4080961ddab0831e1715"/>
+        <element xsi:type="archimate:Principle" name="5_08_Capturing_New_Risks" id="id-544f5f6d32f84acd86de1b7298ec1e5e"/>
+        <element xsi:type="archimate:Principle" name="5_09_Confidential" id="id-c8ee1bcd20bf4fa6bed666f1118d5ab3"/>
+        <element xsi:type="archimate:Principle" name="5_10_Crime-Free" id="id-e26bcae377d34a6e933ab2ee726d9bd7"/>
+        <element xsi:type="archimate:Principle" name="5_11_Flexibly_Secure" id="id-d69fbffe7b414597a7b0609385996f2e"/>
+        <element xsi:type="archimate:Principle" name="5_12_Identified" id="id-d59632dcbc564a6a9e384e84f13e097b"/>
+        <element xsi:type="archimate:Principle" name="5_13_Independently_Secure" id="id-d5cf9c1be7a345f8bf2e5a1aeb844a22"/>
+        <element xsi:type="archimate:Principle" name="5_14_In_our_sole_possession" id="id-92a3742dda084104a8b746f2725cc08c"/>
+        <element xsi:type="archimate:Principle" name="5_15_Integrity-Assured" id="id-7cca7cd70a1747ac8dd1fdb20637400c"/>
+        <element xsi:type="archimate:Principle" name="5_16_Non-Repudiable" id="id-491a6bb8bf7e48328ec311abbf2cd087"/>
+        <element xsi:type="archimate:Principle" name="5_17_Owned" id="id-6f2c67f299b9445fb972f652a123653e"/>
+        <element xsi:type="archimate:Principle" name="5_18_Private" id="id-7b41eca1335749e7a7326158a9ff439a"/>
+        <element xsi:type="archimate:Principle" name="5_19_Trustworthy" id="id-91bde79fce0d443e9cf526c6233ccac6"/>
+      </folder>
+      <folder name="6_Legal_Regulatory_Attributes" id="id-f581ea5def454cd5bfdd9d0bd4db4d5a">
+        <element xsi:type="archimate:Principle" name="6_01_Admissible" id="id-a3a593dd40f0449e8cd4977fbadd3e54"/>
+        <element xsi:type="archimate:Principle" name="6_02_Compliant" id="id-7ed84a9804f84915bfd6e3b11b667b4f"/>
+        <element xsi:type="archimate:Principle" name="6_03_Enforceable" id="id-cb84baa61aaa4f159061574bd08a1865"/>
+        <element xsi:type="archimate:Principle" name="6_04_Insurable" id="id-735d5b5333a44287976f670d7bc62a1d"/>
+        <element xsi:type="archimate:Principle" name="6_05_Legal" id="id-a16347fd61be4fc38244571344995357"/>
+        <element xsi:type="archimate:Principle" name="6_06_Liability_Managed" id="id-7cecf82753c44abfa9603e388272ffd7"/>
+        <element xsi:type="archimate:Principle" name="6_07_Regulated" id="id-fea33fc60eee4afc97f7b894d74aee95"/>
+        <element xsi:type="archimate:Principle" name="6_08_Resolvable" id="id-68d1292f581d409daa1cbfbea2b7aab6"/>
+        <element xsi:type="archimate:Principle" name="6_09_Time-bound" id="id-759c6543ba6d47f1a3fff9052093277a"/>
+      </folder>
+      <folder name="7_Technical_Strategy_Attributes" id="id-f2f8a7a31a5c4f369d0552474dd7261b">
+        <element xsi:type="archimate:Principle" name="7_01_Architecturably_Open" id="id-caf154d6bcc14b4ab6c259ae47bcb7f6"/>
+        <element xsi:type="archimate:Principle" name="7_02_COTS/GOTS" id="id-681de4914d5f43079806c38026808ddd"/>
+        <element xsi:type="archimate:Principle" name="7_03_Extendible" id="id-da899495e2e24979987b4f435c59a809"/>
+        <element xsi:type="archimate:Principle" name="7_04_Flexible/Adaptable" id="id-553c26d98df244fabfb47cc5e12d89fc"/>
+        <element xsi:type="archimate:Principle" name="7_05_Future-Proof" id="id-7f0750a1c7634a7c99d463941eefa5f1"/>
+        <element xsi:type="archimate:Principle" name="7_06_Legacy-Sensitive" id="id-08ce7d7bbc8b44c59e8cbe23cead2751"/>
+        <element xsi:type="archimate:Principle" name="7_07_Migratable" id="id-b53175779ae041388d520207f2e7ba7c"/>
+        <element xsi:type="archimate:Principle" name="7_08_Multi-Sourced" id="id-cdc080040991430d9d832526d06b6880"/>
+        <element xsi:type="archimate:Principle" name="7_09_Scalable" id="id-ef147046a9c24f9b9f316e4b57178f22"/>
+        <element xsi:type="archimate:Principle" name="7_10_Simple" id="id-abec8bafc31346dd86299fc61d63789c"/>
+        <element xsi:type="archimate:Principle" name="7_11_Standards_Compliant" id="id-989f3281d7bc49d0b03376d118476b86"/>
+        <element xsi:type="archimate:Principle" name="7_12_Traceable" id="id-db84e456c24e40f894ca4f275530e34c"/>
+        <element xsi:type="archimate:Principle" name="7_13_Upgradeable" id="id-c9fc2750b6dd418d990762efaa6a806c"/>
+      </folder>
+      <folder name="8_Business_Strategy_Attributes" id="id-6e444d8be590475c84cdf98dc6b3f0b9">
+        <element xsi:type="archimate:Principle" name="8_01_Brand_Enhancing" id="id-0b75b393e2d04eff8f6621eed3169b2d"/>
+        <element xsi:type="archimate:Principle" name="8_02_Business-Enabled" id="id-62b01e7e040044fd874fee1f1e1abd0c"/>
+        <element xsi:type="archimate:Principle" name="8_03_Competent" id="id-ab9e00ae9a4d48b7a444d6d29f04faf6"/>
+        <element xsi:type="archimate:Principle" name="8_04_Confident" id="id-e238b29498f84a6ba322283be64aaf9b"/>
+        <element xsi:type="archimate:Principle" name="8_05_Credible" id="id-dbd2a901ee4840eca5e73a833384cefe"/>
+        <element xsi:type="archimate:Principle" name="8_06_Culture-sensitive" id="id-6de0466294e644b796982c215ec60578"/>
+        <element xsi:type="archimate:Principle" name="8_07_Enabling_time-to-market" id="id-f7e0492b4b6945d886f7de0601ba0ad3"/>
+        <element xsi:type="archimate:Principle" name="8_08_Governable" id="id-e4422cd278fd4576a12d7b459adfa23c"/>
+        <element xsi:type="archimate:Principle" name="8_09_Providing_Good_Stewardship_and_Custody" id="id-4e2268f3c1e54301bc107c3d0137de40"/>
+        <element xsi:type="archimate:Principle" name="8_10_Providing_Investment_Re-use" id="id-323a500fe5c34001886cac3d72a0fcee"/>
+        <element xsi:type="archimate:Principle" name="8_11_Providing_Return_on_Investment" id="id-694c9192fa2e4351ab1c4561fbd6bd80"/>
+        <element xsi:type="archimate:Principle" name="8_12_Reputable" id="id-391728590daa4eab9d0cff82826d227f"/>
+      </folder>
+      <element xsi:type="archimate:Principle" name="SABSA Business Attributes" id="id-fe1fa914b5d245fb9f56a2ad16fdbfc4"/>
+    </folder>
   </folder>
   <folder name="Implementation &amp; Migration" id="id-e3ffab3d3abd4fc9a770ac9e3a8771d7" type="implementation_migration"/>
   <folder name="Other" id="id-c1740c9496564d868b2a85ae4bffa10d" type="other">

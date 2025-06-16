@@ -15,7 +15,7 @@ A quick table shows the ArchiMate notations matching SABSA attributes:
 
 \* Control is unique in the Security Overlay in that it can extend any base type.
 
-Figure 10: Security Enhanced Motivation Metamodel
+### Figure 10: Security Enhanced Motivation Metamodel
 
 - Image: [Figure10_Security-Enhanced-Motivation-Metamodel.png](./Figure10/Figure10_Security-Enhanced-Motivation-Metamodel.png)
 - Archi Model: [ArchiMate_SABSA_Figure10.archimate](./Figure10/ArchiMate_SABSA_Figure10.archimate)
@@ -27,6 +27,8 @@ The "What" column of the SABSA Architecture Matrix acknowledges the business val
 **Business Value** may be expressed in several forms (financial, legal, brand, social, economic, health & safety) in combination or with others.
 
 This evolution brings it closer to the ArchiMate Specification, which has no element to represent an abstract Asset but instead offers the ability to associate a **Value** element with any model element.
+
+### Figure 11: Modeling Assets using Value
 
 Models containing many Values will have following consideration for reflecting the associated Element name through adopting of a naming conversion:
 
@@ -63,9 +65,13 @@ Fullying using Class Diagram notations with the link to the link:
 
 ![11_b2_1](./Figure11/Figure11_b2_1.png)
 
+### Table 10: Proposed Value Property Overlay
+
 Visualized Schema for Element Value / «Loss» is modeled in JSON format: [Value_Loss.json](./Table10/Value_Loss.json)
 
 ## 5.2 Value Chain
+
+### Figure 12: Composition of Value Chain
 
 The Security Overlay also specializes Value into «Value Chain», providing a specific profile for the Strategy elements, Capability and Value Stream.
 
@@ -77,13 +83,21 @@ Detail is to be discussed in [Chapter 6.1](../06_Modeling_Contextual_Security_Ar
 - The ValueChain stereotype models the breakdown of costs and is, therefore, principally a financial measure.
 - The Security Overlay can be used to map the composition of a Value Chain to any behavioral element in the Enterprise Architecture model.
 
+### Value Chain Properties
 
+- The attributes proposed for the Value Chain profile enable the margin to be calculated as the sum of its constituent sub-chains.
+- The ArchiMate Specification allows the Value elements to be decomposed into compositions and aggregations of the same type.
+- Composition seems the safer option here because, unlike aggregation, it should prevent cost accounting figures from being counted multiple times.
 
 ## 5.3 SABSA Business Attributes
+
+### Figure 13: SABSA Business Attributes Represented in the ArchiMate Language
 
 | SABSA | ArchiMate |
 | --- | --- |
 | **Business Attributes** represent the essential qualities of the Stakeholders' ideal system, to be promoted, portected, and enhanced in the Target Architecture if the enterprise is to deliver its strategy. | **Principle** elements are defined as "an intended property of a system ... a general property that applies to any system in a certain context ... motivated by some goal or driver" |
+
+
 
 ## 5.4 Meaning
 
