@@ -1,0 +1,17 @@
+@startuml
+title Figure 11 - b)-2 Modeling Value to Stakeholder (Recommended)
+
+class Stakeholder <<motivation>>
+class AssetValue <<motivation>>
+class Asset <<element>>
+
+hide <<motivation>> circle
+hide <<element>> circle
+
+hide <<motivation>> members
+hide <<element>> members
+
+Stakeholder - Asset
+AssetValue .. (Stakeholder, Asset)
+
+@enduml
