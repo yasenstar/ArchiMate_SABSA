@@ -37,8 +37,17 @@ Models containing many Values will have following consideration for reflecting t
 | b2) Modeling Value to Stakeholder, this in-line (teritiary) relationship is better pattern and is recommended | ![11-b2](./Figure11/Figure11_b2.png) | [11-b2](./Figure11/Figure11_b2.puml) |
 | c) Avoice this kind of Amibiguity/Unintended Coupling | ![11-c](./Figure11/Figure11_c.png) | [11-c](./Figure11/Figure11_c.puml) |
 
+Visualized Schema for Element Value / «Loss» is modeled in JSON format: [Value_Loss.json](./Table10/Value_Loss.json)
 
 ## 5.2 Value Chain
+
+The Security Overlay also specializes Value into «Value Chain», providing a specific profile for the Strategy elements, Capability and Value Stream.
+
+Detail is to be discussed in [Chapter 6.1](../06_Modeling_Contextual_Security_Architecture/README.md#61-business-assets)
+
+- The key measures of meta-processes are rooted in cost-accounting: production cost, sales prices, and margin.
+- The organization seeks to identify which activities generate value and which are inefficient or uneconomic.
+- 
 
 ## 5.3 SABSA Business Attributes
 
