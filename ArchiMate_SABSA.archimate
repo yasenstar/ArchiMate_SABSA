@@ -220,13 +220,34 @@ There should be sufficient user awareness of security issues so that behavior of
           <property key="Stereotype" value="«UserAttribute»"/>
           <property key="Metric-Soft" value="Focus groups or satisfaction surveys"/>
         </element>
-        <element xsi:type="archimate:Principle" name="2_10_Protected" id="id-18d37d8de2e540f1bee4f3e621169039"/>
-        <element xsi:type="archimate:Principle" name="2_11_Reliable" id="id-00255faf76154dceba020269ef5a5992"/>
-        <element xsi:type="archimate:Principle" name="2_12_Responsible" id="id-a981f885320048be8585c6ad70be8e21"/>
-        <element xsi:type="archimate:Principle" name="2_13_Transparent" id="id-7f874ddb18d0458eb393a1e10c1494b2"/>
-        <element xsi:type="archimate:Principle" name="2_14_Supported" id="id-a19ea4b27da44348828f21805b7830fc"/>
-        <element xsi:type="archimate:Principle" name="2_15_Timely" id="id-c56e6f2946424f1bacf327faa8988d7d"/>
-        <element xsi:type="archimate:Principle" name="2_16_Usable" id="id-92f243bec1f84adf831826731b9ee65d"/>
+        <element xsi:type="archimate:Principle" name="2_10_Protected" id="id-18d37d8de2e540f1bee4f3e621169039">
+          <property key="Namespace" value="SABSA"/>
+          <property key="Stereotype" value="«UserAttribute»"/>
+        </element>
+        <element xsi:type="archimate:Principle" name="2_11_Reliable" id="id-00255faf76154dceba020269ef5a5992">
+          <property key="Namespace" value="SABSA"/>
+          <property key="Stereotype" value="«UserAttribute»"/>
+        </element>
+        <element xsi:type="archimate:Principle" name="2_12_Responsible" id="id-a981f885320048be8585c6ad70be8e21">
+          <property key="Namespace" value="SABSA"/>
+          <property key="Stereotype" value="«UserAttribute»"/>
+        </element>
+        <element xsi:type="archimate:Principle" name="2_13_Transparent" id="id-7f874ddb18d0458eb393a1e10c1494b2">
+          <property key="Namespace" value="SABSA"/>
+          <property key="Stereotype" value="«UserAttribute»"/>
+        </element>
+        <element xsi:type="archimate:Principle" name="2_14_Supported" id="id-a19ea4b27da44348828f21805b7830fc">
+          <property key="Namespace" value="SABSA"/>
+          <property key="Stereotype" value="«UserAttribute»"/>
+        </element>
+        <element xsi:type="archimate:Principle" name="2_15_Timely" id="id-c56e6f2946424f1bacf327faa8988d7d">
+          <property key="Namespace" value="SABSA"/>
+          <property key="Stereotype" value="«UserAttribute»"/>
+        </element>
+        <element xsi:type="archimate:Principle" name="2_16_Usable" id="id-92f243bec1f84adf831826731b9ee65d">
+          <property key="Namespace" value="SABSA"/>
+          <property key="Stereotype" value="«UserAttribute»"/>
+        </element>
       </folder>
       <folder name="3_Management_Attributes" id="id-96f231dc148e49a8b1457875783c41c2">
         <element xsi:type="archimate:Principle" name="3_01_Automated" id="id-2abd11ce0a9b4748a5f498e618da4339"/>
