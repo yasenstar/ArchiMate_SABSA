@@ -95,7 +95,7 @@ Detail is to be discussed in [Chapter 6.1](../06_Modeling_Contextual_Security_Ar
 
 | SABSA | ArchiMate |
 | --- | --- |
-| **Business Attributes** represent the essential qualities of the Stakeholders' ideal system, to be promoted, portected, and enhanced in the Target Architecture if the enterprise is to deliver its strategy. | **Principle** elements are defined as "an intended property of a system ... a general property that applies to any system in a certain context ... motivated by some goal or driver" |
+| **Business Attributes** represent the essential qualities of the Stakeholders' ideal system, to be promoted, protected, and enhanced in the Target Architecture if the enterprise is to deliver its strategy. | **Principle** elements are defined as "an intended property of a system ... a general property that applies to any system in a certain context ... motivated by some goal or driver" |
 
 
 
