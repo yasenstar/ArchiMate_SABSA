@@ -713,7 +713,9 @@ Examples include data protection laws, laws controlling the use of cryptographic
           <property key="Metric" value="Soft - Independent audit, or focus groups, or satisfaction surveys"/>
         </element>
       </folder>
-      <element xsi:type="archimate:Principle" name="SABSA Business Attributes" id="id-fe1fa914b5d245fb9f56a2ad16fdbfc4"/>
+      <element xsi:type="archimate:Principle" name="SABSA Business Attributes" id="id-fe1fa914b5d245fb9f56a2ad16fdbfc4">
+        <documentation>https://github.com/yasenstar/ArchiMate_SABSA/blob/main/Docs/Information%20Security%20Governance%20-%202008%20-%20Brotby%20-%20Appendix%20A%20%20SABSA%20Business%20Attributes%20and%20Metrics.pdf</documentation>
+      </element>
     </folder>
   </folder>
   <folder name="Implementation &amp; Migration" id="id-e3ffab3d3abd4fc9a770ac9e3a8771d7" type="implementation_migration"/>
