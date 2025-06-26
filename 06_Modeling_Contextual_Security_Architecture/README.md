@@ -14,6 +14,20 @@ _Source: https://www.alctraining.com.sg/course/sabsa-foundation/_
 
 ## 6.1 Business Assets
 
+### 6.1.1 Capability and Value Stream
+
+- `Value Stream` is a behavioral element within ArchiMate's Strategy Layer
+- A key principle of a `Value Stream` is that its value is always defined from the perspective of the Stakeholder, the consumer of the product, service, or deliverable, and not on its intrinsic value; i.e., the cost of production
+- The value of `Value Stream` can be modeled in the ArchiMate language using the `Value` element.
+
+### 6.1.2 Business Object
+
+- `Business Object` represent Information Assets.
+
+### 6.1.3 Business Service, Interface, and Service Level Agreements
+
+
+
 ## 6.2 Business Risk
 
 ## 6.3 Business Process/Function/Interaction
