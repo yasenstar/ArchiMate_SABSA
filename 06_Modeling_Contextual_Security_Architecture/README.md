@@ -32,9 +32,12 @@ _Source: https://www.alctraining.com.sg/course/sabsa-foundation/_
 
 ## 6.2 Business Risk
 
-Risk, threats, vulnerabilities, and opportunities can be modeled at the Business and Strategy level using the orthodox ArchiMate approach discussed in [Chapter 4.3](../04_Align_SABSA_and_ArchiMate_Framework/README.md#43-risk--security-modeling-in-the-archimet-specification)
+- Risk, threats, vulnerabilities, and opportunities can be modeled at the Business and Strategy level using the orthodox ArchiMate approach discussed in [Section 4.3](../04_Align_SABSA_and_ArchiMate_Framework/README.md#43-risk--security-modeling-in-the-archimet-specification)
+- The Security Overlay adds stereotyps(«») of motivational layer elements for this purpose, introduced in [Section 5.5](../05_Motivation_Aspect/README.md#55-impact-threat-vulnerability-and-risk)
 
 ## 6.3 Business Process/Function/Interaction
+
+
 
 ## 6.4 Business Roles and Actors
 
