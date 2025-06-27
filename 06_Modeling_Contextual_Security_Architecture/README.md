@@ -27,8 +27,12 @@ _Source: https://www.alctraining.com.sg/course/sabsa-foundation/_
 ### 6.1.3 Business Service, Interface, and Service Level Agreements
 
 - Business Layer services need a distinct property set when they are offered through human interfaces.
+- SLA is using `Contract` element, a bespoke `Requirement`/`Constraint` may also be used where a simple property is insufficient.
+- `Business Service`s may be offered via multiple interfaces (`Business Interface`)
 
 ## 6.2 Business Risk
+
+Risk, threats, vulnerabilities, and opportunities can be modeled at the Business and Strategy level using the orthodox ArchiMate approach discussed in [Chapter 4.3](../04_Align_SABSA_and_ArchiMate_Framework/README.md#43-risk--security-modeling-in-the-archimet-specification)
 
 ## 6.3 Business Process/Function/Interaction
 
