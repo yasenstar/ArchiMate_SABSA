@@ -26,7 +26,7 @@ _Source: https://www.alctraining.com.sg/course/sabsa-foundation/_
 
 ### 6.1.3 Business Service, Interface, and Service Level Agreements
 
-
+- Business Layer services need a distinct property set when they are offered through human interfaces.
 
 ## 6.2 Business Risk
 
