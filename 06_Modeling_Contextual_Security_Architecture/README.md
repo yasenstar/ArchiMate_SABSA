@@ -37,9 +37,31 @@ _Source: https://www.alctraining.com.sg/course/sabsa-foundation/_
 
 ## 6.3 Business Process/Function/Interaction
 
-
+- `Business Process` are often categorized in terms of their criticality to core business mission, capabilities, and value chains.
+- Behavioral elements may also be deemed sensitive due to the way they operate on information.
 
 ## 6.4 Business Roles and Actors
+
+In ArchiMate Specification, `Actors` represent human or organizational entities that can be assigned to `Roles` that describe:
+
+- The extent of their responsibilities with respect to a given `business process`
+- Their use of `business and application services`
+
+### 6.4.1 Governance
+
+Governance runs like a seam through the People column of the SABSA Matrix.
+
+RACI presents an interesting design consideration in the ArchiMate Specification. Applying "Subject-Verb-Object" syntax to RACI requires considering what the "Process of Being Accounatable" means and what it would look like.
+
+### 6.4.2 Threat Actors
+
+Seurity models, by definition, have to consider the potential abuse of a system through malicious intent.
+
+Three possible asys of modeling Threats are:
+
+1. As an `Actor`: A constituency that is known to pose an accidental or intentional threat
+2. As a `Role`: Representing a malicious intent, directed against the target system
+3. As an action (a behavior or event) that occurs by error, omission, or intent
 
 ## 6.5 Business Geography
 
