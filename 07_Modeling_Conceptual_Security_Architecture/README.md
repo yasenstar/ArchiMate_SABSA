@@ -1,5 +1,9 @@
 # 07 Modeling the Conceptual Security Architecture
 
+## 7.1 Attribute Profiling
+
+
+
 ---
 
 [<button type="button">«Chapter 06</button>](../06_Modeling_Contextual_Security_Architecture/README.md) [<button type="button">Chapter 08»</button>](../08_Modeling_Logical_Security_Architecture/README.md) [<button type="button">HOME</button>](../README.md)

@@ -65,7 +65,13 @@ Three possible asys of modeling Threats are:
 
 ## 6.5 Business Geography
 
+- Business geography is easily modeled using the ArchiMate `Location` element unadorned (朴素).
+
 ## 6.6 Business Time Dependencies
+
+- The SABSA Time cell is concerned with the delivery schedule of `goals` and responding to `events`.
+- Target dates in the ArchiMate Specification are intrinsic to the definition of a `Goal` (a desired state to be reached by a defined point in time) and can be make explicit through `Implementation and Migration` views.
+- The `Business Event` element can be used unadorned.
 
 ---
 

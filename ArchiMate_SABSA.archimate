@@ -1286,6 +1286,7 @@ Examples include data protection laws, laws controlling the use of cryptographic
         </child>
         <child xsi:type="archimate:DiagramObject" id="id-9855fac6062e4824b0be6e1c78ac280c" targetConnections="id-e4c58f9074a24853b0b069c79f6499a7 id-8e51aaff5dba4aaf895b86d58503a22a" archimateElement="id-eac4485cdf754e1d9b99cffff2b63fdb">
           <bounds x="72" y="132" width="120" height="55"/>
+          <feature name="imageSource" value="1"/>
         </child>
         <child xsi:type="archimate:DiagramObject" id="id-a9ff8b5ab0d0406abf939afb451472d4" targetConnections="id-8a6f1d7e06df40278fc96bf1dfae8de3" archimateElement="id-2b310bb022014808ad102e834f2f73da">
           <bounds x="519" y="120" width="120" height="55"/>
