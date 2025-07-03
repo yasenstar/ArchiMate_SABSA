@@ -92,7 +92,7 @@ Detail is to be discussed in [Chapter 6.1](../06_Modeling_Contextual_Security_Ar
 - The ArchiMate Specification allows the Value elements to be decomposed into compositions and aggregations of the same type.
 - Composition seems the safer option here because, unlike aggregation, it should prevent cost accounting figures from being counted multiple times.
 
-Check [hear](./Table11/Value_Chain.json) for the JSON format Schema on Value Chain properties.
+Check [here](./Table11/Value_Chain.json) for the JSON format Schema on Value Chain properties.
 
 ## 5.3 SABSA Business Attributes
 
