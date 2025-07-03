@@ -86,7 +86,7 @@ Detail is to be discussed in [Chapter 6.1](../06_Modeling_Contextual_Security_Ar
 - Image: ![Figure12_Composition-of-Value-Chains.png](./Figure12/Figure12_Composition-of-Value-Chains.png)
 - Archi Model: [ArchiMate_SABSA_Figure12.archimate](./Figure12/ArchiMate_SABSA_Figure12.archimate)
 
-### Value Chain Properties
+### Table 11: Value Chain Properties
 
 - The attributes proposed for the Value Chain profile enable the margin to be calculated as the sum of its constituent sub-chains.
 - The ArchiMate Specification allows the Value elements to be decomposed into compositions and aggregations of the same type.
@@ -102,7 +102,12 @@ Check [here](./Table11/Value_Chain.json) for the JSON format Schema on Value Cha
 | --- | --- |
 | **Business Attributes** represent the essential qualities of the Stakeholders' ideal system, to be promoted, protected, and enhanced in the Target Architecture if the enterprise is to deliver its strategy. | **Principle** elements are defined as "an intended property of a system ... a general property that applies to any system in a certain context ... motivated by some goal or driver" |
 
+Memo:
 
+1. Business Attribute is modelded as a specialization of `Principle`, distinguishing it from convertional uses (such as "Cloud First") and enabling it to define a distinct security profile
+2. The taxonomy is structured as an abstract base _Business Attribute_, specialized into domains using `Groupings`
+    - Domains act as namespaces that support the construction of qualified names enabling Attributes to be overloaded with an appropriate definition and metrics for different contexts
+    - Grouped 
 
 ## 5.4 Meaning
 
