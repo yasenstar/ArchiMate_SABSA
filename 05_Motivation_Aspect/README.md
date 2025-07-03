@@ -17,7 +17,7 @@ A quick table shows the ArchiMate notations matching SABSA attributes:
 
 ### Figure 10: Security Enhanced Motivation Metamodel
 
-- Image: [Figure10_Security-Enhanced-Motivation-Metamodel.png](./Figure10/Figure10_Security-Enhanced-Motivation-Metamodel.png)
+- Image: ![Figure10_Security-Enhanced-Motivation-Metamodel.png](./Figure10/Figure10_Security-Enhanced-Motivation-Metamodel.png)
 - Archi Model: [ArchiMate_SABSA_Figure10.archimate](./Figure10/ArchiMate_SABSA_Figure10.archimate)
 
 ## 5.1 Value & Loss
@@ -82,6 +82,9 @@ Detail is to be discussed in [Chapter 6.1](../06_Modeling_Contextual_Security_Ar
 - The security perspective is concerned with enhancing and protecting the value of the value generators while containing the costs of the inefficient process.
 - The ValueChain stereotype models the breakdown of costs and is, therefore, principally a financial measure.
 - The Security Overlay can be used to map the composition of a Value Chain to any behavioral element in the Enterprise Architecture model.
+
+- Image: ![Figure12_Composition-of-Value-Chains.png](./Figure12/Figure12_Composition-of-Value-Chains.png)
+- Archi Model: [ArchiMate_SABSA_Figure12.archimate](./Figure12/ArchiMate_SABSA_Figure12.archimate)
 
 ### Value Chain Properties
 
