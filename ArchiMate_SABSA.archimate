@@ -148,119 +148,155 @@
     </folder>
     <folder name="Figure13_SABSA_BusinessAttributes" id="id-24e31d126d0d40fe9f8e821d26575280">
       <folder name="1_Data_Attributes" id="id-9f987963f3f94be3bfc8e2d94b61ec17">
-        <element xsi:type="archimate:Principle" name="1_01_Accurate" id="id-71152afdd2d6415aa68f1f1b3a22c0f3"/>
-        <element xsi:type="archimate:Principle" name="1_02_Adequate" id="id-9d5f2597a4f0404b85ab4bde88f5915c"/>
-        <element xsi:type="archimate:Principle" name="1_03_Anonymised" id="id-e9f135022b8e4ebd89b173b48c5708d6"/>
-        <element xsi:type="archimate:Principle" name="1_04_Authoritative" id="id-faac82a053aa4e8a9daeed62876ccace"/>
-        <element xsi:type="archimate:Principle" name="1_05_Current" id="id-be96946bbd5449178d82e1ebd6bddeec"/>
-        <element xsi:type="archimate:Principle" name="1_06_Identifiable" id="id-ded563cbf1fd41208eb5385b8917f2db"/>
-        <element xsi:type="archimate:Principle" name="1_07_Integrity_Protected" id="id-6928c772e8654ad8b11d252012628d8d"/>
-        <element xsi:type="archimate:Principle" name="1_08_Limited" id="id-320036301d794cdeb34370c0c0f41cba"/>
-        <element xsi:type="archimate:Principle" name="1_09_Protected" id="id-ff467bce0fb14ebfb58f3edb21f420a0"/>
-        <element xsi:type="archimate:Principle" name="1_10_Portable" id="id-b8ec243da8514046b53d29d82d2c11e0"/>
-        <element xsi:type="archimate:Principle" name="1_11_Relevant" id="id-0370330cdb3e4d7bb4441760c552fead"/>
-        <element xsi:type="archimate:Principle" name="1_12_Specific" id="id-b3df3815fcdc4c8fac98b1c4b11901c5"/>
+        <element xsi:type="archimate:Principle" name="1_01_Accurate" id="id-71152afdd2d6415aa68f1f1b3a22c0f3">
+          <property key="Namespace" value="SABSA Business Attribute"/>
+          <property key="Stereotype" value="«DataAttribute»"/>
+        </element>
+        <element xsi:type="archimate:Principle" name="1_02_Adequate" id="id-9d5f2597a4f0404b85ab4bde88f5915c">
+          <property key="Namespace" value="SABSA Business Attribute"/>
+          <property key="Stereotype" value="«DataAttribute»"/>
+        </element>
+        <element xsi:type="archimate:Principle" name="1_03_Anonymised" id="id-e9f135022b8e4ebd89b173b48c5708d6">
+          <property key="Namespace" value="SABSA Business Attribute"/>
+          <property key="Stereotype" value="«DataAttribute»"/>
+        </element>
+        <element xsi:type="archimate:Principle" name="1_04_Authoritative" id="id-faac82a053aa4e8a9daeed62876ccace">
+          <property key="Namespace" value="SABSA Business Attribute"/>
+          <property key="Stereotype" value="«DataAttribute»"/>
+        </element>
+        <element xsi:type="archimate:Principle" name="1_05_Current" id="id-be96946bbd5449178d82e1ebd6bddeec">
+          <property key="Namespace" value="SABSA Business Attribute"/>
+          <property key="Stereotype" value="«DataAttribute»"/>
+        </element>
+        <element xsi:type="archimate:Principle" name="1_06_Identifiable" id="id-ded563cbf1fd41208eb5385b8917f2db">
+          <property key="Namespace" value="SABSA Business Attribute"/>
+          <property key="Stereotype" value="«DataAttribute»"/>
+        </element>
+        <element xsi:type="archimate:Principle" name="1_07_Integrity_Protected" id="id-6928c772e8654ad8b11d252012628d8d">
+          <property key="Namespace" value="SABSA Business Attribute"/>
+          <property key="Stereotype" value="«DataAttribute»"/>
+        </element>
+        <element xsi:type="archimate:Principle" name="1_08_Limited" id="id-320036301d794cdeb34370c0c0f41cba">
+          <property key="Namespace" value="SABSA Business Attribute"/>
+          <property key="Stereotype" value="«DataAttribute»"/>
+        </element>
+        <element xsi:type="archimate:Principle" name="1_09_Protected" id="id-ff467bce0fb14ebfb58f3edb21f420a0">
+          <property key="Namespace" value="SABSA Business Attribute"/>
+          <property key="Stereotype" value="«DataAttribute»"/>
+        </element>
+        <element xsi:type="archimate:Principle" name="1_10_Portable" id="id-b8ec243da8514046b53d29d82d2c11e0">
+          <property key="Namespace" value="SABSA Business Attribute"/>
+          <property key="Stereotype" value="«DataAttribute»"/>
+        </element>
+        <element xsi:type="archimate:Principle" name="1_11_Relevant" id="id-0370330cdb3e4d7bb4441760c552fead">
+          <property key="Namespace" value="SABSA Business Attribute"/>
+          <property key="Stereotype" value="«DataAttribute»"/>
+        </element>
+        <element xsi:type="archimate:Principle" name="1_12_Specific" id="id-b3df3815fcdc4c8fac98b1c4b11901c5">
+          <property key="Namespace" value="SABSA Business Attribute"/>
+          <property key="Stereotype" value="«DataAttribute»"/>
+        </element>
       </folder>
       <folder name="2_User_Attributes" id="id-0eae3fd937c344b6bae185fed954e49c">
         <documentation>These attributes are related to the user's experience of interacting with the business system.</documentation>
         <element xsi:type="archimate:Principle" name="2_01_Accessible" id="id-f8b2fed0b44d4e4f9f19a67a64cc238e">
           <documentation>Information to which the user is entitled to gain access should be easily found and accessed by that user.</documentation>
-          <property key="Namespace" value="SABSA"/>
+          <property key="Namespace" value="SABSA Business Attribute"/>
           <property key="Stereotype" value="«UserAttribute»"/>
           <property key="Metric" value="Soft - Search tree depth necessary to find the information"/>
         </element>
         <element xsi:type="archimate:Principle" name="2_02_Accurate" id="id-47d9d581c7b641e78040765bfd239d71">
           <documentation>The information provided to users should be accurate within a range that has been preagreed upon as being applicable to the service being delivered.</documentation>
-          <property key="Namespace" value="SABSA"/>
+          <property key="Namespace" value="SABSA Business Attribute"/>
           <property key="Stereotype" value="«UserAttribute»"/>
           <property key="Metric" value="Hard - Acceptance testing on key data to demonstrate compliance with design rules."/>
         </element>
         <element xsi:type="archimate:Principle" name="2_03_Anonymous" id="id-1fef6dbeeae9480e90bb00498cda74fe">
           <documentation>For certain specialized types of service, the anonymity of the user should be protected.</documentation>
-          <property key="Namespace" value="SABSA"/>
+          <property key="Namespace" value="SABSA Business Attribute"/>
           <property key="Stereotype" value="«UserAttribute»"/>
           <property key="Metric" value="Hard - Rigorous proof of system functionality."/>
           <property key="Metric" value="Soft - Red team review"/>
         </element>
         <element xsi:type="archimate:Principle" name="2_04_Consistent" id="id-e7d65b55569c4fc09216f2a78facad73">
           <documentation>The way in which log-in, navigation, and target services are presented to the user should be consistent across different times, locations, and channels of access.</documentation>
-          <property key="Namespace" value="SABSA"/>
+          <property key="Namespace" value="SABSA Business Attribute"/>
           <property key="Stereotype" value="«UserAttribute»"/>
           <property key="Metric" value="Hard - Conformance with design style guides."/>
           <property key="Metric" value="Soft - Red team review"/>
         </element>
         <element xsi:type="archimate:Principle" name="2_05_Current" id="id-e6f68cf125d94fad858c9a090f13ad71">
           <documentation>Information provided to users should be current and kept up to date, within a range that has been preagreed upon as being applicable for the service being delivered.</documentation>
-          <property key="Namespace" value="SABSA"/>
+          <property key="Namespace" value="SABSA Business Attribute"/>
           <property key="Stereotype" value="«UserAttribute»"/>
           <property key="Metric" value="Hard - Refresh rates at the data source and replicaton of refreshed data to the destination."/>
         </element>
         <element xsi:type="archimate:Principle" name="2_06_Duty_Segregated" id="id-6c9f724cf24e42c1a502bda93a480fc3">
           <documentation>For certain sensitive tasks, the detuies should be segregated so that no user has access to both aspects of the task.</documentation>
-          <property key="Namespace" value="SABSA"/>
+          <property key="Namespace" value="SABSA Business Attribute"/>
           <property key="Stereotype" value="«UserAttribute»"/>
           <property key="Metric" value="Hard - Functional testing"/>
         </element>
         <element xsi:type="archimate:Principle" name="2_07_Educated_&amp;_Aware" id="id-094b52ffcbf3418ba1cc34022435e661">
           <documentation>The user community should be educated and trained so that they can embrace the security culture.&#xD;
 There should be sufficient user awareness of security issues so that behavior of users is compliant with security policies.</documentation>
-          <property key="Namespace" value="SABSA"/>
+          <property key="Namespace" value="SABSA Business Attribute"/>
           <property key="Stereotype" value="«UserAttribute»"/>
           <property key="Metric" value="Soft - Competence surveys"/>
         </element>
         <element xsi:type="archimate:Principle" name="2_08_Informed" id="id-1abc2351fd2f422ca1e6cefef1ba7b93">
           <documentation>The user should be kept fully informed about services, operating procedures, operational schedules, planned outages, and so on.</documentation>
-          <property key="Namespace" value="SABSA"/>
+          <property key="Namespace" value="SABSA Business Attribute"/>
           <property key="Stereotype" value="«UserAttribute»"/>
           <property key="Metric" value="Soft - Focus groups or satisfaction surveys"/>
         </element>
         <element xsi:type="archimate:Principle" name="2_09_Motivated" id="id-1a7c6b62efba4e43a1f0bcb26c80247b">
           <documentation>The interaction with the system should add positive motivation to the user to complete the business tasks at hand.</documentation>
-          <property key="Namespace" value="SABSA"/>
+          <property key="Namespace" value="SABSA Business Attribute"/>
           <property key="Stereotype" value="«UserAttribute»"/>
           <property key="Metric" value="Soft - Focus groups or satisfaction surveys"/>
         </element>
         <element xsi:type="archimate:Principle" name="2_10_Protected" id="id-18d37d8de2e540f1bee4f3e621169039">
           <documentation>The user's information and access privileges should be protected against abuse by other users or by intruders.</documentation>
-          <property key="Namespace" value="SABSA"/>
+          <property key="Namespace" value="SABSA Business Attribute"/>
           <property key="Stereotype" value="«UserAttribute»"/>
           <property key="Metric" value="Soft - Penetration test. (Could be regarded as &quot;hard,&quot; but only if a penetration is achieved. Failure to penetrate does not mean that penetration is impossible.)"/>
         </element>
         <element xsi:type="archimate:Principle" name="2_11_Reliable" id="id-00255faf76154dceba020269ef5a5992">
           <documentation>The services provided to the user should be delivered at a reliable level of quality.</documentation>
-          <property key="Namespace" value="SABSA"/>
+          <property key="Namespace" value="SABSA Business Attribute"/>
           <property key="Stereotype" value="«UserAttribute»"/>
           <property key="Metric" value="Soft - A definition of &quot;quality&quot; is needed against which to compare."/>
         </element>
         <element xsi:type="archimate:Principle" name="2_12_Responsive" id="id-a981f885320048be8585c6ad70be8e21">
           <documentation>The users obtain a response within a satisfactory period of time that meets their expectations.</documentation>
-          <property key="Namespace" value="SABSA"/>
+          <property key="Namespace" value="SABSA Business Attribute"/>
           <property key="Stereotype" value="«UserAttribute»"/>
           <property key="Metric" value="Hard - Response time"/>
         </element>
         <element xsi:type="archimate:Principle" name="2_15_Transparent" id="id-7f874ddb18d0458eb393a1e10c1494b2">
           <documentation>Providing full visibility to the user of the logical process but hiding the physical structure of the system (as a URL hides the actual physical locations of Web servers).</documentation>
-          <property key="Namespace" value="SABSA"/>
+          <property key="Namespace" value="SABSA Business Attribute"/>
           <property key="Stereotype" value="«UserAttribute»"/>
           <property key="Metric" value="Soft - Focus groups or satisfaction surveys"/>
           <property key="Metric" value="Soft - Independent audit and review against Security Architecture Capability Maturity Model"/>
         </element>
         <element xsi:type="archimate:Principle" name="2_13_Supported" id="id-a19ea4b27da44348828f21805b7830fc">
           <documentation>When a user has problems or difficulties in using the system or its services, there should be a means by which the user can receive advice and support so that the problems can be resolved to the satisfaction of the user.</documentation>
-          <property key="Namespace" value="SABSA"/>
+          <property key="Namespace" value="SABSA Business Attribute"/>
           <property key="Stereotype" value="«UserAttribute»"/>
           <property key="Metric" value="Soft - Focus groups or satisfaction surveys"/>
           <property key="Metric" value="Soft - Competence surveys"/>
         </element>
         <element xsi:type="archimate:Principle" name="2_14_Timely" id="id-c56e6f2946424f1bacf327faa8988d7d">
           <documentation>Information is delivered or made accessible to the user at the appropriate time or within the appropriate time period</documentation>
-          <property key="Namespace" value="SABSA"/>
+          <property key="Namespace" value="SABSA Business Attribute"/>
           <property key="Stereotype" value="«UserAttribute»"/>
           <property key="Metric" value="Hard - Refresh rates at the data source and replication of refreshed data to the destination"/>
         </element>
         <element xsi:type="archimate:Principle" name="2_16_Usable" id="id-92f243bec1f84adf831826731b9ee65d">
           <documentation>The system should provide easy-to-use interfaces that can be navigated intuitively by a user of average intelligence and training level (for the given system). The user's experience of these interactions should be as best interesting and at worst neutral.</documentation>
-          <property key="Namespace" value="SABSA"/>
+          <property key="Namespace" value="SABSA Business Attribute"/>
           <property key="Stereotype" value="«UserAttribute»"/>
           <property key="Metric" value="Soft - Numbers of &quot;clicks&quot; or keystrokes required."/>
           <property key="Metric" value="Soft - Conformance with industry standards, e.g., color paletters."/>
@@ -271,53 +307,53 @@ There should be sufficient user awareness of security issues so that behavior of
         <documentation>This group of attributes is related to the ease and effectiveness with which the business system and its services can be managed.</documentation>
         <element xsi:type="archimate:Principle" name="3_01_Automated" id="id-2abd11ce0a9b4748a5f498e618da4339">
           <documentation>Wherever possible (and depending upon cost/benefit factors) the management and operation of the system should be automated.</documentation>
-          <property key="Namespace" value="SABSA"/>
+          <property key="Namespace" value="SABSA Business Attribute"/>
           <property key="Stereotype" value="«ManagementAttribute»"/>
           <property key="Metric" value="Soft - Independent design review"/>
         </element>
         <element xsi:type="archimate:Principle" name="3_02_Change-Managed" id="id-8e3a4668c5224fd281a838440d140e9a">
           <documentation>Changes to the system should be properly managed so that the impact of every change is evaluated and the changes are approved in advance of being implemented.</documentation>
-          <property key="Namespace" value="SABSA"/>
+          <property key="Namespace" value="SABSA Business Attribute"/>
           <property key="Stereotype" value="«ManagementAttribute»"/>
           <property key="Metric" value="Soft - Documented change management system, with change management history, evaluated by independent audit"/>
         </element>
         <element xsi:type="archimate:Principle" name="3_03_Continuous" id="id-0e9abfe080054f73bb536005cb2a7ad9">
-          <property key="Namespace" value="SABSA"/>
+          <property key="Namespace" value="SABSA Business Attribute"/>
           <property key="Stereotype" value="«ManagementAttribute»"/>
         </element>
         <element xsi:type="archimate:Principle" name="3_04_Controlled" id="id-0799ca078d3a46e6b4d30f2a2be2905d">
           <documentation>The system should at all times remain in the control of its managers. This means that the management will observe the operation and behavior of the system, will make decisions about how to control it based on these observations, and will implement actions to exert that control.</documentation>
-          <property key="Namespace" value="SABSA"/>
+          <property key="Namespace" value="SABSA Business Attribute"/>
           <property key="Stereotype" value="«ManagementAttribute»"/>
           <property key="Metric" value="Soft - Independent audit and review against Security Architecture Capability Maturity Model"/>
         </element>
         <element xsi:type="archimate:Principle" name="3_05_Cost-Effective" id="id-c8f1413670504ccf98e14ad25bd1b3eb">
           <documentation>The design, acquisition, implementation, and operation of the system should be achieved at a cost that the business finds acceptable when judged against the benefits derived.</documentation>
-          <property key="Namespace" value="SABSA"/>
+          <property key="Namespace" value="SABSA Business Attribute"/>
           <property key="Stereotype" value="«ManagementAttribute»"/>
           <property key="Metric" value="Hard - Individual budgets for the phases of development and for ongoing operations, maintenance and support."/>
         </element>
         <element xsi:type="archimate:Principle" name="3_06_Efficient" id="id-dac8f11e9d7d4c9b85a8740084ab12b0">
           <documentation>The system should deliver the target services with optimum efficiency, avoiding wastage of resources.</documentation>
-          <property key="Namespace" value="SABSA"/>
+          <property key="Namespace" value="SABSA Business Attribute"/>
           <property key="Stereotype" value="«ManagementAttribute»"/>
           <property key="Metric" value="Hard - A target efficiency ratio based on (Input value)/(Output value)"/>
         </element>
         <element xsi:type="archimate:Principle" name="3_07_Maintainable" id="id-9fbb9b99b3fa4201aa0111e398b4dbab">
           <documentation>The system should capable of being maintained in a state of bood repair and effective, efficient operation. The actions required to achieve this should feasible within the normal operational conditions of the system.</documentation>
-          <property key="Namespace" value="SABSA"/>
+          <property key="Namespace" value="SABSA Business Attribute"/>
           <property key="Stereotype" value="«ManagementAttribute»"/>
           <property key="Metric" value="Soft - Documented execution of a preventive maintenance schedule for both hardware and software, correlated against targets for continuity of service, such as mean time between failures (MTBF)"/>
         </element>
         <element xsi:type="archimate:Principle" name="3_08_Measured" id="id-534387bf646e46cda8f106b575ef1da1">
           <documentation>The performance of the system should be measured against a variety of desirable performance targets so as to provide feedback information to support the management and control process.</documentation>
-          <property key="Namespace" value="SABSA"/>
+          <property key="Namespace" value="SABSA Business Attribute"/>
           <property key="Stereotype" value="«ManagementAttribute»"/>
           <property key="Metric" value="Hard - Documented tracking and reporting of a portfolio of conventional system performance parameters, together with other attributes from this list."/>
         </element>
         <element xsi:type="archimate:Principle" name="3_10_Supportable" id="id-44acaddf82584ba08b75d9f1bf78f50a">
           <documentation>The system should be capable of being supported in terms of both the users and the operations staff, so that all types of problems and operational difficulties can be resolved.</documentation>
-          <property key="Namespace" value="SABSA"/>
+          <property key="Namespace" value="SABSA Business Attribute"/>
           <property key="Stereotype" value="«ManagementAttribute»"/>
           <property key="Metric" value="Hard - Fault-tracking system providing measurements of MTBF, MTTR (mean time to repair), and maximum time to repair, with targets for each parameter"/>
         </element>
@@ -326,49 +362,49 @@ There should be sufficient user awareness of security issues so that behavior of
         <documentation>Thee attributes describe the ease and effectiveness with which the business system and its services can be operated.</documentation>
         <element xsi:type="archimate:Principle" name="4_01_Available" id="id-10e13342f5464851b2ac060d49a2951f">
           <documentation>The information and services provided by the system should be available according to the requirements specified in the service-level agreement (SLA)</documentation>
-          <property key="Namespace" value="SABSA"/>
+          <property key="Namespace" value="SABSA Business Attribute"/>
           <property key="Stereotype" value="«OperationalAttribute»"/>
           <property key="Metric" value="Hard - As specified in the SLA"/>
         </element>
         <element xsi:type="archimate:Principle" name="4_03_Detectable" id="id-634327c6cd32488d8caebba5cab7bdf0">
           <documentation>Important events must be detected and reported</documentation>
-          <property key="Namespace" value="SABSA"/>
+          <property key="Namespace" value="SABSA Business Attribute"/>
           <property key="Stereotype" value="«OperationalAttribute»"/>
           <property key="Metric" value="Hard - Functional testing"/>
         </element>
         <element xsi:type="archimate:Principle" name="4_04_Error-Free" id="id-ff98751dafa7423186ae208e371aea7a">
           <documentation>The system should operate without producing errors.</documentation>
-          <property key="Namespace" value="SABSA"/>
+          <property key="Namespace" value="SABSA Business Attribute"/>
           <property key="Stereotype" value="«OperationalAttribute»"/>
           <property key="Metric" value="Hard - Percentage or absolute error rates (per transaction, per batch, per time period, tec.)"/>
         </element>
         <element xsi:type="archimate:Principle" name="4_05_Interoperable" id="id-de4224aed7df48d2ab2f68d7fdfc6726">
           <documentation>The system should interoperate with other similar systems, both immediately and in the future, as intersystem communication becomes increasingly a requirement.</documentation>
-          <property key="Namespace" value="SABSA"/>
+          <property key="Namespace" value="SABSA Business Attribute"/>
           <property key="Stereotype" value="«OperationalAttribute»"/>
           <property key="Metric" value="Hard - Specific interoperability requirements"/>
         </element>
         <element xsi:type="archimate:Principle" name="4_07_Productive" id="id-92977a25590242a0a5e00db7dcb8a1af">
           <documentation>The system and its services should operate so as to sustain and enhance productivity of the users, with regard to the business processes in which they are engaged.</documentation>
-          <property key="Namespace" value="SABSA"/>
+          <property key="Namespace" value="SABSA Business Attribute"/>
           <property key="Stereotype" value="«OperationalAttribute»"/>
           <property key="Metric" value="Hard - User output targets related to specific business activities"/>
         </element>
         <element xsi:type="archimate:Principle" name="4_08_Recoverable" id="id-56e4eaa4f2ee49ef911be47aec8c146a">
           <documentation>The system should be able to be recovered to full operational status after a breakdown or disaster, in accordance with the SLA.</documentation>
-          <property key="Namespace" value="SABSA"/>
+          <property key="Namespace" value="SABSA Business Attribute"/>
           <property key="Stereotype" value="«OperationalAttribute»"/>
           <property key="Metric" value="Hard - As specified in the SLA"/>
         </element>
         <element xsi:type="archimate:Principle" name="4_06_Monitored" id="id-9b1d608ec6e24cb4acc27ad41993612f">
           <documentation>The operational performance of the system should be continuously monitored to ensure that other attribute specifications are being mets. Any deviations from acceptable limits should be notified to the systems management function.</documentation>
-          <property key="Namespace" value="SABSA"/>
+          <property key="Namespace" value="SABSA Business Attribute"/>
           <property key="Stereotype" value="«OperationalAttribute»"/>
           <property key="Metric" value="Soft - Independent audit and review against Security Architecture Capability Maturity Model"/>
         </element>
         <element xsi:type="archimate:Principle" name="4_02_Continuous" id="id-f51940bd90654d92bdb17bcfa09a626a">
           <documentation>The system should offer &quot;continuous service.&quot; The exact definition of this phrase will always be subject to a SLA.</documentation>
-          <property key="Namespace" value="SABSA"/>
+          <property key="Namespace" value="SABSA Business Attribute"/>
           <property key="Stereotype" value="«OperationalAttribute»"/>
           <property key="Metric" value="Hard - Percentage up-time correlated versus scheduled and/or unscheduled downtime, or MTBF, or MTTR"/>
         </element>
@@ -377,26 +413,26 @@ There should be sufficient user awareness of security issues so that behavior of
         <documentation>These attributes describe the business requirements for mitigating operational risk. This group most closely related to the &quot;security requirements&quot; for protecting the business.</documentation>
         <element xsi:type="archimate:Principle" name="5_01_Access-controlled" id="id-08d41d1407a3472d9ed48907f54452b3">
           <documentation>Access to information and functions within the system should be controlled in accordance with the authorized privileges of the party requesting the access. Unauthorized access should be prevented.</documentation>
-          <property key="Namespace" value="SABSA"/>
+          <property key="Namespace" value="SABSA Business Attribute"/>
           <property key="Stereotype" value="«RiskManagementAttribute»"/>
           <property key="Metric" value="Hard - Reporting of all unauthorised access attempts, including number of incidents per period, severity, and result (did the access attempt succeed?)"/>
         </element>
         <element xsi:type="archimate:Principle" name="5_02_Accountable" id="id-3aa452d6bf344760902a75109b96f2b9">
           <documentation>All parties having authorized access to the system should be held accountable for their actions.</documentation>
-          <property key="Namespace" value="SABSA"/>
+          <property key="Namespace" value="SABSA Business Attribute"/>
           <property key="Stereotype" value="«RiskManagementAttribute»"/>
           <property key="Metric" value="Soft - Independent audit and review against Security Architecture Capability Maturity Model with respect to the ability to hold accountable all authorized parties"/>
         </element>
         <element xsi:type="archimate:Principle" name="5_03_Assurable" id="id-9043be2d67ca470c89c01edc63612740">
           <documentation>There should be a means to provide assurance that the system is operating as expected and that all of the various controls are correctly implemented and operated.</documentation>
-          <property key="Namespace" value="SABSA"/>
+          <property key="Namespace" value="SABSA Business Attribute"/>
           <property key="Stereotype" value="«RiskManagementAttribute»"/>
           <property key="Metric" value="Hard - Documented standards exist against which to audit"/>
           <property key="Metric" value="Soft - Independent audit and review against Security Architecture Capability Maturity Model"/>
         </element>
         <element xsi:type="archimate:Principle" name="5_04_Assuring_Honesty" id="id-dec83ba5acf94d2c8c8a04d6c43b0166">
           <documentation>Protecting employees against false accusations of dishonesty or malpractice.</documentation>
-          <property key="Namespace" value="SABSA"/>
+          <property key="Namespace" value="SABSA Business Attribute"/>
           <property key="Stereotype" value="«RiskManagementAttribute»"/>
           <property key="Metric" value="Soft - Independent audit and review against Security Architecture Capability Maturity Model with respect to prevent falise accusations that are difficult to repudiate"/>
         </element>
@@ -404,20 +440,20 @@ There should be sufficient user awareness of security issues so that behavior of
           <documentation>The actions of all parties having authorized access to the system, and the complete chain of events and outcomes resulting from these actions, should be recorded so that this history can be reviewed.&#xD;
 The audit records should provide an appropriate level of detail, in accordance with business needs.&#xD;
 The actual configuration of the system should also be capable of being sudited so as to compare it with a target configuration that represents the implementation of the security policy that governs the system.</documentation>
-          <property key="Namespace" value="SABSA"/>
+          <property key="Namespace" value="SABSA Business Attribute"/>
           <property key="Stereotype" value="«RiskManagementAttribute»"/>
           <property key="Metric" value="Soft - Independent audit and review against Security Architecture Capability Maturity Model"/>
           <property key="Metric" value="Hard - Documented target configuration exists under change control with a capability to check current configuration against this target"/>
         </element>
         <element xsi:type="archimate:Principle" name="5_06_Authenticated" id="id-35b5eb0fe9cb4523b4bf166d39ec5847">
           <documentation>Every party claiming a unique identity (i.e., a claimant) should be subject to a procedure that verifies that the party is indeed the authentic owner of the claimed identity.</documentation>
-          <property key="Namespace" value="SABSA"/>
+          <property key="Namespace" value="SABSA Business Attribute"/>
           <property key="Stereotype" value="«RiskManagementAttribute»"/>
           <property key="Metric" value="Soft - Independent audit and review against Security Architecture Capability Maturity Model with respect to the ability to authenticate successfully every claim of identity"/>
         </element>
         <element xsi:type="archimate:Principle" name="5_07_Authorised" id="id-b01b9267a70e4080961ddab0831e1715">
           <documentation>The system should allow only those actions that have been explicitly authorized.</documentation>
-          <property key="Namespace" value="SABSA"/>
+          <property key="Namespace" value="SABSA Business Attribute"/>
           <property key="Stereotype" value="«RiskManagementAttribute»"/>
           <property key="Metric" value="Hard - Reporting of all unauthorised access attempts, including number of incidents per period, severity, and result (did the access attempt succeed?)"/>
           <property key="Metric" value="Soft - Independent audit and review against Security Architecture Capability Maturity Model with respect to the ability to detect unauthorized actions"/>
@@ -425,76 +461,76 @@ The actual configuration of the system should also be capable of being sudited s
         <element xsi:type="archimate:Principle" name="5_08_Capturing_New_Risks" id="id-544f5f6d32f84acd86de1b7298ec1e5e">
           <documentation>New risks emerge over time.&#xD;
 The system management and operational environment should provide a means to identify and access new risks (new threats, new impacts, or new vulnerabilities).</documentation>
-          <property key="Namespace" value="SABSA"/>
+          <property key="Namespace" value="SABSA Business Attribute"/>
           <property key="Stereotype" value="«RiskManagementAttribute»"/>
           <property key="Metric" value="Hard - Percentage of vendor-published patches and upgrades actually installed"/>
           <property key="Metric" value="Soft - Independent audit and review against Security Architecture Capability Maturity Model of a documented risk assessment process and a risk assessment history"/>
         </element>
         <element xsi:type="archimate:Principle" name="5_09_Confidential" id="id-c8ee1bcd20bf4fa6bed666f1118d5ab3">
           <documentation>The confidentiality of (corporate) information should be protected in accordance with security policy. Unauthorized disclosure should be prevented.</documentation>
-          <property key="Namespace" value="SABSA"/>
+          <property key="Namespace" value="SABSA Business Attribute"/>
           <property key="Stereotype" value="«RiskManagementAttribute»"/>
           <property key="Metric" value="Hard - Reporting of all disclosure incidents, including number of incidents per period, severity, and type of disclosure"/>
         </element>
         <element xsi:type="archimate:Principle" name="5_10_Crime-Free" id="id-e26bcae377d34a6e933ab2ee726d9bd7">
           <documentation>Cyber-crime of all types should be prevented.</documentation>
-          <property key="Namespace" value="SABSA"/>
+          <property key="Namespace" value="SABSA Business Attribute"/>
           <property key="Stereotype" value="«RiskManagementAttribute»"/>
           <property key="Metric" value="Hard - Reporting of all incidents of crime, including number of incidents per period, severity, and type of crime."/>
         </element>
         <element xsi:type="archimate:Principle" name="5_11_Flexibly_Secure" id="id-d69fbffe7b414597a7b0609385996f2e">
           <documentation>Security cna be provided at various levels, according to business need. The system should provide the means to secure information according to these needs, and may need to offer different levels of security for different types of information (according to security classification).</documentation>
-          <property key="Namespace" value="SABSA"/>
+          <property key="Namespace" value="SABSA Business Attribute"/>
           <property key="Stereotype" value="«RiskManagementAttribute»"/>
           <property key="Metric" value="Soft - Independent audit and review against Security Architecture Capability Maturity Model"/>
         </element>
         <element xsi:type="archimate:Principle" name="5_12_Identified" id="id-d59632dcbc564a6a9e384e84f13e097b">
           <documentation>Each entity that will be granted access to system resources and each object that is itself a system resource should be uniquely identified (named) such that there can never be confusion as to which entity or object is being referenced.</documentation>
-          <property key="Namespace" value="SABSA"/>
+          <property key="Namespace" value="SABSA Business Attribute"/>
           <property key="Stereotype" value="«RiskManagementAttribute»"/>
           <property key="Metric" value="Hard - Proof of uniqueness of naming schemes"/>
         </element>
         <element xsi:type="archimate:Principle" name="5_13_Independently_Secure" id="id-d5cf9c1be7a345f8bf2e5a1aeb844a22">
           <documentation>The security of the system should not rely upon the security of any other system that is not within the direct span of control of this system.</documentation>
-          <property key="Namespace" value="SABSA"/>
+          <property key="Namespace" value="SABSA Business Attribute"/>
           <property key="Stereotype" value="«RiskManagementAttribute»"/>
           <property key="Metric" value="Soft - Independent audit and review against Security Architecture Capability Maturity Model of technical security architecture at conceptual, logical, and physical layers."/>
         </element>
         <element xsi:type="archimate:Principle" name="5_14_In_our_sole_possession" id="id-92a3742dda084104a8b746f2725cc08c">
           <documentation>Information that has value to the business should be in the possession of the business, stored and protected by the system against loss (as in no longer being available) or theft (as in being disclosed to an unauthorised party). This will include information that is regarded as &quot;intellectual property&quot;.</documentation>
-          <property key="Namespace" value="SABSA"/>
+          <property key="Namespace" value="SABSA Business Attribute"/>
           <property key="Stereotype" value="«RiskManagementAttribute»"/>
           <property key="Metric" value="Soft - Independent audit and review against Security Architecture Capability Maturity Model"/>
         </element>
         <element xsi:type="archimate:Principle" name="5_15_Integrity-Assured" id="id-7cca7cd70a1747ac8dd1fdb20637400c">
           <documentation>The integrity of information should be protected to provide assurance that is has not suffered unauthorized modification, duplication, or deletion.</documentation>
-          <property key="Namespace" value="SABSA"/>
+          <property key="Namespace" value="SABSA Business Attribute"/>
           <property key="Stereotype" value="«RiskManagementAttribute»"/>
           <property key="Metric" value="Hard - Reporting of all incidents of compromise, including number of incidents per period, severity, and type of compromise"/>
           <property key="Metric" value="Soft - Independent audit and review against Security Architecture Capability Maturity Model with respect to the ability to detect integrity compromise incidents"/>
         </element>
         <element xsi:type="archimate:Principle" name="5_16_Non-Repudiable" id="id-491a6bb8bf7e48328ec311abbf2cd087">
           <documentation>When on party uses the system to send a message to another party, it should not be possible for the first party to falsely deny having sent the message, or to falsely deny it's contents.</documentation>
-          <property key="Namespace" value="SABSA"/>
+          <property key="Namespace" value="SABSA Business Attribute"/>
           <property key="Stereotype" value="«RiskManagementAttribute»"/>
           <property key="Metric" value="Hard - Reporting of all incidents of unresolved repudiations, including number of incidents per period, severity, and type of repudiation"/>
           <property key="Metric" value="Soft - Independent audit and review against Security Architecture Capability Maturity Model with respect to the ability to prevent repudiations that cannot be easily resolved"/>
         </element>
         <element xsi:type="archimate:Principle" name="5_17_Owned" id="id-6f2c67f299b9445fb972f652a123653e">
           <documentation>There should be an entity designated as &quot;owner&quot; of every system. This owner is the policy maker for all aspects of risk management with respect to the system, and exerts the ultimate authority for controlling the system.</documentation>
-          <property key="Namespace" value="SABSA"/>
+          <property key="Namespace" value="SABSA Business Attribute"/>
           <property key="Stereotype" value="«RiskManagementAttribute»"/>
           <property key="Metric" value="Soft - Independent audit and review against Security Architecture Capability Maturity Model of the ownership arrangements and of the management processes by which owners should fulfil their responsibilities, and of their diligence in so doing"/>
         </element>
         <element xsi:type="archimate:Principle" name="5_18_Private" id="id-7b41eca1335749e7a7326158a9ff439a">
           <documentation>The privacy of (personal) information should be protected in accordance with relevant privacy or &quot;data protection&quot; legislation, so as to meet the reasonable expectation of citizens for privacy. Unauthorized disclosure should be prevented.</documentation>
-          <property key="Namespace" value="SABSA"/>
+          <property key="Namespace" value="SABSA Business Attribute"/>
           <property key="Stereotype" value="«RiskManagementAttribute»"/>
           <property key="Metric" value="Hard - Reporting of all disclosure incidents, including number of incidents per period, severity, and type of disclosure"/>
         </element>
         <element xsi:type="archimate:Principle" name="5_19_Trustworthy" id="id-91bde79fce0d443e9cf526c6233ccac6">
           <documentation>The system should be able to be trusted to behave in the ways specified in its functional specification and should protect against a wide range of potential abuses.</documentation>
-          <property key="Namespace" value="SABSA"/>
+          <property key="Namespace" value="SABSA Business Attribute"/>
           <property key="Stereotype" value="«RiskManagementAttribute»"/>
           <property key="Metric" value="Soft - Focus groups or satisfaction surveys researching the question &quot;Do you trust the service?&quot;"/>
         </element>
@@ -502,57 +538,57 @@ The system management and operational environment should provide a means to iden
       <folder name="6_Legal_Regulatory_Attributes" id="id-f581ea5def454cd5bfdd9d0bd4db4d5a">
         <element xsi:type="archimate:Principle" name="6_01_Admissible" id="id-a3a593dd40f0449e8cd4977fbadd3e54">
           <documentation>The system should provide forensic records (audit trails and so on) that will be deemed to be &quot;admissible&quot; in a court of law, should that evidence ever need to be presented in support of a criminal prosecution or a civil litigation.</documentation>
-          <property key="Namespace" value="SABSA"/>
+          <property key="Namespace" value="SABSA Business Attribute"/>
           <property key="Stereotype" value="«LegalRegulatoryAttribute»"/>
           <property key="Metric" value="Soft - Independent audit and review against Security Architecture Capability Maturity Model by computer forensics expert"/>
         </element>
         <element xsi:type="archimate:Principle" name="6_02_Compliant" id="id-7ed84a9804f84915bfd6e3b11b667b4f">
           <documentation>The system should comply with all applicable regulations, laws, contracts, policies, and mandatory standards, both internal and external.</documentation>
-          <property key="Namespace" value="SABSA"/>
+          <property key="Namespace" value="SABSA Business Attribute"/>
           <property key="Stereotype" value="«LegalRegulatoryAttribute»"/>
           <property key="Metric" value="Soft - Independent compliance audit with respect to the inventories of regulations, laws, policies, etc."/>
         </element>
         <element xsi:type="archimate:Principle" name="6_03_Enforceable" id="id-cb84baa61aaa4f159061574bd08a1865">
           <documentation>The system should be designed, implemented and operated such that all applicable contracts, policies, regulations, and laws can be enforced by the system.</documentation>
-          <property key="Namespace" value="SABSA"/>
+          <property key="Namespace" value="SABSA Business Attribute"/>
           <property key="Stereotype" value="«LegalRegulatoryAttribute»"/>
           <property key="Metric" value="Soft - Independent review of: (1) inventory of contracts, policies, regulations and laws for completeness, and (2) enforceability of contracts, policies, laws and regulations on the inventory"/>
         </element>
         <element xsi:type="archimate:Principle" name="6_04_Insurable" id="id-735d5b5333a44287976f670d7bc62a1d">
           <documentation>The system should be risk-managed to enable an insurer to offer reasonable commercial terms for insurance against a standard range of insurable risks.</documentation>
-          <property key="Namespace" value="SABSA"/>
+          <property key="Namespace" value="SABSA Business Attribute"/>
           <property key="Stereotype" value="«LegalRegulatoryAttribute»"/>
           <property key="Metric" value="Hard - Verify against insurance quotations."/>
         </element>
         <element xsi:type="archimate:Principle" name="6_05_Legal" id="id-a16347fd61be4fc38244571344995357">
           <documentation>The system should be designed, implemented, and operated in accordance with the requirements of any applicable legislation.&#xD;
 Examples include data protection laws, laws controlling the use of cryptographic technology, laws controlling insider dealing on the stock market, and laws governing information that is considered racist, seditious, or pornographic.</documentation>
-          <property key="Namespace" value="SABSA"/>
+          <property key="Namespace" value="SABSA Business Attribute"/>
           <property key="Stereotype" value="«LegalRegulatoryAttribute»"/>
           <property key="Metric" value="Soft - Independent audit and review against Security Architecture Capability Maturity Model"/>
           <property key="Metric" value="Soft - Verification of the inventory of applicable laws to check for completeness and suitability"/>
         </element>
         <element xsi:type="archimate:Principle" name="6_06_Liability_Managed" id="id-7cecf82753c44abfa9603e388272ffd7">
           <documentation>The system services should be designed, implemented and operated so as to manage the liability of the organization with regard to errors, fraud, malfunction, and so on. In particular, the responsibilities and liabilities of each party should be clearly defined.</documentation>
-          <property key="Namespace" value="SABSA"/>
+          <property key="Namespace" value="SABSA Business Attribute"/>
           <property key="Stereotype" value="«LegalRegulatoryAttribute»"/>
           <property key="Metric" value="Soft - Independent legal expert review of all applicable contracts, SLAs, etc."/>
         </element>
         <element xsi:type="archimate:Principle" name="6_07_Regulated" id="id-fea33fc60eee4afc97f7b894d74aee95">
           <documentation>The system should be designed, implemented, and operated in accordance with the requirements of any applicable regulations. These may be general (such as safety regulations) or industry-specific (such as banking regulations).</documentation>
-          <property key="Namespace" value="SABSA"/>
+          <property key="Namespace" value="SABSA Business Attribute"/>
           <property key="Stereotype" value="«LegalRegulatoryAttribute»"/>
           <property key="Metric" value="Soft - Independent audit and review against Security Architecture Capability Maturity Model of the inventory of applicable regulations to check for completeness and sustability"/>
         </element>
         <element xsi:type="archimate:Principle" name="6_08_Resolvable" id="id-68d1292f581d409daa1cbfbea2b7aab6">
           <documentation>The system should be designed, implemented and operated in such a way that disputes can be resolved with reasonable ease and without undue impact on time, cost, or other valuable resources.</documentation>
-          <property key="Namespace" value="SABSA"/>
+          <property key="Namespace" value="SABSA Business Attribute"/>
           <property key="Stereotype" value="«LegalRegulatoryAttribute»"/>
           <property key="Metric" value="Soft - Independent audit and review against Security Architecture Capability Maturity Model by legal export"/>
         </element>
         <element xsi:type="archimate:Principle" name="6_09_Time-bound" id="id-759c6543ba6d47f1a3fff9052093277a">
           <documentation>Meeting requirements for maximum or minimum periods of time, for example, a minimum period for records retention or a maximum period within which something must be completed.</documentation>
-          <property key="Namespace" value="SABSA"/>
+          <property key="Namespace" value="SABSA Business Attribute"/>
           <property key="Stereotype" value="«LegalRegulatoryAttribute»"/>
           <property key="Metric" value="Hard - Independent functional design review against specified functional requirements"/>
         </element>
@@ -560,79 +596,79 @@ Examples include data protection laws, laws controlling the use of cryptographic
       <folder name="7_Technical_Strategy_Attributes" id="id-f2f8a7a31a5c4f369d0552474dd7261b">
         <element xsi:type="archimate:Principle" name="7_01_Architecturally_Open" id="id-caf154d6bcc14b4ab6c259ae47bcb7f6">
           <documentation>The system architecture should, wherever possible, not be locked into specific vendor interface standards and should allow flexibility in the choice of vendors and products, both initially and in the future.</documentation>
-          <property key="Namespace" value="SABSA"/>
+          <property key="Namespace" value="SABSA Business Attribute"/>
           <property key="Stereotype" value="«TechnicalStrategyAttribute»"/>
           <property key="Metric" value="Soft - Independent audit and review against Security Architecture Capability Maturity Model of technical architecture (conceptual, logical, and physical)"/>
         </element>
         <element xsi:type="archimate:Principle" name="7_02_COTS/GOTS" id="id-681de4914d5f43079806c38026808ddd">
           <documentation>Wherever possible, the system shoiuld utilize commercial off-the-shelf or government off-the-shelf components, as appropriate.</documentation>
-          <property key="Namespace" value="SABSA"/>
+          <property key="Namespace" value="SABSA Business Attribute"/>
           <property key="Stereotype" value="«TechnicalStrategyAttribute»"/>
           <property key="Metric" value="Soft - Independent audit and review against Security Architecture Capability Maturity Model of technical architecture (conceptual, logical, and physical)"/>
         </element>
         <element xsi:type="archimate:Principle" name="7_03_Extendable" id="id-da899495e2e24979987b4f435c59a809">
           <documentation>The system should be capable of being extended to incorporate new functional modules as required by the business.</documentation>
-          <property key="Namespace" value="SABSA"/>
+          <property key="Namespace" value="SABSA Business Attribute"/>
           <property key="Stereotype" value="«TechnicalStrategyAttribute»"/>
           <property key="Metric" value="Soft - Independent audit and review against Security Architecture Capability Maturity Model of technical architecture (conceptual, logical, and physical)"/>
         </element>
         <element xsi:type="archimate:Principle" name="7_04_Flexible/Adaptable" id="id-553c26d98df244fabfb47cc5e12d89fc">
           <documentation>The system should be flexible and adaptable to meet new business requirements as they emerge.</documentation>
-          <property key="Namespace" value="SABSA"/>
+          <property key="Namespace" value="SABSA Business Attribute"/>
           <property key="Stereotype" value="«TechnicalStrategyAttribute»"/>
           <property key="Metric" value="Soft - Independent audit and review against Security Architecture Capability Maturity Model of technical architecture (conceptual, logical, and physical)"/>
         </element>
         <element xsi:type="archimate:Principle" name="7_05_Future-Proof" id="id-7f0750a1c7634a7c99d463941eefa5f1">
           <documentation>The system architecture should be designed as much as possible to accommodate future changes in both business requirements and technical solutions.</documentation>
-          <property key="Namespace" value="SABSA"/>
+          <property key="Namespace" value="SABSA Business Attribute"/>
           <property key="Stereotype" value="«TechnicalStrategyAttribute»"/>
           <property key="Metric" value="Soft - Independent audit and review against Security Architecture Capability Maturity Model of technical architecture (conceptual, logical, and physical)"/>
         </element>
         <element xsi:type="archimate:Principle" name="7_06_Legacy-Sensitive" id="id-08ce7d7bbc8b44c59e8cbe23cead2751">
           <documentation>A new system should be able to work with any legacy systems or databases with which it needs to interoperate or integrate.</documentation>
-          <property key="Namespace" value="SABSA"/>
+          <property key="Namespace" value="SABSA Business Attribute"/>
           <property key="Stereotype" value="«TechnicalStrategyAttribute»"/>
           <property key="Metric" value="Soft - Independent audit and review against Security Architecture Capability Maturity Model of technical architecture (conceptual, logical, and physical)"/>
         </element>
         <element xsi:type="archimate:Principle" name="7_07_Migratable" id="id-b53175779ae041388d520207f2e7ba7c">
           <documentation>There should be a feasible, manageable migration path, acceptable to the business users, that moves from an old system to a new one, or from one released version to the next.</documentation>
-          <property key="Namespace" value="SABSA"/>
+          <property key="Namespace" value="SABSA Business Attribute"/>
           <property key="Stereotype" value="«TechnicalStrategyAttribute»"/>
           <property key="Metric" value="Soft - Independent audit and review against Security Architecture Capability Maturity Model of technical architecture (conceptual, logical, and physical)"/>
         </element>
         <element xsi:type="archimate:Principle" name="7_08_Multisourced" id="id-cdc080040991430d9d832526d06b6880">
           <documentation>Critical system components should be obtainable from more than one source, to protect against the risk of the single source of supply and support being withdrawn.</documentation>
-          <property key="Namespace" value="SABSA"/>
+          <property key="Namespace" value="SABSA Business Attribute"/>
           <property key="Stereotype" value="«TechnicalStrategyAttribute»"/>
           <property key="Metric" value="Soft - Independent audit and review against Security Architecture Capability Maturity Model of technical architecture at the component level"/>
         </element>
         <element xsi:type="archimate:Principle" name="7_09_Scalable" id="id-ef147046a9c24f9b9f316e4b57178f22">
           <documentation>The system should be scalable to the size of user community, data storage requirements, processing throughput, and so on that might emerge over the lifetime of the system.</documentation>
-          <property key="Namespace" value="SABSA"/>
+          <property key="Namespace" value="SABSA Business Attribute"/>
           <property key="Stereotype" value="«TechnicalStrategyAttribute»"/>
           <property key="Metric" value="Soft - Independent audit and review against Security Architecture Capability Maturity Model of technical architecture (conceptual, logical, and physical)"/>
         </element>
         <element xsi:type="archimate:Principle" name="7_10_Simple" id="id-abec8bafc31346dd86299fc61d63789c">
           <documentation>The system should be as simple as possible, since complexity only adds further risk.</documentation>
-          <property key="Namespace" value="SABSA"/>
+          <property key="Namespace" value="SABSA Business Attribute"/>
           <property key="Stereotype" value="«TechnicalStrategyAttribute»"/>
           <property key="Metric" value="Soft - Independent audit and review against Security Architecture Capability Maturity Model of technical architecture (conceptual, logical, and physical)"/>
         </element>
         <element xsi:type="archimate:Principle" name="7_11_Standards_Compliant" id="id-989f3281d7bc49d0b03376d118476b86">
           <documentation>The system should be designed, implemented and operated to comply with appropriate technical and operational standards.</documentation>
-          <property key="Namespace" value="SABSA"/>
+          <property key="Namespace" value="SABSA Business Attribute"/>
           <property key="Stereotype" value="«TechnicalStrategyAttribute»"/>
           <property key="Metric" value="Soft - Independent audit and review of: (1) the inventory so standards to check for completeness and appropriateness, and (2) compliance with standards on the inventory"/>
         </element>
         <element xsi:type="archimate:Principle" name="7_12_Traceable" id="id-db84e456c24e40f894ca4f275530e34c">
           <documentation>The development and implementation of system components should be documented so as to provide complete two-way traceability. That is, every implemented component should be justifiable by tracing back to the business requirements that led to its inclusion in the system, and it should be possible to review every business requirement and demonstrate which of the implemented system components are there to meet this requirement.</documentation>
-          <property key="Namespace" value="SABSA"/>
+          <property key="Namespace" value="SABSA Business Attribute"/>
           <property key="Stereotype" value="«TechnicalStrategyAttribute»"/>
           <property key="Metric" value="Soft - Independent audit and review of documented traceability matrices and trees"/>
         </element>
         <element xsi:type="archimate:Principle" name="7_13_Upgradeable" id="id-c9fc2750b6dd418d990762efaa6a806c">
           <documentation>The system should be capable of being upgraded with ease to incorporate new releases of hardware and software.</documentation>
-          <property key="Namespace" value="SABSA"/>
+          <property key="Namespace" value="SABSA Business Attribute"/>
           <property key="Stereotype" value="«TechnicalStrategyAttribute»"/>
           <property key="Metric" value="Soft - Independent audit and review against Security Architecture Capability Maturity Model of technical architecture (conceptual, logical, and physical)"/>
         </element>
@@ -640,74 +676,74 @@ Examples include data protection laws, laws controlling the use of cryptographic
       <folder name="8_Business_Strategy_Attributes" id="id-6e444d8be590475c84cdf98dc6b3f0b9">
         <element xsi:type="archimate:Principle" name="8_01_Brand_Enhancing" id="id-0b75b393e2d04eff8f6621eed3169b2d">
           <documentation>The system should help to establish, build, and support the brand of the products or services based upone this system.</documentation>
-          <property key="Namespace" value="SABSA"/>
+          <property key="Namespace" value="SABSA Business Attribute"/>
           <property key="Stereotype" value="«BusinessStrategyAttribute»"/>
           <property key="Metric" value="Soft - Market surveys"/>
         </element>
         <element xsi:type="archimate:Principle" name="8_02_Business-Enabled" id="id-62b01e7e040044fd874fee1f1e1abd0c">
           <documentation>Enabling the business and fulfilling business objectives should be the primary driver for the system design.</documentation>
-          <property key="Namespace" value="SABSA"/>
+          <property key="Namespace" value="SABSA Business Attribute"/>
           <property key="Stereotype" value="«BusinessStrategyAttribute»"/>
           <property key="Metric" value="Soft - Business management focus group"/>
         </element>
         <element xsi:type="archimate:Principle" name="8_03_Competent" id="id-ab9e00ae9a4d48b7a444d6d29f04faf6">
           <documentation>The system should protect the reputation of the organization as being competent in its industry sector.</documentation>
-          <property key="Namespace" value="SABSA"/>
+          <property key="Namespace" value="SABSA Business Attribute"/>
           <property key="Stereotype" value="«BusinessStrategyAttribute»"/>
           <property key="Metric" value="Soft - Independent audit, or focus groups, or satisfaction surveys"/>
         </element>
         <element xsi:type="archimate:Principle" name="8_04_Confident" id="id-e238b29498f84a6ba322283be64aaf9b">
           <documentation>The system should behave in such a way as to safeguard confidence placed in the organization by customers, suppliers, shareholders, regulators, financiers, the marketplace, and the general public.</documentation>
-          <property key="Namespace" value="SABSA"/>
+          <property key="Namespace" value="SABSA Business Attribute"/>
           <property key="Stereotype" value="«BusinessStrategyAttribute»"/>
           <property key="Metric" value="Soft - Independent audit, or focus groups, or satisfaction surveys"/>
         </element>
         <element xsi:type="archimate:Principle" name="8_05_Credible" id="id-dbd2a901ee4840eca5e73a833384cefe">
           <documentation>The system should behave in such a way as to safeguard the credibility of the organization.</documentation>
-          <property key="Namespace" value="SABSA"/>
+          <property key="Namespace" value="SABSA Business Attribute"/>
           <property key="Stereotype" value="«BusinessStrategyAttribute»"/>
           <property key="Metric" value="Soft - Independent audit, or focus groups, or satisfaction surveys"/>
         </element>
         <element xsi:type="archimate:Principle" name="8_06_Culture-sensitive" id="id-6de0466294e644b796982c215ec60578">
           <documentation>The system should be designed, built, and operated with due care and attention to cultural issues relating to those who will experience the system in any way. These issues include such matters as religion, gender, race, nationality, language, dress code, social customs, ethics, politics, and the environment. The objective should be to avoid or minimize offence or distress caused to others.</documentation>
-          <property key="Namespace" value="SABSA"/>
+          <property key="Namespace" value="SABSA Business Attribute"/>
           <property key="Stereotype" value="«BusinessStrategyAttribute»"/>
           <property key="Metric" value="Soft - Independent audit and review of: (1) the inventory of requirements in this area to check for completeness and appropriateness, and (2) compliance of system functionality with this set of requirements"/>
         </element>
         <element xsi:type="archimate:Principle" name="8_07_Enabling_time-to-market" id="id-f7e0492b4b6945d886f7de0601ba0ad3">
           <documentation>The system architecture and design should allow new business initiatives to be delivered to the market with minimum delay.</documentation>
-          <property key="Namespace" value="SABSA"/>
+          <property key="Namespace" value="SABSA Business Attribute"/>
           <property key="Stereotype" value="«BusinessStrategyAttribute»"/>
           <property key="Metric" value="Soft - Business management focus group"/>
         </element>
         <element xsi:type="archimate:Principle" name="8_08_Governable" id="id-e4422cd278fd4576a12d7b459adfa23c">
           <documentation>The system should enable the owners and executive managers of the organization to control the business and to discharge their responsibilities for governance.</documentation>
-          <property key="Namespace" value="SABSA"/>
+          <property key="Namespace" value="SABSA Business Attribute"/>
           <property key="Stereotype" value="«BusinessStrategyAttribute»"/>
           <property key="Metric" value="Soft - Senior management focus group. Independent audit and review against Security Architecture Capability Maturity Model for governance"/>
         </element>
         <element xsi:type="archimate:Principle" name="8_09_Providing_Good_Stewardship_and_Custody" id="id-4e2268f3c1e54301bc107c3d0137de40">
           <documentation>Protecting other parties with whom we do business from abuse, loss of business, or personal information of value to those parties through inadequate stewardship on our part.</documentation>
-          <property key="Namespace" value="SABSA"/>
+          <property key="Namespace" value="SABSA Business Attribute"/>
           <property key="Stereotype" value="«BusinessStrategyAttribute»"/>
           <property key="Metric" value="Soft - Independent audit, or focus groups, or satisfaction surveys"/>
         </element>
         <element xsi:type="archimate:Principle" name="8_10_Providing_Investment_Re-use" id="id-323a500fe5c34001886cac3d72a0fcee">
           <documentation>As much as possible, the system should be designed to reuse previous investments and to ensure that new investments are reusable in the future.</documentation>
-          <property key="Namespace" value="SABSA"/>
+          <property key="Namespace" value="SABSA Business Attribute"/>
           <property key="Stereotype" value="«BusinessStrategyAttribute»"/>
           <property key="Metric" value="Soft - Independent audit and review against Security Architecture Capability Maturity Model of technical architecture (conceptual, logical, physical, and component)"/>
         </element>
         <element xsi:type="archimate:Principle" name="8_11_Providing_Return_on_Investment" id="id-694c9192fa2e4351ab1c4561fbd6bd80">
           <documentation>The system should provide a return of value to the business to justify the investment made in creating and operating the system.</documentation>
-          <property key="Namespace" value="SABSA"/>
+          <property key="Namespace" value="SABSA Business Attribute"/>
           <property key="Stereotype" value="«BusinessStrategyAttribute»"/>
           <property key="Metric" value="Hard - Financial returns and RoI indices selected in consultation with the Chief Financial Officer"/>
           <property key="Metric" value="Soft - Qualitative value propositions tested by opinion surveys at senior management and boardroom level"/>
         </element>
         <element xsi:type="archimate:Principle" name="8_12_Reputable" id="id-391728590daa4eab9d0cff82826d227f">
           <documentation>The system should behave in such a way as to safeguard the business reputation of the organization.</documentation>
-          <property key="Namespace" value="SABSA"/>
+          <property key="Namespace" value="SABSA Business Attribute"/>
           <property key="Stereotype" value="«BusinessStrategyAttribute»"/>
           <property key="Metric" value="Hard - Correlation of the stock value of the organization versus publicity of system event history"/>
           <property key="Metric" value="Soft - Independent audit, or focus groups, or satisfaction surveys"/>
@@ -715,6 +751,8 @@ Examples include data protection laws, laws controlling the use of cryptographic
       </folder>
       <element xsi:type="archimate:Principle" name="SABSA Business Attributes" id="id-fe1fa914b5d245fb9f56a2ad16fdbfc4">
         <documentation>https://github.com/yasenstar/ArchiMate_SABSA/blob/main/Docs/Information%20Security%20Governance%20-%202008%20-%20Brotby%20-%20Appendix%20A%20%20SABSA%20Business%20Attributes%20and%20Metrics.pdf</documentation>
+        <property key="Namespace" value="SABSA Business Attribute"/>
+        <property key="Stereotype" value="«Business Attribute»"/>
       </element>
     </folder>
   </folder>

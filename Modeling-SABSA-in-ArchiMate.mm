@@ -78,7 +78,7 @@
 </stylenode>
 </map_styles>
 </hook>
-<node TEXT="05. The Motivation Aspect" POSITION="bottom_or_right" ID="ID_1121778975" CREATED="1747668134684" MODIFIED="1748271358209" VGAP_QUANTITY="3 pt">
+<node TEXT="05. The Motivation Aspect" FOLDED="true" POSITION="bottom_or_right" ID="ID_1121778975" CREATED="1747668134684" MODIFIED="1748271358209" VGAP_QUANTITY="3 pt">
 <node TEXT="Figure 10: Security Enhanced Motivation Metamodel" POSITION="bottom_or_right" ID="ID_321030896" CREATED="1748180460960" MODIFIED="1748180473333"/>
 <node TEXT="05.1 Value &amp; Loss" FOLDED="true" POSITION="bottom_or_right" ID="ID_906105716" CREATED="1748180505615" MODIFIED="1748180513492">
 <node TEXT="Figure 11: Modeling Assets using Value" ID="ID_91858292" CREATED="1748180518192" MODIFIED="1748180526787"/>
