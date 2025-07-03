@@ -1,0 +1,23 @@
+{
+    "Value Chain": {
+        "attributes": {
+            "id": "",
+            "stereotypeOf": "",
+            "valueType": "",
+            "currencyUnits": "",
+            "currencyCode": ""
+        },
+        "instance": {
+            "tsi:name": "",
+            "tsi:description": "",
+            "tsi:materialCost": "",
+            "tsi:processingCost": "",
+            "tsi:secondaryCost": "",
+            "tsi:finalValue": [
+                "productionCosts",
+                "manifestWorth"
+            ],
+            "tsi:margin": ""
+        }
+    }
+}
