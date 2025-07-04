@@ -68,9 +68,9 @@ The practice in this repository is to detail go through the guide, and using Arc
 
 ## Modeling Tutorial Videos
 
-- [YouTube Video List](https://www.youtube.com/playlist?list=PL6DEHvciXKeVoCRsMg9Z3_eZSilbf8W1e)
-- [Video List in DouYin](https://www.douyin.com/video/7510864092345765156)
-- Udemy Course: TBA
+- YouTube Channel: [YouTube Video List](https://www.youtube.com/playlist?list=PL6DEHvciXKeVoCRsMg9Z3_eZSilbf8W1e)
+- Douyi Creator: [Video List in DouYin](https://www.douyin.com/video/7510864092345765156)
+- Udemy Course: [Modeling SABSA in ArchiMate using Archi (and Protege, PlantUML and JSON](https://www.udemy.com/course/modeling-sabsa-in-archimate-using-archi/?referralCode=A7C514E23B59103E9FC3)
 
 ## Markdown Editing Tips
 
