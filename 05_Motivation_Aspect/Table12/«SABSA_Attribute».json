@@ -1,0 +1,24 @@
+{
+    "«SABSAAttribute»": {
+        "attributes": {
+            "id": "",
+            "namesapce": "",
+            "stereotypeOf": "",
+            "domain": ""
+        },
+        "instance": {
+            "tsi:name": "",
+            "tsi:description": "",
+            "tsi:metric": {
+                "attributes": {
+                    "id": "",
+                    "MetricType": ""
+                },
+                "instance": {
+                    "tsi:name": "",
+                    "tsi:description": ""
+                }
+            }
+        }
+    }
+}

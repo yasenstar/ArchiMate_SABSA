@@ -112,6 +112,14 @@ Memo:
 
 [Here](https://api.pageplace.de/preview/DT0400.9781482280920_A25782338/preview-9781482280920_A25782338.pdf), you can access the free part of this book - Enterprise Security Architecture: A Business-Driven Approach, I put [downloaded PDF](../Docs/Enterprise-Security-Architecture-Business-Driven-Approach_preview-9781482280920_A25782338.pdf) for your convenience.
 
+![Figure13:SABSA Business Attributes](./Figure13//Figure13_SABSA-Business-Attributes.png)
+
+Snapshot ArchiMate Model: [ArchiMate_SABSA_Figure13.archimate](./Figure13/ArchiMate_SABSA_Figure13.archimate)
+
+### Table 12: SABSA Attribute Properties
+
+[«SABSA Attribute» JSON Schema](./Table12/«SABSA_Attribute».json)
+
 ### 5.3.1 Structural Placement of Business Attributes
 
 #### Figure 14: Hierarchy of Abstraction
