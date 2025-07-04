@@ -112,23 +112,84 @@ Memo:
 
 [Here](https://api.pageplace.de/preview/DT0400.9781482280920_A25782338/preview-9781482280920_A25782338.pdf), you can access the free part of this book - Enterprise Security Architecture: A Business-Driven Approach, I put [downloaded PDF](../Docs/Enterprise-Security-Architecture-Business-Driven-Approach_preview-9781482280920_A25782338.pdf) for your convenience.
 
+### 5.3.1 Structural Placement of Business Attributes
 
+#### Figure 14: Hierarchy of Abstraction
+
+Abstraction level from top to bottom:
+
+1. Principle: a fundamental, primary, or general law or truth from which others are derived.
+2. Policy
+3. Control Objective
+4. Control Requirement (and Constraints)
+
+#### Figure 15: The SWIFT/COSO Model
+
+- 3 Objectives
+- 8 Principles
+- 27 Controls
+
+The original 20024 COSO Enterprise Risk Management framework (https://www.coso.org/enterprise-risk-management) placed "Principles" between "Objectives" and "Controls".
+
+#### Figure 16: Principle in the ArchiMate Motivation Hierarchy
+
+The ArchiMate Specification follows the COSO paradigm, putting `Principles` to be used as maxims to guide Designers toward `Outcomes` and `Goals`.
+
+#### Figure 17: Highlighting the Control Hierarchy Msimatch (i)
+
+#### Figure 18: Highlighting the Control Hierarchy Msimatch (ii)
+
+#### Figure 19: Achieving the Desired Hierarchy
+
+### 5.3.2 Traceability of Business Attributes
+
+#### Figure 20: Attribute Tracebility Across Layers
 
 ## 5.4 Meaning
 
+### Figure 21: Applying Attribute Metrics to Multiple Controls
+
+### Figure 22: Use of Meaning of Externalize Context-Sensitive Metrics
+
 ## 5.5 Impact, Threat, Vulnerability, and Risk
+
+### Table 13: Risk Element Properties
 
 ## 5.6 Controls: Objectives, Requirements, and Measures
 
+### Figure 23: Expressing Composite Requirements
+
+### Figure 24: Example of a Control Pattern
+
 ## 5.7 Multi-Teired Security
+
+### Table 14: Control Element Properties
+
+### Figure 25: Example of Multi-Tiered Security
+
+### Compliance
 
 ## 5.8 Regulations and Standards
 
+### Figure 25: The Structure of Standards and Regulations
+
+### Table 15: Standard and Regulation Properties
+
 ## 5.9 Articles, Mandates, and Compliance Objectives
+
+### Figure 27: Articles and Compliance Objectives
+
+### Table 16: Compliance Conceptual Element Properties
 
 ## 5.10 Control Mechanisms
 
+### Figure 28: Use Cases and Iconography for Control
+
+### Table 17: Control Properties
+
 ## 5.11 Trust
+
+### Table 18: Trust Profile
 
 ---
 
