@@ -107,7 +107,12 @@ Memo:
 1. Business Attribute is modelded as a specialization of `Principle`, distinguishing it from convertional uses (such as "Cloud First") and enabling it to define a distinct security profile
 2. The taxonomy is structured as an abstract base _Business Attribute_, specialized into domains using `Groupings`
     - Domains act as namespaces that support the construction of qualified names enabling Attributes to be overloaded with an appropriate definition and metrics for different contexts
-    - Grouped 
+    - Grouped attributes promote consistency and correctness in modeling; e.g., Stakeholders with legal concerns should only be offerted `associations` with Legal and Regulatory attributes
+    - It enables Attributes with the same non-qualified name to appear on the same diagram
+
+[Here](chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://api.pageplace.de/preview/DT0400.9781482280920_A25782338/preview-9781482280920_A25782338.pdf), you can access the free part of this book - Enterprise Security Architecture: A Business-Driven Approach, I put [downloaded PDF](../Docs/Enterprise-Security-Architecture-Business-Driven-Approach_preview-9781482280920_A25782338.pdf) for your convenience.
+
+
 
 ## 5.4 Meaning
 
