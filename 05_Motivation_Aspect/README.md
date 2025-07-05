@@ -143,6 +143,10 @@ The original 20024 COSO Enterprise Risk Management framework (https://www.coso.o
 
 The ArchiMate Specification follows the COSO paradigm, putting `Principles` to be used as maxims to guide Designers toward `Outcomes` and `Goals`.
 
+Snapshot ArchiModel File: [Model-Figure16](./Figure16/ArchiMate_SABSA_Figure16.archimate)
+
+![View-Figure16](./Figure16/Figure16_Principles-in-ArchiMate-Motivation-Hierarchy.png)
+
 #### Figure 17: Highlighting the Control Hierarchy Msimatch (i)
 
 #### Figure 18: Highlighting the Control Hierarchy Msimatch (ii)
