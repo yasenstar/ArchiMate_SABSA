@@ -160,7 +160,29 @@ The result is both unintentional and incorrect. It is also difficult to disentan
 
 #### Figure 18: Highlighting the Control Hierarchy Msimatch (ii)
 
+A workaround might be parallel stacks (Below right), each with its own instance of "_Confidentiality_".
+
+| What SABSA Would Like to Express | What ArchiMate Specification Supports |
+| --- | --- |
+|  | Note these need to be distinct elements (with distinct names) to avoid the entanglement of the previous proposal. |
+| | |
+
+Although this approach achieves the required segregation and is entirely within the specification, creating distinct _Confidentiality_ elements for each stack is inelegant.
+
+Conceptually, Attributes are singletons, so any duplication creates redundancy and maintenance issues.
+
+If a good model is meant to reflect reality, this is a poor style: the concept of different "_flavors_" of confidentiality is not a natural way to model the real world.
+
 #### Figure 19: Achieving the Desired Hierarchy
+
+This is a better solution eschews the standard structure, but remains legal and reflects the original intent.
+
+| What SABSA Would Like to Express | What ArchiMate Specification Supports |
+| --- | --- |
+|  | Via a convertion in which SABSA Attributes are only ever _influence_ by Control Objectives, the desired structure can be achieved within legal grammer. |
+| | |
+
+This choice aligns with the ArchiMate definition of influence as "_a traceable motivational path_", where the "_motivation element is achieved to a certain degree_".
 
 ### 5.3.2 Traceability of Business Attributes
 
