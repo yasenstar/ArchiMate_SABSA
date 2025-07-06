@@ -182,9 +182,14 @@ This is a better solution eschews the standard structure, but remains legal and 
 |  | Via a convertion in which SABSA Attributes are only ever _influence_ by Control Objectives, the desired structure can be achieved within legal grammer. |
 | | |
 
-This choice aligns with the ArchiMate definition of influence as "_a traceable motivational path_", where the "_motivation element is achieved to a certain degree_".
+This choice aligns with the ArchiMate definition of influence as "_a traceable motivational path_", where the "_motivation element is achieved to a certain degree_". That is to say, SABSA Attributes are _strengthened_ by the achievement of Control Objectives rather than attained absolutely.
 
 ### 5.3.2 Traceability of Business Attributes
+
+This is another essential requirement of SABSA Attribute modeling, which is the ability to trace their refinement through the architectural layers, also implemented using influence relationships, see below Figure 20.
+
+#### Figure 20: Attribute Traceability Across Layers
+
 
 #### Figure 20: Attribute Tracebility Across Layers
 
