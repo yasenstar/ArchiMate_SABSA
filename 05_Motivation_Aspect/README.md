@@ -190,9 +190,6 @@ This is another essential requirement of SABSA Attribute modeling, which is the 
 
 #### Figure 20: Attribute Traceability Across Layers
 
-
-#### Figure 20: Attribute Tracebility Across Layers
-
 ## 5.4 Meaning
 
 ### Figure 21: Applying Attribute Metrics to Multiple Controls
