@@ -149,7 +149,7 @@ Snapshot ArchiModel File: [Model-Figure16](./Figure16/ArchiMate_SABSA_Figure16.a
 
 #### Figure 17: Highlighting the Control Hierarchy Mismatch (i)
 
-Snapshot ArchiModel File: [Model-Figure17]()
+Snapshot ArchiModel File: [Model-Figure17](./Figure17/ArchiMate_SABSA_Figure17.archimate)
 
 | What SABSA Would Like to Express | What ArchiMate Specification Supports |
 | --- | --- |
