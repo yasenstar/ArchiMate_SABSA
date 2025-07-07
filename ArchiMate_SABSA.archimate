@@ -821,6 +821,18 @@ Examples include data protection laws, laws controlling the use of cryptographic
         <property key="Stereotype" value="«Value Chain»"/>
       </element>
     </folder>
+    <folder name="Figure17" id="id-41ceba0402094b2397610ecf5cb9a944">
+      <element xsi:type="archimate:Principle" name="Confidentiality" id="id-5882500c69c544ccaf9d80db1a32fd72">
+        <documentation>The confidentiality of (corporate) information should be protected in accordance with security policy. Unauthorized disclosure should be prevented.</documentation>
+        <property key="Namespace" value="SABSA Business Attribute"/>
+        <property key="Stereotype" value="«RiskManagementAttribute»"/>
+        <property key="Metric" value="Hard - Reporting of all disclosure incidents, including number of incidents per period, severity, and type of disclosure"/>
+      </element>
+      <element xsi:type="archimate:Goal" name="Protection of Data at Rest" id="id-ca164b1710d947c087940db063716004"/>
+      <element xsi:type="archimate:Goal" name="Protection of Daa in Transit" id="id-d9252ff505554d4f8cbb3625acf6ab38"/>
+      <element xsi:type="archimate:Requirement" name="Access Control" id="id-93117f105e8940389590f02fcf9b9570"/>
+      <element xsi:type="archimate:Requirement" name="Channel Encryption" id="id-33a102f22f8b47ceb2441d1690e71798"/>
+    </folder>
   </folder>
   <folder name="Implementation &amp; Migration" id="id-e3ffab3d3abd4fc9a770ac9e3a8771d7" type="implementation_migration"/>
   <folder name="Other" id="id-c1740c9496564d868b2a85ae4bffa10d" type="other">
@@ -1099,6 +1111,10 @@ Examples include data protection laws, laws controlling the use of cryptographic
     <folder name="Figure16" id="id-53666b33d77b4de79c9de243aaa24c61">
       <element xsi:type="archimate:RealizationRelationship" id="id-edc3ea19677346c29f2b80175b4278e2" source="id-2b310bb022014808ad102e834f2f73da" target="id-5710e942bcd44f12bf7b898a5010aafd"/>
     </folder>
+    <element xsi:type="archimate:AssociationRelationship" id="id-f33e6d9fddaf47d8ba14af82d5c29ee6" source="id-ca164b1710d947c087940db063716004" target="id-5882500c69c544ccaf9d80db1a32fd72" directed="true"/>
+    <element xsi:type="archimate:AssociationRelationship" id="id-1c20e3a710364a08933d31e374183978" source="id-d9252ff505554d4f8cbb3625acf6ab38" target="id-5882500c69c544ccaf9d80db1a32fd72" directed="true"/>
+    <element xsi:type="archimate:AssociationRelationship" id="id-42a6008f4321426e99a80c36d2da77eb" source="id-93117f105e8940389590f02fcf9b9570" target="id-ca164b1710d947c087940db063716004" directed="true"/>
+    <element xsi:type="archimate:AssociationRelationship" id="id-fd6b3ac430e34f71883b892b2c35047a" source="id-33a102f22f8b47ceb2441d1690e71798" target="id-d9252ff505554d4f8cbb3625acf6ab38" directed="true"/>
   </folder>
   <folder name="Views" id="id-5cf34c2351f348b2a50cfd30d2f56aef" type="diagrams">
     <folder name="ch01" id="id-68546ff93a2148c89957a8fcdfbb0890">
@@ -2283,6 +2299,38 @@ Examples include data protection laws, laws controlling the use of cryptographic
           <sourceConnection xsi:type="archimate:Connection" id="id-648f92c027394bbcb76d06233e4c5b83" source="id-05fead0ef57c43959d1ccf072e7a5c77" target="id-fdcf9b5b9b504a008538e6d8ee0d19b6" archimateRelationship="id-edc3ea19677346c29f2b80175b4278e2"/>
         </child>
         <property key="Last Updated" value="2025/7/5"/>
+        <property key="Last Updated by" value="Xiaoqi Zhao"/>
+      </element>
+      <element xsi:type="archimate:ArchimateDiagramModel" name="Figure17_Left_What-SABSA-Would-Like-to-Express" id="id-aa1e992e38bf43eeb72323cf4c40a79a">
+        <child xsi:type="archimate:Note" id="id-256fa993c9734af897a83ae813831989" font="1|Segoe UI|9.75|1|WINDOWS|1|-13|0|0|0|700|0|0|0|0|3|2|1|34|Segoe UI" textPosition="1" borderType="2">
+          <bounds x="131" y="21" width="362" height="28"/>
+          <feature name="labelExpression" value="$view{name}"/>
+        </child>
+        <child xsi:type="archimate:Note" id="id-3b6b508de3424b40896c2128ddbc3e3c" textAlignment="1" borderType="2">
+          <bounds x="276" y="348" width="185" height="41"/>
+          <feature name="labelExpression" value="Last Updated by: $view{property:Last Updated by}&#xD;&#xA;Last Updated at: $view{property:Last Updated}"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-12bc26e13691472a99a7fee368837a56" targetConnections="id-8c525d508c1d4376978f1d3994fe2f05 id-2d18250cdab74e188f4e3af32c3d336e" archimateElement="id-5882500c69c544ccaf9d80db1a32fd72">
+          <bounds x="175" y="72" width="273" height="60"/>
+          <feature name="labelExpression" value="${property:Stereotype}&#xD;&#xA;${name}"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-56f559107f4c498a9a9443743ce7a862" targetConnections="id-daa02abe38354761ab33a32f2d67b035" archimateElement="id-d9252ff505554d4f8cbb3625acf6ab38">
+          <bounds x="328" y="168" width="120" height="55"/>
+          <sourceConnection xsi:type="archimate:Connection" id="id-2d18250cdab74e188f4e3af32c3d336e" source="id-56f559107f4c498a9a9443743ce7a862" target="id-12bc26e13691472a99a7fee368837a56" archimateRelationship="id-1c20e3a710364a08933d31e374183978"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-54faa451eaf34fce91247844689c3c5c" targetConnections="id-0f11e1427b1946b4b09db06316ba85e1" archimateElement="id-ca164b1710d947c087940db063716004">
+          <bounds x="175" y="168" width="120" height="55"/>
+          <sourceConnection xsi:type="archimate:Connection" id="id-8c525d508c1d4376978f1d3994fe2f05" source="id-54faa451eaf34fce91247844689c3c5c" target="id-12bc26e13691472a99a7fee368837a56" archimateRelationship="id-f33e6d9fddaf47d8ba14af82d5c29ee6"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-a9d2cadeb7d8495ba2f28f1917190af5" archimateElement="id-93117f105e8940389590f02fcf9b9570">
+          <bounds x="175" y="264" width="120" height="55"/>
+          <sourceConnection xsi:type="archimate:Connection" id="id-0f11e1427b1946b4b09db06316ba85e1" source="id-a9d2cadeb7d8495ba2f28f1917190af5" target="id-54faa451eaf34fce91247844689c3c5c" archimateRelationship="id-42a6008f4321426e99a80c36d2da77eb"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-00ad84e004a246fda9eaff0885c7985a" archimateElement="id-33a102f22f8b47ceb2441d1690e71798">
+          <bounds x="328" y="264" width="120" height="55"/>
+          <sourceConnection xsi:type="archimate:Connection" id="id-daa02abe38354761ab33a32f2d67b035" source="id-00ad84e004a246fda9eaff0885c7985a" target="id-56f559107f4c498a9a9443743ce7a862" archimateRelationship="id-fd6b3ac430e34f71883b892b2c35047a"/>
+        </child>
+        <property key="Last Updated" value="2025/7/7"/>
         <property key="Last Updated by" value="Xiaoqi Zhao"/>
       </element>
     </folder>

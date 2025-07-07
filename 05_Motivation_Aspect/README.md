@@ -154,7 +154,7 @@ Snapshot ArchiModel File: [Model-Figure17]()
 | What SABSA Would Like to Express | What ArchiMate Specification Supports |
 | --- | --- |
 | Attribute (_Confidentiality_) as being satisfied by specific Goals ("_Protections of Data at Rest_" and "_Protection of Data in Transit_") at various points in the model. These are to be achieved by distinct, verifiable Requirements ("_Access Control_" and "_Channel Encryption_"), respectively. | Place _Confidentiality_ in the center of the structure and, by doing so, forces the realization paths to merge. The resulting model suggests "_Protection of Data at Rest_" might be realized through "_Channel Encryption_" and "_Protection of Data in Transit_" through "_Access Control_". |
-| | |
+| ![Figure17-Left](./Figure17/Figure17_Left_What-SABSA-Would-Like-to-Express.png) | |
 
 The result is both unintentional and incorrect. It is also difficult to disentangle because, even if the structures are _drawn_ as distinct views, they remain merged in the underlying model, causing a problem for automated analysis which sees both paths as legitimate and is consequently unable to resolve the modeler's intent.
 
