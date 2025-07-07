@@ -147,7 +147,7 @@ Snapshot ArchiModel File: [Model-Figure16](./Figure16/ArchiMate_SABSA_Figure16.a
 
 ![View-Figure16](./Figure16/Figure16_Principles-in-ArchiMate-Motivation-Hierarchy.png)
 
-#### Figure 17: Highlighting the Control Hierarchy Msimatch (i)
+#### Figure 17: Highlighting the Control Hierarchy Mismatch (i)
 
 Snapshot ArchiModel File: [Model-Figure17]()
 
@@ -158,7 +158,7 @@ Snapshot ArchiModel File: [Model-Figure17]()
 
 The result is both unintentional and incorrect. It is also difficult to disentangle because, even if the structures are _drawn_ as distinct views, they remain merged in the underlying model, causing a problem for automated analysis which sees both paths as legitimate and is consequently unable to resolve the modeler's intent.
 
-#### Figure 18: Highlighting the Control Hierarchy Msimatch (ii)
+#### Figure 18: Highlighting the Control Hierarchy Mismatch (ii)
 
 A workaround might be parallel stacks (Below right), each with its own instance of "_Confidentiality_".
 
