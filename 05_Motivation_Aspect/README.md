@@ -149,14 +149,14 @@ Snapshot ArchiModel File: [Model-Figure16](./Figure16/ArchiMate_SABSA_Figure16.a
 
 #### Figure 17: Highlighting the Control Hierarchy Mismatch (i)
 
-Snapshot ArchiModel File: [Model-Figure17](./Figure17/ArchiMate_SABSA_Figure17.archimate)
-
 | What SABSA Would Like to Express | What ArchiMate Specification Supports |
 | --- | --- |
 | Attribute (_Confidentiality_) as being satisfied by specific Goals ("_Protections of Data at Rest_" and "_Protection of Data in Transit_") at various points in the model. These are to be achieved by distinct, verifiable Requirements ("_Access Control_" and "_Channel Encryption_"), respectively. | Place _Confidentiality_ in the center of the structure and, by doing so, forces the realization paths to merge. The resulting model suggests "_Protection of Data at Rest_" might be realized through "_Channel Encryption_" and "_Protection of Data in Transit_" through "_Access Control_". |
 | ![Figure17-Left](./Figure17/Figure17_Left_What-SABSA-Would-Like-to-Express.png) | ![Figure17-Right](./Figure17/Figure17_Right_What-ArchiMate-Supports-F17.png) |
 
 The result is both unintentional and incorrect. It is also difficult to disentangle because, even if the structures are _drawn_ as distinct views, they remain merged in the underlying model, causing a problem for automated analysis which sees both paths as legitimate and is consequently unable to resolve the modeler's intent.
+
+Snapshot ArchiModel File: [Model-Figure17](./Figure17/ArchiMate_SABSA_Figure17.archimate)
 
 #### Figure 18: Highlighting the Control Hierarchy Mismatch (ii)
 
@@ -165,13 +165,15 @@ A workaround might be parallel stacks (Below right), each with its own instance 
 | What SABSA Would Like to Express | What ArchiMate Specification Supports |
 | --- | --- |
 |  | Note these need to be distinct elements (with distinct names) to avoid the entanglement of the previous proposal. |
-| ![Figure17-Left](./Figure17/Figure17_Left_What-SABSA-Would-Like-to-Express.png) | |
+| ![Figure17-Left](./Figure17/Figure17_Left_What-SABSA-Would-Like-to-Express.png) | ![Figure18-Right](./Figure18/Figure18_Right_What-ArchiMate-Supports-F18.png)|
 
 Although this approach achieves the required segregation and is entirely within the specification, creating distinct _Confidentiality_ elements for each stack is inelegant.
 
 Conceptually, Attributes are singletons, so any duplication creates redundancy and maintenance issues.
 
 If a good model is meant to reflect reality, this is a poor style: the concept of different "_flavors_" of confidentiality is not a natural way to model the real world.
+
+Snapshot ArchiModel File: [Model-Figure18](./Figure18/ArchiMate_SABSA_Figure18.archimate)
 
 #### Figure 19: Achieving the Desired Hierarchy
 
