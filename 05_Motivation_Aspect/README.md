@@ -165,7 +165,7 @@ A workaround might be parallel stacks (Below right), each with its own instance 
 | What SABSA Would Like to Express | What ArchiMate Specification Supports |
 | --- | --- |
 |  | Note these need to be distinct elements (with distinct names) to avoid the entanglement of the previous proposal. |
-| ![Figure17-Left](./Figure17/Figure17_Left_What-SABSA-Would-Like-to-Express.png) | ![Figure18-Right](./Figure18/Figure18_Right_What-ArchiMate-Supports-F18.png)|
+| ![Figure17-Left](./Figure17/Figure17_Left_What-SABSA-Would-Like-to-Express.png) | ![Figure18-Right](./Figure18/Figure18_Right_What-ArchiMate-Supports-F18.png) |
 
 Although this approach achieves the required segregation and is entirely within the specification, creating distinct _Confidentiality_ elements for each stack is inelegant.
 
@@ -182,9 +182,11 @@ This is a better solution eschews the standard structure, but remains legal and 
 | What SABSA Would Like to Express | What ArchiMate Specification Supports |
 | --- | --- |
 |  | Via a convertion in which SABSA Attributes are only ever _influence_ by Control Objectives, the desired structure can be achieved within legal grammer. |
-| ![Figure17-Left](./Figure17/Figure17_Left_What-SABSA-Would-Like-to-Express.png) | |
+| ![Figure17-Left](./Figure17/Figure17_Left_What-SABSA-Would-Like-to-Express.png) | ![Figure19-Right](./Figure19/Figure19_Right_What-ArchiMate-Supports-F19.png) |
 
 This choice aligns with the ArchiMate definition of influence as "_a traceable motivational path_", where the "_motivation element is achieved to a certain degree_". That is to say, SABSA Attributes are _strengthened_ by the achievement of Control Objectives rather than attained absolutely.
+
+Snapshot ArchiModel File: [Model-Figure19](./Figure19/ArchiMate_SABSA_Figure19.archimate)
 
 ### 5.3.2 Traceability of Business Attributes
 
