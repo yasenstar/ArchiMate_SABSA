@@ -3,7 +3,7 @@
 <node TEXT="Modeling SABSA®&#xa;in ArchiMate®" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_1090958577" CREATED="1409300609620" MODIFIED="1747668057865">
 <hook NAME="accessories/plugins/AutomaticLayout.properties" VALUE="ALL"/>
 <font BOLD="true"/>
-<hook NAME="MapStyle" background="#eeeeeeff" zoom="0.9090909">
+<hook NAME="MapStyle" background="#eeeeeeff" zoom="0.82644624">
     <properties show_icon_for_attributes="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_tags="UNDER_NODES" show_note_icons="true" associatedTemplateLocation="template:/light_grey_straight_template.mm" fit_to_viewport="false" show_icons="BESIDE_NODES"/>
     <tags category_separator="::"/>
 
@@ -78,7 +78,7 @@
 </stylenode>
 </map_styles>
 </hook>
-<node TEXT="05. The Motivation Aspect" FOLDED="true" POSITION="bottom_or_right" ID="ID_1121778975" CREATED="1747668134684" MODIFIED="1748271358209" VGAP_QUANTITY="3 pt">
+<node TEXT="05. The Motivation Aspect" POSITION="bottom_or_right" ID="ID_1121778975" CREATED="1747668134684" MODIFIED="1748271358209" VGAP_QUANTITY="3 pt">
 <node TEXT="Figure 10: Security Enhanced Motivation Metamodel" POSITION="bottom_or_right" ID="ID_321030896" CREATED="1748180460960" MODIFIED="1748180473333"/>
 <node TEXT="05.1 Value &amp; Loss" FOLDED="true" POSITION="bottom_or_right" ID="ID_906105716" CREATED="1748180505615" MODIFIED="1748180513492">
 <node TEXT="Figure 11: Modeling Assets using Value" ID="ID_91858292" CREATED="1748180518192" MODIFIED="1748180526787"/>
@@ -88,10 +88,10 @@
 <node TEXT="Figure 12: Composition of Value Chains" ID="ID_247946098" CREATED="1748180752267" MODIFIED="1748180763089"/>
 <node TEXT="Table 11: Value Chain Properties" ID="ID_603329795" CREATED="1748852049250" MODIFIED="1748852059761"/>
 </node>
-<node TEXT="05.3 SABSA Business Attributes" FOLDED="true" POSITION="bottom_or_right" ID="ID_1183827331" CREATED="1748180790318" MODIFIED="1748180799444">
+<node TEXT="05.3 SABSA Business Attributes" POSITION="bottom_or_right" ID="ID_1183827331" CREATED="1748180790318" MODIFIED="1748180799444">
 <node TEXT="Figure 13: SABSA Business Attributes Represented in the ArchiMate Language" ID="ID_1817507809" CREATED="1748180803069" MODIFIED="1748180821506"/>
 <node TEXT="Table 12: SABSA Attribute Properties" ID="ID_467781429" CREATED="1748865985044" MODIFIED="1748865995560"/>
-<node TEXT="5.3.1 Structural Placement of Business Attributes" FOLDED="true" ID="ID_1841880917" CREATED="1748229017663" MODIFIED="1748229032044">
+<node TEXT="5.3.1 Structural Placement of Business Attributes" ID="ID_1841880917" CREATED="1748229017663" MODIFIED="1748229032044">
 <node TEXT="Figure 16: Principle in the ArchiMate Motivation Hierarchy" ID="ID_1658090413" CREATED="1748229053502" MODIFIED="1748229066770"/>
 <node TEXT="Figure 17: Highlighting the Control Hierarchy Mismatch (i)" ID="ID_1563001622" CREATED="1748229072606" MODIFIED="1748229087011"/>
 <node TEXT="Figure 18: Highlighting the Control Hierarchy Mismatch (ii)" ID="ID_1260826359" CREATED="1748229072606" MODIFIED="1748265218469"/>
@@ -184,7 +184,7 @@
 </node>
 <node TEXT="04.4 The Basic Element and Relationships" ID="ID_832733419" CREATED="1748070699012" MODIFIED="1748070709263"/>
 </node>
-<node TEXT="06. Modeling Contextual Security Architecture" POSITION="bottom_or_right" ID="ID_1741078159" CREATED="1747668140692" MODIFIED="1747668176080">
+<node TEXT="06. Modeling Contextual Security Architecture" FOLDED="true" POSITION="bottom_or_right" ID="ID_1741078159" CREATED="1747668140692" MODIFIED="1747668176080">
 <node TEXT="06.0 Overview" FOLDED="true" ID="ID_1454281063" CREATED="1749098978488" MODIFIED="1749098982100">
 <node TEXT="Table 19: SABSA Contextual Architecture" POSITION="bottom_or_right" ID="ID_1189986251" CREATED="1749098234900" MODIFIED="1749098246367"/>
 <node TEXT="Figure 29: Developing and Maintaining the Contextual Security Architecture" POSITION="bottom_or_right" ID="ID_851538053" CREATED="1748266465932" MODIFIED="1748266481193"/>
@@ -195,7 +195,7 @@
 <node TEXT="Table 21: The Value Stream Element" ID="ID_133549157" CREATED="1749098993174" MODIFIED="1749099007128"/>
 <node TEXT="Figure 30: Value Modeling" ID="ID_758075284" CREATED="1748266502004" MODIFIED="1748266507359"/>
 </node>
-<node TEXT="6.1.2 Business Object" FOLDED="true" ID="ID_1456816592" CREATED="1748266514812" MODIFIED="1748266519599">
+<node TEXT="6.1.2 Business Object" ID="ID_1456816592" CREATED="1748266514812" MODIFIED="1748266519599">
 <node TEXT="Table 22: Business Object Security Properties" ID="ID_1926561917" CREATED="1749099107261" MODIFIED="1749099116983"/>
 <node TEXT="Figure 31: Element Properties and SABSA Attributes" ID="ID_1338079299" CREATED="1748266522123" MODIFIED="1748266531646"/>
 </node>

@@ -194,7 +194,11 @@ This is another essential requirement of SABSA Attribute modeling, which is the 
 
 #### Figure 20: Attribute Traceability Across Layers
 
+Because SABSA Attributes are global singletons, reuse within a model runs the risk of unintended coupling.
+
 ## 5.4 Meaning
+
+The ArchiMate `Meaning` element is not extended by the Security Overlay other than by the addition of an optional profile.
 
 ### Figure 21: Applying Attribute Metrics to Multiple Controls
 
