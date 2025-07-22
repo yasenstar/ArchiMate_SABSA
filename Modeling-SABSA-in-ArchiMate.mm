@@ -3,7 +3,7 @@
 <node TEXT="Modeling SABSA®&#xa;in ArchiMate®" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_1090958577" CREATED="1409300609620" MODIFIED="1747668057865">
 <hook NAME="accessories/plugins/AutomaticLayout.properties" VALUE="ALL"/>
 <font BOLD="true"/>
-<hook NAME="MapStyle" background="#eeeeeeff" zoom="0.82644624">
+<hook NAME="MapStyle" background="#eeeeeeff" zoom="1.1">
     <properties show_icon_for_attributes="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_tags="UNDER_NODES" show_note_icons="true" associatedTemplateLocation="template:/light_grey_straight_template.mm" fit_to_viewport="false" show_icons="BESIDE_NODES"/>
     <tags category_separator="::"/>
 
@@ -88,7 +88,7 @@
 <node TEXT="Figure 12: Composition of Value Chains" ID="ID_247946098" CREATED="1748180752267" MODIFIED="1748180763089"/>
 <node TEXT="Table 11: Value Chain Properties" ID="ID_603329795" CREATED="1748852049250" MODIFIED="1748852059761"/>
 </node>
-<node TEXT="05.3 SABSA Business Attributes" POSITION="bottom_or_right" ID="ID_1183827331" CREATED="1748180790318" MODIFIED="1748180799444">
+<node TEXT="05.3 SABSA Business Attributes" FOLDED="true" POSITION="bottom_or_right" ID="ID_1183827331" CREATED="1748180790318" MODIFIED="1748180799444">
 <node TEXT="Figure 13: SABSA Business Attributes Represented in the ArchiMate Language" ID="ID_1817507809" CREATED="1748180803069" MODIFIED="1748180821506"/>
 <node TEXT="Table 12: SABSA Attribute Properties" ID="ID_467781429" CREATED="1748865985044" MODIFIED="1748865995560"/>
 <node TEXT="5.3.1 Structural Placement of Business Attributes" ID="ID_1841880917" CREATED="1748229017663" MODIFIED="1748229032044">
@@ -101,7 +101,7 @@
 <node TEXT="Figure 20: Attribute Traceability Across Layers" ID="ID_1219676788" CREATED="1748265289228" MODIFIED="1748265302479"/>
 </node>
 </node>
-<node TEXT="05.4 Meaning" FOLDED="true" POSITION="bottom_or_right" ID="ID_1741951927" CREATED="1748265307260" MODIFIED="1748271358208">
+<node TEXT="05.4 Meaning" POSITION="bottom_or_right" ID="ID_1741951927" CREATED="1748265307260" MODIFIED="1748271358208">
 <node TEXT="Figure 21: Applying Attribute Metrics to Multiple controls" ID="ID_399408634" CREATED="1748265312427" MODIFIED="1748265327482"/>
 <node TEXT="Figure 22: Use of Meaning to Externalize Context-Sensitive Metrics" ID="ID_836465482" CREATED="1748265330414" MODIFIED="1748265344200"/>
 </node>

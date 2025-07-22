@@ -196,6 +196,10 @@ This is another essential requirement of SABSA Attribute modeling, which is the 
 
 Because SABSA Attributes are global singletons, reuse within a model runs the risk of unintended coupling.
 
+Snapshot ArchiModel File: [Model-Figure20](./Figure19/ArchiMate_SABSA_Figure20.archimate)
+
+![Figure20](./Figure20/Figure20_Attribute-Traceability-Across-Layers.png)
+
 ## 5.4 Meaning
 
 The ArchiMate `Meaning` element is not extended by the Security Overlay other than by the addition of an optional profile.
