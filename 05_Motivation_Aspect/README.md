@@ -239,7 +239,13 @@ Guided by the ArchiMate Specification, impacts, threats, vulnerabilities, and ri
 
 ## 5.6 Controls: Objectives, Requirements, and Measures
 
+In ArchiMate Specification, `Goal` is specialized as Control Objective, and `Requirement` is specialized as Control Measure.
+
+To cope with the semantic question, the Security Overlay retains the «Control Objective» stereotype of `Goal`, retains `Requirement` for security requirements without specialization, and introduces a new «Control» stereotype to represent the control mechanism.
+
 ### Figure 23: Expressing Composite Requirements
+
+Modeling a Control Objective realized by a control mechanism via a `requirement` is a good semantic fit. In practice, though, a single `Requirement` is often insufficient.
 
 ### Figure 24: Example of a Control Pattern
 
