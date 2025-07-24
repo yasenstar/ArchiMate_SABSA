@@ -204,6 +204,22 @@ Snapshot ArchiModel File: [Model-Figure20](./Figure19/ArchiMate_SABSA_Figure20.a
 
 The ArchiMate `Meaning` element is not extended by the Security Overlay other than by the addition of an optional profile.
 
+As described in the previous sections, the SABSA Attribute taxonomy incorporates a catalog of elements, definitions and hard/soft metrics via the security profile.
+
+Because Business Attributes are modeled as singletons, any definition and metric, modeled within the profile, will apply to everythin that the Attribute touches; i.e., in every context where the Attribute is referenced.
+
+This causes problems were an Attribute is applied to multiple points in the same model. Consider, for example, whether there is a single _Confidentiality_ Attribute enhanced by the two Control Objectives and four Controls of Figure 21. How can be express context-sensitive definition and metrics?
+
+Figure 21: Applying Attribute Metrics to Multiple Controls (Snapshot Model: [Model-Figure21](./Figure21/ArchiMate_SABSA_Figure21.archimate))
+
+![Figure21](./Figure21/Figure21_Applying-Attribute-Metrics-to-Multiple-Controls.png)
+
+The Security Overlay recommends the use of **Meaning** elements to re-interpret the Attribute for each context.
+
+Figure 22 shows how the `meaning` of _Confidentiality_ (i.e. definition and metrics) can be externalized and then adapted to _Tokenization_, _Access Control_, and other requirements using Meaning elements. (Snapshot Model: [Model-Figure22](./Figure22/ArchiMate_SABSA_Figure22.archimate))
+
+<!-- ![Figure22](./Figure22/Figure21_Applying-Attribute-Metrics-to-Multiple-Controls.png) -->
+
 ### Figure 21: Applying Attribute Metrics to Multiple Controls
 
 ### Figure 22: Use of Meaning of Externalize Context-Sensitive Metrics
