@@ -1,0 +1,20 @@
+{
+    "«Impact»": {
+        "attributes": {
+            "tsi:riskAttributes": {
+                "id": "",
+                "stereotypeOf": ""
+            },            
+            "currencyUnits": "",            
+            "currencyCode": ""
+        },
+        "instance": {
+            "tsi:name": "",
+            "tsi:description": "",
+            "tsi:metric": {
+                "tsi:impactRating": "",
+                "tsi:lossDistribution": ""
+            }
+        }
+    }
+}

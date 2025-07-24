@@ -230,6 +230,13 @@ Guided by the ArchiMate Specification, impacts, threats, vulnerabilities, and ri
 
 ### Table 13: Risk Element Properties
 
+| Elment | Schema File | Schema Visualization |
+| --- | --- | --- |
+| «Risk» | [Risk JSON](./Table13/«Risk».json) | ![Risk Schema](./Table13/schema_risk.png) |
+| «Impact» | [Impact JSON](./Table13/«Impact».json) | ![Impact Schema](./Table13/schema_impact.png) |
+| «Threat» | [Threat JSON](./Table13/«Threat».json) | ![Threat Schema](./Table13/schema_threat.png) |
+| «Vulnerability» | [Vulnerability JSON](./Table13/«Vulnerability».json) | ![Vulnerability Schema](./Table13/schema_vulnerability.png) |
+
 ## 5.6 Controls: Objectives, Requirements, and Measures
 
 ### Figure 23: Expressing Composite Requirements

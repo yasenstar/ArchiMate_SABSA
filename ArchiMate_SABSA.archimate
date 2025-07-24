@@ -162,10 +162,18 @@
       <element xsi:type="archimate:Value" name="«Value Chains»" id="id-73f52c0575714a619d11546f802cb7bc"/>
       <element xsi:type="archimate:Value" name="«Loss»" id="id-97fd27148101435088c6a79f49244d7c"/>
       <element xsi:type="archimate:Requirement" name="«Exception»" id="id-97768dbbe16e43ce8f8ac57d5a68d37f"/>
-      <element xsi:type="archimate:Assessment" name="«Impact»" id="id-da50d10686fb491fa8dfd940e07df089"/>
-      <element xsi:type="archimate:Assessment" name="«Risk»" id="id-58d9d719ae6f4f8ba3ddefc650a571fb"/>
-      <element xsi:type="archimate:Assessment" name="«Threat»" id="id-e6b96b1d610443aa979b8d7b775e51f0"/>
-      <element xsi:type="archimate:Assessment" name="«Vulnerability»" id="id-f7bd1cdec9dd49df977994e563976eba"/>
+      <element xsi:type="archimate:Assessment" name="«Impact»" id="id-da50d10686fb491fa8dfd940e07df089">
+        <documentation>Risk expresses impact (loss magnitude) as a qualitative rating or a quantitative probability distribution</documentation>
+      </element>
+      <element xsi:type="archimate:Assessment" name="«Risk»" id="id-58d9d719ae6f4f8ba3ddefc650a571fb">
+        <documentation>Risk expresses annual loss expectancy as a qualitative rating or a quantitative probability distribution</documentation>
+      </element>
+      <element xsi:type="archimate:Assessment" name="«Threat»" id="id-e6b96b1d610443aa979b8d7b775e51f0">
+        <documentation>Risk expresses vulnerability as a qualitative rating or a quantitative probability distribution</documentation>
+      </element>
+      <element xsi:type="archimate:Assessment" name="«Vulnerability»" id="id-f7bd1cdec9dd49df977994e563976eba">
+        <documentation>Risk expresses vulnerability as a qualitative rating or a quantitative probability distribution</documentation>
+      </element>
       <element xsi:type="archimate:Assessment" name="«Opportunity»" id="id-70f0b210bd044c9e9d0bf3b2f78e2a10"/>
       <element xsi:type="archimate:Goal" name="«Control Objective»" id="id-ba77f7f7d651441b8ea7980bd1cb4c1f"/>
       <element xsi:type="archimate:Goal" name="«Compliance Objective»" id="id-8c1fbc469c384244bae902c9f2ddd8fa"/>

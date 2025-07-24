@@ -1,0 +1,18 @@
+{
+    "«Threat»": {
+        "attributes": {
+            "tsi:riskAttributes": {
+                "id": "",
+                "stereotypeOf": ""
+            }
+        },
+        "instance": {
+            "tsi:name": "",
+            "tsi:description": "",
+            "tsi:metric": {
+                "tsi:threatRating": "",
+                "tsi:threatEventDistribution": ""
+            }
+        }
+    }
+}
