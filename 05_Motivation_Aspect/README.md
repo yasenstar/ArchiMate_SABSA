@@ -208,11 +208,15 @@ As described in the previous sections, the SABSA Attribute taxonomy incorporates
 
 Because Business Attributes are modeled as singletons, any definition and metric, modeled within the profile, will apply to everything that the Attribute touches; i.e., in every context where the Attribute is referenced.
 
+### Figure 21: Applying Attribute Metrics to Multiple Controls
+
 This causes problems where an Attribute is applied to multiple points in the same model. Consider, for example, whether there is a single _Confidentiality_ Attribute enhanced by the two Control Objectives and four Controls of Figure 21. How can be express context-sensitive definition and metrics?
 
 Figure 21: Applying Attribute Metrics to Multiple Controls (Snapshot Model: [Model-Figure21](./Figure21/ArchiMate_SABSA_Figure21.archimate))
 
 ![Figure21](./Figure21/Figure21_Applying-Attribute-Metrics-to-Multiple-Controls.png)
+
+### Figure 22: Use of Meaning of Externalize Context-Sensitive Metrics
 
 The Security Overlay recommends the use of **Meaning** elements to re-interpret the Attribute for each context.
 
@@ -220,11 +224,9 @@ Figure 22 shows how the `meaning` of _Confidentiality_ (i.e. definition and metr
 
 ![Figure22](./Figure22/Figure22_Use-of-Meaning-to-Externalize-Context-Sensitive-Metrics.png)
 
-### Figure 21: Applying Attribute Metrics to Multiple Controls
-
-### Figure 22: Use of Meaning of Externalize Context-Sensitive Metrics
-
 ## 5.5 Impact, Threat, Vulnerability, and Risk
+
+Guided by the ArchiMate Specification, impacts, threats, vulnerabilities, and risks are modeled as stereotyped `__Assessment__` elements, providing a good semantic fit that reflects the subjective uncertainty inherent in assessing these unknowns.
 
 ### Table 13: Risk Element Properties
 
