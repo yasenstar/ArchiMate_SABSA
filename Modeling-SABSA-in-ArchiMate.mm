@@ -101,11 +101,11 @@
 <node TEXT="Figure 20: Attribute Traceability Across Layers" ID="ID_1219676788" CREATED="1748265289228" MODIFIED="1748265302479"/>
 </node>
 </node>
-<node TEXT="05.4 Meaning" POSITION="bottom_or_right" ID="ID_1741951927" CREATED="1748265307260" MODIFIED="1748271358208">
+<node TEXT="05.4 Meaning" FOLDED="true" POSITION="bottom_or_right" ID="ID_1741951927" CREATED="1748265307260" MODIFIED="1748271358208">
 <node TEXT="Figure 21: Applying Attribute Metrics to Multiple controls" ID="ID_399408634" CREATED="1748265312427" MODIFIED="1748265327482"/>
 <node TEXT="Figure 22: Use of Meaning to Externalize Context-Sensitive Metrics" ID="ID_836465482" CREATED="1748265330414" MODIFIED="1748265344200"/>
 </node>
-<node TEXT="05.5 Impact, Threat, Vulnerability, and Risk" FOLDED="true" POSITION="bottom_or_right" ID="ID_1182153628" CREATED="1748265351764" MODIFIED="1748265363037">
+<node TEXT="05.5 Impact, Threat, Vulnerability, and Risk" POSITION="bottom_or_right" ID="ID_1182153628" CREATED="1748265351764" MODIFIED="1748265363037">
 <node TEXT="Table 13: Risk Element Properties" ID="ID_863664839" CREATED="1749093990114" MODIFIED="1749094003352"/>
 </node>
 <node TEXT="05.6 Controls: Objectives, Requirements, and Measures" FOLDED="true" POSITION="bottom_or_right" ID="ID_1603541117" CREATED="1748265363042" MODIFIED="1748266014256">
