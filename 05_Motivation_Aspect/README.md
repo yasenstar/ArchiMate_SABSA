@@ -253,6 +253,12 @@ Snapshot Model: [Model-Figure23](./Figure23/ArchiMate_SABSA_Figure23.archimate)
 
 ### Figure 24: Example of a Control Pattern
 
+Sometimes a requirement is realized through a combination of elements and relationships, acting in concert. In such cases, the realization of the requirement can be expressed as a pattern using a grouping marked as a control stereotype.
+
+Snapshot Model: [Model-Figure24](./Figure24/ArchiMate_SABSA_Figure24.archimate)
+
+![Figure24](./Figure24/Figure24_Example-of-a-Control-Pattern.png)
+
 ## 5.7 Multi-Teired Security
 
 ### Table 14: Control Element Properties
