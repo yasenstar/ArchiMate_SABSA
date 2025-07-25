@@ -247,6 +247,10 @@ To cope with the semantic question, the Security Overlay retains the «Control O
 
 Modeling a Control Objective realized by a control mechanism via a `requirement` is a good semantic fit. In practice, though, a single `Requirement` is often insufficient.
 
+Snapshot Model: [Model-Figure23](./Figure23/ArchiMate_SABSA_Figure23.archimate)
+
+![Figure23](./Figure23/Figure23_Expressing-Composite-Requirements.png)
+
 ### Figure 24: Example of a Control Pattern
 
 ## 5.7 Multi-Teired Security
