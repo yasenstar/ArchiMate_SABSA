@@ -261,7 +261,30 @@ Snapshot Model: [Model-Figure24](./Figure24/ArchiMate_SABSA_Figure24.archimate)
 
 ## 5.7 Multi-Teired Security
 
+SABSA's Conceptual/Process cell discusses the combination and layering of Controls for "Defense-in-Depth" or "End-to-End Protection".
+
+The Blue Book (Enterprise Security Architecture - A Business-Driven Approach, [preview link](https://api.pageplace.de/preview/DT0400.9781482280920_A25782338/preview-9781482280920_A25782338.pdf)) describes a 4-tier model:
+- Prevent
+- Contain
+- Detect & Notification, and
+- Recovery & Restoration.
+
+The [NIST™ Cybersecurity Framework](https://www.nist.gov/cyberframework) identifies six control functions:
+- Govern
+- Identify
+- Protect
+- Detect
+- Respond, and
+- Recover
+
 ### Table 14: Control Element Properties
+
+The Security Overlay:
+- adds the category "Deter" to cover sanctions expressed in Policies & Contractual clauses. 
+- the identify set (including Asset Management, Business Environment, Governance, Risk Assessment, and Risk Management Strategy) are modeled in the 2nd and tertiary (3rd, 第三) architectures rather than the primary, run-time architecture.
+- the profile for the Control elements has been derived from analysis and use of several commonly used control frameworks.
+
+
 
 ### Figure 25: Example of Multi-Tiered Security
 
