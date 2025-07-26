@@ -269,7 +269,7 @@ The Blue Book (Enterprise Security Architecture - A Business-Driven Approach, [p
 - Detect & Notification, and
 - Recovery & Restoration.
 
-The [NIST™ Cybersecurity Framework](https://www.nist.gov/cyberframework) identifies six control functions:
+The [NIST™ Cybersecurity Framework](https://www.nist.gov/cyberframework) (local download link: [NIST CyberFramework 2.0](../Docs/NIST.CSWP.29.pdf)) identifies six control functions:
 - Govern
 - Identify
 - Protect
@@ -284,7 +284,9 @@ The Security Overlay:
 - the identify set (including Asset Management, Business Environment, Governance, Risk Assessment, and Risk Management Strategy) are modeled in the 2nd and tertiary (3rd, 第三) architectures rather than the primary, run-time architecture.
 - the profile for the Control elements has been derived from analysis and use of several commonly used control frameworks.
 
-
+| Elment | Schema File | Schema Visualization |
+| --- | --- | --- |
+| Control Element | [ControlElement](./Table14/ControlElements.json) | ![ControlElementSchema](./Table14/schema_ControlObjectives.png) |
 
 ### Figure 25: Example of Multi-Tiered Security
 

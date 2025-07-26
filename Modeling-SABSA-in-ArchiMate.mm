@@ -105,14 +105,14 @@
 <node TEXT="Figure 21: Applying Attribute Metrics to Multiple controls" ID="ID_399408634" CREATED="1748265312427" MODIFIED="1748265327482"/>
 <node TEXT="Figure 22: Use of Meaning to Externalize Context-Sensitive Metrics" ID="ID_836465482" CREATED="1748265330414" MODIFIED="1748265344200"/>
 </node>
-<node TEXT="05.5 Impact, Threat, Vulnerability, and Risk" POSITION="bottom_or_right" ID="ID_1182153628" CREATED="1748265351764" MODIFIED="1748265363037">
+<node TEXT="05.5 Impact, Threat, Vulnerability, and Risk" FOLDED="true" POSITION="bottom_or_right" ID="ID_1182153628" CREATED="1748265351764" MODIFIED="1748265363037">
 <node TEXT="Table 13: Risk Element Properties" ID="ID_863664839" CREATED="1749093990114" MODIFIED="1749094003352"/>
 </node>
 <node TEXT="05.6 Controls: Objectives, Requirements, and Measures" FOLDED="true" POSITION="bottom_or_right" ID="ID_1603541117" CREATED="1748265363042" MODIFIED="1748266014256">
 <node TEXT="Figure 23: Expressing Composite Requirements" ID="ID_314020606" CREATED="1748266025501" MODIFIED="1748266035743"/>
 <node TEXT="Figure 24: Example of a Control Pattern" ID="ID_688179235" CREATED="1748266035972" MODIFIED="1748266043616"/>
 </node>
-<node TEXT="05.7 Multi-Tiered Security" FOLDED="true" POSITION="bottom_or_right" ID="ID_647472870" CREATED="1748266047588" MODIFIED="1748266153182">
+<node TEXT="05.7 Multi-Tiered Security" POSITION="bottom_or_right" ID="ID_647472870" CREATED="1748266047588" MODIFIED="1748266153182">
 <node TEXT="Table 14: Control Element Properties" ID="ID_1872466531" CREATED="1749097112293" MODIFIED="1749097128663"/>
 <node TEXT="Figure 25: Example of Multi-Tiered Security" ID="ID_1763341137" CREATED="1748266153187" MODIFIED="1748266171440"/>
 </node>

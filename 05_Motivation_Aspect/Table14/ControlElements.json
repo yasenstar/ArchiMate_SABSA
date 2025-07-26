@@ -1,0 +1,32 @@
+{
+    "ControlObjective": {
+        "attributes": {
+            "id": "",
+            "namespace": "",
+            "refCode": "",
+            "status": "",
+            "applicability": "",
+            "baseline": ""
+        },
+        "instance": {
+            "tsi:name": "",
+            "tsi:description": "",
+            "tsi:profile": {
+                "attributes": {
+                    "id": "",
+                    "namespace": "",
+                    "identify": "",
+                    "deter": "",
+                    "protect": "",
+                    "detect": "",
+                    "respond": "",
+                    "recover": ""
+                },
+                "instance": {
+                    "custom:name": "",
+                    "custom:description": ""
+                }
+            }
+        }
+    }
+}
