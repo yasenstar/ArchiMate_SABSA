@@ -230,7 +230,7 @@ Guided by the ArchiMate Specification, impacts, threats, vulnerabilities, and ri
 
 ### Table 13: Risk Element Properties
 
-| Elment | Schema File | Schema Visualization |
+| Element | Schema File | Schema Visualization |
 | --- | --- | --- |
 | «Risk» | [Risk JSON](./Table13/«Risk».json) | ![Risk Schema](./Table13/schema_risk.png) |
 | «Impact» | [Impact JSON](./Table13/«Impact».json) | ![Impact Schema](./Table13/schema_impact.png) |
@@ -284,7 +284,7 @@ The Security Overlay:
 - the identify set (including Asset Management, Business Environment, Governance, Risk Assessment, and Risk Management Strategy) are modeled in the 2nd and tertiary (3rd, 第三) architectures rather than the primary, run-time architecture.
 - the profile for the Control elements has been derived from analysis and use of several commonly used control frameworks.
 
-| Elment | Schema File | Schema Visualization |
+| Element | Schema File | Schema Visualization |
 | --- | --- | --- |
 | Control Element | [ControlElement](./Table14/ControlElements.json) | ![ControlElementSchema](./Table14/schema_ControlObjectives.png) |
 
@@ -322,6 +322,10 @@ Snapshot Model: [Model-Figure26](./Figure26/ArchiMate_SABSA_Figure26.archimate)
 ![Figure26-2](./Figure26/Figure26-2_Structure-of-NIST-SP-800-53.png)
 
 ### Table 15: Standard and Regulation Properties
+
+| Element | Schema File | Schema Visualization |
+| --- | --- | --- |
+| «Regulation» | [Regulation](./Table15/Regulation.json) | ![RegulationSchema](./Table15/schema_Regulation.png) |
 
 ## 5.9 Articles, Mandates, and Compliance Objectives
 

@@ -1,0 +1,23 @@
+{
+    "Regulation": {
+            "tsi:Standard (extension)": {
+            "attributes": {
+                "id": "",
+                "namespace": "",
+                "stereotypeOf": "",
+                "publisher": "",
+                "sourceURL": "",
+                "version": "",
+                "publishDate": "",
+                "expiryDate": ""
+            },
+            "instance": {
+                "tsi:name": "",
+                "tsi:description": ""
+            }
+        }
+    },
+    "attributes": {
+        "effectiveDate": ""
+    }
+}
