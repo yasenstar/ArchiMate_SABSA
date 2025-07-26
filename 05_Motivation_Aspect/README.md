@@ -292,6 +292,10 @@ The Security Overlay:
 
 In this Figure 25, profile attributes are declared in the Control Objectives element to define its protection requirement and in each Requirement element to describe its protection capability.
 
+Snapshot Model: [Model-Figure25](./Figure25/ArchiMate_SABSA_Figure25.archimate)
+
+![Figure25](./Figure25/Figure25_Example-of-Multi-Tiered-Security.png)
+
 ### Compliance
 
 The "Why" cells of Contextual and Conceptual cells address the important and demanding driver.
