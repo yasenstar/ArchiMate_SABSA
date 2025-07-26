@@ -304,7 +304,16 @@ The Security Overlay has been extended with additional stereotype to support the
 
 ## 5.8 Regulations and Standards
 
-### Figure 25: The Structure of Standards and Regulations
+Compliance controls are defined in public standards:
+- Some are mandatory carrying the force of laws
+- Some are pre-requisite for a license to operate
+- Others may be important in demonstrating good governance, fulfilling market expectations or measuring capability maturity.
+
+### Figure 26: The Structure of Standards and Regulations
+
+«Standard» documents:
+- ISO27001: [Local Copy1](../docs/iso27001.pdf), [Local Copy2](../Docs/ISO_27001_Standard.pdf)
+- NIST SP 800-53: [Online Link](https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/SP_800_53_5_1_1/home)
 
 ### Table 15: Standard and Regulation Properties
 
