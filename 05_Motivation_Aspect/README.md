@@ -294,6 +294,10 @@ In this Figure 25, profile attributes are declared in the Control Objectives ele
 
 ### Compliance
 
+The "Why" cells of Contextual and Conceptual cells address the important and demanding driver.
+
+The Security Overlay has been extended with additional stereotype to support the representation of Compliance Objectivess and guidance on managing the complexity created by the challenges of simultaneous multi-regulatory compliance.
+
 ## 5.8 Regulations and Standards
 
 ### Figure 25: The Structure of Standards and Regulations
