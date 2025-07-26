@@ -290,6 +290,8 @@ The Security Overlay:
 
 ### Figure 25: Example of Multi-Tiered Security
 
+In this Figure 25, profile attributes are declared in the Control Objectives element to define its protection requirement and in each Requirement element to describe its protection capability.
+
 ### Compliance
 
 ## 5.8 Regulations and Standards
