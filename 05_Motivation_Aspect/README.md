@@ -315,6 +315,12 @@ Compliance controls are defined in public standards:
 - ISO27001: [Local Copy1](../docs/iso27001.pdf), [Local Copy2](../Docs/ISO_27001_Standard.pdf)
 - NIST SP 800-53: [Online Link](https://csrc.nist.gov/projects/cprt/catalog#/cprt/framework/version/SP_800_53_5_1_1/home)
 
+Snapshot Model: [Model-Figure26](./Figure26/ArchiMate_SABSA_Figure26.archimate)
+
+![Figure26-1](./Figure26/Figure26-1_Structure-of-ISO27001.png)
+
+![Figure26-2](./Figure26/Figure26-2_Structure-of-NIST-SP-800-53.png)
+
 ### Table 15: Standard and Regulation Properties
 
 ## 5.9 Articles, Mandates, and Compliance Objectives
