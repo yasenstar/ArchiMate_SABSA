@@ -396,7 +396,7 @@ The definition given here will be discussed on its usage until Section 6.4.1.
 
 | Element | Schema File | Schema Visualization |
 | --- | --- | --- |
-| «Trust» | [Trust JSON](./Table18/«Trust».json) | ![Control Schema](./Table18/TrustSchema.png)
+| «Trust» | [Trust JSON](./Table18/«Trust».json) | ![Trust Schema](./Table18/TrustSchema.png)
 
 ---
 
