@@ -338,9 +338,21 @@ __Articles__ serve multiple purposes:
 
 Only after considerable preamble (序言) do the Articles generally turn to address what needs to be accomplished. Articles consist of paragraphs and sub-paragraphs that are eventually built form short, well-focused clauses.
 
+To model this in ArchiMate language, the Security Overlay draws an equivalence between legal paragraphs and Compliance Objectives (an analog of the risk-based Control Objective) and between legal clauses and `Requirements`/`Constraints`.
+
 ### Figure 27: Articles and Compliance Objectives
 
+To model the Articles themselves: as with SABSA Attributes, we need to represen an abstract concept, the law, an ideal to be pursued in letter and in spirit by meeting specific, achievable goals. The Security Overlay turns to a stereotype of `Principle`, «Article» - and the convention of only referencing it through `influence relationships`.
+
+Snapshot Model: [Model-Figure27](./Figure27/ArchiMate_SABSA_Figure27.archimate)
+
+![Figure27](./Figure27)
+
+This same 3-tier pattern (`Concept`-`Goal`-`Requirement`) is also evident in sectoral and technical standards. While the stereotypes already are re-usable at the `Goal`1 and `Requirement` levels, neither the «SABSA Attribute» nor «Article» are intuitive names for the top-level concepts found in these standards.
+
 ### Table 16: Compliance Conceptual Element Properties
+
+
 
 ## 5.10 Control Mechanisms
 
