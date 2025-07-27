@@ -374,7 +374,7 @@ This figure confirms that real-world Controls manifest in many forms.
 
 Snapshot Model: [Model-Figure28](./Figure28/ArchiMate_SABSA_Figure28.archimate)
 
-![Figure28](./Figure28)
+![Figure28](./Figure28/Figure28_Use-Case-and-Iconography-for-Control.png)
 
 What can be concluded from this set of examples are:
 - Controls are often a component of an element of the same type
