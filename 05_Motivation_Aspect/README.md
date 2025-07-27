@@ -334,7 +334,7 @@ Legal texts tend to consist of articles (schedules), paragraphs, and clauses, nu
 __Articles__ serve multiple purposes:
 - they can be used to define terminology
 - they can be used to assert scope and applicability
-- they cna be used to cite mandates that empower the issuing body with authority to act in the given domain
+- they can be used to cite mandates that empower the issuing body with authority to act in the given domain
 
 Only after considerable preamble (序言) do the Articles generally turn to address what needs to be accomplished. Articles consist of paragraphs and sub-paragraphs that are eventually built form short, well-focused clauses.
 
