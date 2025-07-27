@@ -384,11 +384,19 @@ What can be concluded from this set of examples are:
 
 | Element | Schema File | Schema Visualization |
 | --- | --- | --- |
-| «Control» | [Control JSON](./Table16/«Control».json) | ![Control Schema](./Table17/ControlSchema.png)
+| «Control» | [Control JSON](./Table17/«Control».json) | ![Control Schema](./Table17/ControlSchema.png)
 
 ## 5.11 Trust
 
+Trust in Security Overlay is another stereotype of `Principle`. The element enables the explicit modeling of any trust implicit in an interaction between Parties.
+
+The definition given here will be discussed on its usage until Section 6.4.1.
+
 ### Table 18: Trust Profile
+
+| Element | Schema File | Schema Visualization |
+| --- | --- | --- |
+| «Trust» | [Trust JSON](./Table18/«Trust».json) | ![Control Schema](./Table18/TrustSchema.png)
 
 ---
 
