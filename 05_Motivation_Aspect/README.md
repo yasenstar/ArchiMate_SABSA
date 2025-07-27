@@ -360,9 +360,31 @@ This same 3-tier pattern (`Concept`-`Goal`-`Requirement`) is also evident in sec
 
 ## 5.10 Control Mechanisms
 
+Three fundamental elements for modeling a control architecture are:
+- An abstract `concept` of an ideal that is being pursued, e.g. SABSA Attribute, a statute of regulatory (Article) or standards (Mandate) compliance, modeled as a stereotype of `Principle`
+- A specific, realizable, defined state of a system component that represents a sufficient `realization` of the ideal if achieved, maintained, and evidenced. These are modeled as Control Objectives and Compliance Objectives, stereotypes of `Goal`.
+    - The architecture will aim for this state by a given date.
+    - The emphasis is on brining a risk within appetite or demonstrating compliance with the law at an acceptable cost and schedule.
+    - Objectives are not aiming for the achievement of perfection.
+- Control `Requirements`, `Constraints`, and Exceptions specifying granular actions and restrictions that, when performed in the right way, in the right place, at the right time, and for the right cost, achieve the overall objective.
+
 ### Figure 28: Use Cases and Iconography for Control
 
+This figure confirms that real-world Controls manifest in many forms.
+
+Snapshot Model: [Model-Figure28](./Figure28/ArchiMate_SABSA_Figure28.archimate)
+
+![Figure28](./Figure28)
+
+What can be concluded from this set of examples are:
+- Controls are often a component of an element of the same type
+- Control stereotypes cannot be formed from a single base type but require multiple base types
+
 ### Table 17: Control Properties
+
+| Element | Schema File | Schema Visualization |
+| --- | --- | --- |
+| «Control» | [Control JSON](./Table16/«Control».json) | ![Control Schema](./Table17/ControlSchema.png)
 
 ## 5.11 Trust
 
