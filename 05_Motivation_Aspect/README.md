@@ -346,13 +346,17 @@ To model the Articles themselves: as with SABSA Attributes, we need to represen 
 
 Snapshot Model: [Model-Figure27](./Figure27/ArchiMate_SABSA_Figure27.archimate)
 
-![Figure27](./Figure27)
+![Figure27](./Figure27/Figure27_Articles-and-Compliance-Objectives.png)
 
 This same 3-tier pattern (`Concept`-`Goal`-`Requirement`) is also evident in sectoral and technical standards. While the stereotypes already are re-usable at the `Goal`1 and `Requirement` levels, neither the «SABSA Attribute» nor «Article» are intuitive names for the top-level concepts found in these standards.
 
 ### Table 16: Compliance Conceptual Element Properties
 
-
+| Element | Schema File | Schema Visualization |
+| --- | --- | --- |
+| «Article» & «Mandate» | [Article & Mandate](./Table15/Regulation.json) | ![Article & Mandate Schema](./Table15/schema_Regulation.png) |
+| «Compliance Objective» | | |
+| «Exception» | | |
 
 ## 5.10 Control Mechanisms
 
