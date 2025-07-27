@@ -354,9 +354,9 @@ This same 3-tier pattern (`Concept`-`Goal`-`Requirement`) is also evident in sec
 
 | Element | Schema File | Schema Visualization |
 | --- | --- | --- |
-| «Article» & «Mandate» | [Article & Mandate](./Table15/Regulation.json) | ![Article & Mandate Schema](./Table15/schema_Regulation.png) |
-| «Compliance Objective» | | |
-| «Exception» | | |
+| «Article» & «Mandate» | [Article & Mandate JSON](./Table16/«Article».json) | ![Article & Mandate Schema](./Table16/ArticleSchema.png)
+| «Compliance Objective» | [Compliance Objective JSON](./Table16/«ComplianceObjective».json) | ![Compliance Objective Schema](./Table16/ComplianceObjective.png) |
+| «Exception» | [Exception JSON](./Table16/«Exception».json) | ![Exception Schema](./Table16/ExceptionSchema.png) |
 
 ## 5.10 Control Mechanisms
 

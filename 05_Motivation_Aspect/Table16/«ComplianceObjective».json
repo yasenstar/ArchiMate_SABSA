@@ -1,0 +1,18 @@
+{
+    "«Compliance Objective» (restricted extension of Control Objective)": {
+        "attributes": {
+            "id": "",
+            "stereotypeOf": "",
+            "namespace": "",
+            "refCode": "",
+            "status": "",
+            "applicability": "",
+            "baseline": ""
+        },
+        "instance": {
+            "tsi:name": "",
+            "tsi:description": "",
+            "tsi:profile": ""
+        }
+    }
+}
