@@ -26,6 +26,10 @@ Putting SABSA Contextual Architecture layer in the middle, below is the screensh
 
 Tha above outline enables us to visualize the set of processes and activities necessary to create and maintain an Architectural Description of the Contextual Architecture, expressed in ArchiMate Specification in below Figure 29.
 
+Snapshot ArchiMate Model: [Model till Figure29](./Figure29/ArchiMate_SABSA_Figure29.archimate)
+
+![Figure29-View](./Figure29/Figure29_Developing-and-Maintaining-Contextual-Security-Architecture.png)
+
 ### Table 20: Contextual Elements
 
 ## 6.1 Business Assets
