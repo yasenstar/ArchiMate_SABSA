@@ -1,5 +1,7 @@
 # 06 Modeling the Contextual Security Architecture
 
+## 6.0 Overview
+
 The SABSA Matrix illustration:
 
 ![SABSA Matrix](./img/SABSA-Matrix.png)
@@ -11,6 +13,18 @@ another Matrix view with Lifecycle context:
 ![SABSA Matrix and Lifecyle](./img/SABSA-Matrix-Lifecycle.png)
 
 _Source: https://www.alctraining.com.sg/course/sabsa-foundation/_
+
+### Table 19: SABSA Contextual Architecture
+
+Using Protégé tool, the snapshot ontology model is here: [sabsa_matrices_2018_table19.rdf](./Table19/sabsa_matrices_2018_Table19.rdf)
+
+Putting SABSA Contextual Architecture layer in the middle, below is the screenshot from onto-graph, base on Table19:
+
+![Table 19 Contextual](./Table19/SABSA_Contextual_Architecture.png)
+
+### Figure 29: Developing and Maintaining the Contextual Security Architecture
+
+
 
 ## 6.1 Business Assets
 
