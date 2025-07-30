@@ -46,6 +46,12 @@ Snapshot ArchiMate Model: [Archi Model till Table20](./Table20/ArchiMate_SABSA_T
 - A key principle of a `Value Stream` is that its value is always defined from the perspective of the Stakeholder, the consumer of the product, service, or deliverable, and not on its intrinsic value; i.e., the cost of production
 - The value of `Value Stream` can be modeled in the ArchiMate language using the `Value` element.
 
+Here is an example of a Value Stream is provided by the ArchiMate Specification:
+
+![Figure30](./Figure30/Figure30_Value-Stream-Modeling.png)
+
+Snapshot ArchiMate Model: [Figure 30 Value Stream Modeling](./Figure30/ArchiMate_SABSA_Figure30.archimate)
+
 ### 6.1.2 Business Object
 
 - `Business Object` represent Information Assets.
