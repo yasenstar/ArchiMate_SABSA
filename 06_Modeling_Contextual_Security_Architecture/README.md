@@ -32,6 +32,12 @@ Snapshot ArchiMate Model: [Model till Figure29](./Figure29/ArchiMate_SABSA_Figur
 
 ### Table 20: Contextual Elements
 
+Here are the summarization of native ArchiMate elements that are available to model the contextual layer:
+
+![table20](./Table20/Table20_Contextual-Elements.png)
+
+Snapshot ArchiMate Model: [Archi Model till Table20](./Table20/ArchiMate_SABSA_Table20.archimate)
+
 ## 6.1 Business Assets
 
 ### 6.1.1 Capability and Value Stream
