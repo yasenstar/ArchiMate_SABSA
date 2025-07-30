@@ -1,0 +1,22 @@
+{
+    "Business Object": {
+        "attributes": {
+            "id": "",
+            "confidentiality": "",
+            "integrity": "",
+            "authenticity": "",
+            "retentionPeriod": ""
+        },
+        "instance": {
+            "tsi:name": "",
+            "tsi:description": "",
+            "tog:pii": {
+                "attributes": {
+                    "classification": "",
+                    "couldBeMinor": "",
+                    "reviewPeriod": ""
+                }
+            }
+        }
+    }
+}

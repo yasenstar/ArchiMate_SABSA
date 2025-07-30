@@ -56,6 +56,12 @@ Snapshot ArchiMate Model: [Figure 30 Value Stream Modeling](./Figure30/ArchiMate
 
 - `Business Object` represent Information Assets.
 
+| Element | Schema File | Schema Visualization |
+| --- | --- | --- |
+| Business Object | [Business Object JSON](./Table22/BusinessObject.json) | ![Business Object Schema](./Table22/BusinessObjectSchema.png)
+
+
+
 ### 6.1.3 Business Service, Interface, and Service Level Agreements
 
 - Business Layer services need a distinct property set when they are offered through human interfaces.
