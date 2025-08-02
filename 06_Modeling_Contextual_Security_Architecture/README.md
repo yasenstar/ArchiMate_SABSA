@@ -60,7 +60,27 @@ Snapshot ArchiMate Model: [Figure 30 Value Stream Modeling](./Figure30/ArchiMate
 | --- | --- | --- |
 | Business Object | [Business Object JSON](./Table22/BusinessObject.json) | ![Business Object Schema](./Table22/BusinessObjectSchema.png)
 
+Below Figure 31 shows the relation with SABSA Attributes: a `Business Object` (Medical Record) has confidentiality property of "CONFIDENTIAL" and is also tagged with the SABSA Attribute of the same name.
 
+![Figure31](./Figure31/Figure31_Element-Properties-and-SABSA-Attributes.png)
+
+Snapshot ArchiMate Model: [Figure31 Model](./Figure31/ArchiMate_SABSA_Figure31.archimate)
+
+Label Expression for `Business Object` - Medical Record:
+
+```BASH
+${name}
+---------------------------------
+confidentiality: ${property:confidentiality}
+integrity: ${property:integrity}
+authenticity: ${property:authenticy}
+pii: {
+    "classification":"${property:pii-classification}"
+    "couldBeMinor":"${property:pii-couldBeMinor}"
+    "reviewPeriod":"${property:pii-reviewPeriod}"
+}
+retention: ${property:retention}
+```
 
 ### 6.1.3 Business Service, Interface, and Service Level Agreements
 
