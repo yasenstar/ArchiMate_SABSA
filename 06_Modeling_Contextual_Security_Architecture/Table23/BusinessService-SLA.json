@@ -1,0 +1,33 @@
+{
+    "Business Service (SLA)": {
+        "attributes": {
+            "id": "",
+            "criticality": "",
+            "capacity": ""
+        },
+        "SLA": {
+            "attributes": {
+                "id": "",
+                "stereotypeOf": "",
+                "reactionTime": "",
+                "resolutiontime": "",
+                "useLimit": ""
+            },
+            "instance": {
+                "tog:name": "",
+                "tog:description": "",
+                "tog:serviceHours": {
+                    "attributes": {
+                        "dayOfWeek": "",
+                        "serviceOpens": "",
+                        "serviceCloses": ""
+                    },
+                    "instance": {
+                        "tog:name": "",
+                        "tog:description": ""
+                    }
+                }
+            }
+        }
+    }
+}

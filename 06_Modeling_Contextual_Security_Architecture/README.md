@@ -84,9 +84,16 @@ retention: ${property:retention}
 
 ### 6.1.3 Business Service, Interface, and Service Level Agreements
 
+In terms of asset analysis, the most important aspects of service elements are those committed in a Service Level Agreement (SLA) that incurs panalties if not delivered.
+
 - Business Layer services need a distinct property set when they are offered through human interfaces.
 - SLA is using `Contract` element, a bespoke `Requirement`/`Constraint` may also be used where a simple property is insufficient.
 - `Business Service`s may be offered via multiple interfaces (`Business Interface`)
+
+| Element | Schema File | Schema Visualization |
+| --- | --- | --- |
+| Business Servie (SLA) | [Business Service (SLA) JSON](./Table23/BusinessService-SLA.json) | ![Business Service(SLA) Schema](./table23/BusinessService-SLA-Schema.png) |
+| Business Interface | [Business Interface JSON](./Table23/BusinessInterface.json) | ![Business Interface Schema](./table23/BusinessInterface-Schema.png) |
 
 ## 6.2 Business Risk
 

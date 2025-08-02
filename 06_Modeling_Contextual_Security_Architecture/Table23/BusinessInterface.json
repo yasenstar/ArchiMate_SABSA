@@ -1,0 +1,16 @@
+{
+    "Business Interface": {
+        "attributes": {
+            "id": "",
+            "type": "",
+            "capacity": "",
+            "consumerAssurance": "",
+            "providerAssurance": ""
+        },
+        "instance": {
+            "tsi:name": "",
+            "tsi:description": "",
+            "tog:serviceHours": ""
+        }
+    }
+}
