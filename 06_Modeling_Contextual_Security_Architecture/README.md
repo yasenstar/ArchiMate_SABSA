@@ -58,7 +58,7 @@ Snapshot ArchiMate Model: [Figure 30 Value Stream Modeling](./Figure30/ArchiMate
 
 | Element | Schema File | Schema Visualization |
 | --- | --- | --- |
-| Business Object | [Business Object JSON](./Table22/BusinessObject.json) | ![Business Object Schema](./Table22/BusinessObjectSchema.png)
+| Business Object | [Business Object JSON](./Table22/BusinessObject.json) | ![Business Object Schema](./Table22/BusinessObjectSchema.png) |
 
 Below Figure 31 shows the relation with SABSA Attributes: a `Business Object` (Medical Record) has confidentiality property of "CONFIDENTIAL" and is also tagged with the SABSA Attribute of the same name.
 
@@ -92,8 +92,8 @@ In terms of asset analysis, the most important aspects of service elements are t
 
 | Element | Schema File | Schema Visualization |
 | --- | --- | --- |
-| Business Servie (SLA) | [Business Service (SLA) JSON](./Table23/BusinessService-SLA.json) | ![Business Service(SLA) Schema](./table23/BusinessService-SLA-Schema.png) |
-| Business Interface | [Business Interface JSON](./Table23/BusinessInterface.json) | ![Business Interface Schema](./table23/BusinessService-SLA-Schema.png) |
+| Business Servie (SLA) | [Business Service (SLA) JSON](./Table23/BusinessService-SLA.json) | ![Business Service(SLA) Schema](./Table23/BusinessService-SLA-Schema.png) |
+| Business Interface | [Business Interface JSON](./Table23/BusinessInterface.json) | ![Business Interface Schema](./Table23/BusinessService-SLA-Schema.png) |
 
 ## 6.2 Business Risk
 
