@@ -93,7 +93,7 @@ In terms of asset analysis, the most important aspects of service elements are t
 | Element | Schema File | Schema Visualization |
 | --- | --- | --- |
 | Business Servie (SLA) | [Business Service (SLA) JSON](./Table23/BusinessService-SLA.json) | ![Business Service(SLA) Schema](./table23/BusinessService-SLA-Schema.png) |
-| Business Interface | [Business Interface JSON](./Table23/BusinessInterface.json) | ![Business Interface Schema](./table23/BusinessInterface-Schema.png) |
+| Business Interface | [Business Interface JSON](./Table23/BusinessInterface.json) | ![Business Interface Schema](./table23/BusinessService-SLA-Schema.png) |
 
 ## 6.2 Business Risk
 
@@ -104,6 +104,11 @@ In terms of asset analysis, the most important aspects of service elements are t
 
 - `Business Process` are often categorized in terms of their criticality to core business mission, capabilities, and value chains.
 - Behavioral elements may also be deemed sensitive due to the way they operate on information.
+
+| Element | Schema File | Schema Visualization |
+| --- | --- | --- |
+| Business Behavior Elements (Process/Function/Interaction) | [Business Behavior Elements JSON](./Table24/BusinessBehaviorElements.json) | ![Business Behavior Elements Schema](./table24/BusinessBehaviorElements-Schema.png) |
+| Access Relationship | [Access Relationship JSON](./Table24/Access.json) | ![Access Relationship Schema](./table24/Access-Schema.png) |
 
 ## 6.4 Business Roles and Actors
 

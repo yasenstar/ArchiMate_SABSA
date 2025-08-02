@@ -1,0 +1,17 @@
+{
+    "Access": {
+        "attribute": {
+            "tog:relationshipAttributes": {
+            "id": "",
+            "sourceCardinality": "",
+            "targetCardinality": ""
+            },
+            "type": "",
+            "modifier": ""
+        },   
+        "instance": {
+            "tog:name": "",
+            "tog:description": ""
+        }
+    }
+}

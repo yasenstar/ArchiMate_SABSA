@@ -1,0 +1,24 @@
+{
+    "Business Behavior Elements": {
+        "tog:behaviorAttributes": {
+            "id": "",
+            "criticality": "",
+            "privilege": "",
+            "piiLegalBasis": ""
+        },
+        "instance": {
+            "tog:name": "",
+            "tog:description": "",
+            "detail": {
+                "tog:executionFrequencey": {
+                    "custom:IntegerRange": {
+                        "custom:min": "",
+                        "custom:mode": "",
+                        "custom:max": ""
+                    }
+                },
+                "tog:executionPeriod": ""
+            }
+        }
+    }
+}
