@@ -1,0 +1,19 @@
+{
+    "«DataSubject»": {
+        "Attributes": {
+            "id": "",
+            "stereoTypeOf": "",
+            "type": "",
+            "isDataSubjet": "",
+            "reviewPeriod": ""
+        },
+        "instance": {
+            "tsi:name": "",
+            "tsi:description": "",
+            "detail": {
+                "tsi:population": "",
+                "tsi:populationRange": ""
+            }
+        }
+    }
+}

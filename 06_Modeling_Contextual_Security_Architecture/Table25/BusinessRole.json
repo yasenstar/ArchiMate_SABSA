@@ -1,0 +1,13 @@
+{
+    "BusinessRole": {
+        "Attributes": {
+            "id": "",
+            "privilege": "",
+            "toxicPairs": ""
+        },
+        "instance": {
+            "tog:name": "",
+            "tog:description": ""
+        }
+    }
+}

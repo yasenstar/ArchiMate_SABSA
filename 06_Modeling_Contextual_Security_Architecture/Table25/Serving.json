@@ -1,0 +1,16 @@
+{
+    "Serving": {
+        "attributes": {
+            "grp tog:relationshipAttributes": {
+                "id": "",
+                "sourceCardinality": "",
+                "targetCardinality": ""
+            },
+            "criticality": ""
+        },
+        "instance": {
+            "tog:name": "",
+            "tog:description": ""
+        }
+    }
+}

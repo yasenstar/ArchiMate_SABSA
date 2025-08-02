@@ -1,0 +1,23 @@
+{
+    "BusinessActor": {
+        "Attributes": {
+            "id": "",
+            "type": "",
+            "isDataSubjet": ""
+        },
+        "instance": {
+            "tog:name": "",
+            "tog:description": "",
+            "detail": {
+                "tog:population": "",
+                "tog:populationRange": {
+                    "custom:IntegerRange": {
+                        "custom:min": "",
+                        "custom:mode": "",
+                        "custom:max": ""
+                    }
+                }
+            }
+        }
+    }
+}

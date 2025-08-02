@@ -1,0 +1,14 @@
+{
+    "BusinessCollaboration": {
+        "Attributes": {
+            "id": "",
+            "namespace": "",
+            "privilege": "",
+            "segregationOfDuty": ""
+        },
+        "instance": {
+            "tog:name": "",
+            "tog:description": ""
+        }
+    }
+}

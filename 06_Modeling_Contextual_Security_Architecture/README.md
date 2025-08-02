@@ -117,6 +117,14 @@ In ArchiMate Specification, `Actors` represent human or organizational entities 
 - The extent of their responsibilities with respect to a given `business process`
 - Their use of `business and application services`
 
+| Element | Schema File | Schema Visualization |
+| --- | --- | --- |
+| Business Actor | [Business Actor JSON](./Table25/BusinessActor.json) | ![Business Actor Schema](./table25/BusinessActorSchema.png) |
+| «DataSubject» | [«DataSubject» JSON](./Table25/«DataSubject».json) | ![«DataSubject» Schema](./table25/«DataSubject»Schema.png) |
+| Business Role | [Business Role JSON](./Table25/BusinessRole.json) | ![Business Role Schema](./table25/BusinessRoleSchema.png) |
+| Business Collaboration | [Business Collaboration JSON](./Table25/BusinessCollaboration.json) | ![Business Collaboration Schema](./table25/BusinessCollaborationSchema.png) |
+| Serving Relation | [Serving JSON](./Table25/Serving.json) | ![Serving Schema](./table25/ServingRelationSchema.png) |
+
 ### 6.4.1 Governance
 
 Governance runs like a seam through the People column of the SABSA Matrix.
