@@ -107,8 +107,8 @@ In terms of asset analysis, the most important aspects of service elements are t
 
 | Element | Schema File | Schema Visualization |
 | --- | --- | --- |
-| Business Behavior Elements (Process/Function/Interaction) | [Business Behavior Elements JSON](./Table24/BusinessBehaviorElements.json) | ![Business Behavior Elements Schema](./table24/BusinessBehaviorElements-Schema.png) |
-| Access Relationship | [Access Relationship JSON](./Table24/Access.json) | ![Access Relationship Schema](./table24/Access-Schema.png) |
+| Business Behavior Elements (Process/Function/Interaction) | [Business Behavior Elements JSON](./Table24/BusinessBehaviorElements.json) | ![Business Behavior Elements Schema](./Table24/BusinessBehaviorElements-Schema.png) |
+| Access Relationship | [Access Relationship JSON](./Table24/Access.json) | ![Access Relationship Schema](./Table24/Access-Schema.png) |
 
 ## 6.4 Business Roles and Actors
 
@@ -119,11 +119,11 @@ In ArchiMate Specification, `Actors` represent human or organizational entities 
 
 | Element | Schema File | Schema Visualization |
 | --- | --- | --- |
-| Business Actor | [Business Actor JSON](./Table25/BusinessActor.json) | ![Business Actor Schema](./table25/BusinessActorSchema.png) |
-| «DataSubject» | [«DataSubject» JSON](./Table25/«DataSubject».json) | ![«DataSubject» Schema](./table25/«DataSubject»Schema.png) |
-| Business Role | [Business Role JSON](./Table25/BusinessRole.json) | ![Business Role Schema](./table25/BusinessRoleSchema.png) |
-| Business Collaboration | [Business Collaboration JSON](./Table25/BusinessCollaboration.json) | ![Business Collaboration Schema](./table25/BusinessCollaborationSchema.png) |
-| Serving Relation | [Serving JSON](./Table25/Serving.json) | ![Serving Schema](./table25/ServingRelationSchema.png) |
+| Business Actor | [Business Actor JSON](./Table25/BusinessActor.json) | ![Business Actor Schema](./Table25/BusinessActorSchema.png) |
+| «DataSubject» | [«DataSubject» JSON](./Table25/«DataSubject».json) | ![«DataSubject» Schema](./Table25/«DataSubject»Schema.png) |
+| Business Role | [Business Role JSON](./Table25/BusinessRole.json) | ![Business Role Schema](./Table25/BusinessRoleSchema.png) |
+| Business Collaboration | [Business Collaboration JSON](./Table25/BusinessCollaboration.json) | ![Business Collaboration Schema](./Table25/BusinessCollaborationSchema.png) |
+| Serving Relation | [Serving JSON](./Table25/Serving.json) | ![Serving Schema](./Table25/ServingRelationSchema.png) |
 
 ### 6.4.1 Governance
 
