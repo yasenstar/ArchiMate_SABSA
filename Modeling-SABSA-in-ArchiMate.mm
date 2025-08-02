@@ -120,9 +120,10 @@
 <node TEXT="04. Aligning SABSA and ArchiMate Framework" FOLDED="true" POSITION="top_or_left" ID="ID_344461701" CREATED="1747668110732" MODIFIED="1748837741636" VGAP_QUANTITY="3 pt">
 <node TEXT="04.1 Introduction to the Security Overlay" ID="ID_1521200450" CREATED="1748058067237" MODIFIED="1748058075081"/>
 <node TEXT="04.2 An Overview of the Task" ID="ID_415552271" CREATED="1748070675582" MODIFIED="1748070686491"/>
-<node TEXT="04.3 Risk &amp; Security Modeling in the ArchiMate Specification" ID="ID_658624177" CREATED="1748070686671" MODIFIED="1749051343853">
+<node TEXT="04.3 Risk &amp; Security Modeling in the ArchiMate Specification" ID="ID_658624177" CREATED="1748070686671" MODIFIED="1754106078670">
 <arrowlink DESTINATION="ID_1707637259"/>
 <arrowlink DESTINATION="ID_1603541117"/>
+<arrowlink DESTINATION="ID_785104707"/>
 <node TEXT="Figure 6: The Risk-Modeling Example in the ArchiMate 3.2 Specification" ID="ID_728792560" CREATED="1748177831182" MODIFIED="1748177848057"/>
 <node TEXT="Figure 7: Risk Modeling Relationships" ID="ID_297337276" CREATED="1748180005899" MODIFIED="1748180015199"/>
 <node TEXT="Figure 8: Mapping of Risk and Security Elements" ID="ID_1789885429" CREATED="1748180414528" MODIFIED="1748180427928"/>
@@ -130,7 +131,7 @@
 </node>
 <node TEXT="04.4 The Basic Element and Relationships" ID="ID_832733419" CREATED="1748070699012" MODIFIED="1748070709263"/>
 </node>
-<node TEXT="06. Modeling Contextual Security Architecture" FOLDED="true" POSITION="bottom_or_right" ID="ID_1741078159" CREATED="1747668140692" MODIFIED="1747668176080">
+<node TEXT="06. Modeling Contextual Security Architecture" POSITION="bottom_or_right" ID="ID_1741078159" CREATED="1747668140692" MODIFIED="1747668176080">
 <node TEXT="06.0 Overview" FOLDED="true" ID="ID_1454281063" CREATED="1749098978488" MODIFIED="1749098982100">
 <node TEXT="Table 19: SABSA Contextual Architecture" POSITION="bottom_or_right" ID="ID_1189986251" CREATED="1749098234900" MODIFIED="1749098246367"/>
 <node TEXT="Figure 29: Developing and Maintaining the Contextual Security Architecture" POSITION="bottom_or_right" ID="ID_851538053" CREATED="1748266465932" MODIFIED="1748266481193"/>
@@ -153,7 +154,7 @@
 <node TEXT="06.3 Business Process/Function/Interaction" FOLDED="true" ID="ID_1317585772" CREATED="1748266561819" MODIFIED="1748266571353">
 <node TEXT="Table 24: Business Behavior Properties" ID="ID_624239500" CREATED="1753622286722" MODIFIED="1753622297952"/>
 </node>
-<node TEXT="06.4 Business Roles and Actors" FOLDED="true" ID="ID_1514297205" CREATED="1748266575109" MODIFIED="1748266582695">
+<node TEXT="06.4 Business Roles and Actors" ID="ID_1514297205" CREATED="1748266575109" MODIFIED="1748266582695">
 <node TEXT="Table 25: Actor &amp; Role Properties" ID="ID_1889152112" CREATED="1753622533692" MODIFIED="1753622549281"/>
 <node TEXT="6.4.1 Governance" FOLDED="true" ID="ID_1274591422" CREATED="1748266587027" MODIFIED="1748266594203">
 <node TEXT="Figure 32: Representing RACI Relationships" ID="ID_1814232016" CREATED="1748266594208" MODIFIED="1748266603655"/>
@@ -282,7 +283,7 @@
 </node>
 </node>
 <node TEXT="10. Conclusion" POSITION="bottom_or_right" ID="ID_1163288408" CREATED="1747668215002" MODIFIED="1747668220034"/>
-<node TEXT="05. The Motivation Aspect" FOLDED="true" POSITION="top_or_left" ID="ID_1121778975" CREATED="1747668134684" MODIFIED="1748271358209" VGAP_QUANTITY="3 pt">
+<node TEXT="05. The Motivation Aspect" POSITION="top_or_left" ID="ID_1121778975" CREATED="1747668134684" MODIFIED="1748271358209" VGAP_QUANTITY="3 pt">
 <node TEXT="Figure 10: Security Enhanced Motivation Metamodel" POSITION="bottom_or_right" ID="ID_321030896" CREATED="1748180460960" MODIFIED="1748180473333"/>
 <node TEXT="05.1 Value &amp; Loss" FOLDED="true" POSITION="bottom_or_right" ID="ID_906105716" CREATED="1748180505615" MODIFIED="1748180513492">
 <node TEXT="Figure 11: Modeling Assets using Value" ID="ID_91858292" CREATED="1748180518192" MODIFIED="1748180526787"/>
@@ -309,7 +310,8 @@
 <node TEXT="Figure 21: Applying Attribute Metrics to Multiple controls" ID="ID_399408634" CREATED="1748265312427" MODIFIED="1748265327482"/>
 <node TEXT="Figure 22: Use of Meaning to Externalize Context-Sensitive Metrics" ID="ID_836465482" CREATED="1748265330414" MODIFIED="1748265344200"/>
 </node>
-<node TEXT="05.5 Impact, Threat, Vulnerability, and Risk" FOLDED="true" POSITION="bottom_or_right" ID="ID_1182153628" CREATED="1748265351764" MODIFIED="1748265363037">
+<node TEXT="05.5 Impact, Threat, Vulnerability, and Risk" FOLDED="true" POSITION="bottom_or_right" ID="ID_1182153628" CREATED="1748265351764" MODIFIED="1754106110462">
+<arrowlink DESTINATION="ID_785104707"/>
 <node TEXT="Table 13: Risk Element Properties" ID="ID_863664839" CREATED="1749093990114" MODIFIED="1749094003352"/>
 </node>
 <node TEXT="05.6 Controls: Objectives, Requirements, and Measures" FOLDED="true" POSITION="bottom_or_right" ID="ID_1603541117" CREATED="1748265363042" MODIFIED="1748266014256">

@@ -39,6 +39,14 @@ in ArchiMate®
 
 ## 03.3 Extension Layers and Elements
 
+### 3.3.1 Strategy Layer
+
+### 3.3.2 Motivation Elements
+
+### 3.3.3 Implementation and Migration Layer
+
+### 3.3.4 Composite Elements
+
 ## 03.4 ArchiMate Language Customization
 
 ### 03.4.1 User-Defined Attributes
@@ -58,7 +66,7 @@ in ArchiMate®
 ## 04.2 An Overview of the Task
 
 ## 04.3 Risk & Security Modeling in the ArchiMate Specification
-
+ (see:06.2 Business Risk05.6 Controls: Objectives, Requirements, and Measures05.10 Control Mechanisms)
 ### Figure 6: The Risk-Modeling Example in the ArchiMate 3.2 Specification
 
 ### Figure 7: Risk Modeling Relationships
@@ -69,89 +77,43 @@ in ArchiMate®
 
 ## 04.4 The Basic Element and Relationships
 
-# 05. The Motivation Aspect
-
-## Figure 10: Security Enhanced Motivation Metamodel
-
-## 05.1 Value & Loss
-
-### Figure 11: Modeling Assets using Value
-
-## 05.2 Value Chain
-
-### Figure 12: Composition of Value Chains
-
-## 05.3 SABSA Business Attributes
-
-### Figure 13: SABSA Business Attributes Represented in the ArchiMate Language
-
-### 5.3.1 Structural Placement of Business Attributes
-
-#### Figure 16: Principle in the ArchiMate Motivation Hierarchy
-
-#### Figure 17: Highlighting the Control Hierarchy Mismatch (i)
-
-#### Figure 18: Highlighting the Control Hierarchy Mismatch (ii)
-
-#### Figure 19: Achieving the Desired Hierarchy
-
-### 5.3.2 Traceability of Business Attributes
-
-#### Figure 20: Attribute Traceability Across Layers
-
-## 05.4 Meaning
-
-### Figure 21: Applying Attribute Metrics to Multiple controls
-
-### Figure 22: Use of Meaning to Externalize Context-Sensitive Metrics
-
-## 05.5 Impact, Threat, Vulnerability, and Risk
-
-## 05.6 Controls: Objectives, Requirements, and Measures
-
-### Figure 23: Expressing Composite Requirements
-
-### Figure 24: Example of a Control Pattern
-
-## 05.7 Multi-Tiered Security
-
-### Figure 25: Example of Multi-Tiered Security
-
-## 05.8 Regulations and Standards
-
-### Figure 26: The Structure of Standards and Regulations
-
-## 05.9 Articles, Mandates, and Compliance Objectives
-
-### Figure 27: Articles and Compliance Objectives
-
-## 05.10 Control Mechanisms
-
-### Figure 28: Use Cases and Iconography for Control
-
-## 05.11 Trust
-
 # 06. Modeling Contextual Security Architecture
 
-## Figure 29: Developing and Maintaining the Contextual Security Architecture
+## 06.0 Overview
+
+### Table 19: SABSA Contextual Architecture
+
+### Figure 29: Developing and Maintaining the Contextual Security Architecture
+
+### Table 20: Contextual Elements
 
 ## 06.1 Business Assets
 
 ### 6.1.1 Capability and Value Stream
 
+#### Table 21: The Value Stream Element
+
 #### Figure 30: Value Modeling
 
 ### 6.1.2 Business Object
+
+#### Table 22: Business Object Security Properties
 
 #### Figure 31: Element Properties and SABSA Attributes
 
 ### 6.1.3 Business Service, Interface, and Service Level Agreements
 
+#### Table 23: Business Service Properties
+
 ## 06.2 Business Risk
 
 ## 06.3 Business Process/Function/Interaction
 
+### Table 24: Business Behavior Properties
+
 ## 06.4 Business Roles and Actors
+
+### Table 25: Actor & Role Properties
 
 ### 6.4.1 Governance
 
@@ -161,17 +123,23 @@ in ArchiMate®
 
 #### Figure 34: Recommended RACI Patterns
 
+#### Table 26: RACI Properties
+
 ### 6.4.2 Threat Actors
 
 #### Figure 35: Possibilities for Modeling Threat Actors
 
 #### Figure 36: Sensitivity in the Representation of Threats
 
+#### Table 27: Threat Agent Properties
+
 ## 06.5 Business Geography
 
 ## 06.6 Business Time Dependencies
 
 # 07. Modeling Conceptual Security Architecture
+
+## Table 28: SABSA Conceptual Architecture
 
 ## Figure 37: Developing the SABSA Conceptual Security Architecture
 
@@ -334,3 +302,83 @@ in ArchiMate®
 ### 9.6.1 Technology Security Events
 
 # 10. Conclusion
+
+# 05. The Motivation Aspect
+
+## Figure 10: Security Enhanced Motivation Metamodel
+
+## 05.1 Value & Loss
+
+### Figure 11: Modeling Assets using Value
+
+### Table 10: Proposed Value Property Overlay
+
+## 05.2 Value Chain
+
+### Figure 12: Composition of Value Chains
+
+### Table 11: Value Chain Properties
+
+## 05.3 SABSA Business Attributes
+
+### Figure 13: SABSA Business Attributes Represented in the ArchiMate Language
+
+### Table 12: SABSA Attribute Properties
+
+### 5.3.1 Structural Placement of Business Attributes
+
+#### Figure 16: Principle in the ArchiMate Motivation Hierarchy
+
+#### Figure 17: Highlighting the Control Hierarchy Mismatch (i)
+
+#### Figure 18: Highlighting the Control Hierarchy Mismatch (ii)
+
+#### Figure 19: Achieving the Desired Hierarchy
+
+### 5.3.2 Traceability of Business Attributes
+
+#### Figure 20: Attribute Traceability Across Layers
+
+## 05.4 Meaning
+
+### Figure 21: Applying Attribute Metrics to Multiple controls
+
+### Figure 22: Use of Meaning to Externalize Context-Sensitive Metrics
+
+## 05.5 Impact, Threat, Vulnerability, and Risk
+ (see:06.2 Business Risk)
+### Table 13: Risk Element Properties
+
+## 05.6 Controls: Objectives, Requirements, and Measures
+
+### Figure 23: Expressing Composite Requirements
+
+### Figure 24: Example of a Control Pattern
+
+## 05.7 Multi-Tiered Security
+
+### Table 14: Control Element Properties
+
+### Figure 25: Example of Multi-Tiered Security
+
+## 05.8 Regulations and Standards
+
+### Figure 26: The Structure of Standards and Regulations
+
+### Table 15: Standard and Regulation Properties
+
+## 05.9 Articles, Mandates, and Compliance Objectives
+
+### Figure 27: Articles and Compliance Objectives
+
+### Table 16: Compliance Conceptual Element Properties
+
+## 05.10 Control Mechanisms
+
+### Figure 28: Use Cases and Iconography for Control
+
+### Table 17: Control Properties
+
+## 05.11 Trust
+
+### Table 18: Trust Profile
