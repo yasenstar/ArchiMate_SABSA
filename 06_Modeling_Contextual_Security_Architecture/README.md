@@ -131,9 +131,9 @@ Governance runs like a seam through the People column of the SABSA Matrix.
 
 RACI presents an interesting design consideration in the ArchiMate Specification. Applying "Subject-Verb-Object" syntax to RACI requires considering what the "Process of Being Accounatable" means and what it would look like.
 
-![Figure32](./Figure32/)
+![Figure32](./Figure32/Figure32_Representing-RACI-Relationships.png)
 
-Snapshot ArchiMate Model: [Figure32: Representing RACI Relationships](./Figure32/)
+Snapshot ArchiMate Model: [Figure32: Representing RACI Relationships](./Figure32/ArchiMate_SABSA_Figure32.archimate)
 
 Refer to 5.3.1 for similar Singularities issues.
 

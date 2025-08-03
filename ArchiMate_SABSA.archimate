@@ -168,6 +168,15 @@
         <property key="retention" value="P10Y"/>
       </element>
     </folder>
+    <folder name="Figure32" id="id-117d347dd19249158cf8cc1e710a021b">
+      <element xsi:type="archimate:BusinessObject" name="Personal Information" id="id-8db2a71bd6704e7ebfb2b0f905aa459e"/>
+      <element xsi:type="archimate:BusinessActor" name="Data Custodian" id="id-88d0cfbbca164ab38d98c74f5586c9ee"/>
+      <element xsi:type="archimate:BusinessActor" name="Data Controller" id="id-205c764a1402465cbd4dbbb3931d81f3"/>
+      <element xsi:type="archimate:BusinessActor" name="Data Protection Officer" id="id-6cfe28b857534c829a7a15212cbef1e2"/>
+      <element xsi:type="archimate:BusinessActor" name="Citizen" id="id-4513a2399a5a4cb585fd7a3ce136b3cf">
+        <property key="Stereotype" value="«DataSubject»"/>
+      </element>
+    </folder>
   </folder>
   <folder name="Application" id="id-9e30c0d3f0414793a2618e763adcf8cb" type="application">
     <folder name="Figure01" id="id-e5e731067c7d4e409a4ec3a28ab2d031">
@@ -1770,6 +1779,18 @@ The appropriateness of communication is particularly important for any informati
         <element xsi:type="archimate:AssociationRelationship" id="id-49701847c52e4eafa63ee1779dc95db2" source="id-fc66503f24154238a7f03e19490381e1" target="id-c8ee1bcd20bf4fa6bed666f1118d5ab3"/>
       </folder>
     </folder>
+    <element xsi:type="archimate:AssociationRelationship" id="id-077e3814bd6e49138d9c2e284e449455" source="id-8db2a71bd6704e7ebfb2b0f905aa459e" target="id-88d0cfbbca164ab38d98c74f5586c9ee" directed="true">
+      <property key="Stereotype" value="«RACI»"/>
+    </element>
+    <element xsi:type="archimate:AssociationRelationship" id="id-38ab9b5d93ce4b2ea2479324e942a217" source="id-8db2a71bd6704e7ebfb2b0f905aa459e" target="id-205c764a1402465cbd4dbbb3931d81f3" directed="true">
+      <property key="Stereotype" value="«RACI»"/>
+    </element>
+    <element xsi:type="archimate:AssociationRelationship" id="id-7ea30c44e485466fa36e1561557798ca" source="id-8db2a71bd6704e7ebfb2b0f905aa459e" target="id-6cfe28b857534c829a7a15212cbef1e2" directed="true">
+      <property key="Stereotype" value="«RACI»"/>
+    </element>
+    <element xsi:type="archimate:AssociationRelationship" id="id-6b66b55043da4e189b87c1b5f3c7ac07" source="id-8db2a71bd6704e7ebfb2b0f905aa459e" target="id-4513a2399a5a4cb585fd7a3ce136b3cf" directed="true">
+      <property key="Stereotype" value="«RACI»"/>
+    </element>
   </folder>
   <folder name="Views" id="id-5cf34c2351f348b2a50cfd30d2f56aef" type="diagrams">
     <folder name="ch01" id="id-68546ff93a2148c89957a8fcdfbb0890">
@@ -4156,6 +4177,46 @@ The appropriateness of communication is particularly important for any informati
           <sourceConnection xsi:type="archimate:Connection" id="id-c868df62415b4a2fa6684336ff60f933" source="id-a74433f5258a4db1bee4cc1605f566f3" target="id-a3d070a356ce412a9c86b9a8422a9b1f" archimateRelationship="id-49701847c52e4eafa63ee1779dc95db2"/>
         </child>
         <property key="Last Updated" value="2025/8/2"/>
+        <property key="Last Updated by" value="Xiaoqi Zhao"/>
+      </element>
+      <element xsi:type="archimate:ArchimateDiagramModel" name="Figure32_Representing-RACI-Relationships" id="id-2bf60677bc5c4649a8fb3a3729262677">
+        <child xsi:type="archimate:Note" id="id-d72ce9594d8f4da5b572694eb4cd43f2" font="1|Segoe UI|9.75|1|WINDOWS|1|-13|0|0|0|700|0|0|0|0|3|2|1|34|Segoe UI" textPosition="1" borderType="2">
+          <bounds x="36" y="24" width="362" height="28"/>
+          <feature name="labelExpression" value="$view{name}"/>
+        </child>
+        <child xsi:type="archimate:Note" id="id-14a4859726924bd58f219a3b2eaa0d42" textAlignment="1" borderType="2">
+          <bounds x="223" y="408" width="185" height="41"/>
+          <feature name="labelExpression" value="Last Updated by: $view{property:Last Updated by}&#xD;&#xA;Last Updated at: $view{property:Last Updated}"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-e731e5464bcd4d37a52dcefe026e5b78" targetConnections="id-1de9809d360c4b44b5cc882f3e8f48ed" archimateElement="id-4513a2399a5a4cb585fd7a3ce136b3cf">
+          <bounds x="288" y="336" width="120" height="55"/>
+          <feature name="labelExpression" value="${property:Stereotype}&#xD;&#xA;${name}"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-81baac90db464ade85878fb938fbac50" targetConnections="id-742bfd66ea4344f5aaaa35e8fd6dcc1a" archimateElement="id-205c764a1402465cbd4dbbb3931d81f3">
+          <bounds x="288" y="168" width="120" height="55"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-58f034dbda4943bbba6b44c1c6cab17b" targetConnections="id-752fd7e4745b4f9b98d9a3bc59476469" archimateElement="id-88d0cfbbca164ab38d98c74f5586c9ee">
+          <bounds x="288" y="84" width="120" height="55"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-4d943ca670994e17b67cc6ad120ef02e" targetConnections="id-37bfb8caa01647108c2d328d59ab2552" archimateElement="id-6cfe28b857534c829a7a15212cbef1e2">
+          <bounds x="288" y="252" width="120" height="55"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-b6c4e7a46836477496891f377f00f450" archimateElement="id-8db2a71bd6704e7ebfb2b0f905aa459e">
+          <bounds x="24" y="84" width="120" height="307"/>
+          <sourceConnection xsi:type="archimate:Connection" id="id-752fd7e4745b4f9b98d9a3bc59476469" source="id-b6c4e7a46836477496891f377f00f450" target="id-58f034dbda4943bbba6b44c1c6cab17b" archimateRelationship="id-077e3814bd6e49138d9c2e284e449455">
+            <feature name="labelExpression" value="${property:Stereotype} responsible"/>
+          </sourceConnection>
+          <sourceConnection xsi:type="archimate:Connection" id="id-742bfd66ea4344f5aaaa35e8fd6dcc1a" source="id-b6c4e7a46836477496891f377f00f450" target="id-81baac90db464ade85878fb938fbac50" archimateRelationship="id-38ab9b5d93ce4b2ea2479324e942a217">
+            <feature name="labelExpression" value="${property:Stereotype} responsible"/>
+          </sourceConnection>
+          <sourceConnection xsi:type="archimate:Connection" id="id-37bfb8caa01647108c2d328d59ab2552" source="id-b6c4e7a46836477496891f377f00f450" target="id-4d943ca670994e17b67cc6ad120ef02e" archimateRelationship="id-7ea30c44e485466fa36e1561557798ca">
+            <feature name="labelExpression" value="${property:Stereotype} responsible"/>
+          </sourceConnection>
+          <sourceConnection xsi:type="archimate:Connection" id="id-1de9809d360c4b44b5cc882f3e8f48ed" source="id-b6c4e7a46836477496891f377f00f450" target="id-e731e5464bcd4d37a52dcefe026e5b78" archimateRelationship="id-6b66b55043da4e189b87c1b5f3c7ac07">
+            <feature name="labelExpression" value="${property:Stereotype} responsible"/>
+          </sourceConnection>
+        </child>
+        <property key="Last Updated" value="2025/8/3"/>
         <property key="Last Updated by" value="Xiaoqi Zhao"/>
       </element>
     </folder>
