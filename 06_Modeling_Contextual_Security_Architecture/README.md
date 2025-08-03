@@ -131,6 +131,12 @@ Governance runs like a seam through the People column of the SABSA Matrix.
 
 RACI presents an interesting design consideration in the ArchiMate Specification. Applying "Subject-Verb-Object" syntax to RACI requires considering what the "Process of Being Accounatable" means and what it would look like.
 
+![Figure32](./Figure32/)
+
+Snapshot ArchiMate Model: [Figure32: Representing RACI Relationships](./Figure32/)
+
+Refer to 5.3.1 for similar Singularities issues.
+
 ### 6.4.2 Threat Actors
 
 Seurity models, by definition, have to consider the potential abuse of a system through malicious intent.
