@@ -139,9 +139,19 @@ Refer to 5.3.1 for similar Singularities issues.
 
 | a) A Pattern Repeated in Multiple Views | b) ... Causes Entanglement in the Underlying Model |
 | --- | --- | 
-| ![Figure33-a](./Figure33/Figure33-a_A-Pattern-Repeated-in-Multiple-Views.png) | ![Figure34-b](./Figure33/Figure33-b_causes-Entanglement-Issue.png) |
+| ![Figure33-a](./Figure33/Figure33-a_A-Pattern-Repeated-in-Multiple-Views.png) | ![Figure33-b](./Figure33/Figure33-b_causes-Entanglement-Issue.png) |
 
 Snapshot ArchiMate Model: [Figure33](./Figure33/ArchiMate_SABSA_Figure33.archimate)
+
+| a) Solved by a Tetiary Relationship | b) Solved by Specialization of an Abstract Base Role |
+| --- | --- | 
+| ![Figure34-a](./Figure34/Figure34-a_Teritiary-Relationship.png) | ![Figure34-b](./Figure34/Figure34-b_Specialization-of-an-Abstract-Base-Role.png) |
+
+Snapshot ArchiMate Model: [Figure34](./Figure34/ArchiMate_SABSA_Figure34.archimate)
+
+| Element | Schema File | Schema Visualization |
+| --- | --- | --- |
+| «RACI» | [RACI JSON](./Table26/RACI.json) | ![RACI Schema](./Table26/RACI-Schema.png) |
 
 ### 6.4.2 Threat Actors
 

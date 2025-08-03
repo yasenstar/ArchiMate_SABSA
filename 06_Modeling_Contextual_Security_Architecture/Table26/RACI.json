@@ -1,0 +1,22 @@
+{
+    "RACI": {
+        "attributes": {
+            "grp tog:relationshipAttributes": {
+                "id": "",
+                "sourceCardinality": "",
+                "targetCardinality": ""
+            },
+            "stereotypeOf": "",
+            "isDirected": "True"
+        },
+        "instance": {
+            "tog:name": [
+                "RESPONSIBLE",
+                "ACCOUNTABLE",
+                "CONSULTED",
+                "INFORMED"
+            ],
+            "tog:description": ""
+        }
+    }
+}
