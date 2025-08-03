@@ -1,5 +1,23 @@
 # 06 Modeling the Contextual Security Architecture
 
+- [06 Modeling the Contextual Security Architecture](#06-modeling-the-contextual-security-architecture)
+  - [6.0 Overview](#60-overview)
+    - [Table 19: SABSA Contextual Architecture](#table-19-sabsa-contextual-architecture)
+    - [Figure 29: Developing and Maintaining the Contextual Security Architecture](#figure-29-developing-and-maintaining-the-contextual-security-architecture)
+    - [Table 20: Contextual Elements](#table-20-contextual-elements)
+  - [6.1 Business Assets](#61-business-assets)
+    - [6.1.1 Capability and Value Stream](#611-capability-and-value-stream)
+    - [6.1.2 Business Object](#612-business-object)
+    - [6.1.3 Business Service, Interface, and Service Level Agreements](#613-business-service-interface-and-service-level-agreements)
+  - [6.2 Business Risk](#62-business-risk)
+  - [6.3 Business Process/Function/Interaction](#63-business-processfunctioninteraction)
+  - [6.4 Business Roles and Actors](#64-business-roles-and-actors)
+    - [6.4.1 Governance](#641-governance)
+    - [6.4.2 Threat Actors](#642-threat-actors)
+  - [6.5 Business Geography](#65-business-geography)
+  - [6.6 Business Time Dependencies](#66-business-time-dependencies)
+
+
 ## 6.0 Overview
 
 The SABSA Matrix illustration:
