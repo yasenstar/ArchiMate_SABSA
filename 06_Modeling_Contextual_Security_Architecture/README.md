@@ -137,6 +137,12 @@ Snapshot ArchiMate Model: [Figure32: Representing RACI Relationships](./Figure32
 
 Refer to 5.3.1 for similar Singularities issues.
 
+| a) A Pattern Repeated in Multiple Views | b) ... Causes Entanglement in the Underlying Model |
+| --- | --- | 
+| ![Figure33-a](./Figure33/Figure33-a_A-Pattern-Repeated-in-Multiple-Views.png) | ![Figure34-b](./Figure33/Figure33-b_causes-Entanglement-Issue.png) |
+
+Snapshot ArchiMate Model: [Figure33](./Figure33/ArchiMate_SABSA_Figure33.archimate)
+
 ### 6.4.2 Threat Actors
 
 Seurity models, by definition, have to consider the potential abuse of a system through malicious intent.
