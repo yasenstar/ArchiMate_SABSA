@@ -175,11 +175,22 @@ Snapshot ArchiMate Model: [Figure34](./Figure34/ArchiMate_SABSA_Figure34.archima
 
 Seurity models, by definition, have to consider the potential abuse of a system through malicious intent.
 
-Three possible asys of modeling Threats are:
+Three possible ways of modeling Threats are:
 
 1. As an `Actor`: A constituency that is known to pose an accidental or intentional threat
 2. As a `Role`: Representing a malicious intent, directed against the target system
-3. As an action (a behavior or event) that occurs by error, omission, or intent
+3. As an `action (a behavior or event)` that occurs by error, omission, or intent
+
+All of above three raise concerns shown in below Figure 35:
+
+![Figure35]()
+
+Snapshot ArchiMate Model: [Figure 35: Possibilities for Modeling Threat Actors]()
+
+Below Figure 36 shows sensitivity in the representation of threats:
+6]()
+
+Snapshot ArchiMate Model: [Figure 36: Sensitivity in the Representation of Threats]()
 
 ## 6.5 Business Geography
 
