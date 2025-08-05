@@ -188,9 +188,10 @@ All of above three raise concerns shown in below Figure 35:
 Snapshot ArchiMate Model: [Figure 35: Possibilities for Modeling Threat Actors](./Figure35/ArchiMate_SABSA_Figure35.archimate)
 
 Below Figure 36 shows sensitivity in the representation of threats:
-6]()
 
-Snapshot ArchiMate Model: [Figure 36: Sensitivity in the Representation of Threats]()
+![Figur4e36](./Figure36)
+
+Snapshot ArchiMate Model: [Figure 36: Sensitivity in the Representation of Threats](./Figure36)
 
 ## 6.5 Business Geography
 
