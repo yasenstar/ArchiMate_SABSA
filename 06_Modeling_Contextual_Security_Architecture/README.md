@@ -183,9 +183,9 @@ Three possible ways of modeling Threats are:
 
 All of above three raise concerns shown in below Figure 35:
 
-![Figure35](./Figure35/ArchiMate_SABSA_Figure35.archimate)
+![Figure35](./Figure35/Figure35_Possibilities-for-Modeling-Threat-Actors.png)
 
-Snapshot ArchiMate Model: [Figure 35: Possibilities for Modeling Threat Actors](./Figure35/Figure35_Possibilities-for-Modeling-Threat-Actors.png)
+Snapshot ArchiMate Model: [Figure 35: Possibilities for Modeling Threat Actors](./Figure35/ArchiMate_SABSA_Figure35.archimate)
 
 Below Figure 36 shows sensitivity in the representation of threats:
 6]()
