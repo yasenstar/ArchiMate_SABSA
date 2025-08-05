@@ -193,6 +193,30 @@
       <element xsi:type="archimate:BusinessRole" name="Financial Data Asset Owner" id="id-2cdd81fdb8f342f895a1a1f8d4052c58"/>
       <element xsi:type="archimate:BusinessRole" name="Data Asset Ownership" id="id-b414c268c6d34d84a4ff567dcaeab2a9"/>
     </folder>
+    <folder name="Figure35" id="id-18a596f451d845419245a16bcb35233c">
+      <element xsi:type="archimate:BusinessActor" name="Organized Crime" id="id-afdfe0441be9408e847cda64b7c64351">
+        <property key="Stereotype" value="«Threat Agent»"/>
+      </element>
+      <element xsi:type="archimate:BusinessActor" name="Rogue Trader" id="id-0490c45d11fa40fb911d789128abf3b8">
+        <property key="Stereotype" value="«Threat Agent»"/>
+      </element>
+      <element xsi:type="archimate:BusinessActor" name="Cleaning Crew" id="id-3b4faf5c3c2a4c27bfb5e15e71ac7d04">
+        <property key="Stereotype" value="«Threat Agent»"/>
+      </element>
+      <element xsi:type="archimate:BusinessActor" name="Procurement Department" id="id-38494ddafebc4e73b970a18760acce96"/>
+      <element xsi:type="archimate:BusinessRole" name="Purchasing Manager" id="id-a2a6bdf3d7004751be4cb7e180c25c28"/>
+      <element xsi:type="archimate:BusinessRole" name="Embezzler" id="id-21c60f199a064d528ca79e1455b96fcb">
+        <property key="Stereotype" value="«Insider Threat»"/>
+      </element>
+      <element xsi:type="archimate:BusinessProcess" name="Procurement" id="id-b9da72b6f8164b159ab2f8f4103257f9"/>
+      <element xsi:type="archimate:BusinessRole" name="Payment Clerk" id="id-04dbffab8c5942c1bfe9bf1510943246"/>
+      <element xsi:type="archimate:BusinessProcess" name="Duplicate Payment" id="id-a9ce9c421092499d907ea39e87318e36">
+        <property key="Stereotype" value="«Threat Vector»"/>
+      </element>
+      <element xsi:type="archimate:BusinessEvent" name="Unauthorized Payment" id="id-6431218845ee498d9ba2360ea18deff1">
+        <property key="Stereotype" value="«Loss Event»"/>
+      </element>
+    </folder>
   </folder>
   <folder name="Application" id="id-9e30c0d3f0414793a2618e763adcf8cb" type="application">
     <folder name="Figure01" id="id-e5e731067c7d4e409a4ec3a28ab2d031">
@@ -1842,6 +1866,14 @@ The appropriateness of communication is particularly important for any informati
           <property key="Stereotype" value="«RACI»"/>
         </element>
         <element xsi:type="archimate:SpecializationRelationship" id="id-a0b1ab7643a04fbf8471cba0f698c4ad" source="id-aa403c393bd244938d6a2c46aa2f67cb" target="id-9d314e3b58af469e96696ec0ffb2a5d2"/>
+      </folder>
+      <folder name="Figure35" id="id-121f1c45598e4db2b484328fe2d4d0f5">
+        <element xsi:type="archimate:AssignmentRelationship" id="id-e9a6ccda27364696bac5c790c62ac598" source="id-38494ddafebc4e73b970a18760acce96" target="id-a2a6bdf3d7004751be4cb7e180c25c28"/>
+        <element xsi:type="archimate:AssignmentRelationship" id="id-e40c67435445405094b7a3e01fe35b25" source="id-38494ddafebc4e73b970a18760acce96" target="id-21c60f199a064d528ca79e1455b96fcb"/>
+        <element xsi:type="archimate:AssignmentRelationship" id="id-44bc57c4e1154cf383183ff0e17e9d60" source="id-21c60f199a064d528ca79e1455b96fcb" target="id-b9da72b6f8164b159ab2f8f4103257f9"/>
+        <element xsi:type="archimate:AssignmentRelationship" id="id-1e90516d1a144fc5a3f9351a09aca947" source="id-a2a6bdf3d7004751be4cb7e180c25c28" target="id-b9da72b6f8164b159ab2f8f4103257f9"/>
+        <element xsi:type="archimate:AssignmentRelationship" id="id-5137afe9989549deb8ddff9ec09b3822" source="id-04dbffab8c5942c1bfe9bf1510943246" target="id-a9ce9c421092499d907ea39e87318e36"/>
+        <element xsi:type="archimate:TriggeringRelationship" id="id-5f96284613644dcbbda32e61506ea50a" source="id-a9ce9c421092499d907ea39e87318e36" target="id-6431218845ee498d9ba2360ea18deff1"/>
       </folder>
     </folder>
   </folder>
@@ -4435,6 +4467,93 @@ The appropriateness of communication is particularly important for any informati
           <sourceConnection xsi:type="archimate:Connection" id="id-ac9ad134d74e485381402341b68c406e" source="id-9c4b110a561d4ee68f52190b92f37ff6" target="id-c770f527faaa443f8eba094da4baefc0" archimateRelationship="id-512425586a1440e293e2517795253210"/>
         </child>
         <property key="Last Updated" value="2025/8/3"/>
+        <property key="Last Updated by" value="Xiaoqi Zhao"/>
+      </element>
+      <element xsi:type="archimate:ArchimateDiagramModel" name="Figure35_Possibilities-for-Modeling-Threat-Actors" id="id-49905432863d4de1aa73fdebc1915598">
+        <child xsi:type="archimate:Note" id="id-f7c13ccc8eaa4c0f91988cb24e770bf0" font="1|Segoe UI|9.75|1|WINDOWS|1|-13|0|0|0|700|0|0|0|0|3|2|1|34|Segoe UI" textPosition="1" borderType="2">
+          <bounds x="204" y="21" width="362" height="28"/>
+          <feature name="labelExpression" value="$view{name}"/>
+        </child>
+        <child xsi:type="archimate:Note" id="id-7b814c0252914a1f996f5e27b5e1d2bc" textAlignment="1" borderType="2">
+          <bounds x="684" y="36" width="185" height="41"/>
+          <feature name="labelExpression" value="Last Updated by: $view{property:Last Updated by}&#xD;&#xA;Last Updated at: $view{property:Last Updated}"/>
+        </child>
+        <child xsi:type="archimate:Group" id="id-2a221d62897e4ab787cff55d688d39e9" name="a) Something you are? (a throughly bad person)" textAlignment="1">
+          <bounds x="-36" y="95" width="232" height="361"/>
+          <child xsi:type="archimate:DiagramObject" id="id-4ef7c795d4d349588e1cd9e4fac15610" archimateElement="id-3b4faf5c3c2a4c27bfb5e15e71ac7d04">
+            <bounds x="36" y="250" width="169" height="55"/>
+            <feature name="labelExpression" value="${property:Stereotype}&#xD;&#xA;${name}"/>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="id-8c6feb9a9ac34e74832fb14467a2aa03" archimateElement="id-0490c45d11fa40fb911d789128abf3b8">
+            <bounds x="36" y="154" width="169" height="55"/>
+            <feature name="labelExpression" value="${property:Stereotype}&#xD;&#xA;${name}"/>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="id-2f989741a29e46dc8978dc74b6a2b1e7" archimateElement="id-afdfe0441be9408e847cda64b7c64351">
+            <bounds x="36" y="58" width="169" height="55"/>
+            <feature name="labelExpression" value="${property:Stereotype}&#xD;&#xA;${name}"/>
+          </child>
+        </child>
+        <child xsi:type="archimate:Group" id="id-e66c84873a8e4add89a7a1bd9dc9f658" name="b) Opportunist Exploit? (a trusted employee falls to temptation)" textAlignment="1">
+          <bounds x="228" y="96" width="348" height="360"/>
+          <child xsi:type="archimate:DiagramObject" id="id-510b69ef9f7044f598117d57d83bb6b4" targetConnections="id-02728926ace945a28a4d5d817bc4b701" archimateElement="id-21c60f199a064d528ca79e1455b96fcb">
+            <bounds x="192" y="156" width="133" height="55"/>
+            <feature name="labelExpression" value="${property:Stereotype}&#xD;&#xA;${name}"/>
+            <sourceConnection xsi:type="archimate:Connection" id="id-7e1593ef87054404a47d8d1ac3731a4d" source="id-510b69ef9f7044f598117d57d83bb6b4" target="id-e210abf0aa544db6acd10e2caa74bb33" archimateRelationship="id-44bc57c4e1154cf383183ff0e17e9d60"/>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="id-7af3e78748fa4288948c80f0a8f43e66" targetConnections="id-8df1f8a7a98b4809b671dae7ef871e8e" archimateElement="id-a2a6bdf3d7004751be4cb7e180c25c28">
+            <bounds x="36" y="156" width="108" height="55"/>
+            <sourceConnection xsi:type="archimate:Connection" id="id-d3f7962cea1a4a8ca0d2394b66993663" source="id-7af3e78748fa4288948c80f0a8f43e66" target="id-e210abf0aa544db6acd10e2caa74bb33" archimateRelationship="id-1e90516d1a144fc5a3f9351a09aca947"/>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="id-5fd04a682942482d83880ba78ebe01d8" archimateElement="id-38494ddafebc4e73b970a18760acce96">
+            <bounds x="108" y="60" width="120" height="55"/>
+            <sourceConnection xsi:type="archimate:Connection" id="id-8df1f8a7a98b4809b671dae7ef871e8e" source="id-5fd04a682942482d83880ba78ebe01d8" target="id-7af3e78748fa4288948c80f0a8f43e66" archimateRelationship="id-e9a6ccda27364696bac5c790c62ac598"/>
+            <sourceConnection xsi:type="archimate:Connection" id="id-02728926ace945a28a4d5d817bc4b701" source="id-5fd04a682942482d83880ba78ebe01d8" target="id-510b69ef9f7044f598117d57d83bb6b4" archimateRelationship="id-e40c67435445405094b7a3e01fe35b25"/>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="id-e210abf0aa544db6acd10e2caa74bb33" targetConnections="id-7e1593ef87054404a47d8d1ac3731a4d id-d3f7962cea1a4a8ca0d2394b66993663" archimateElement="id-b9da72b6f8164b159ab2f8f4103257f9">
+            <bounds x="108" y="252" width="120" height="55"/>
+          </child>
+        </child>
+        <child xsi:type="archimate:Group" id="id-325e97f0e8e2475dbe5cbf758780b366" name="c) Something you do? (a wrong action)" textAlignment="1">
+          <bounds x="611" y="96" width="241" height="360"/>
+          <child xsi:type="archimate:DiagramObject" id="id-2c59d7e3ff8e4409bdda3ed4d2b6b3e7" archimateElement="id-04dbffab8c5942c1bfe9bf1510943246">
+            <bounds x="36" y="60" width="170" height="55"/>
+            <sourceConnection xsi:type="archimate:Connection" id="id-802505d8e96a43358ab5cf1ff8a3a17f" source="id-2c59d7e3ff8e4409bdda3ed4d2b6b3e7" target="id-d4d4120b2da8492882f3784c73c6c6ff" archimateRelationship="id-5137afe9989549deb8ddff9ec09b3822"/>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="id-d4d4120b2da8492882f3784c73c6c6ff" targetConnections="id-802505d8e96a43358ab5cf1ff8a3a17f" archimateElement="id-a9ce9c421092499d907ea39e87318e36">
+            <bounds x="36" y="149" width="170" height="55"/>
+            <feature name="labelExpression" value="${property:Stereotype}&#xD;&#xA;${name}"/>
+            <sourceConnection xsi:type="archimate:Connection" id="id-ed8e293ceeb04650aaf8d0812a148c40" source="id-d4d4120b2da8492882f3784c73c6c6ff" target="id-e5e37641acff422382beaf306f9881f3" archimateRelationship="id-5f96284613644dcbbda32e61506ea50a"/>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="id-e5e37641acff422382beaf306f9881f3" targetConnections="id-ed8e293ceeb04650aaf8d0812a148c40" archimateElement="id-6431218845ee498d9ba2360ea18deff1">
+            <bounds x="36" y="239" width="170" height="55"/>
+            <feature name="labelExpression" value="${property:Stereotype}&#xD;&#xA;${name}"/>
+          </child>
+        </child>
+        <property key="Last Updated" value="2025/8/4"/>
+        <property key="Last Updated by" value="Xiaoqi Zhao"/>
+      </element>
+      <element xsi:type="archimate:ArchimateDiagramModel" name="Figure36" id="id-120a27412fc444a1a0eddfeb589a5e0a">
+        <child xsi:type="archimate:Note" id="id-467c8e061735497cb34805fc122be0af" font="1|Segoe UI|9.75|1|WINDOWS|1|-13|0|0|0|700|0|0|0|0|3|2|1|34|Segoe UI" textPosition="1" borderType="2">
+          <bounds x="36" y="24" width="362" height="28"/>
+          <feature name="labelExpression" value="$view{name}"/>
+        </child>
+        <child xsi:type="archimate:Note" id="id-53490a898f464182907f0466530c6a7f" textAlignment="1" borderType="2">
+          <bounds x="360" y="51" width="185" height="41"/>
+          <feature name="labelExpression" value="Last Updated by: $view{property:Last Updated by}&#xD;&#xA;Last Updated at: $view{property:Last Updated}"/>
+        </child>
+        <property key="Last Updated" value="2025/8/4"/>
+        <property key="Last Updated by" value="Xiaoqi Zhao"/>
+      </element>
+      <element xsi:type="archimate:ArchimateDiagramModel" name="Figure37" id="id-48b26e51593046918fa9f03ccec803d1">
+        <child xsi:type="archimate:Note" id="id-ebb32b0be1224965873fca62316cc479" font="1|Segoe UI|9.75|1|WINDOWS|1|-13|0|0|0|700|0|0|0|0|3|2|1|34|Segoe UI" textPosition="1" borderType="2">
+          <bounds x="36" y="24" width="362" height="28"/>
+          <feature name="labelExpression" value="$view{name}"/>
+        </child>
+        <child xsi:type="archimate:Note" id="id-a6657d17e3c14c40bdd765b157b5c755" textAlignment="1" borderType="2">
+          <bounds x="360" y="51" width="185" height="41"/>
+          <feature name="labelExpression" value="Last Updated by: $view{property:Last Updated by}&#xD;&#xA;Last Updated at: $view{property:Last Updated}"/>
+        </child>
+        <property key="Last Updated" value="2025/8/4"/>
         <property key="Last Updated by" value="Xiaoqi Zhao"/>
       </element>
     </folder>
