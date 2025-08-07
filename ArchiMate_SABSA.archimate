@@ -217,6 +217,9 @@
         <property key="Stereotype" value="«Loss Event»"/>
       </element>
     </folder>
+    <folder name="Figure36" id="id-7cc04ffbee3e4e55b5330b5516e4bf2e">
+      <element xsi:type="archimate:BusinessProcess" name="Payment Entry" id="id-c13f6ef8924b4469ac9a23b151eb9ea4"/>
+    </folder>
   </folder>
   <folder name="Application" id="id-9e30c0d3f0414793a2618e763adcf8cb" type="application">
     <folder name="Figure01" id="id-e5e731067c7d4e409a4ec3a28ab2d031">
@@ -1188,6 +1191,11 @@ The appropriateness of communication is particularly important for any informati
       <element xsi:type="archimate:Value" name="High Customer Satisfaction" id="id-a2efaa323d4f4f70b3bd666a2f14089b"/>
       <element xsi:type="archimate:Stakeholder" name="Customer" id="id-4382f3bd21eb48389264749c9d83b60b"/>
     </folder>
+    <folder name="Figure36" id="id-66dcfbd240eb4a28942033cdc6775fee">
+      <element xsi:type="archimate:Assessment" name="Embezzlement" id="id-62d38b8065374039b4e05c11d1d81fa2">
+        <property key="Stereotype" value="«Risk»"/>
+      </element>
+    </folder>
   </folder>
   <folder name="Implementation &amp; Migration" id="id-e3ffab3d3abd4fc9a770ac9e3a8771d7" type="implementation_migration">
     <folder name="Figure29" id="id-22991d8f5b4c4e36ad67ab1ef610067f">
@@ -1875,7 +1883,11 @@ The appropriateness of communication is particularly important for any informati
         <element xsi:type="archimate:AssignmentRelationship" id="id-5137afe9989549deb8ddff9ec09b3822" source="id-04dbffab8c5942c1bfe9bf1510943246" target="id-a9ce9c421092499d907ea39e87318e36"/>
         <element xsi:type="archimate:TriggeringRelationship" id="id-5f96284613644dcbbda32e61506ea50a" source="id-a9ce9c421092499d907ea39e87318e36" target="id-6431218845ee498d9ba2360ea18deff1"/>
       </folder>
+      <folder name="Figure36" id="id-cbe15c0aa45c4919ae89a7f71c0f0ee9"/>
     </folder>
+    <element xsi:type="archimate:AssociationRelationship" id="id-22a938fd4da84ea58e7530fec5b44e7d" source="id-62d38b8065374039b4e05c11d1d81fa2" target="id-b9da72b6f8164b159ab2f8f4103257f9"/>
+    <element xsi:type="archimate:AssignmentRelationship" id="id-f1274b4d86cf4f6db586af980c340d72" source="id-04dbffab8c5942c1bfe9bf1510943246" target="id-c13f6ef8924b4469ac9a23b151eb9ea4"/>
+    <element xsi:type="archimate:TriggeringRelationship" id="id-d294404f4d6e44999346709d21e54471" source="id-c13f6ef8924b4469ac9a23b151eb9ea4" target="id-6431218845ee498d9ba2360ea18deff1"/>
   </folder>
   <folder name="Views" id="id-5cf34c2351f348b2a50cfd30d2f56aef" type="diagrams">
     <folder name="ch01" id="id-68546ff93a2148c89957a8fcdfbb0890">
@@ -4480,22 +4492,22 @@ The appropriateness of communication is particularly important for any informati
         </child>
         <child xsi:type="archimate:Group" id="id-2a221d62897e4ab787cff55d688d39e9" name="a) Something you are? (a throughly bad person)" textAlignment="1">
           <bounds x="-36" y="95" width="232" height="361"/>
-          <child xsi:type="archimate:DiagramObject" id="id-4ef7c795d4d349588e1cd9e4fac15610" archimateElement="id-3b4faf5c3c2a4c27bfb5e15e71ac7d04">
+          <child xsi:type="archimate:DiagramObject" id="id-4ef7c795d4d349588e1cd9e4fac15610" fillColor="#ff8080" archimateElement="id-3b4faf5c3c2a4c27bfb5e15e71ac7d04">
             <bounds x="36" y="250" width="169" height="55"/>
             <feature name="labelExpression" value="${property:Stereotype}&#xD;&#xA;${name}"/>
           </child>
-          <child xsi:type="archimate:DiagramObject" id="id-8c6feb9a9ac34e74832fb14467a2aa03" archimateElement="id-0490c45d11fa40fb911d789128abf3b8">
+          <child xsi:type="archimate:DiagramObject" id="id-8c6feb9a9ac34e74832fb14467a2aa03" fillColor="#ff8080" archimateElement="id-0490c45d11fa40fb911d789128abf3b8">
             <bounds x="36" y="154" width="169" height="55"/>
             <feature name="labelExpression" value="${property:Stereotype}&#xD;&#xA;${name}"/>
           </child>
-          <child xsi:type="archimate:DiagramObject" id="id-2f989741a29e46dc8978dc74b6a2b1e7" archimateElement="id-afdfe0441be9408e847cda64b7c64351">
+          <child xsi:type="archimate:DiagramObject" id="id-2f989741a29e46dc8978dc74b6a2b1e7" fillColor="#ff8080" archimateElement="id-afdfe0441be9408e847cda64b7c64351">
             <bounds x="36" y="58" width="169" height="55"/>
             <feature name="labelExpression" value="${property:Stereotype}&#xD;&#xA;${name}"/>
           </child>
         </child>
         <child xsi:type="archimate:Group" id="id-e66c84873a8e4add89a7a1bd9dc9f658" name="b) Opportunist Exploit? (a trusted employee falls to temptation)" textAlignment="1">
           <bounds x="228" y="96" width="348" height="360"/>
-          <child xsi:type="archimate:DiagramObject" id="id-510b69ef9f7044f598117d57d83bb6b4" targetConnections="id-02728926ace945a28a4d5d817bc4b701" archimateElement="id-21c60f199a064d528ca79e1455b96fcb">
+          <child xsi:type="archimate:DiagramObject" id="id-510b69ef9f7044f598117d57d83bb6b4" targetConnections="id-02728926ace945a28a4d5d817bc4b701" fillColor="#ff8080" archimateElement="id-21c60f199a064d528ca79e1455b96fcb">
             <bounds x="192" y="156" width="133" height="55"/>
             <feature name="labelExpression" value="${property:Stereotype}&#xD;&#xA;${name}"/>
             <sourceConnection xsi:type="archimate:Connection" id="id-7e1593ef87054404a47d8d1ac3731a4d" source="id-510b69ef9f7044f598117d57d83bb6b4" target="id-e210abf0aa544db6acd10e2caa74bb33" archimateRelationship="id-44bc57c4e1154cf383183ff0e17e9d60"/>
@@ -4519,12 +4531,12 @@ The appropriateness of communication is particularly important for any informati
             <bounds x="36" y="60" width="170" height="55"/>
             <sourceConnection xsi:type="archimate:Connection" id="id-802505d8e96a43358ab5cf1ff8a3a17f" source="id-2c59d7e3ff8e4409bdda3ed4d2b6b3e7" target="id-d4d4120b2da8492882f3784c73c6c6ff" archimateRelationship="id-5137afe9989549deb8ddff9ec09b3822"/>
           </child>
-          <child xsi:type="archimate:DiagramObject" id="id-d4d4120b2da8492882f3784c73c6c6ff" targetConnections="id-802505d8e96a43358ab5cf1ff8a3a17f" archimateElement="id-a9ce9c421092499d907ea39e87318e36">
+          <child xsi:type="archimate:DiagramObject" id="id-d4d4120b2da8492882f3784c73c6c6ff" targetConnections="id-802505d8e96a43358ab5cf1ff8a3a17f" fillColor="#ff8080" archimateElement="id-a9ce9c421092499d907ea39e87318e36">
             <bounds x="36" y="149" width="170" height="55"/>
             <feature name="labelExpression" value="${property:Stereotype}&#xD;&#xA;${name}"/>
             <sourceConnection xsi:type="archimate:Connection" id="id-ed8e293ceeb04650aaf8d0812a148c40" source="id-d4d4120b2da8492882f3784c73c6c6ff" target="id-e5e37641acff422382beaf306f9881f3" archimateRelationship="id-5f96284613644dcbbda32e61506ea50a"/>
           </child>
-          <child xsi:type="archimate:DiagramObject" id="id-e5e37641acff422382beaf306f9881f3" targetConnections="id-ed8e293ceeb04650aaf8d0812a148c40" archimateElement="id-6431218845ee498d9ba2360ea18deff1">
+          <child xsi:type="archimate:DiagramObject" id="id-e5e37641acff422382beaf306f9881f3" targetConnections="id-ed8e293ceeb04650aaf8d0812a148c40" fillColor="#ff8080" archimateElement="id-6431218845ee498d9ba2360ea18deff1">
             <bounds x="36" y="239" width="170" height="55"/>
             <feature name="labelExpression" value="${property:Stereotype}&#xD;&#xA;${name}"/>
           </child>
@@ -4532,16 +4544,64 @@ The appropriateness of communication is particularly important for any informati
         <property key="Last Updated" value="2025/8/4"/>
         <property key="Last Updated by" value="Xiaoqi Zhao"/>
       </element>
-      <element xsi:type="archimate:ArchimateDiagramModel" name="Figure36" id="id-120a27412fc444a1a0eddfeb589a5e0a">
+      <element xsi:type="archimate:ArchimateDiagramModel" name="Figure36_Sensitivity in the Representation of Threats" id="id-120a27412fc444a1a0eddfeb589a5e0a">
         <child xsi:type="archimate:Note" id="id-467c8e061735497cb34805fc122be0af" font="1|Segoe UI|9.75|1|WINDOWS|1|-13|0|0|0|700|0|0|0|0|3|2|1|34|Segoe UI" textPosition="1" borderType="2">
-          <bounds x="36" y="24" width="362" height="28"/>
+          <bounds x="192" y="36" width="362" height="28"/>
           <feature name="labelExpression" value="$view{name}"/>
         </child>
         <child xsi:type="archimate:Note" id="id-53490a898f464182907f0466530c6a7f" textAlignment="1" borderType="2">
-          <bounds x="360" y="51" width="185" height="41"/>
+          <bounds x="612" y="36" width="185" height="41"/>
           <feature name="labelExpression" value="Last Updated by: $view{property:Last Updated by}&#xD;&#xA;Last Updated at: $view{property:Last Updated}"/>
         </child>
-        <property key="Last Updated" value="2025/8/4"/>
+        <child xsi:type="archimate:Group" id="id-b8539cede025446aa39fcf41146932c7" name="a) Avoid unnecessary offence" textAlignment="1">
+          <bounds x="12" y="111" width="232" height="361"/>
+          <child xsi:type="archimate:DiagramObject" id="id-b8d69f7c6de04f91b7bb37a764775358" archimateElement="id-3b4faf5c3c2a4c27bfb5e15e71ac7d04">
+            <bounds x="36" y="250" width="169" height="55"/>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="id-35036003c9464e5b95edcbd00f3bdc29" fillColor="#ff8080" archimateElement="id-0490c45d11fa40fb911d789128abf3b8">
+            <bounds x="36" y="154" width="169" height="55"/>
+            <feature name="labelExpression" value="${property:Stereotype}&#xD;&#xA;${name}"/>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="id-d4eda8bb134947ff9c75c20ab39a4a00" fillColor="#ff8080" archimateElement="id-afdfe0441be9408e847cda64b7c64351">
+            <bounds x="36" y="58" width="169" height="55"/>
+            <feature name="labelExpression" value="${property:Stereotype}&#xD;&#xA;${name}"/>
+          </child>
+        </child>
+        <child xsi:type="archimate:Group" id="id-49ef415fcb964754b128dd7ade621720" name="b) Acknowledge the risk without personalizing it" textAlignment="1">
+          <bounds x="276" y="112" width="348" height="360"/>
+          <child xsi:type="archimate:DiagramObject" id="id-60fffbf7a1f545bf849b3ebeabb045fe" targetConnections="id-89b200ab6e81488f817019c1d57f2e00" archimateElement="id-a2a6bdf3d7004751be4cb7e180c25c28">
+            <bounds x="36" y="156" width="108" height="55"/>
+            <sourceConnection xsi:type="archimate:Connection" id="id-9e7107e552954b89aedad4b11fab7a30" source="id-60fffbf7a1f545bf849b3ebeabb045fe" target="id-3c6bb5d50ef34415af6a3360fca76f61" archimateRelationship="id-1e90516d1a144fc5a3f9351a09aca947"/>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="id-3e5acdf2448a455fa3b27e9dc4196572" archimateElement="id-38494ddafebc4e73b970a18760acce96">
+            <bounds x="108" y="60" width="120" height="55"/>
+            <sourceConnection xsi:type="archimate:Connection" id="id-89b200ab6e81488f817019c1d57f2e00" source="id-3e5acdf2448a455fa3b27e9dc4196572" target="id-60fffbf7a1f545bf849b3ebeabb045fe" archimateRelationship="id-e9a6ccda27364696bac5c790c62ac598"/>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="id-3c6bb5d50ef34415af6a3360fca76f61" targetConnections="id-9e7107e552954b89aedad4b11fab7a30 id-f15a77d4c8ae49f1a65543464ffd0de5" archimateElement="id-b9da72b6f8164b159ab2f8f4103257f9">
+            <bounds x="108" y="252" width="120" height="55"/>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="id-38d72ffbba4847e181d6444256747e0f" archimateElement="id-62d38b8065374039b4e05c11d1d81fa2">
+            <bounds x="168" y="156" width="144" height="55"/>
+            <feature name="labelExpression" value="${property:Stereotype}&#xD;&#xA;${name}"/>
+            <sourceConnection xsi:type="archimate:Connection" id="id-f15a77d4c8ae49f1a65543464ffd0de5" source="id-38d72ffbba4847e181d6444256747e0f" target="id-3c6bb5d50ef34415af6a3360fca76f61" archimateRelationship="id-22a938fd4da84ea58e7530fec5b44e7d"/>
+          </child>
+        </child>
+        <child xsi:type="archimate:Group" id="id-ce007116f1dc4d659b41808bac112b91" name="c) Avoid assigning motive" textAlignment="1">
+          <bounds x="659" y="112" width="241" height="360"/>
+          <child xsi:type="archimate:DiagramObject" id="id-f07ac7cfe452494991622aaccdf03d64" archimateElement="id-04dbffab8c5942c1bfe9bf1510943246">
+            <bounds x="36" y="60" width="170" height="55"/>
+            <sourceConnection xsi:type="archimate:Connection" id="id-a8aed328a10347caadccb16cb200e9ba" source="id-f07ac7cfe452494991622aaccdf03d64" target="id-8ab5e6b5150b4065970b5437b031352a" archimateRelationship="id-f1274b4d86cf4f6db586af980c340d72"/>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="id-b0b1b3da86d342f18d1784954ae7e216" targetConnections="id-d7caf4771f7145d5aa41af9a697992bf" fillColor="#ff8080" archimateElement="id-6431218845ee498d9ba2360ea18deff1">
+            <bounds x="36" y="239" width="170" height="55"/>
+            <feature name="labelExpression" value="${property:Stereotype}&#xD;&#xA;${name}"/>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="id-8ab5e6b5150b4065970b5437b031352a" targetConnections="id-a8aed328a10347caadccb16cb200e9ba" archimateElement="id-c13f6ef8924b4469ac9a23b151eb9ea4">
+            <bounds x="36" y="156" width="170" height="55"/>
+            <sourceConnection xsi:type="archimate:Connection" id="id-d7caf4771f7145d5aa41af9a697992bf" source="id-8ab5e6b5150b4065970b5437b031352a" target="id-b0b1b3da86d342f18d1784954ae7e216" archimateRelationship="id-d294404f4d6e44999346709d21e54471"/>
+          </child>
+        </child>
+        <property key="Last Updated" value="2025/8/7"/>
         <property key="Last Updated by" value="Xiaoqi Zhao"/>
       </element>
       <element xsi:type="archimate:ArchimateDiagramModel" name="Figure37" id="id-48b26e51593046918fa9f03ccec803d1">
