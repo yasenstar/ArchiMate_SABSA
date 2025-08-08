@@ -1,5 +1,15 @@
 # 02 Rationale for the Alignment of SABSA and ArchiMate
 
+Table of Contents
+
+- [02 Rationale for the Alignment of SABSA and ArchiMate](#02-rationale-for-the-alignment-of-sabsa-and-archimate)
+  - [02.1 Benefits of Modeling](#021-benefits-of-modeling)
+  - [02.2 The Case for an ArchiMate Security Perspective](#022-the-case-for-an-archimate-security-perspective)
+  - [02.3 Benefits that Modeling Can Bring to SABSA](#023-benefits-that-modeling-can-bring-to-sabsa)
+  - [02.4 Benefits of Modeling to the Practitioner](#024-benefits-of-modeling-to-the-practitioner)
+  - [02.5 Vendor Neutrality](#025-vendor-neutrality)
+
+
 ## 02.1 Benefits of Modeling
 
 Models serves a system's structure or behavior in following ways, without interacting system itself:

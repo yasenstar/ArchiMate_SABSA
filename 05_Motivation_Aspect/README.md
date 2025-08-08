@@ -1,5 +1,53 @@
 # 05 The Motivation Aspect
 
+Table of Content
+- [05 The Motivation Aspect](#05-the-motivation-aspect)
+  - [5.0 Overview](#50-overview)
+    - [Figure 10: Security Enhanced Motivation Metamodel](#figure-10-security-enhanced-motivation-metamodel)
+  - [5.1 Value \& Loss](#51-value--loss)
+    - [Figure 11: Modeling Assets using Value](#figure-11-modeling-assets-using-value)
+    - [Table 10: Proposed Value Property Overlay](#table-10-proposed-value-property-overlay)
+  - [5.2 Value Chain](#52-value-chain)
+    - [Figure 12: Composition of Value Chain](#figure-12-composition-of-value-chain)
+    - [Table 11: Value Chain Properties](#table-11-value-chain-properties)
+  - [5.3 SABSA Business Attributes](#53-sabsa-business-attributes)
+    - [Figure 13: SABSA Business Attributes Represented in the ArchiMate Language](#figure-13-sabsa-business-attributes-represented-in-the-archimate-language)
+    - [Table 12: SABSA Attribute Properties](#table-12-sabsa-attribute-properties)
+    - [5.3.1 Structural Placement of Business Attributes](#531-structural-placement-of-business-attributes)
+      - [Figure 14: Hierarchy of Abstraction](#figure-14-hierarchy-of-abstraction)
+      - [Figure 15: The SWIFT/COSO Model](#figure-15-the-swiftcoso-model)
+      - [Figure 16: Principle in the ArchiMate Motivation Hierarchy](#figure-16-principle-in-the-archimate-motivation-hierarchy)
+      - [Figure 17: Highlighting the Control Hierarchy Mismatch (i)](#figure-17-highlighting-the-control-hierarchy-mismatch-i)
+      - [Figure 18: Highlighting the Control Hierarchy Mismatch (ii)](#figure-18-highlighting-the-control-hierarchy-mismatch-ii)
+      - [Figure 19: Achieving the Desired Hierarchy](#figure-19-achieving-the-desired-hierarchy)
+    - [5.3.2 Traceability of Business Attributes](#532-traceability-of-business-attributes)
+      - [Figure 20: Attribute Traceability Across Layers](#figure-20-attribute-traceability-across-layers)
+  - [5.4 Meaning](#54-meaning)
+    - [Figure 21: Applying Attribute Metrics to Multiple Controls](#figure-21-applying-attribute-metrics-to-multiple-controls)
+    - [Figure 22: Use of Meaning of Externalize Context-Sensitive Metrics](#figure-22-use-of-meaning-of-externalize-context-sensitive-metrics)
+  - [5.5 Impact, Threat, Vulnerability, and Risk](#55-impact-threat-vulnerability-and-risk)
+    - [Table 13: Risk Element Properties](#table-13-risk-element-properties)
+  - [5.6 Controls: Objectives, Requirements, and Measures](#56-controls-objectives-requirements-and-measures)
+    - [Figure 23: Expressing Composite Requirements](#figure-23-expressing-composite-requirements)
+    - [Figure 24: Example of a Control Pattern](#figure-24-example-of-a-control-pattern)
+  - [5.7 Multi-Teired Security](#57-multi-teired-security)
+    - [Table 14: Control Element Properties](#table-14-control-element-properties)
+    - [Figure 25: Example of Multi-Tiered Security](#figure-25-example-of-multi-tiered-security)
+    - [Compliance](#compliance)
+  - [5.8 Regulations and Standards](#58-regulations-and-standards)
+    - [Figure 26: The Structure of Standards and Regulations](#figure-26-the-structure-of-standards-and-regulations)
+    - [Table 15: Standard and Regulation Properties](#table-15-standard-and-regulation-properties)
+  - [5.9 Articles, Mandates, and Compliance Objectives](#59-articles-mandates-and-compliance-objectives)
+    - [Figure 27: Articles and Compliance Objectives](#figure-27-articles-and-compliance-objectives)
+    - [Table 16: Compliance Conceptual Element Properties](#table-16-compliance-conceptual-element-properties)
+  - [5.10 Control Mechanisms](#510-control-mechanisms)
+    - [Figure 28: Use Cases and Iconography for Control](#figure-28-use-cases-and-iconography-for-control)
+    - [Table 17: Control Properties](#table-17-control-properties)
+  - [5.11 Trust](#511-trust)
+    - [Table 18: Trust Profile](#table-18-trust-profile)
+
+## 5.0 Overview
+
 A quick table shows the ArchiMate notations matching SABSA attributes:
 
 | SABSA | ArchiMate Notation|

@@ -2,6 +2,20 @@
 
 [![ArchiMate_Cover](./img/ArchiMate_Spec_Cover.png)](https://www.opengroup.org/archimate-forum/archimate-overview)
 
+Table of Contents
+
+- [03 An Introduction to the ArchiMate® Language](#03-an-introduction-to-the-archimate-language)
+  - [3.1 Core Elements](#31-core-elements)
+  - [3.2 Core Relationships](#32-core-relationships)
+  - [3.3 Extension Layers and Elements](#33-extension-layers-and-elements)
+  - [3.4 ArchiMate Language Customization](#34-archimate-language-customization)
+    - [3.4.1 User-Defined Attributes](#341-user-defined-attributes)
+    - [3.4.2 Sepcialization and "Stereotypes" -- IMPORTANT](#342-sepcialization-and-stereotypes----important)
+    - [3.4.3 Overloaded Relationships](#343-overloaded-relationships)
+  - [3.5 The ArchiMate Full Framework](#35-the-archimate-full-framework)
+  - [Some Learning Sources about ArchiMate](#some-learning-sources-about-archimate)
+  - [About ArchiMate License and Trademark](#about-archimate-license-and-trademark)
+
 ## 3.1 Core Elements
 
 The ArchiMate core elements belong to one of 3 categories (think about them from one graph / triple aspect):

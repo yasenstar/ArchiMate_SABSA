@@ -199,8 +199,6 @@ The profile for the Threat Agent element is shown as below schema:
 | --- | --- | --- |
 | Threat Agent | [Threat Agent JSON](./Table27/ThreatAgent.json) | ![ThreatAgentSchema](./Table27/ThreatAgentSchema.png) |
 
-
-
 ## 6.5 Business Geography
 
 - Business geography is easily modeled using the ArchiMate `Location` element unadorned (朴素).

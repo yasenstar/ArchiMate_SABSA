@@ -1,5 +1,12 @@
 # 01 Introduction
 
+Table of Contents
+- [01 Introduction](#01-introduction)
+  - [1.0 Opening Question](#10-opening-question)
+  - [1.1 Background](#11-background)
+  - [1.2 The ArchiMate Specification](#12-the-archimate-specification)
+  - [01.3 Purpose](#013-purpose)
+
 ## 1.0 Opening Question
 
 One first questions from [alidayani](https://github.com/alidayani) in Discussion Board, responding the modeling challenge, are
