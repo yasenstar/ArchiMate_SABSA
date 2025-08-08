@@ -193,6 +193,14 @@ Below Figure 36 shows sensitivity in the representation of threats:
 
 Snapshot ArchiMate Model: [Figure 36: Sensitivity in the Representation of Threats](./Figure36/ArchiMate_SABSA_Figure36.archimate)
 
+The profile for the Threat Agent element is shown as below schema:
+
+| Element | Schema File | Schema Visualization |
+| --- | --- | --- |
+| Threat Agent | [Threat Agent JSON](./Table27/ThreatAgent.json) | ![ThreatAgentSchema](./Table27/ThreatAgentSchema.png) |
+
+
+
 ## 6.5 Business Geography
 
 - Business geography is easily modeled using the ArchiMate `Location` element unadorned (朴素).

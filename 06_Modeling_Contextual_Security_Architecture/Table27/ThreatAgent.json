@@ -1,0 +1,17 @@
+{
+    "Threat Agent": {
+        "attributes": {
+            "id": "",
+            "stereotypeOf": "",
+            "type": "e.g. TECHNICAL"
+        },
+        "instance": {
+            "tsi:name": "",
+            "tsi:description": "",
+            "detail": {
+                "tsi:population": "",
+                "tsi:populationRange": ""
+            }
+        }
+    }
+}
