@@ -22,6 +22,10 @@ You may find the detail descriptions per Artifacts and Avtivity, the ontology / 
 
 Although the Conceptual layer has no ArchiMate equivalent, many of the asset (What) and motivation (Why) concepts (attribute profiles, metrics, risk, compliance, control objectives, and layering, etc.) have already been discussed as stereotypes of Motivation elements (see [Chapter 5](../05_Motivation_Aspect/README.md))
 
+![Figure37](./Figure37/Figure37_Developing-the-SABSA-Conceptual-Security_Architecture.png)
+
+Snapshot ArchiMate Model: [Figure 37: Developing SABSA Conceptual Security Architecture](./Figure37/ArchiMate_SABSA_Figure37.archimate)
+
 ## 7.1 Attribute Profiling
 
 Key points for presenting SABSA Attributes in ArchiMate language:
