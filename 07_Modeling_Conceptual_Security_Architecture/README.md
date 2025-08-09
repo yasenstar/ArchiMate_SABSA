@@ -36,6 +36,16 @@ Key points for presenting SABSA Attributes in ArchiMate language:
 - Each SABSA Attribute may influence/be influenced by zero or more other Attributes, but the tree structure must hold: these `influence relationships` should not be directed downwards from higher to lower layers, so circular paths should not occur in the structure
 - SABSA Attributes should be associated to the elements to which they apply, and must be influenced by another `Motivation element`: typically, another Attribute and ultimately by a `Goal` or `Requirement`
 
+Following section describes the creation of such a profile through a worked example from [GDPR Article 5](https://gdpr-info.eu/art-5-gdpr/), which sets out the principles relating to the processing of personal data.
+
+Article 5 first clause (a) states:
+
+"Personal data shall be (a) processed __lawfully__, __fairly__ and in a __transparent__ manner in relation to the data subject ("lawfulness, fairness, and transparency")."
+
+Below Figure 38 shows the Attribute Profiling (i):
+
+
+
 ## 7.2 Risk Management & Strategy
 
 ### 7.2.1 Risk Management
