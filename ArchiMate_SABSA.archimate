@@ -2039,13 +2039,15 @@ The appropriateness of communication is particularly important for any informati
         <element xsi:type="archimate:InfluenceRelationship" id="id-c0870898b73c47e0a6a66be1fe398229" source="id-53f6e0e31b9846caa32a3f831b38e63c" target="id-7ed84a9804f84915bfd6e3b11b667b4f" strength="++"/>
         <element xsi:type="archimate:RealizationRelationship" id="id-0d00785f013c440db185e7c3a38bca9f" source="id-7fe8418aafe643de9873c5c144a402f7" target="id-f21ad89c73624c3d88bb42feb67cebba"/>
       </folder>
+      <folder name="Figure39" id="id-b38d45778d62478db696c87615cf156a">
+        <element xsi:type="archimate:CompositionRelationship" id="id-73497c6c19ed4f7a8e8cb85ca2b707df" source="id-5edfa0c5a6344607b62b2897135e95ef" target="id-a16347fd61be4fc38244571344995357"/>
+        <element xsi:type="archimate:CompositionRelationship" id="id-71ab459410b541628f9ee48ef99107ce" source="id-5edfa0c5a6344607b62b2897135e95ef" target="id-7f874ddb18d0458eb393a1e10c1494b2"/>
+        <element xsi:type="archimate:CompositionRelationship" id="id-4ddda461a38142c78e31ec75f06be0c2" source="id-5edfa0c5a6344607b62b2897135e95ef" target="id-53f6e0e31b9846caa32a3f831b38e63c"/>
+        <element xsi:type="archimate:CompositionRelationship" id="id-aeb46a2049fa426e86fcb8e2010a4a13" source="id-5edfa0c5a6344607b62b2897135e95ef" target="id-b3df3815fcdc4c8fac98b1c4b11901c5"/>
+        <element xsi:type="archimate:InfluenceRelationship" id="id-d22f60b3fbbf43818fcf5b7014c0a883" source="id-b3df3815fcdc4c8fac98b1c4b11901c5" target="id-7f874ddb18d0458eb393a1e10c1494b2" strength="++"/>
+        <element xsi:type="archimate:RealizationRelationship" id="id-deb1667e41c545638cd9492b18f3aadb" source="id-5edfa0c5a6344607b62b2897135e95ef" target="id-f21ad89c73624c3d88bb42feb67cebba"/>
+      </folder>
     </folder>
-    <element xsi:type="archimate:CompositionRelationship" id="id-73497c6c19ed4f7a8e8cb85ca2b707df" source="id-5edfa0c5a6344607b62b2897135e95ef" target="id-a16347fd61be4fc38244571344995357"/>
-    <element xsi:type="archimate:CompositionRelationship" id="id-71ab459410b541628f9ee48ef99107ce" source="id-5edfa0c5a6344607b62b2897135e95ef" target="id-7f874ddb18d0458eb393a1e10c1494b2"/>
-    <element xsi:type="archimate:CompositionRelationship" id="id-4ddda461a38142c78e31ec75f06be0c2" source="id-5edfa0c5a6344607b62b2897135e95ef" target="id-53f6e0e31b9846caa32a3f831b38e63c"/>
-    <element xsi:type="archimate:RealizationRelationship" id="id-deb1667e41c545638cd9492b18f3aadb" source="id-5edfa0c5a6344607b62b2897135e95ef" target="id-f21ad89c73624c3d88bb42feb67cebba"/>
-    <element xsi:type="archimate:InfluenceRelationship" id="id-d22f60b3fbbf43818fcf5b7014c0a883" source="id-b3df3815fcdc4c8fac98b1c4b11901c5" target="id-7f874ddb18d0458eb393a1e10c1494b2" strength="++"/>
-    <element xsi:type="archimate:CompositionRelationship" id="id-aeb46a2049fa426e86fcb8e2010a4a13" source="id-5edfa0c5a6344607b62b2897135e95ef" target="id-b3df3815fcdc4c8fac98b1c4b11901c5"/>
   </folder>
   <folder name="Views" id="id-5cf34c2351f348b2a50cfd30d2f56aef" type="diagrams">
     <folder name="ch01" id="id-68546ff93a2148c89957a8fcdfbb0890">
