@@ -84,6 +84,8 @@ Article 5 clause (e) & (f) states:
 
 "(f) processed in a manner that ensures appropriate security of the personal data, including __protection__ against unauthorised or unlawful processing and against __accidental loss__, __destruction or damage__, using appropriate technical or organisational measures (‘__integrity__ and __confidentiality__’)."
 
+"2. The controller shall be __responsible__ for, and be able to demonstrate compliance with, paragraph 1 (‘accountability’)."
+
 ![Attribute-Profiling-Complete](./Figure41/Figure41_Completed-Attribute-Profile.png)
 
 Snapshot ArchiMate Model: [Figure 41: Completed Attribute Profile](./Figure41/ArchiMate_SABSA_Figure41.archimate)
