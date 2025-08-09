@@ -5,6 +5,8 @@
     - [Table 28: SABSA Conceptual Security Architecture](#table-28-sabsa-conceptual-security-architecture)
     - [Figure 37: Developing the SABSA Conceptual Security Architecture](#figure-37-developing-the-sabsa-conceptual-security-architecture)
   - [7.1 Attribute Profiling](#71-attribute-profiling)
+    - [Figure 38: Attribute Profiling (i)](#figure-38-attribute-profiling-i)
+    - [Figure 39: Attribute Profiling (ii)](#figure-39-attribute-profiling-ii)
   - [7.2 Risk Management \& Strategy](#72-risk-management--strategy)
     - [7.2.1 Risk Management](#721-risk-management)
 
@@ -36,6 +38,8 @@ Key points for presenting SABSA Attributes in ArchiMate language:
 - Each SABSA Attribute may influence/be influenced by zero or more other Attributes, but the tree structure must hold: these `influence relationships` should not be directed downwards from higher to lower layers, so circular paths should not occur in the structure
 - SABSA Attributes should be associated to the elements to which they apply, and must be influenced by another `Motivation element`: typically, another Attribute and ultimately by a `Goal` or `Requirement`
 
+### Figure 38: Attribute Profiling (i)
+
 Following section describes the creation of such a profile through a worked example from [GDPR Article 5](https://gdpr-info.eu/art-5-gdpr/), which sets out the principles relating to the processing of personal data.
 
 Article 5 first clause (a) states:
@@ -44,7 +48,11 @@ Article 5 first clause (a) states:
 
 Below Figure 38 shows the Attribute Profiling (i):
 
+![Attribute-Profiling-i](./Figure38/Figure38_Attribute-Profiling(i).png)
 
+Snapshot ArchiMate Model: [Attribute Profiling (i)](./Figure38/ArchiMate_SABSA_Figure38.archimate)
+
+### Figure 39: Attribute Profiling (ii)
 
 ## 7.2 Risk Management & Strategy
 
