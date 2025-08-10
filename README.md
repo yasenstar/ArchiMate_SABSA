@@ -1,10 +1,10 @@
 # ArchiMate_SABSA
 
 - [ArchiMate\_SABSA](#archimate_sabsa)
+  - [Read and Check Detail (Content in the Book)](#read-and-check-detail-content-in-the-book)
   - [Resources](#resources)
   - [Content Mindmap](#content-mindmap)
   - [Brief Introduction](#brief-introduction)
-  - [Read and Check Detail (Content in the Book)](#read-and-check-detail-content-in-the-book)
   - [Extended Variable Views on SABSA](#extended-variable-views-on-sabsa)
   - [Other References](#other-references)
   - [Tools Used for Demo and Tutorial](#tools-used-for-demo-and-tutorial)
@@ -15,6 +15,19 @@
 Practice of Modeling SABSA with the ArchiMate Specification
 
 ![alignment](./img/alignment-logo.png)
+
+## Read and Check Detail (Content in the Book)
+
+- [01. Introduction](./01_Introduction/README.md)
+- [02. Rationale for the Alignment of SABSA® and ArchiMate®](./02_Rationale_of_Alignment/README.md)
+- [03. An Introduction to the ArchiMate® Language](./03_Introduction_of_ArchiMate/README.md)
+- [04. Aigning SABSA® and ArchiMate® Framework](./04_Align_SABSA_and_ArchiMate_Framework/README.md)
+- [05. The Motivation Aspect](./05_Motivation_Aspect/README.md)
+- [06. Modeling Contextual Security Architecture](./06_Modeling_Contextual_Security_Architecture/README.md)
+- [07. Modeling Conceptual Security Architecture](./07_Modeling_Conceptual_Security_Architecture/README.md)
+- [08. Modeling Logical Security Architecture](./08_Modeling_Logical_Security_Architecture/README.md)
+- [09. Modeling Physical Security Architecture](./09_Modeling_Physical_Security_Architecture/README.md)
+- [10. Conclusion](./10_Conclusion/README.md)
 
 ## Resources
 
@@ -44,19 +57,6 @@ The Joint Working Group, between SABSA and the Open Group, was established aroun
 - incentivize toolmakers to facilitate support for security within their products, no need to focus on how to model the security perspective.
 
 The practice in this repository is to detail go through the guide, and using Archi (ArchiMate® modeling tool) to create the hands-on model step-by-step, so that it can be tailored by every architecture team to their own company's EA+Security meta-model creation.
-
-## Read and Check Detail (Content in the Book)
-
-- [01. Introduction](./01_Introduction/README.md)
-- [02. Rationale for the Alignment of SABSA® and ArchiMate®](./02_Rationale_of_Alignment/README.md)
-- [03. An Introduction to the ArchiMate® Language](./03_Introduction_of_ArchiMate/README.md)
-- [04. Aigning SABSA® and ArchiMate® Framework](./04_Align_SABSA_and_ArchiMate_Framework/README.md)
-- [05. The Motivation Aspect](./05_Motivation_Aspect/README.md)
-- [06. Modeling Contextual Security Architecture](./06_Modeling_Contextual_Security_Architecture/README.md)
-- [07. Modeling Conceptual Security Architecture](./07_Modeling_Conceptual_Security_Architecture/README.md)
-- [08. Modeling Logical Security Architecture](./08_Modeling_Logical_Security_Architecture/README.md)
-- [09. Modeling Physical Security Architecture](./09_Modeling_Physical_Security_Architecture/README.md)
-- [10. Conclusion](./10_Conclusion/README.md)
 
 ## Extended Variable Views on SABSA
 

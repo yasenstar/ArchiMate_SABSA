@@ -125,6 +125,8 @@ The Security Overlay provides high-level representations of these concepts that 
 
 #### Figure 42: Business Risk Analysis Process
 
+The `Motivation` apsect of the SABSA Matrix also addresses the process of risk management. Recalling the discussion of architectural planes in [Section 4.2]
+
 ### 7.2.2 Policy Architecture
 
 #### Figure 43: Compliance Metamodel
