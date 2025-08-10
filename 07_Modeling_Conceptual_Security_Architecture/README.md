@@ -135,9 +135,15 @@ Snapshot ArchiMate Model: [Figure 42: Business Risk Analysis Process](./Figure42
 
 The Policy Architecture is a framework of codified statements of regulatory compliance controls or those documented in the organization's policies and standards.
 
-As discussed in [Section 5.8](../05_Motivation_Aspect/README.md#58-regulations-and-standards)
+As discussed in [Section 5.8](../05_Motivation_Aspect/README.md#58-regulations-and-standards), policies, standards, and regulations are modeled as `Representation` stereotypes containing a structure of `Groupings`, `Articles/Mandates`, `Compliance Objectives`, and `Requirements`.
 
 #### Figure 43: Compliance Metamodel
+
+To help manage the organization's compliance posture, the Security Overlay provides elements that support the architectural pattern shown in the below Figure 43 - metamodel:
+
+![Figure 43](./Figure43/Figure43_Compliance-Metamodel.png)
+
+Snapshot ArchiMate Model: [Figure 43: Compliance Metamodel](./Figure43/ArchiMate_SABSA_Figure43.archimate)
 
 #### Figure 44: An Example Compliance Model - NIST 800-53
 

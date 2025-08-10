@@ -5448,6 +5448,62 @@ The appropriateness of communication is particularly important for any informati
         <property key="Last Updated" value="2025/8/10"/>
         <property key="Last Updated by" value="Xiaoqi Zhao"/>
       </element>
+      <element xsi:type="archimate:SketchModel" name="Figure43_Compliance-Metamodel" id="id-22ec76516f6a4c199f31be5080a46a61">
+        <child xsi:type="archimate:Group" id="id-4bd5a0954eb84ba38728fa256b183b5f" name="Standards Metamodel" textAlignment="1">
+          <bounds x="24" y="96" width="400" height="445"/>
+          <child xsi:type="archimate:SketchModelSticky" id="id-83d9fe97f1e549de9ef6cdca460040b9" name="Sticky" lineColor="#5c5c5c" fillColor="#b5ffff" textPosition="1">
+            <bounds x="24" y="48" width="135" height="70"/>
+            <sourceConnection id="id-aef300ace28548f286514270cf0c62ae" name="organized into" source="id-83d9fe97f1e549de9ef6cdca460040b9" target="id-9acd50d2336e4977992850c61e9b85d1">
+              <bendpoint startX="8" startY="125" endX="-199" endY="-20"/>
+            </sourceConnection>
+            <content>Framework</content>
+          </child>
+          <child xsi:type="archimate:SketchModelSticky" id="id-6f3c3ac11eaf4ca080c9942e2d5401b1" name="Sticky" lineColor="#5c5c5c" fillColor="#c9e7b7" textPosition="1">
+            <bounds x="216" y="48" width="135" height="70"/>
+            <sourceConnection id="id-cd2851d0d17a4129ab2c6fc79b9fbbde" name="evaluated against" source="id-6f3c3ac11eaf4ca080c9942e2d5401b1" target="id-e133eabd095f4d118ea97cb26e1839eb"/>
+            <sourceConnection id="id-77e1f3be7ed04dd3a3feb4eec3985148" name="comparison" source="id-6f3c3ac11eaf4ca080c9942e2d5401b1" target="id-9b0c7e2fd9ac4346ac2dcd952f3073a5" type="196">
+              <bendpoint startX="473" startY="4" endX="-7" endY="-311"/>
+            </sourceConnection>
+            <content>Evaluation Criteria</content>
+          </child>
+          <child xsi:type="archimate:Group" id="id-9acd50d2336e4977992850c61e9b85d1" name="Domains" targetConnections="id-aef300ace28548f286514270cf0c62ae" fillColor="#ffff80" borderType="1">
+            <bounds x="192" y="168" width="181" height="101"/>
+            <child xsi:type="archimate:SketchModelSticky" id="id-e133eabd095f4d118ea97cb26e1839eb" name="Sticky" targetConnections="id-cd2851d0d17a4129ab2c6fc79b9fbbde id-d871395d0abd4c7781f50c6bf4214f23 id-798324bcf4c14c3c9d87b55a74aae2a7" lineColor="#5c5c5c" fillColor="#c9e7b7" textPosition="1">
+              <bounds x="24" y="24" width="135" height="55"/>
+              <sourceConnection id="id-d871395d0abd4c7781f50c6bf4214f23" name="consists of / related to" source="id-e133eabd095f4d118ea97cb26e1839eb" target="id-e133eabd095f4d118ea97cb26e1839eb">
+                <bendpoint startX="28" startY="57" endX="28" endY="57"/>
+                <bendpoint startX="100" startY="60" endX="100" endY="60"/>
+                <bendpoint startX="101" startY="21" endX="101" endY="21"/>
+              </sourceConnection>
+              <sourceConnection id="id-1d93d600847943949d62bc81928d8cc4" name="applicable to" source="id-e133eabd095f4d118ea97cb26e1839eb" target="id-53e3fdccdf154de188f7eb9a558b93cc" type="64"/>
+              <content>Control Objective</content>
+            </child>
+          </child>
+          <child xsi:type="archimate:SketchModelSticky" id="id-21ec702ef15f40548ea8f786784a53a6" name="Sticky" targetConnections="id-971110f69da94ada99e28f317fd86397" lineColor="#5c5c5c" fillColor="#c9e7b7" textPosition="1">
+            <bounds x="215" y="336" width="135" height="70"/>
+            <sourceConnection id="id-798324bcf4c14c3c9d87b55a74aae2a7" name="realizes" source="id-21ec702ef15f40548ea8f786784a53a6" target="id-e133eabd095f4d118ea97cb26e1839eb" type="16"/>
+            <content>Control Requirement</content>
+          </child>
+        </child>
+        <child xsi:type="archimate:Group" id="id-72e768b67f46492bbf83448e66d34153" name="System of Interest" textAlignment="1">
+          <bounds x="456" y="96" width="400" height="445"/>
+          <child xsi:type="archimate:SketchModelSticky" id="id-18d69237815a4ff39f9f83ccee0e389d" name="Sticky" targetConnections="id-763eeb4fdd4741a29ac398451cd95eae" lineColor="#5c5c5c" fillColor="#ffc400" textPosition="1">
+            <bounds x="48" y="336" width="135" height="70"/>
+            <sourceConnection id="id-971110f69da94ada99e28f317fd86397" name="implements" source="id-18d69237815a4ff39f9f83ccee0e389d" target="id-21ec702ef15f40548ea8f786784a53a6" type="16"/>
+            <sourceConnection id="id-63b5b957eeef4b18acbf12d2e9ba62e0" name="generates" source="id-18d69237815a4ff39f9f83ccee0e389d" target="id-9b0c7e2fd9ac4346ac2dcd952f3073a5" type="66"/>
+            <content>Control (Core Element)</content>
+          </child>
+          <child xsi:type="archimate:SketchModelSticky" id="id-53e3fdccdf154de188f7eb9a558b93cc" name="Sticky" targetConnections="id-1d93d600847943949d62bc81928d8cc4" lineColor="#5c5c5c" fillColor="#ffc400" textPosition="1">
+            <bounds x="48" y="180" width="135" height="70"/>
+            <sourceConnection id="id-763eeb4fdd4741a29ac398451cd95eae" name="protected by" source="id-53e3fdccdf154de188f7eb9a558b93cc" target="id-18d69237815a4ff39f9f83ccee0e389d" type="64"/>
+            <content>Asset (Core Element)</content>
+          </child>
+          <child xsi:type="archimate:SketchModelSticky" id="id-9b0c7e2fd9ac4346ac2dcd952f3073a5" name="Sticky" targetConnections="id-63b5b957eeef4b18acbf12d2e9ba62e0 id-77e1f3be7ed04dd3a3feb4eec3985148" lineColor="#5c5c5c" fillColor="#7f7fff" textPosition="1">
+            <bounds x="276" y="336" width="87" height="70"/>
+            <content>Evidence</content>
+          </child>
+        </child>
+      </element>
     </folder>
     <folder name="ch08" id="id-859ac4a9f5794064bb3d7ba408d52958"/>
     <folder name="ch09" id="id-f1548d38a13f46d3b5180f572f63ddac"/>
