@@ -11,6 +11,31 @@
     - [Figure 41: Completed Attribute Profile](#figure-41-completed-attribute-profile)
   - [7.2 Risk Management \& Strategy](#72-risk-management--strategy)
     - [7.2.1 Risk Management](#721-risk-management)
+      - [Figure 42: Business Risk Analysis Process](#figure-42-business-risk-analysis-process)
+    - [7.2.2 Policy Architecture](#722-policy-architecture)
+      - [Figure 43: Compliance Metamodel](#figure-43-compliance-metamodel)
+      - [Figure 44: An Example Compliance Model - NIST 800-53](#figure-44-an-example-compliance-model---nist-800-53)
+    - [7.2.3 Multi-Regulatory Compliance](#723-multi-regulatory-compliance)
+      - [Figure 45: Control Consolidation](#figure-45-control-consolidation)
+      - [Figure 46: Possible Duplicate Objectives, Coupled Through Attribute Profile](#figure-46-possible-duplicate-objectives-coupled-through-attribute-profile)
+  - [7.3 Conceptual Security Services](#73-conceptual-security-services)
+    - [Figure 47; Security Services in the Conceptual Layer](#figure-47-security-services-in-the-conceptual-layer)
+  - [7.4 Identity and Trust](#74-identity-and-trust)
+    - [7.4.1 Identity and Access Rights](#741-identity-and-access-rights)
+      - [Figure 48: What is the Security Overlay Would Like to Express](#figure-48-what-is-the-security-overlay-would-like-to-express)
+      - [Figure 49: What the ArchiMate Specification Supports](#figure-49-what-the-archimate-specification-supports)
+      - [Table 29: Elements used in Logical Access Management](#table-29-elements-used-in-logical-access-management)
+    - [7.4.2 Roles and Responsibilities](#742-roles-and-responsibilities)
+      - [Figure 50: Modeling Identity and Role Concepts](#figure-50-modeling-identity-and-role-concepts)
+    - [7.4.3 Trust](#743-trust)
+      - [Figure 51: Common Examples of Signals Crossing Domain Boundaries](#figure-51-common-examples-of-signals-crossing-domain-boundaries)
+      - [Figure 52; Simple Trust Relationships using Flow](#figure-52-simple-trust-relationships-using-flow)
+      - [Figure 53; Trust Attributes Associated with Inter-Domain Signals](#figure-53-trust-attributes-associated-with-inter-domain-signals)
+      - [Table 30: Elements and Relationships used in Trust Modeling](#table-30-elements-and-relationships-used-in-trust-modeling)
+  - [7.5 Domain Framework Model](#75-domain-framework-model)
+    - [Table 31: Security Domain Mapping](#table-31-security-domain-mapping)
+  - [7.6 Security Events](#76-security-events)
+    - [Table 32; Security Events](#table-32-security-events)
 
 ## 7.0 Overview
 
@@ -92,9 +117,61 @@ Snapshot ArchiMate Model: [Figure 41: Completed Attribute Profile](./Figure41/Ar
 
 ## 7.2 Risk Management & Strategy
 
+Risk and its constituent factors (threat, vulnerability and impact) are modeled as stereotypes of `Assessment` (adhering to the guidance in [Section 4.3](../04_Align_SABSA_and_ArchiMate_Framework/README.md#43-risk--security-modeling-in-the-archimet-specification) and [Section 5.5](../05_Motivation_Aspect/README.md#55-impact-threat-vulnerability-and-risk))
+
+The Security Overlay provides high-level representations of these concepts that can be adapted to suit an organization's preferred risk methodology. The schema for these elements has already been presented in [Table 13: Risk Element Properties](../05_Motivation_Aspect/README.md#table-13-risk-element-properties)
+
 ### 7.2.1 Risk Management
 
+#### Figure 42: Business Risk Analysis Process
 
+### 7.2.2 Policy Architecture
+
+#### Figure 43: Compliance Metamodel
+
+#### Figure 44: An Example Compliance Model - NIST 800-53
+
+### 7.2.3 Multi-Regulatory Compliance
+
+#### Figure 45: Control Consolidation
+
+#### Figure 46: Possible Duplicate Objectives, Coupled Through Attribute Profile
+
+## 7.3 Conceptual Security Services
+
+### Figure 47; Security Services in the Conceptual Layer
+
+## 7.4 Identity and Trust
+
+### 7.4.1 Identity and Access Rights
+
+#### Figure 48: What is the Security Overlay Would Like to Express
+
+#### Figure 49: What the ArchiMate Specification Supports
+
+#### Table 29: Elements used in Logical Access Management
+
+### 7.4.2 Roles and Responsibilities
+
+#### Figure 50: Modeling Identity and Role Concepts
+
+### 7.4.3 Trust
+
+#### Figure 51: Common Examples of Signals Crossing Domain Boundaries
+
+#### Figure 52; Simple Trust Relationships using Flow
+
+#### Figure 53; Trust Attributes Associated with Inter-Domain Signals
+
+#### Table 30: Elements and Relationships used in Trust Modeling
+
+## 7.5 Domain Framework Model
+
+### Table 31: Security Domain Mapping
+
+## 7.6 Security Events
+
+### Table 32; Security Events
 
 ---
 

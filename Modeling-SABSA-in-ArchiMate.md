@@ -66,7 +66,7 @@ in ArchiMate®
 ## 04.2 An Overview of the Task
 
 ## 04.3 Risk & Security Modeling in the ArchiMate Specification
- (see:06.2 Business Risk05.6 Controls: Objectives, Requirements, and Measures05.10 Control Mechanisms)
+ (see:05.6 Controls: Objectives, Requirements, and Measures05.10 Control Mechanisms06.2 Business Risk)
 ### Figure 6: The Risk-Modeling Example in the ArchiMate 3.2 Specification
 
 ### Figure 7: Risk Modeling Relationships
@@ -77,73 +77,15 @@ in ArchiMate®
 
 ## 04.4 The Basic Element and Relationships
 
-# 06. Modeling Contextual Security Architecture
-
-## 06.0 Overview
-
-### Table 19: SABSA Contextual Architecture
-
-### Figure 29: Developing and Maintaining the Contextual Security Architecture
-
-### Table 20: Contextual Elements
-
-## 06.1 Business Assets
-
-### 6.1.1 Capability and Value Stream
-
-#### Table 21: The Value Stream Element
-
-#### Figure 30: Value Modeling
-
-### 6.1.2 Business Object
-
-#### Table 22: Business Object Security Properties
-
-#### Figure 31: Element Properties and SABSA Attributes
-
-### 6.1.3 Business Service, Interface, and Service Level Agreements
-
-#### Table 23: Business Service Properties
-
-## 06.2 Business Risk
-
-## 06.3 Business Process/Function/Interaction
-
-### Table 24: Business Behavior Properties
-
-## 06.4 Business Roles and Actors
-
-### Table 25: Actor & Role Properties
-
-### 6.4.1 Governance
-
-#### Figure 32: Representing RACI Relationships
-
-#### Figure 33: Avoid RACI Entanglement
-
-#### Figure 34: Recommended RACI Patterns
-
-#### Table 26: RACI Properties
-
-### 6.4.2 Threat Actors
-
-#### Figure 35: Possibilities for Modeling Threat Actors
-
-#### Figure 36: Sensitivity in the Representation of Threats
-
-#### Table 27: Threat Agent Properties
-
-## 06.5 Business Geography
-
-## 06.6 Business Time Dependencies
-
 # 07. Modeling Conceptual Security Architecture
 
-## Table 28: SABSA Conceptual Architecture
+## 7.0 Conceptual Overview
 
-## Figure 37: Developing the SABSA Conceptual Security Architecture
+### Table 28: SABSA Conceptual Architecture
 
-## 07.1 Attribute Profiling
+### Figure 37: Developing the SABSA Conceptual Security Architecture
+
+## 7.1 Attribute Profiling
 
 ### Figure 38: Attribute Profiling (i)
 
@@ -153,8 +95,8 @@ in ArchiMate®
 
 ### Figure 41: Completed Attribute Profile
 
-## 07.2 Risk Management & Strategy
-
+## 7.2 Risk Management & Strategy
+ (see:04.3 Risk & Security Modeling in the ArchiMate Specification05.5 Impact, Threat, Vulnerability, and Risk)
 ### 7.2.1 Risk Management
 
 #### Figure 42: Business Risk Analysis Process
@@ -171,17 +113,19 @@ in ArchiMate®
 
 #### Figure 46: Possible Duplicate Objectives, Coupled Through Attribute Profile
 
-## 07.3 Conceptual Security Services
+## 7.3 Conceptual Security Services
 
 ### Figure 47: Security Services in the Conceptual Layer
 
-## 07.4 Identity and Trust
+## 7.4 Identity and Trust
 
 ### 7.4.1 Identity and Access Rights
 
 #### Figure 48: What the Security Overlay Would Like to Express
 
 #### Figure 49: What the ArchiMate Specification Supports
+
+#### Table 29: Elements used in Logical Access Management
 
 ### 7.4.2 Roles and Responsibilities
 
@@ -195,13 +139,23 @@ in ArchiMate®
 
 #### Figure 53: Trust Attributes Associated with Inter-Domain Signals
 
-## 07.5 Domain Framework Model
+#### Table 30: Elements and Relationships used in Trust Modeling
 
-## 07.6 Security Events
+## 7.5 Domain Framework Model
+
+### Table 31: Security Domain Mapping
+
+## 7.6 Security Events
+
+### Table 32: Security Events
 
 # 08. Modeling Logical Security Architecture
 
-## Figure 54; Developing the SABSA Logical Security Architecture
+## 8.0 Logical Overview
+
+### Table 33: SABSA Logical Architecture
+
+### Figure 54; Developing the SABSA Logical Security Architecture
 
 ## 08.1 Information Assets
 
@@ -382,3 +336,64 @@ in ArchiMate®
 ## 05.11 Trust
 
 ### Table 18: Trust Profile
+
+# 06. Modeling Contextual Security Architecture
+
+## 06.0 Overview
+
+### Table 19: SABSA Contextual Architecture
+
+### Figure 29: Developing and Maintaining the Contextual Security Architecture
+
+### Table 20: Contextual Elements
+
+## 06.1 Business Assets
+
+### 6.1.1 Capability and Value Stream
+
+#### Table 21: The Value Stream Element
+
+#### Figure 30: Value Modeling
+
+### 6.1.2 Business Object
+
+#### Table 22: Business Object Security Properties
+
+#### Figure 31: Element Properties and SABSA Attributes
+
+### 6.1.3 Business Service, Interface, and Service Level Agreements
+
+#### Table 23: Business Service Properties
+
+## 06.2 Business Risk
+
+## 06.3 Business Process/Function/Interaction
+
+### Table 24: Business Behavior Properties
+
+## 06.4 Business Roles and Actors
+
+### Table 25: Actor & Role Properties
+
+### 6.4.1 Governance
+
+#### Figure 32: Representing RACI Relationships
+
+#### Figure 33: Avoid RACI Entanglement
+
+#### Figure 34: Recommended RACI Patterns
+
+#### Table 26: RACI Properties
+
+### 6.4.2 Threat Actors
+
+#### Figure 35: Possibilities for Modeling Threat Actors
+
+#### Figure 36: Sensitivity in the Representation of Threats
+
+#### Table 27: Threat Agent Properties
+
+## 06.5 Business Geography
+ (see:7.5 Domain Framework Model)
+## 06.6 Business Time Dependencies
+ (see:7.6 Security Events)
