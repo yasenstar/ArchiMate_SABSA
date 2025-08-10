@@ -4,7 +4,7 @@
   - [Resources](#resources)
   - [Content Mindmap](#content-mindmap)
   - [Brief Introduction](#brief-introduction)
-  - [Read and Check Detail](#read-and-check-detail)
+  - [Read and Check Detail (Content in the Book)](#read-and-check-detail-content-in-the-book)
   - [Extended Variable Views on SABSA](#extended-variable-views-on-sabsa)
   - [Other References](#other-references)
   - [Tools Used for Demo and Tutorial](#tools-used-for-demo-and-tutorial)
@@ -45,7 +45,7 @@ The Joint Working Group, between SABSA and the Open Group, was established aroun
 
 The practice in this repository is to detail go through the guide, and using Archi (ArchiMate® modeling tool) to create the hands-on model step-by-step, so that it can be tailored by every architecture team to their own company's EA+Security meta-model creation.
 
-## Read and Check Detail
+## Read and Check Detail (Content in the Book)
 
 - [01. Introduction](./01_Introduction/README.md)
 - [02. Rationale for the Alignment of SABSA® and ArchiMate®](./02_Rationale_of_Alignment/README.md)
