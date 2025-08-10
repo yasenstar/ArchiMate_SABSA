@@ -125,7 +125,11 @@ The Security Overlay provides high-level representations of these concepts that 
 
 #### Figure 42: Business Risk Analysis Process
 
-The `Motivation` apsect of the SABSA Matrix also addresses the process of risk management. Recalling the discussion of architectural planes in [Section 4.2]
+The `Motivation` apsect of the SABSA Matrix also addresses the process of risk management. Recalling the discussion of architectural planes in [Section 4.2](../04_Align_SABSA_and_ArchiMate_Framework/README.md#42-an-overview-of-the-task), a risk analysis process would be modeled in the 2nd architecture (Management Processes) and look something like that shown in below Figure 42:
+
+![Figure 42](./Figure42/Figure42_Business-Risk-Analysis-Process.png)
+
+Snapshot ArchiMate Model: [Figure 42: Business Risk Analysis Process](./Figure42/ArchiMate_SABSA_Figure42.archimate)
 
 ### 7.2.2 Policy Architecture
 
