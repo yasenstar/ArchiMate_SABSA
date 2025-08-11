@@ -192,6 +192,15 @@ However, 2 important security services must be represented at the conceptual lev
 
 Below Figure 47 shows some possible options to represent these services in our models:
 
+![Figure47](./Figure47)
+
+Snapshot ArchiMate Model: [Figure 47: Security Services in Comceptual Layer](./Figure47)
+
+Two importants things to note:
+
+1. Conceptual services are Singletons: the idea of an Authentication Service, e.g., is unique, no matter how many ways it might be implemented
+2. A convention on service placement: Access Control mediates access to services; Actors authenticate to interfaces
+
 
 
 ## 7.4 Identity and Trust
