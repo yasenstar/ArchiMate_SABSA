@@ -19,7 +19,7 @@
       - [Figure 45: Control Consolidation](#figure-45-control-consolidation)
       - [Figure 46: Possible Duplicate Objectives, Coupled Through Attribute Profile](#figure-46-possible-duplicate-objectives-coupled-through-attribute-profile)
   - [7.3 Conceptual Security Services](#73-conceptual-security-services)
-    - [Figure 47; Security Services in the Conceptual Layer](#figure-47-security-services-in-the-conceptual-layer)
+    - [Figure 47: Security Services in the Conceptual Layer](#figure-47-security-services-in-the-conceptual-layer)
   - [7.4 Identity and Trust](#74-identity-and-trust)
     - [7.4.1 Identity and Access Rights](#741-identity-and-access-rights)
       - [Figure 48: What is the Security Overlay Would Like to Express](#figure-48-what-is-the-security-overlay-would-like-to-express)
@@ -182,7 +182,17 @@ Snapshot ArchiMate Model: [Figure 45: Control Consolidation](./Figure45/ArchiMat
 
 ## 7.3 Conceptual Security Services
 
-### Figure 47; Security Services in the Conceptual Layer
+The Process cell of the SABSA Matrix considers the "How" of Conceptual Layer Services.
+
+[Section 4.3](../04_Align_SABSA_and_ArchiMate_Framework/README.md#43-risk--security-modeling-in-the-archimet-specification) describes how Control Requirements must eventually be implemented by concrete measures in the core layers, shown in [Figure 8](../04_Align_SABSA_and_ArchiMate_Framework/Figure08_Mapping-of-Risk-and-Security-Elements.png) as Security Services and later extended in [Section 5.10](../05_Motivation_Aspect/README.md#510-control-mechanisms) by the Security Overlay's «Control» stereotype for non-service-oriented mechanisms.
+
+However, 2 important security services must be represented at the conceptual level because they mediate the use of Logical layer resources by Business Layer Actors -- Authentication and Access Control.
+
+### Figure 47: Security Services in the Conceptual Layer
+
+Below Figure 47 shows some possible options to represent these services in our models:
+
+
 
 ## 7.4 Identity and Trust
 
