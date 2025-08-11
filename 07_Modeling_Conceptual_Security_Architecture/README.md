@@ -172,11 +172,13 @@ Snapshot ArchiMate Model: [Figure 44: An Example Compalince Model](./Figure44/Ar
 
 During Section 5.7 and Section 7.1 we can build an Attribute profile from a multi-tiered risk analysis or compliance mandate to produce a structure that resembels either the right or left side of below Figure 45:
 
-![Figure45](./Figure45)
+![Figure45](./Figure45/Figure45_Control-Consolidation.png)
 
-Snapshot ArchiMate Model: [Figure 45: Control Consolidation](./Figure45)
+Snapshot ArchiMate Model: [Figure 45: Control Consolidation](./Figure45/ArchiMate_SABSA_Figure45.archimate)
 
 #### Figure 46: Possible Duplicate Objectives, Coupled Through Attribute Profile
+
+![Figure45](./Figure46/Figure46_Possible-Duplicate-Coupled.png)
 
 ## 7.3 Conceptual Security Services
 
