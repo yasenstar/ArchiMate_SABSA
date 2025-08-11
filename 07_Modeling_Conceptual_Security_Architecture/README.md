@@ -192,9 +192,9 @@ However, 2 important security services must be represented at the conceptual lev
 
 Below Figure 47 shows some possible options to represent these services in our models:
 
-![Figure47](./Figure47)
+![Figure47](./Figure47/Figure47_Security-Services-in-Conceptual-Layer.png)
 
-Snapshot ArchiMate Model: [Figure 47: Security Services in Comceptual Layer](./Figure47)
+Snapshot ArchiMate Model: [Figure 47: Security Services in Comceptual Layer](./Figure47/ArchiMate_SABSA_Figure47.archimate)
 
 Two importants things to note:
 
