@@ -145,11 +145,36 @@ To help manage the organization's compliance posture, the Security Overlay provi
 
 Snapshot ArchiMate Model: [Figure 43: Compliance Metamodel](./Figure43/ArchiMate_SABSA_Figure43.archimate)
 
+The structure of the compliance document is shown on the left, the Target Architecture on the right.
+
+Two kinds of relationships link them: one denoting the applicability (applicable to) of Control Objectives to Assets (core layer elements) and the other implementation (implements) of Control Requirement (and Constraints) by real-world Controls.
+
+A state of compliance posture is demonstrated if, and only if, the following can be established:
+
+- Each Asset to which an Objective applies is protected by a Control that implements each of the Requirements necessary to realize that Objective; i.e., these exists the closed path
+- All Controls on these paths produce Evidence of effectiveness that meet minimum criteria.
+
+The former, necessary but not sufficient, may be established by path analysis of the model.
+
+The extent to which the latter can be automated varies on a control-by-control basis.
+
 #### Figure 44: An Example Compliance Model - NIST 800-53
+
+Below Figure 44 shows how this might be applied to model compliances with [NIST SP800-35r5 Objective, AC-1](https://csrc.nist.gov/pubs/sp/800/35/final):
+
+![Figure44](./Figure44/Figure44_An-Example-Compliance-Model.png)
+
+Snapshot ArchiMate Model: [Figure 44: An Example Compalince Model](./Figure44/ArchiMate_SABSA_Figure44.archimate)
 
 ### 7.2.3 Multi-Regulatory Compliance
 
 #### Figure 45: Control Consolidation
+
+During Section 5.7 and Section 7.1 we can build an Attribute profile from a multi-tiered risk analysis or compliance mandate to produce a structure that resembels either the right or left side of below Figure 45:
+
+![Figure45](./Figure45)
+
+Snapshot ArchiMate Model: [Figure 45: Control Consolidation](./Figure45)
 
 #### Figure 46: Possible Duplicate Objectives, Coupled Through Attribute Profile
 
