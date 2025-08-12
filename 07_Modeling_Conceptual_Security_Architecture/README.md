@@ -201,11 +201,19 @@ Two importants things to note:
 1. Conceptual services are Singletons: the idea of an Authentication Service, e.g., is unique, no matter how many ways it might be implemented
 2. A convention on service placement: Access Control mediates access to services; Actors authenticate to interfaces
 
-
-
 ## 7.4 Identity and Trust
 
+The "People" cell of the SABSA Conceptual Layer considers how business entities (Organizational Actors and Roles) can be mapped to their Logical conterparts (Accounts and Application Roles); an important topic, given the emphasis placed on Logical Access Management (LAM) in security governance.
+
+Similarly, the trust that exists between real-world actors needs to be made explicit in our models if it is to be adequately protected.
+
 ### 7.4.1 Identity and Access Rights
+
+LAM is a logical layer process that provides Contextual entities (Actors in Business Layer) with suitably provisioned accounts, principally to access applications and technology.
+
+A few Conceptual elements (Principal, Access Rights, Credentials) are required to establish this mapping from Contextual to Logical elements.
+
+Currently, none of the concepts mentioned, nor any representation of Accounts and Application Roles, exist in the ArchiMate Specification.
 
 #### Figure 48: What is the Security Overlay Would Like to Express
 
