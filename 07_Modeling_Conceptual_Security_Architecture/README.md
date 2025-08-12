@@ -217,13 +217,51 @@ Currently, none of the concepts mentioned, nor any representation of Accounts an
 
 #### Figure 48: What is the Security Overlay Would Like to Express
 
+Below Figure 48 shows what Security Overlay would like to express:
+
+![Figure48](./Figure48)
+
+Snapshot ArchiMate Model: [Figure 48: What the Security Overlay Would Like ot Express](./Figure48)
+
 #### Figure 49: What the ArchiMate Specification Supports
+
+Unfortunately, these cases extend the grammer of the ArchiMate language beyond that for it was designed: `realization` between elements of the same type and Role `composition` into Application are not legal.
+
+The closest approximation supported by the language specification is shown in below Figure 49, with an improvised `Realization` relationship (created from a stereotyped Serving) used to derive Conceptual layer elements from Business ones and Logical layer entities from Conceptual ones.
+
+![Figure49](./Figure49)
+
+Snapshot ArchiMate Model: [Figure 49: What the ArchiMate Sepcification Supports](./Figure49)
 
 #### Table 29: Elements used in Logical Access Management
 
+| Element | Schema File | Schema Visualization |
+| --- | --- | --- |
+| «Principal» | [Principal JSON](./Table29) | ![PrincipalSchema](./Table29) |
+| «Authorization» | [Authorization JSON](./Table29) | ![AuthorizationSchema](./Table29) |
+| «Credential» | [Credential JSON](./Table29) | ![CredentialSchema](./Table29) |
+
 ### 7.4.2 Roles and Responsibilities
 
+The SABSA Conceptual People cell addresses the concepts of role and responsibility.
+
+At the Business Layer, `roles` are defined in terms of mediating an `Actor`'s engagement in behavior (e.g., processes).
+
+The task of the Conceptual model is not just to map these `role` `assignments` from the physical to the virtual realm but to do so in the way that is manageable, tranparent, efficient, maintainable, scalable, and auditable.
+
 #### Figure 50: Modeling Identity and Role Concepts
+
+Below Figure 50 shows how the concepts established earlier can be used to illustrate the relationship between Business Layer entities (An employee engaging is Business Process Y in the Role X). To perform Process Y, the Employee needs to perform 3 functions (A, B, and C) using application Z.
+
+![Figure50](./Figure50)
+
+Snapshot ArchiMate Model: [Figure 50: Modeling Identity and Role Concepts](./Figure50)
+
+In the Conceptual layer, the employee is instantiated as a Principal with an Office System User profile, assigned to an Authorization profile appropriate for staff of Department XX, in the Business Role X.
+
+This Authorization profile (sometimes called a Group Profile) is an organization-wide set of authorizations, defining an employee's full access rights to the office network domain, multiple application
+
+When authenticated, the Principal is presented to a given target application - Z, the application binds the Principal, by its identifier, to a local account that has been assigned a specific Application Role, whose profile includes access to Functions A, B, and C.
 
 ### 7.4.3 Trust
 
