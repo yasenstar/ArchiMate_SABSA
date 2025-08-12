@@ -219,9 +219,9 @@ Currently, none of the concepts mentioned, nor any representation of Accounts an
 
 Below Figure 48 shows what Security Overlay would like to express:
 
-![Figure48](./Figure48)
+![Figure48](./Figure48/Figure48_What-Security-Overlay-Would-Like-to-Express.png)
 
-Snapshot ArchiMate Model: [Figure 48: What the Security Overlay Would Like ot Express](./Figure48)
+Snapshot ArchiMate Model: [Figure 48: What the Security Overlay Would Like ot Express](./Figure48/ArchiMate_SABSA_Figure48.archimate)
 
 #### Figure 49: What the ArchiMate Specification Supports
 
@@ -229,9 +229,9 @@ Unfortunately, these cases extend the grammer of the ArchiMate language beyond t
 
 The closest approximation supported by the language specification is shown in below Figure 49, with an improvised `Realization` relationship (created from a stereotyped Serving) used to derive Conceptual layer elements from Business ones and Logical layer entities from Conceptual ones.
 
-![Figure49](./Figure49)
+![Figure49](./Figure49/Figure49_What-ArchiMate-Specification-Supports.png)
 
-Snapshot ArchiMate Model: [Figure 49: What the ArchiMate Sepcification Supports](./Figure49)
+Snapshot ArchiMate Model: [Figure 49: What the ArchiMate Sepcification Supports](./Figure49/ArchiMate_SABSA_Figure49.archimate)
 
 #### Table 29: Elements used in Logical Access Management
 
