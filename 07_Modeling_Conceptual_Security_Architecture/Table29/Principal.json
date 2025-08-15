@@ -1,0 +1,19 @@
+{
+    "«Principal»": {
+        "tog:BaseElement(extension)":{
+            "attributes": {
+                "id": "",
+                "isAbstract": ["yes", "no"]
+            },
+            "instance": {
+                "tog:name": "",
+                "tog:description": ""
+            }
+        },
+        "attributes": {
+            "stereotypeOf": "",
+            "type": "",
+            "identityAssurance": ""
+        }
+    }
+}

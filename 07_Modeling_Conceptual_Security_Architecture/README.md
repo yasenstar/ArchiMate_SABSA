@@ -237,9 +237,9 @@ Snapshot ArchiMate Model: [Figure 49: What the ArchiMate Sepcification Supports]
 
 | Element | Schema File | Schema Visualization |
 | --- | --- | --- |
-| «Principal» | [Principal JSON](./Table29) | ![PrincipalSchema](./Table29) |
-| «Authorization» | [Authorization JSON](./Table29) | ![AuthorizationSchema](./Table29) |
-| «Credential» | [Credential JSON](./Table29) | ![CredentialSchema](./Table29) |
+| «Principal» | [Principal JSON](./Table29/Principal.json) | ![PrincipalSchema](./Table29/Principal_Schema.png) |
+| «Authorization» | [Authorization JSON](./Table29/Authorization.json) | ![AuthorizationSchema](./Table29/Authorization_Schema.png) |
+| «Credential» | [Credential JSON](./Table29/Credential.json) | ![CredentialSchema](./Table29/Credential_Schema.png) |
 
 ### 7.4.2 Roles and Responsibilities
 

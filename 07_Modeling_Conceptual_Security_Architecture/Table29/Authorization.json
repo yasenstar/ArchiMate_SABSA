@@ -1,0 +1,19 @@
+{
+    "«Authorization»": {
+        "tog:BaseElement(extension)":{
+            "attributes": {
+                "id": "",
+                "isAbstract": ["yes", "no"]
+            },
+            "instance": {
+                "tog:name": "",
+                "tog:description": ""
+            }
+        },
+        "attributes": {
+            "stereotypeOf": "",
+            "recertificationPeriod": "",
+            "recertificationOwner": ""
+        }
+    }
+}

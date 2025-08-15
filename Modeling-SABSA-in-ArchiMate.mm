@@ -3,7 +3,7 @@
 <node TEXT="Modeling SABSA®&#xa;in ArchiMate®" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_1090958577" CREATED="1409300609620" MODIFIED="1747668057865">
 <hook NAME="accessories/plugins/AutomaticLayout.properties" VALUE="ALL"/>
 <font BOLD="true"/>
-<hook NAME="MapStyle" background="#eeeeeeff" zoom="0.82644624">
+<hook NAME="MapStyle" background="#eeeeeeff">
     <properties show_icon_for_attributes="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_tags="UNDER_NODES" show_note_icons="true" associatedTemplateLocation="template:/light_grey_straight_template.mm" fit_to_viewport="false" show_icons="BESIDE_NODES"/>
     <tags category_separator="::"/>
 
@@ -142,7 +142,7 @@
 <node TEXT="Figure 40: Attribute Profiling (iii)" ID="ID_687578226" CREATED="1748266726228" MODIFIED="1748266737328"/>
 <node TEXT="Figure 41: Completed Attribute Profile" ID="ID_1936370671" CREATED="1748266740621" MODIFIED="1748266751234"/>
 </node>
-<node TEXT="7.2 Risk Management &amp; Strategy" ID="ID_1257294361" CREATED="1748266752381" MODIFIED="1754788145263">
+<node TEXT="7.2 Risk Management &amp; Strategy" FOLDED="true" ID="ID_1257294361" CREATED="1748266752381" MODIFIED="1754788145263">
 <arrowlink DESTINATION="ID_658624177"/>
 <arrowlink DESTINATION="ID_1182153628"/>
 <node TEXT="7.2.1 Risk Management" FOLDED="true" ID="ID_1241942859" CREATED="1748266761811" MODIFIED="1748266765984">
@@ -163,7 +163,7 @@
 <node TEXT="Figure 47: Security Services in the Conceptual Layer" ID="ID_1966450169" CREATED="1748267030054" MODIFIED="1754638916721"/>
 </node>
 <node TEXT="7.4 Identity and Trust" ID="ID_237033805" CREATED="1748267043780" MODIFIED="1754636974022">
-<node TEXT="7.4.1 Identity and Access Rights" ID="ID_1622742641" CREATED="1748267050781" MODIFIED="1748267055993">
+<node TEXT="7.4.1 Identity and Access Rights" FOLDED="true" ID="ID_1622742641" CREATED="1748267050781" MODIFIED="1748267055993">
 <node TEXT="Figure 48: What the Security Overlay Would Like to Express" ID="ID_779187745" CREATED="1748267058638" MODIFIED="1748267071568"/>
 <node TEXT="Figure 49: What the ArchiMate Specification Supports" ID="ID_732823992" CREATED="1748267071731" MODIFIED="1748267087328"/>
 <node TEXT="Table 29: Elements used in Logical Access Management" ID="ID_1460873159" CREATED="1754639091694" MODIFIED="1754639103264"/>
@@ -293,7 +293,7 @@
 <node TEXT="Figure 23: Expressing Composite Requirements" ID="ID_314020606" CREATED="1748266025501" MODIFIED="1748266035743"/>
 <node TEXT="Figure 24: Example of a Control Pattern" ID="ID_688179235" CREATED="1748266035972" MODIFIED="1748266043616"/>
 </node>
-<node TEXT="05.7 Multi-Tiered Security" FOLDED="true" POSITION="bottom_or_right" ID="ID_647472870" CREATED="1748266047588" MODIFIED="1754901764386">
+<node TEXT="05.7 Multi-Tiered Security" POSITION="bottom_or_right" ID="ID_647472870" CREATED="1748266047588" MODIFIED="1754901764386">
 <arrowlink DESTINATION="ID_1678146401"/>
 <node TEXT="Table 14: Control Element Properties" ID="ID_1872466531" CREATED="1749097112293" MODIFIED="1749097128663"/>
 <node TEXT="Figure 25: Example of Multi-Tiered Security" ID="ID_1763341137" CREATED="1748266153187" MODIFIED="1748266171440"/>
