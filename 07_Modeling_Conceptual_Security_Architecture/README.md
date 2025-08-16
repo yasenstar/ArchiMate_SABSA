@@ -253,9 +253,9 @@ The task of the Conceptual model is not just to map these `role` `assignments` f
 
 Below Figure 50 shows how the concepts established earlier can be used to illustrate the relationship between Business Layer entities (An employee engaging is Business Process Y in the Role X). To perform Process Y, the Employee needs to perform 3 functions (A, B, and C) using application Z.
 
-![Figure50](./Figure50)
+![Figure50](./Figure50/Figure50_Modeling-Identity-and-Role-Concepts.png)
 
-Snapshot ArchiMate Model: [Figure 50: Modeling Identity and Role Concepts](./Figure50)
+Snapshot ArchiMate Model: [Figure 50: Modeling Identity and Role Concepts](./Figure50/ArchiMate_SABSA_Figure50.archimate)
 
 In the Conceptual layer, the employee is instantiated as a Principal with an Office System User profile, assigned to an Authorization profile appropriate for staff of Department XX, in the Business Role X.
 
