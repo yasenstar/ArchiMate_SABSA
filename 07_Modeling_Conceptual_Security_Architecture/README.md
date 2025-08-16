@@ -265,7 +265,23 @@ When authenticated, the Principal is presented to a given target application - Z
 
 ### 7.4.3 Trust
 
+The final aspect of the Conceptual People cell is that of the trust exists between Business Actors.
+
+Trust is essential to business transactions yet rarely made explicit in conventional Architectual Description.
+
+Trust causes business partners to accept risks that would otherwise be declined, based on intangibles such as reputation, personal history, or the expectation of a long-term relationship. It is essentially a human quality that, though it cannot be reproduced outside the context of the business relationship, must be protected as soon as any part of that transaction is delegated to technology (e.g., an Agent, a process, or an IT system).
+
 #### Figure 51: Common Examples of Signals Crossing Domain Boundaries
+
+The analysis of signals crossing a security domain boundary provides a means to identify any implicit trust in the context of the interaction.
+
+Trust must be represented explicitly in the model to derive the necessary protection requirements.
+
+Below Example (Figure 51) shows the inter-domain signals:
+
+![Figure51](./Figure51/Figure51_Common-Examples-of-Signals-Crossing-Domain-Boundaries.png)
+
+Snapshot ArchiMate Model: [Figure 51: Common Examples of Signals Crossing Domain Boundaries](./Figure51/ArchiMate_SABSA_Figure51.archimate)
 
 #### Figure 52; Simple Trust Relationships using Flow
 
