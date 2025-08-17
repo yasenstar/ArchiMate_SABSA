@@ -322,8 +322,8 @@ For automated analysis, the Overlay provides a __directionality__ preperty that 
 
 | Element | Schema File | Schema Visualization |
 | --- | --- | --- |
-| «Trust» | [Trust JSON](./Table30) | ![TrustSchema](./Table30) |
-| Trust Relation | [Trust Relation JSON](./Table30) | ![TrustRelationSchema](./Table30) |
+| «Trust» | [Trust JSON](./Table30/TrustElement.json) | ![TrustSchema](./Table30/TrustElementSchema.png) |
+| Trust Relation | [Trust Relation JSON](./Table30/TrustRelationship.json) | ![TrustRelationSchema](./Table30/TrustRelationshipSchema.png) |
 
 ## 7.5 Domain Framework Model
 

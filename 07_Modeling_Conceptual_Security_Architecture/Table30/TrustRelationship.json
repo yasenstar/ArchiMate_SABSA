@@ -1,0 +1,17 @@
+{
+    "Trust": {
+        "attributes": {
+            "grp: tog:relationshipAttributs": {
+                "id": "",
+                "sourceCardinality": "",
+                "targetCardinality": ""
+            },
+            "stereotypeOf": "",
+            "isDirected": ""
+        },
+        "instance": {
+            "tsi:name": "",
+            "tsi:description": ""
+        }
+    }
+}

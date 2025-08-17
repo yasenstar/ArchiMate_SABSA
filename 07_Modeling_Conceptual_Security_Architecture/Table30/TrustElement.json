@@ -1,0 +1,14 @@
+{
+    "Trust": {
+        "attributes": {
+            "id": "",
+            "namespace": "",
+            "stereotypeOf": "",
+            "directionality": ""
+        },
+        "instance": {
+            "tsi:name": "",
+            "tsi:description": ""
+        }
+    }
+}
