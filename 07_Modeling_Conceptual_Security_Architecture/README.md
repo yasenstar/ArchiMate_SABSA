@@ -29,8 +29,8 @@
       - [Figure 50: Modeling Identity and Role Concepts](#figure-50-modeling-identity-and-role-concepts)
     - [7.4.3 Trust](#743-trust)
       - [Figure 51: Common Examples of Signals Crossing Domain Boundaries](#figure-51-common-examples-of-signals-crossing-domain-boundaries)
-      - [Figure 52; Simple Trust Relationships using Flow](#figure-52-simple-trust-relationships-using-flow)
-      - [Figure 53; Trust Attributes Associated with Inter-Domain Signals](#figure-53-trust-attributes-associated-with-inter-domain-signals)
+      - [Figure 52: Simple Trust Relationships using Flow](#figure-52-simple-trust-relationships-using-flow)
+      - [Figure 53: Trust Attributes Associated with Inter-Domain Signals](#figure-53-trust-attributes-associated-with-inter-domain-signals)
       - [Table 30: Elements and Relationships used in Trust Modeling](#table-30-elements-and-relationships-used-in-trust-modeling)
   - [7.5 Domain Framework Model](#75-domain-framework-model)
     - [Table 31: Security Domain Mapping](#table-31-security-domain-mapping)
@@ -283,9 +283,25 @@ Below Example (Figure 51) shows the inter-domain signals:
 
 Snapshot ArchiMate Model: [Figure 51: Common Examples of Signals Crossing Domain Boundaries](./Figure51/ArchiMate_SABSA_Figure51.archimate)
 
-#### Figure 52; Simple Trust Relationships using Flow
+#### Figure 52: Simple Trust Relationships using Flow
 
-#### Figure 53; Trust Attributes Associated with Inter-Domain Signals
+A modeler may opt to assign an Object to all domains in which it is used or "free" it by not assigning it at all. The choice will often be determined by the sensitivity of the information: objects subject to regulation, e.g., should be assigned to a security domain if access from outside that domain is a concern.
+
+Another characteristic of a valid trust model is that, while any element may be a "_trusted_" entity, only an active structure (or behavior assigned to an active structure) can be a "_trusting_" entity.
+
+To model trust in ArchiMate language, a stereotype flow relationship that "A trusts B" seems most intuitive. It can also convey a direction of trust that is independent of that of the underlying signal or show opposing flows to indeicate bi-directional trust.
+
+Like SABSA Business Attributes, Trust is modeled as a stereotype of `Principle` that, like Attributes, should only by _`influenced`_ in the model through the `realization` of Control Objectives.
+
+Below Figure 52 shows a simple example of trust concepts expressed using ArchiMate Language in this way:
+
+![Figure52-a](./Figure52/Figure52-a_Trust-Conceptual-Model.png)
+
+![Figure52-b](./Figure52/Figure52-b_Turst-Expressed-in-ArchiMate-Language-using-Flow.png)
+
+Snapshot ArchiMate Model: [Figure 52: Simple Trust Relationships using Flow](./Figure52/ArchiMate_SABSA_Figure52.archimate)
+
+#### Figure 53: Trust Attributes Associated with Inter-Domain Signals
 
 #### Table 30: Elements and Relationships used in Trust Modeling
 
