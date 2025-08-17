@@ -303,7 +303,27 @@ Snapshot ArchiMate Model: [Figure 52: Simple Trust Relationships using Flow](./F
 
 #### Figure 53: Trust Attributes Associated with Inter-Domain Signals
 
+This approach offers simplicity but, despite being a good first attempt, it has a couple of issues:
+
+1. the trust relationships are not linked to the underlying signal. Whenever more than one signal is drawn between a pair of entities, analysis cannot contextualize which trust belongs with wich signal.
+2. the ArchiMate grammer prevents `flow relationships` from connecting to a passive structure. Trust in an Object, as in _"I trust every email that comes from my bank"_, cannot be expressed using this approach.
+
+In below Figure 53, to overcome these limitations, the Security Overlay offers an alternative representation using Trust stereotypes alone:
+
+![Figure53](./Figure53)
+
+Snapshot ArchiMate Model: [Figure 53: Trust Attributes Associated with Inter-Domain Signals](./Figure53)
+
 #### Table 30: Elements and Relationships used in Trust Modeling
+
+The above alternative representation lacks a visual representation of the direction of trust, which is not necessarily the same as that of the signal, that can be partly offset by good naming of the Trust element and elaborated by its textual description.
+
+For automated analysis, the Overlay provides a __directionality__ preperty that sets the direction of the trust relative to the associated signal, referring to below table as the schemas:
+
+| Element | Schema File | Schema Visualization |
+| --- | --- | --- |
+| «Trust» | [Trust JSON](./Table30) | ![TrustSchema](./Table30) |
+| Trust Relation | [Trust Relation JSON](./Table30) | ![TrustRelationSchema](./Table30) |
 
 ## 7.5 Domain Framework Model
 
