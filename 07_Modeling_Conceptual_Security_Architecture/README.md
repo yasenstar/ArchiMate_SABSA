@@ -310,9 +310,9 @@ This approach offers simplicity but, despite being a good first attempt, it has 
 
 In below Figure 53, to overcome these limitations, the Security Overlay offers an alternative representation using Trust stereotypes alone:
 
-![Figure53](./Figure53)
+![Figure53](./Figure53/Figure53_Trust-Attributes-Associated-with-InterDomain-Signals.png)
 
-Snapshot ArchiMate Model: [Figure 53: Trust Attributes Associated with Inter-Domain Signals](./Figure53)
+Snapshot ArchiMate Model: [Figure 53: Trust Attributes Associated with Inter-Domain Signals](./Figure53/ArchiMate_SABSA_Figure53.archimate)
 
 #### Table 30: Elements and Relationships used in Trust Modeling
 
@@ -327,7 +327,16 @@ For automated analysis, the Overlay provides a __directionality__ preperty that 
 
 ## 7.5 Domain Framework Model
 
+The Conceptual Domain framework denotes security domains in the System of Interest. The Security Overlay models them using a «SecurityDomain» stereotype of Grouping. These domains are as essential basis for creating Trust Models: the analysis of security concerns that arise from signals (service calls, system accesses, event triggers, and data flows) that are enacted across domain boundaries.
+
 ### Table 31: Security Domain Mapping
+
+Where a SecurityDomain perfectly aligns with an existing bounded space (physical, logical, organizational, jurisdictional, network zone) defined by __`Grouping`__ or __`Location`__, the Security Overlay offers an __isSecurityDomain__ property, set FALSE by default, as a means of marking them as security domains without duplication.
+
+| Element | Schema File | Schema Visualization |
+| --- | --- | --- |
+| Location / Grouping | [Location/Grouping JSON](./Table31) | ![LocationGroupingSchema](./Table31) |
+| «SecurityDomain» | [Security Domain JSON](./Table31) | ![SecurityDomainSchema](./Table31) |
 
 ## 7.6 Security Events
 
