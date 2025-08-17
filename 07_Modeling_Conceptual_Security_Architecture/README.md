@@ -335,8 +335,8 @@ Where a SecurityDomain perfectly aligns with an existing bounded space (physical
 
 | Element | Schema File | Schema Visualization |
 | --- | --- | --- |
-| Location / Grouping | [Location/Grouping JSON](./Table31) | ![LocationGroupingSchema](./Table31) |
-| «SecurityDomain» | [Security Domain JSON](./Table31) | ![SecurityDomainSchema](./Table31) |
+| Location / Grouping | [Location/Grouping JSON](./Table31/LocationGrouping.json) | ![LocationGroupingSchema](./Table31/Location-or-Grouping-Schema.png) |
+| «SecurityDomain» | [Security Domain JSON](./Table31/«SecurityDomain».json) | ![SecurityDomainSchema](./Table31/SecurityDomain-Schema.png) |
 
 ## 7.6 Security Events
 

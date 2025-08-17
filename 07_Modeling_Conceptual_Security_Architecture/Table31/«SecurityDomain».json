@@ -1,0 +1,13 @@
+{
+    "«SecurityDomain»": {
+        "attributes": {
+            "id": "",
+            "stereotypeOf": "",
+            "isSecurityDomain": "TRUE"
+        },
+        "instance": {
+            "tsi:name": "",
+            "tsi:description": ""
+        }
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "Location or Grouping": {
+        "attributes": {
+            "id": "",
+            "isSecurityDomain": "TRUE"
+        },
+        "instance": {
+            "tog:name": "",
+            "tog:description": ""
+        }
+    }
+}
