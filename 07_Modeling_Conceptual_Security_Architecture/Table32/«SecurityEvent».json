@@ -1,0 +1,13 @@
+{
+    "Security Event": {
+        "attributes": {
+            "id": "",
+            "security": "TRUE",
+            "criticality": ""
+        },
+        "instance": {
+            "tog:name": "",
+            "tog:description": ""
+        }
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "Any Event": {
+        "attributes": {
+            "id": "",
+            "security": "FALSE",
+            "criticality": ""
+        },
+        "instance": {
+            "tog:name": "",
+            "tog:description": ""
+        }
+    }
+}

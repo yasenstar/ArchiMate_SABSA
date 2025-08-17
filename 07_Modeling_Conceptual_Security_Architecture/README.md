@@ -35,7 +35,7 @@
   - [7.5 Domain Framework Model](#75-domain-framework-model)
     - [Table 31: Security Domain Mapping](#table-31-security-domain-mapping)
   - [7.6 Security Events](#76-security-events)
-    - [Table 32; Security Events](#table-32-security-events)
+    - [Table 32: Security Events](#table-32-security-events)
 
 ## 7.0 Overview
 
@@ -340,7 +340,14 @@ Where a SecurityDomain perfectly aligns with an existing bounded space (physical
 
 ## 7.6 Security Events
 
-### Table 32; Security Events
+Security events are expressed using a similar approach to that outlined above.
+
+### Table 32: Security Events
+
+| Element | Schema File | Schema Visualization |
+| --- | --- | --- |
+| Any Event | [Any Event JSON](./Table32/AnyEvent.json) | ![AnyEventSchema](./Table32/AnyEventSchema.png) |
+| Security Event | [Security Event JSON](./Table32/«SecurityEvent».json) | ![SecurityEventSchema](./Table32/SecurityEventSchema.png) |
 
 ---
 
