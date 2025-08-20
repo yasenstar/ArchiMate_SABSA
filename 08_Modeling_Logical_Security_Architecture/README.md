@@ -21,9 +21,9 @@ Snapshot Protege Ontology File: [SABSA Matrics 2018 - Ch08](sabsa_matrices_2018_
 
 Below Figure 54 outlines the set of artifacts and activities of the Logical Architecture:
 
-![Figure54]()
+![Figure54](./Figure54/Figure54_Developing-SABSA-Logical-Security-Architecture.png)
 
-Snapshot ArchiMate Model: [Figure 54; Developing the SABSA Logical Security Architecture]()
+Snapshot ArchiMate Model: [Figure 54; Developing the SABSA Logical Security Architecture](./Figure54/ArchiMate_SABSA_Figure54.archimate)
 
 ## 8.1 Information Assets
 
