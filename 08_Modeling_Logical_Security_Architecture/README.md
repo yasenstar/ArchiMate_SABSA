@@ -1,5 +1,12 @@
 # 08 Modeling the Logical Security Architecture
 
+- [08 Modeling the Logical Security Architecture](#08-modeling-the-logical-security-architecture)
+  - [8.0 Logical Overview](#80-logical-overview)
+  - [8.1 Information Assets](#81-information-assets)
+    - [8.1.1 Application Components](#811-application-components)
+
+## 8.0 Logical Overview
+
 The Logical Architecture documents the Solution Architect's view of the system.
 
 In this section:
@@ -11,6 +18,22 @@ Below we're again using Protege to expand our SABSA Matrix Ontology:
 ![table33-ontolgoy](./Table33/SABSA-Logical-Security-Architecture.png)
 
 Snapshot Protege Ontology File: [SABSA Matrics 2018 - Ch08](sabsa_matrices_2018_ch08.rdf)
+
+Below Figure 54 outlines the set of artifacts and activities of the Logical Architecture:
+
+![Figure54]()
+
+Snapshot ArchiMate Model: [Figure 54; Developing the SABSA Logical Security Architecture]()
+
+## 8.1 Information Assets
+
+The principal information assets in this layer are software assets (applications) and data.
+
+### 8.1.1 Application Components
+
+![Figure55]()
+
+Snapshot ArchiMate Model: [Figure 55: Critical Applications]()
 
 ---
 
