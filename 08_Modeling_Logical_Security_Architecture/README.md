@@ -46,9 +46,9 @@ This approach has a few issues as of below:
 
 Below Figure 55 shows a better solution using architectural models:
 
-![Figure55](./Figure55)
+![Figure55](./Figure55/Figure55_Critical-Applicatios.png)
 
-Snapshot ArchiMate Model: [Figure 55: Critical Applications](./Figure55)
+Snapshot ArchiMate Model: [Figure 55: Critical Applications](./Figure55/ArchiMate_SABSA_Figure55.archimate)
 
 ---
 
