@@ -31,6 +31,21 @@ The principal information assets in this layer are software assets (applications
 
 ### 8.1.1 Application Components
 
+Most organizations maintain a register of the applications deployed in their IT environment (it can be called Application Portfolio, or Application Catalog). The primary drivers for this register are operational: patch management, vendor support, license management, etc. Because these concerns are focused on software products rather than logical building blocks, discussion is deferred to [Chapter 9](../09_Modeling_Physical_Security_Architecture/README.md).
+
+The kind of inventory relevant at this layer is the identification of _critical_ applications: the software upon which the organization is disproportionately reliant for achieving its primary mission.
+
+Organizations perform a regular "Critical Application Review" to identify these dependencies. Applications on the critical list are then prioritized for risk assessment, penetration testing, monitoring, business continuity planning, audit, etc.
+
+The most common approach to identify critical applications is simply to request a rating recertification from the Application Owner.
+
+This approach has a few issues as of below:
+
+- In a Service-Oriented Architecture (SOA), the use of application services can be hightly dynamic.
+- A tendency for subjective bias
+
+Below Figure 55 shows a better solution using architectural models:
+
 ![Figure55](./Figure55)
 
 Snapshot ArchiMate Model: [Figure 55: Critical Applications](./Figure55)
