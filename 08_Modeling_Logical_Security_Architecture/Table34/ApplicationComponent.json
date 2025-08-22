@@ -1,0 +1,29 @@
+{
+    "Application Component": {
+        "attributes": {
+            "id": "",
+            "acquisitionType": [
+                "UNCLASSIFIED",
+                "CUSTOM",
+                "OPENSOURCE",
+                "COTS",
+                "GOTS"
+            ],
+            "criticality": [
+                "LOW",
+                "MEDIUM",
+                "HIGH",
+                "CRITICAL"
+            ],
+            "classificationDate": "",
+            "classifiedBy": "",
+            "isMobile": ["Yes", "No"],
+            "applicationOwner": "",
+            "technicalOwner": ""
+        },
+        "instance": {
+            "tog:name": "",
+            "tog:description": ""
+        }
+    }
+}

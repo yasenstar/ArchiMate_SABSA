@@ -4,6 +4,14 @@
   - [8.0 Logical Overview](#80-logical-overview)
   - [8.1 Information Assets](#81-information-assets)
     - [8.1.1 Application Components](#811-application-components)
+    - [8.1.2 Security Configuration](#812-security-configuration)
+    - [8.1.3 Software Defects and Malware](#813-software-defects-and-malware)
+    - [8.1.4 Data Assets](#814-data-assets)
+  - [8.2 Risk Modeling](#82-risk-modeling)
+  - [8.3 Application Functionality and Services](#83-application-functionality-and-services)
+  - [8.4 Logical Access Management](#84-logical-access-management)
+  - [8.5 Logical Domains](#85-logical-domains)
+  - [8.](#8)
 
 ## 8.0 Logical Overview
 
@@ -49,6 +57,45 @@ Below Figure 55 shows a better solution using architectural models:
 ![Figure55](./Figure55/Figure55_Critical-Applicatios.png)
 
 Snapshot ArchiMate Model: [Figure 55: Critical Applications](./Figure55/ArchiMate_SABSA_Figure55.archimate)
+
+Here is the Application Component Properties:
+
+| Element | Schema File | Schema Visualization |
+| --- | --- | --- |
+| Application Component | [App Comp JSON](./Table34/ApplicationComponent.json) | ![AppCompSchema](./Table34/ApplicationComponentSchema.png) |
+
+### 8.1.2 Security Configuration
+
+### 8.1.3 Software Defects and Malware
+
+### 8.1.4 Data Assets
+
+| Element | Schema File | Schema Visualization |
+| --- | --- | --- |
+| «Defect» | [Defect JSON](./Table35) | ![DefectSchema](./Table35) |
+| «Security Configuration» | [Sec. Conf. JSON](./Table35) | ![SecConfSchema](./Table35) |
+| «Malware» | [Malware JSON](./Table35) | ![MalwareSchema](./Table35) |
+| Data Object | [Data Object JSON](./Table35) | ![DataObjSchema](./Table35) |
+
+---
+
+## 8.2 Risk Modeling
+
+---
+
+## 8.3 Application Functionality and Services
+
+---
+
+## 8.4 Logical Access Management
+
+---
+
+## 8.5 Logical Domains
+
+---
+
+## 8.
 
 ---
 
