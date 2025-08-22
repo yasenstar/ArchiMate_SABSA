@@ -23,7 +23,7 @@ Below Figure 54 outlines the set of artifacts and activities of the Logical Arch
 
 ![Figure54](./Figure54/Figure54_Developing-SABSA-Logical-Security-Architecture.png)
 
-Snapshot ArchiMate Model: [Figure 54; Developing the SABSA Logical Security Architecture](./Figure54/ArchiMate_SABSA_Figure54.archimate)
+Snapshot ArchiMate Model: [Figure 54: Developing the SABSA Logical Security Architecture](./Figure54/ArchiMate_SABSA_Figure54.archimate)
 
 ## 8.1 Information Assets
 
@@ -31,9 +31,9 @@ The principal information assets in this layer are software assets (applications
 
 ### 8.1.1 Application Components
 
-![Figure55]()
+![Figure55](./Figure55)
 
-Snapshot ArchiMate Model: [Figure 55: Critical Applications]()
+Snapshot ArchiMate Model: [Figure 55: Critical Applications](./Figure55)
 
 ---
 
