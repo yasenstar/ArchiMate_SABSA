@@ -1,0 +1,13 @@
+{
+    "«Security Configuration»": {
+        "attributes": {
+            "id": "",
+            "archimateNotation": "Data Object",
+            "matchBaseline": ["ENABLED", "DISABLED"]
+        },
+        "instance": {
+            "tog:name": "",
+            "tog:description": ""
+        }
+    }
+}

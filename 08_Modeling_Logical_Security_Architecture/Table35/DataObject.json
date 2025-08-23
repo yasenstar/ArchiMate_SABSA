@@ -1,0 +1,24 @@
+{
+    "Data Object": {
+        "attributes": {
+            "id": "",
+            "archimateNotation": "Data Object",
+            "anonymization": [
+                "NONE", "MASK", "REDACT", "TOKEN", "HASH", "OBSFUCATE"
+            ],
+            "encryptuion": [
+                "NONE", "3DES", "AES", "AES256", "RSA", "ECC"
+            ],
+            "integrity": [
+                "NONE", "CHECKSUM", "MD5", "HMAC", "SHA1", "SHA2"
+            ],
+            "authenticity": [
+                "NONE", "SELF", "ASSERTION", "SHARED", "SECRET", "SIGNED"
+            ]
+        },
+        "instance": {
+            "tog:name": "",
+            "tog:description": ""
+        }
+    }
+}

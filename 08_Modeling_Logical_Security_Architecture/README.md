@@ -82,7 +82,7 @@ Properties match those of the baseline configuration but with values toggled bet
 
 | Element | Schema File | Schema Visualization |
 | --- | --- | --- |
-| «Security Configuration» | [Sec. Conf. JSON](./Table35) | ![SecConfSchema](./Table35) |
+| «Security Configuration» | [Sec. Conf. JSON](./Table35/SecurityConfiguration.json) | ![SecConfSchema](./Table35/SecConfSchema.png) |
 
 ### 8.1.3 Software Defects and Malware
 
@@ -100,8 +100,8 @@ Some reference on STIX, which ia a language and serialization format used to exc
 
 | Element | Schema File | Schema Visualization |
 | --- | --- | --- |
-| «Defect» | [Defect JSON](./Table35) | ![DefectSchema](./Table35) |
-| «Malware» | [Malware JSON](./Table35) | ![MalwareSchema](./Table35) |
+| «Defect» | [Defect JSON](./Table35/Defect.json) | ![DefectSchema](./Table35/DefectSchema.png) |
+| «Malware» | [Malware JSON](./Table35/Malware.json) | ![MalwareSchema](./Table35/MalwareSchema.png) |
 
 ### 8.1.4 Data Assets
 
@@ -113,9 +113,13 @@ The security properties that enable a `Data Object` to contribute to the protect
 
 | Element | Schema File | Schema Visualization |
 | --- | --- | --- |
-| Data Object | [Data Object JSON](./Table35) | ![DataObjSchema](./Table35) |
+| Data Object | [Data Object JSON](./Table35/DataObject.json) | ![DataObjSchema](./Table35/DataObjectSchema.png) |
 
 ## 8.2 Risk Modeling
+
+Section [4.3-risk--security-modeling-in-the-archimet-specification](../04_Align_SABSA_and_ArchiMate_Framework/README.md#43-risk--security-modeling-in-the-archimet-specification), [5.5-impact-threat-vulnerability-and-risk](../05_Motivation_Aspect/README.md#55-impact-threat-vulnerability-and-risk), and [7.2-risk-management--strategy](../07_Modeling_Conceptual_Security_Architecture/README.md#72-risk-management--strategy) described the Security Overlay's risk elements and risk management strategy without prescriptive about any particulr methodology that an organization may choose to adopt.
+
+
 
 ### 8.2.1 Risk Modeling
 

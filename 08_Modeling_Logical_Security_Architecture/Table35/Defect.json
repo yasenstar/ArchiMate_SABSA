@@ -1,0 +1,13 @@
+{
+    "«Defect»": {
+        "attributes": {
+            "id": "",
+            "archimateNotation": "Assessment",
+            "name": "penetration Test Exploit"
+        },
+        "instance": {
+            "tog:name": "",
+            "tog:description": ""
+        }
+    }
+}
