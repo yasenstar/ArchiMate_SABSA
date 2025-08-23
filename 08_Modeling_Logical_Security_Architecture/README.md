@@ -117,13 +117,19 @@ The security properties that enable a `Data Object` to contribute to the protect
 
 ## 8.2 Risk Modeling
 
-Section [4.3-risk--security-modeling-in-the-archimet-specification](../04_Align_SABSA_and_ArchiMate_Framework/README.md#43-risk--security-modeling-in-the-archimet-specification), [5.5-impact-threat-vulnerability-and-risk](../05_Motivation_Aspect/README.md#55-impact-threat-vulnerability-and-risk), and [7.2-risk-management--strategy](../07_Modeling_Conceptual_Security_Architecture/README.md#72-risk-management--strategy) described the Security Overlay's risk elements and risk management strategy without prescriptive about any particulr methodology that an organization may choose to adopt.
-
-
-
 ### 8.2.1 Risk Modeling
 
+Section [4.3-risk--security-modeling-in-the-archimet-specification](../04_Align_SABSA_and_ArchiMate_Framework/README.md#43-risk--security-modeling-in-the-archimet-specification), [5.5-impact-threat-vulnerability-and-risk](../05_Motivation_Aspect/README.md#55-impact-threat-vulnerability-and-risk), and [7.2-risk-management--strategy](../07_Modeling_Conceptual_Security_Architecture/README.md#72-risk-management--strategy) described the Security Overlay's risk elements and risk management strategy without prescriptive about any particulr methodology that an organization may choose to adopt.
+
+These high-level definition can be adapted to suit an organization's chosen risk methodology.
+
+To illustrate the application of these concepts, this section models a scenario described in the [_Open FAIR™ Risk Analysis Example Guide_](https://www.opengroup.org/open-fair), which contains both qualitative and quantitative analyses.
+
 ### 8.2.2 The Scenario
+
+The example scenario considers a situation in which an HR Executive commits the _security sin_ (安全恶习) of posting log-in credentials ona sticky note attached to their workstation. The Executive's office is accessible to five groups of people: consituencies of differing size, goals, motivation, access opportunity, capability, and competency.
+
+Below Figure 56 shows how this scenario might be modeled in ArchiMate language:
 
 ## 8.3 Application Functionality and Services
 
