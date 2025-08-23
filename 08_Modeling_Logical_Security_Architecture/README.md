@@ -131,6 +131,12 @@ The example scenario considers a situation in which an HR Executive commits the 
 
 Below Figure 56 shows how this scenario might be modeled in ArchiMate language:
 
+![Figure56-a](./Figure56/Figure56-a_Scenario.png)
+
+![Figure56-b](./Figure56/Figure56-b_Constituencies-with-Access-to-Scenario.png)
+
+Snapshot ArchiMate Model: [Figure 56: Open FAIR™ Example Scenario](./Figure56/ArchiMate_SABSA_Figure56.archimate)
+
 ## 8.3 Application Functionality and Services
 
 ## 8.4 Logical Access Management
