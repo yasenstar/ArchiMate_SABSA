@@ -78,17 +78,41 @@ Here is the Application Component Properties:
 
 It is appropriate at the Logical layer because different instances of the same building blocks may have different configurations in different contexts.
 
+Properties match those of the baseline configuration but with values toggled between `ENABLED` and `DISABLED`.
 
+| Element | Schema File | Schema Visualization |
+| --- | --- | --- |
+| «Security Configuration» | [Sec. Conf. JSON](./Table35) | ![SecConfSchema](./Table35) |
 
 ### 8.1.3 Software Defects and Malware
 
-### 8.1.4 Data Assets
+Being modeled as a «Vulnerability» (`Motivation` layer elements can be placed anywhere), it is often useful to associate functional defects with application behavior elements directly.
+
+The Security Overlay includes a Malware stereotype of `Application Component` that can represent non-human agents or malware threat. it provides a type property that enumerates a controlled vocabulary of threat types with a default set of values drawn from the STIX™ (Structured Threat Information Expression) taxonomy.
+
+Some reference on STIX, which ia a language and serialization format used to exchange cyber threat intelligence (CTI):
+
+- [About STIX | STIX Project Documentation](https://stixproject.github.io/about/)
+- [Introduction to STIX - GitHub Pages](https://oasis-open.github.io/cti-documentation/stix/intro.html)
+- [STIX Version 2.1](https://docs.oasis-open.org/cti/stix/v2.1/cs01/stix-v2.1-cs01.html)
+- [Schema | STIX Wiki](https://stix.wiki/docs/schema/)
+- [STIX/TAXII for Cybersecurity Threat Intelligence](https://techexamprep.com/sec_plus/threats_attacks_vulnerabilities/threat_actors_vectors_intelligence_sources/threat_intel_sources/ais/stix_taxii/index.html)
 
 | Element | Schema File | Schema Visualization |
 | --- | --- | --- |
 | «Defect» | [Defect JSON](./Table35) | ![DefectSchema](./Table35) |
-| «Security Configuration» | [Sec. Conf. JSON](./Table35) | ![SecConfSchema](./Table35) |
 | «Malware» | [Malware JSON](./Table35) | ![MalwareSchema](./Table35) |
+
+### 8.1.4 Data Assets
+
+A means of tracking critical data assets is a prerequisite for their effective protection. When those assets are subject to regulation, as is the case with personal or medical data, it is also mandated by compliance.
+
+Modeling provides a means to bind `data objects` to their business significance and show its provenance (where it comes from), how it is processed (by which `application functions` having what read/write/modify `capability`), where it goes (`flow relationships`, sometimes traversing domain boundaries), and who has `access` to it (the `business actiors` and `roles` to whom it is `served`).
+
+The security properties that enable a `Data Object` to contribute to the protection of information include the ability to implement data-level controls for confidentiality, privacy and integrity, using various techniques of encryption, anonymization (tokenization, redaction) and integrity protection (checksum, HMAC, signature).
+
+| Element | Schema File | Schema Visualization |
+| --- | --- | --- |
 | Data Object | [Data Object JSON](./Table35) | ![DataObjSchema](./Table35) |
 
 ## 8.2 Risk Modeling
