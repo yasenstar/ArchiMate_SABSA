@@ -8,10 +8,18 @@
     - [8.1.3 Software Defects and Malware](#813-software-defects-and-malware)
     - [8.1.4 Data Assets](#814-data-assets)
   - [8.2 Risk Modeling](#82-risk-modeling)
+    - [8.2.1 Risk Modeling](#821-risk-modeling)
+    - [8.2.2 The Scenario](#822-the-scenario)
   - [8.3 Application Functionality and Services](#83-application-functionality-and-services)
   - [8.4 Logical Access Management](#84-logical-access-management)
+    - [8.4.1 Account](#841-account)
+    - [8.4.2 Application Role](#842-application-role)
+    - [8.4.3 Application Service](#843-application-service)
+    - [8.4.4 Application Process and Function](#844-application-process-and-function)
+    - [8.4.5 Application Interface](#845-application-interface)
   - [8.5 Logical Domains](#85-logical-domains)
-  - [8.](#8)
+  - [8.6 Timing and Events](#86-timing-and-events)
+    - [8.6.1 Application Security Events](#861-application-security-events)
 
 ## 8.0 Logical Overview
 
@@ -66,6 +74,12 @@ Here is the Application Component Properties:
 
 ### 8.1.2 Security Configuration
 
+«Security Configuration» is a Stereotype of `Data Object` tht declares any configuration settings that differ from the baseline (least common functionality) configuration.
+
+It is appropriate at the Logical layer because different instances of the same building blocks may have different configurations in different contexts.
+
+
+
 ### 8.1.3 Software Defects and Malware
 
 ### 8.1.4 Data Assets
@@ -77,25 +91,31 @@ Here is the Application Component Properties:
 | «Malware» | [Malware JSON](./Table35) | ![MalwareSchema](./Table35) |
 | Data Object | [Data Object JSON](./Table35) | ![DataObjSchema](./Table35) |
 
----
-
 ## 8.2 Risk Modeling
 
----
+### 8.2.1 Risk Modeling
+
+### 8.2.2 The Scenario
 
 ## 8.3 Application Functionality and Services
 
----
-
 ## 8.4 Logical Access Management
 
----
+### 8.4.1 Account
+
+### 8.4.2 Application Role
+
+### 8.4.3 Application Service
+
+### 8.4.4 Application Process and Function
+
+### 8.4.5 Application Interface
 
 ## 8.5 Logical Domains
 
----
+## 8.6 Timing and Events
 
-## 8.
+### 8.6.1 Application Security Events
 
 ---
 
