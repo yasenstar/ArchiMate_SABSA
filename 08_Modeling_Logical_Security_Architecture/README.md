@@ -137,6 +137,28 @@ Below Figure 56 shows how this scenario might be modeled in ArchiMate language:
 
 Snapshot ArchiMate Model: [Figure 56: Open FAIR™ Example Scenario](./Figure56/ArchiMate_SABSA_Figure56.archimate)
 
+The analysis described in the guide focuses on the risk poses by one of these groups: the Clearning Crew.
+
+The Open FAIR™ Risk Taxonomy defines a structure, reproduced in below Figure 57 (Using PlantUML's [WBS Diagram](https://plantuml.com/wbs-diagram)), to analyze this risk. The assessment of any factor in the taxonomy is determined by a qualitative (risk matrix) or quantitative (mathematical) combination of its  (构成的) factors.
+
+![Figure57](./Figure57)
+
+Source Diagram File: [Figure 57: The Open FAIR™ Risk Taxonomy](./Figure57)
+
+An equivalent ArchiMate representation of this model is shown in modeled in below Figure 58:
+
+![Figure58](./Figure58)
+
+Snapshot ArchiMate Model: [Figure 58: Open FAIR™ Risk Taxonomy Modeled in ArchiMate Language](./Figure58)
+
+![Figure59](./Figure59)
+
+Snapshot ArchiMate Model: [Figure 59: Qualitative Example from the Open FAIR™ Risk Analysis Example Guide](./Figure59)
+
+![Figure60](./Figure60)
+
+Snapshot ArchiMate Model: [Figure 60: Quantitative Example from the Open FAIR™ Risk Analysis Example Guide](./Figure60)
+
 ## 8.3 Application Functionality and Services
 
 ## 8.4 Logical Access Management
