@@ -141,9 +141,9 @@ The analysis described in the guide focuses on the risk poses by one of these gr
 
 The Open FAIR™ Risk Taxonomy defines a structure, reproduced in below Figure 57 (Using PlantUML's [WBS Diagram](https://plantuml.com/wbs-diagram)), to analyze this risk. The assessment of any factor in the taxonomy is determined by a qualitative (risk matrix) or quantitative (mathematical) combination of its  (构成的) factors.
 
-![Figure57](./Figure57)
+![Figure57](./Figure57/RiskTaxonomy.png)
 
-Source Diagram File: [Figure 57: The Open FAIR™ Risk Taxonomy](./Figure57)
+Source Diagram File: [Figure 57: The Open FAIR™ Risk Taxonomy](./Figure57/RiskTaxonomy.puml)
 
 An equivalent ArchiMate representation of this model is shown in modeled in below Figure 58:
 

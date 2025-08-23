@@ -1,0 +1,15 @@
+@startwbs
+* Risk
+** Loss Event Frequency
+***< Threat Event Frequency
+****< Contact Frequencey
+**** Probability of Action
+*** Vulnerability
+****< Threat Capability
+**** Resistance Strength
+** Loss Magnitude
+***< Primary Loss Magnitude
+*** Secondary Loss
+****< Secondary Loss Event Frequency
+**** Secondary Loss Magnitude
+@endwbs
