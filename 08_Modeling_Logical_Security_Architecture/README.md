@@ -161,6 +161,8 @@ Snapshot ArchiMate Model: [Figure 60: Quantitative Example from the Open FAIR™
 
 ## 8.3 Application Functionality and Services
 
+The Process cell of the SABSA Matrix Logical architecture addresses `application functionality and services`.
+
 ## 8.4 Logical Access Management
 
 ### 8.4.1 Account
