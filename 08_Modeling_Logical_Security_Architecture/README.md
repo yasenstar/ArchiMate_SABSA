@@ -163,6 +163,22 @@ Snapshot ArchiMate Model: [Figure 60: Quantitative Example from the Open FAIR™
 
 The Process cell of the SABSA Matrix Logical architecture addresses `application functionality and services`.
 
+In terms of what we might call "supply-side availability", the Security Overlay is based on a simple premise that the most important characteristic of internal behavior elements (`processes, functions, and interactions`) is their contribution on fulfilling the business mission. Criticality can be determined through traceability to `Value Stream`, or by an enumerated criticality property with qualitative range of values.
+
+For services, it is their availability:
+- human-oriented services being presented as having a service window;
+- technical services by an enumerated availability ranges (e.g., HIGH = 99.99~99.999%), supported by recovery targets, the Recovery Time and Recovery Point Objectives (RTO/RPOs).
+
+On the "demand side", availability is also affected by the resources available to handle the rate of incoming requests.
+
+When tracing from business layer to application layer, these factors provide information that can help determine whether `Application Functions` and `Application Services` are capable of meeting peak demand within the terms of the SLA.
+
+Below Figure 61 might be used to identify critical business services reliant on applications not operated in high availability configuration:
+
+![Figure61](./Figure61)
+
+Snapshot ArchiMate Model: [Figure 61: Application Services](./Figure61)
+
 ## 8.4 Logical Access Management
 
 ### 8.4.1 Account
