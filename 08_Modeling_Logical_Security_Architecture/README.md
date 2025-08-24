@@ -155,9 +155,9 @@ Snapshot ArchiMate Model: [Figure 58: Open FAIR™ Risk Taxonomy Modeled in Arch
 
 Snapshot ArchiMate Model: [Figure 59: Qualitative Example from the Open FAIR™ Risk Analysis Example Guide](./Figure59/ArchiMate_SABSA_Figure59.archimate)
 
-![Figure60](./Figure60)
+![Figure60](./Figure60/Figure60_Open-FAIR-Risk-Texonomy_Quantitative.png)
 
-Snapshot ArchiMate Model: [Figure 60: Quantitative Example from the Open FAIR™ Risk Analysis Example Guide](./Figure60)
+Snapshot ArchiMate Model: [Figure 60: Quantitative Example from the Open FAIR™ Risk Analysis Example Guide](./Figure60/ArchiMate_SABSA_Figure60.archimate)
 
 ## 8.3 Application Functionality and Services
 
