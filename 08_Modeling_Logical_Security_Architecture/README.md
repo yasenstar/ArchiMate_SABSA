@@ -147,9 +147,9 @@ Source Diagram File: [Figure 57: The Open FAIR™ Risk Taxonomy](./Figure57/Risk
 
 An equivalent ArchiMate representation of this model is shown in modeled in below Figure 58:
 
-![Figure58](./Figure58)
+![Figure58](./Figure58/Figure58_Open-FAIR-Risk-Texonomy.png)
 
-Snapshot ArchiMate Model: [Figure 58: Open FAIR™ Risk Taxonomy Modeled in ArchiMate Language](./Figure58)
+Snapshot ArchiMate Model: [Figure 58: Open FAIR™ Risk Taxonomy Modeled in ArchiMate Language](./Figure58/ArchiMate_SABSA_Figure58.archimate)
 
 ![Figure59](./Figure59)
 
