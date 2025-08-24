@@ -151,9 +151,9 @@ An equivalent ArchiMate representation of this model is shown in modeled in belo
 
 Snapshot ArchiMate Model: [Figure 58: Open FAIR™ Risk Taxonomy Modeled in ArchiMate Language](./Figure58/ArchiMate_SABSA_Figure58.archimate)
 
-![Figure59](./Figure59)
+![Figure59](./Figure59/Figure59_Open-FAIR-Risk-Texonomy_Qualitative.png)
 
-Snapshot ArchiMate Model: [Figure 59: Qualitative Example from the Open FAIR™ Risk Analysis Example Guide](./Figure59)
+Snapshot ArchiMate Model: [Figure 59: Qualitative Example from the Open FAIR™ Risk Analysis Example Guide](./Figure59/ArchiMate_SABSA_Figure59.archimate)
 
 ![Figure60](./Figure60)
 
