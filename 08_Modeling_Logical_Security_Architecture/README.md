@@ -175,9 +175,9 @@ When tracing from business layer to application layer, these factors provide inf
 
 Below Figure 61 might be used to identify critical business services reliant on applications not operated in high availability configuration:
 
-![Figure61](./Figure61)
+![Figure61](./Figure61/Figure61_Application-Services.png)
 
-Snapshot ArchiMate Model: [Figure 61: Application Services](./Figure61)
+Snapshot ArchiMate Model: [Figure 61: Application Services](./Figure61/ArchiMate_SABSA_Figure61.archimate)
 
 ## 8.4 Logical Access Management
 
