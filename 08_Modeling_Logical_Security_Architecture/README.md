@@ -179,7 +179,16 @@ Below Figure 61 might be used to identify critical business services reliant on 
 
 Snapshot ArchiMate Model: [Figure 61: Application Services](./Figure61/ArchiMate_SABSA_Figure61.archimate)
 
+The properties of the `Application Behavior elements` are shown in below Table 36. Because `service elements` play a key role in both availability and access control, only the availability properties are explained here.
+
+| Element | Schema File | Schema Visualization |
+| --- | --- | --- |
+| Application Service | [App Service JSON](./Table36) | ![AppSrvSchema](./Table36) |
+| Application Process/Function | [App Process/Function JSON](./Table36) | ![AppProcFuncSchema](./Table36) |
+
 ## 8.4 Logical Access Management
+
+A key security issue for `Application Services` is the ability 
 
 ### 8.4.1 Account
 
