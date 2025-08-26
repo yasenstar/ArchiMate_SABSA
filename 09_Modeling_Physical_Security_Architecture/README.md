@@ -12,6 +12,14 @@
     - [9.1.2 Device and Node](#912-device-and-node)
   - [9.2 Risk Management Practices](#92-risk-management-practices)
     - [9.2.1 Defect](#921-defect)
+  - [9.3 Process Mechanisms](#93-process-mechanisms)
+    - [9.3.1 Technology Functions and Services](#931-technology-functions-and-services)
+    - [9.3.2 System Software](#932-system-software)
+  - [9.4 Human-Mechaine Interfaces](#94-human-mechaine-interfaces)
+    - [9.4.1 Technology Interface](#941-technology-interface)
+  - [9.5 Physical Environment](#95-physical-environment)
+  - [9.6 Timing and Interrupts](#96-timing-and-interrupts)
+    - [9.6.1 Technology Security Events](#961-technology-security-events)
 
 ## 9.0 Physical Overview
 
@@ -73,7 +81,45 @@ Snapshot ArchiMate Model: [Figure 67: Stereotyping Security Nodes and Devices](.
 
 ![Figure68](./Figure68)
 
-Snapshot ArchiMate Model: [Figure 68: Configuration Files](./Figure68)
+Snapshot ArchiMate Model: [Figure 68: Risk Management Practices](./Figure68)
+
+## 9.3 Process Mechanisms
+
+![Figure69](./Figure69)
+
+Snapshot ArchiMate Model: [Figure 69: Realization of Security Services](./Figure69)
+
+### 9.3.1 Technology Functions and Services
+
+| Element | Schema File | Schema Visualization |
+| --- | --- | --- |
+| Technology Service | [Tech Srv JSON](./Table40) | ![TechSrvSchema](./Table40) |
+| Technology Process</br>Technology Function | [Tech Proc & Func JSON](./Table40) | ![TechProcFuncSchema](./Table40) |
+
+### 9.3.2 System Software
+
+## 9.4 Human-Mechaine Interfaces
+
+### 9.4.1 Technology Interface
+
+| Element | Schema File | Schema Visualization |
+| --- | --- | --- |
+| Technology Interface | [Tech Int JSON](./Table40) | ![TechIntSchema](./Table40) |
+
+## 9.5 Physical Environment
+
+## 9.6 Timing and Interrupts
+
+### 9.6.1 Technology Security Events
+
+| Element | Schema File | Schema Visualization |
+| --- | --- | --- |
+| Technology Service | [Tech Srv JSON](./Table40) | ![TechSrvSchema](./Table40) |
+| Technology Service | [Tech Srv JSON](./Table40) | ![TechSrvSchema](./Table40) |
+| Technology Service | [Tech Srv JSON](./Table40) | ![TechSrvSchema](./Table40) |
+| Technology Service | [Tech Srv JSON](./Table40) | ![TechSrvSchema](./Table40) |
+| Technology Service | [Tech Srv JSON](./Table40) | ![TechSrvSchema](./Table40) |
+
 
 ---
 
