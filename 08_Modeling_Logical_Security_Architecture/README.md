@@ -207,7 +207,16 @@ Snapshot ArchiMate Model: [Figure 62: Modeling Authentication in the Primary Arc
 In above diagram, a Service Provider initiated Single
 Sign-on Authentication has been modeled as an Infrastructure service (`Application Service`) because that is how it looks from the Application's perspective: the paradigm of the externally-visible service redirecting an unauthenticated session to an authentication service.
 
-The foremost reference on the good style and practical usage of the ArchiMate language 
+The foremost reference on the good style and practical usage of the ArchiMate language advocate the structuring of models in 3 architectural planes:
+- a primary archbitecture (describing run-time use)
+- a secondary architecture (system development, administration, and operation)
+- a tertiary architecture (ownership and governance).
+
+While authentication is a run-time process in the primary architecture, the service is best modeled as part of a LAM capability in the secondary architecture, shown in below Figure 63:
+
+![Figure63](./Figure63)
+
+Snapshot ArchiMate Model: [Figure 63: Example of Registration and Provisioning in the Secondary Architecture](./Figure63)
 
 ### 8.4.1 Account
 
