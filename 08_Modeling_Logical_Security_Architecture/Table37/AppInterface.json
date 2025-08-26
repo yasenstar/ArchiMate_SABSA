@@ -1,0 +1,36 @@
+{
+    "Application Interface": {
+        "attributes": {
+            "id": "",
+            "namespace": "",
+            "interfaceExposure": "",
+            "authenticator": [
+                "PASSWORD", "BIOMETRIC", "OTHERS"
+            ],
+            "authenticationStrength": "",
+            "authenticatorTrust": ""
+        },
+        "instance": {
+            "tog:name": "",
+            "tog:description": "",
+            "detail": {
+                "tog:humanInterface": {
+                    "custom:HumanInterfaceTyoe": {
+                        "attributes": {
+                            "userType": "",
+                            "type": ""
+                        }
+                    }
+                },
+                "tog:machineInterface": {
+                    "custom:MachineInterfaceTyoe": {
+                        "attributes": {
+                            "userType": "",
+                            "type": ""
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

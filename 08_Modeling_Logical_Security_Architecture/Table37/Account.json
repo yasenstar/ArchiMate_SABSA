@@ -1,0 +1,16 @@
+{
+    "«Account»": {
+        "attributes": {
+            "id": "",
+            "stereotypeOf": "",
+            "type": [
+                "NOMINAL", "FUNCTIONAL", "TECHNICAL", "DISPOSABLE"
+            ],
+            "policy": ""
+        },
+        "instance": {
+            "tsi:name": "",
+            "tsi:description": ""
+        }
+    }
+}

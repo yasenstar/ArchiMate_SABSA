@@ -1,0 +1,26 @@
+{
+    "Application Process / Application Function": {
+        "attributes": {
+            "grp tog:behaviourAttributes": {
+                "id": "",
+                "criticality": [
+                    "NA", "UNCLASSIFIED", "VLOW", "LOW", "MODERATE", "HIGH", "VHIGH"
+                ],
+                "privilege": [
+                    "SELF", "USER", "ADMIN", "ROOT"
+                ],
+                "piiLegalBasis": "",
+                "isTransactional": "",
+                "isLogged": ""
+            }
+        },
+        "instance": {
+            "tog:name": "",
+            "tog:description": "",
+            "detail": {
+                "tog:executionFrequency": "",
+                "tog:executionPeriod": ""
+            }
+        }
+    }
+}

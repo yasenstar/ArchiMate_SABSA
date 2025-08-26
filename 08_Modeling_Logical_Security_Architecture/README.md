@@ -224,7 +224,7 @@ Account is the Logical `representation` of a Principal from the perspective of a
 
 | Element | Schema File | Schema Visualization |
 | --- | --- | --- |
-| «Account» | [Account JSON](./Table37) | ![AccountSchema](./Table37) |
+| «Account» | [Account JSON](./Table37/Account.json) | ![AccountSchema](./Table37/AccountSchema.png) |
 
 ### 8.4.2 Application Role
 
@@ -234,7 +234,7 @@ In the Security Overlay, Application Roles are fashioned from a stereotype of `A
 
 | Element | Schema File | Schema Visualization |
 | --- | --- | --- |
-| «Application Role» | [App Role JSON](./Table37) | ![AppRoleSchema](./Table37) |
+| «Application Role» | [App Role JSON](./Table37/AppRole.json) | ![AppRoleSchema](./Table37/AppRoleSchema.png) |
 
 ### 8.4.3 Application Service
 
@@ -242,7 +242,7 @@ In the Security Overlay, Application Roles are fashioned from a stereotype of `A
 
 | Element | Schema File | Schema Visualization |
 | --- | --- | --- |
-| Application Service | [AppSrv JSON](./Table37) | ![AppSrvSchema](./Table37) |
+| Application Service | [AppSrv JSON](./Table37/AppService.json) | ![AppSrvSchema](./Table37/AppServiceSchema.png) |
 
 ### 8.4.4 Application Process and Function
 
@@ -250,7 +250,7 @@ The key security-related property of an `Application Function` (and other intern
 
 | Element | Schema File | Schema Visualization |
 | --- | --- | --- |
-| Application Process</br>Application Function | [App Proc/Func JSON](./Table37) | ![AppProcFuncSchema](./Table37) |
+| Application Process</br>Application Function | [App Proc/Func JSON](./Table37/AppProcFunc.json) | ![AppProcFuncSchema](./Table37/AppProcFuncSchema.png) |
 
 ### 8.4.5 Application Interface
 
@@ -260,7 +260,7 @@ The Security Overlay provides a `type` property to indicate interfaces intended 
 
 | Element | Schema File | Schema Visualization |
 | --- | --- | --- |
-| Application Interface | [App Interface JSON](./Table37) | ![AppIntSchema](./Table37) |
+| Application Interface | [App Interface JSON](./Table37/AppInterface.json) | ![AppIntSchema](./Table37/AppInterfaceSchema.png) |
 
 ## 8.5 Logical Domains
 
