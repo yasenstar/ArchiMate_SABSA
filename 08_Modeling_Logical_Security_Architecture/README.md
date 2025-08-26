@@ -188,7 +188,26 @@ The properties of the `Application Behavior elements` are shown in below Table 3
 
 ## 8.4 Logical Access Management
 
-A key security issue for `Application Services` is the ability 
+A key security issue for `Application Services` is the ability to enfource access control, predicated in turn on the Service's ability to establish a minimum level of assurance of the digital identity presented by the user.
+
+![nobody knows you're a dog on the internet](./img/Peter-Steiners-On-the-Internet-nobody-knows-youre-a-dog.-July-5-1993.jpg)
+
+On the premise that on the Internet, "_nobody knows you're a dog_", the Security Overlay must be able to express that while "_being a dog_" might not be a concern for some low-risk services, others will demand a degree of confidence that the Principal accessing the service is a legitimate proxy of the identified, real-world `Actor`.
+
+To model this, the Security Overlay proposes properties that reflect the three-level assurance criteria identified in NIST's Digital Identity Guidelines ([NIST SP 800-63-3](https://csrc.nist.gov/pubs/sp/800/63/3/upd2/final)) (local copy here: [800-63-3](../Docs/NIST.SP.800-63-3.pdf), [800-63-4](../Docs/NIST.SP.800-63-4.pdf.pdf)): The default schema proposes as a 3-tier classification, `STANDARD, ENHANCED, ASSURED`, that maps easily to the assurance levels described in NIST, but this can be adapted to other schemas such as [ISO/IEC 29115 (Entity Authentication Assurance Framework)](https://www.iso.org/standard/45138.html)'s 4-level schema or a proprietary scheme (e.g. numeric range), defined by the implementing organization.
+
+Access Control is increasingly implemented via external services (policy administration, information, and decision points), but enforcement is predominatly local and predicated on the Principal having authenticated to an account that has been provisioned with a set of access rights.
+
+Credentials generally materialize at the logical level as some form of data (e.g. a passcode, dactylogram, or retina scan) that must be compared against the credential on record. These may or may not be associated with the target system account, depending on whether authentication is performed locally or represented by a trusted token form a centralized Authentication Service, as shown in below Figure 62:
+
+![Figure62](./Figure62)
+
+Snapshot ArchiMate Model: [Figure 62: Modeling Authentication in the Primary Architecture](./Figure62)
+
+In above diagram, a Service Provider initiated Single
+Sign-on Authentication has been modeled as an Infrastructure service (`Application Service`) because that is how it looks from the Application's perspective: the paradigm of the externally-visible service redirecting an unauthenticated session to an authentication service.
+
+The foremost reference on the good style and practical usage of the ArchiMate language 
 
 ### 8.4.1 Account
 
