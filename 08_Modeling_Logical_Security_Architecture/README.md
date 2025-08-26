@@ -200,9 +200,9 @@ Access Control is increasingly implemented via external services (policy adminis
 
 Credentials generally materialize at the logical level as some form of data (e.g. a passcode, dactylogram, or retina scan) that must be compared against the credential on record. These may or may not be associated with the target system account, depending on whether authentication is performed locally or represented by a trusted token form a centralized Authentication Service, as shown in below Figure 62:
 
-![Figure62](./Figure62)
+![Figure62](./Figure62/Figure62_Modeling-Authentication-in-Primary-Architecture.png)
 
-Snapshot ArchiMate Model: [Figure 62: Modeling Authentication in the Primary Architecture](./Figure62)
+Snapshot ArchiMate Model: [Figure 62: Modeling Authentication in the Primary Architecture](./Figure62/ArchiMate_SABSA_Figure62.archimate)
 
 In above diagram, a Service Provider initiated Single
 Sign-on Authentication has been modeled as an Infrastructure service (`Application Service`) because that is how it looks from the Application's perspective: the paradigm of the externally-visible service redirecting an unauthenticated session to an authentication service.
