@@ -32,6 +32,10 @@ Physical Artifacts:
 | Data Assets | Risk Management Practices| Process Mechanisms | Human Interface | Infrastructure | Processing Schedule |
 | - Dictionary & Data Storage<br>- Devices Inventory | - Risk Management Rules & Procedures<br>- Risk Metadata | - Working Procedures<br>- Application Software<br>- Middleware<br>- Systems<br>- Security Mechanisms Process Control Points | - User Interface to Business Systems<br>- Identity & Access Control Systems | - Workspaces<br>- Host Platforms, Layout of Devices & Networks | - Timing & Sequencing of Processes & Sessions |
 
+![table38-ontolgoy](./Table38/SABSA-Physical-Security-Architecture.png)
+
+Snapshot Protege Ontology File: [SABSA Matrics 2018 - Ch09 - Physical](./Table38/sabsa_matrices_2018_ch09-table38.rdf)
+
 Physical Activities:
 
 | Assets (What) | Motivation (Why) | Process (How) | People (Who) | Location (Where) | Time (When) |
