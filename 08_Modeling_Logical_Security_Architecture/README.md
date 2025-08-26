@@ -264,7 +264,17 @@ The Security Overlay provides a `type` property to indicate interfaces intended 
 
 ## 8.5 Logical Domains
 
+Logical domains can represent notional boundaries in the Logical layer, such as schema belonging to a particular namespace, web applications deployed under and Internet domain name, or the authorized usage (`functions`) covered by a Public Key Infrastructure (PKI) Signing Certificate.
+
+Logical domains can be expressed by `Grouping` elements.
+
+Pure logical space is modeled as a `Grouping` unadorned. A `means` of marking a Logical Domain as a security domain (conceptual space) is dicussed in [Section 7.5: Domain Framework Model](../07_Modeling_Conceptual_Security_Architecture/README.md#75-domain-framework-model)
+
 ## 8.6 Timing and Events
+
+These elements can be used to model security-significant errors and exceptions thrown by application behavior; e.g., an exception encountered while validating a digital signature.
+
+The schema is the same as that presented in [Section 7.6: Security Event](../07_Modeling_Conceptual_Security_Architecture/README.md#76-security-events)
 
 ### 8.6.1 Application Security Events
 
