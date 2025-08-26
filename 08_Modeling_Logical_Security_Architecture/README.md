@@ -214,19 +214,53 @@ The foremost reference on the good style and practical usage of the ArchiMate la
 
 While authentication is a run-time process in the primary architecture, the service is best modeled as part of a LAM capability in the secondary architecture, shown in below Figure 63:
 
-![Figure63](./Figure63)
+![Figure63](./Figure63/Figure63_Example-of-Registration-and-Provisioning-in-Secondary-Architecture.png)
 
-Snapshot ArchiMate Model: [Figure 63: Example of Registration and Provisioning in the Secondary Architecture](./Figure63)
+Snapshot ArchiMate Model: [Figure 63: Example of Registration and Provisioning in the Secondary Architecture](./Figure63/ArchiMate_SABSA_Figure63.archimate)
 
 ### 8.4.1 Account
 
+Account is the Logical `representation` of a Principal from the perspective of an application or target system. A principal may hold multiple Accounts on multiple systems.
+
+| Element | Schema File | Schema Visualization |
+| --- | --- | --- |
+| «Account» | [Account JSON](./Table37) | ![AccountSchema](./Table37) |
+
 ### 8.4.2 Application Role
+
+Application Role represents the roles (and their associated set of access rights) defined in the application code or configurable on the target system.
+
+In the Security Overlay, Application Roles are fashioned from a stereotype of `Application Component`. They serve Accounts and can be assigned to Application functions, as shown in above Figure 60 and Figure 61.
+
+| Element | Schema File | Schema Visualization |
+| --- | --- | --- |
+| «Application Role» | [App Role JSON](./Table37) | ![AppRoleSchema](./Table37) |
 
 ### 8.4.3 Application Service
 
+`Application Services` were discussed earlier in relation to SLAs and Availability.
+
+| Element | Schema File | Schema Visualization |
+| --- | --- | --- |
+| Application Service | [AppSrv JSON](./Table37) | ![AppSrvSchema](./Table37) |
+
 ### 8.4.4 Application Process and Function
 
+The key security-related property of an `Application Function` (and other internal behavior elements) is the __authorizationContext__ in which the function is executed.
+
+| Element | Schema File | Schema Visualization |
+| --- | --- | --- |
+| Application Process</br>Application Function | [App Proc/Func JSON](./Table37) | ![AppProcFuncSchema](./Table37) |
+
 ### 8.4.5 Application Interface
+
+`Application Interfaces` bind `Application Services` to an endpoint or channel through which they may be consumed.
+
+The Security Overlay provides a `type` property to indicate interfaces intended for human or machine use.
+
+| Element | Schema File | Schema Visualization |
+| --- | --- | --- |
+| Application Interface | [App Interface JSON](./Table37) | ![AppIntSchema](./Table37) |
 
 ## 8.5 Logical Domains
 
