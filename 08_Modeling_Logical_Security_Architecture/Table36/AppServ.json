@@ -1,0 +1,18 @@
+{
+    "Application Service": {
+        "attributes": {
+            "id": "",
+            "availability": [
+                "NA", "UNCLASSIFIED", "VLOW", "LOW", "MODERATE", "HIGH", "VHIGH"
+            ],
+            "capacity": "",
+            "latency": "",
+            "rto": "",
+            "rpo": ""
+        },
+        "instance": {
+            "tog:name": "",
+            "tog:description": ""
+        }
+    }
+}

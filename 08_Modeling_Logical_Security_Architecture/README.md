@@ -183,8 +183,8 @@ The properties of the `Application Behavior elements` are shown in below Table 3
 
 | Element | Schema File | Schema Visualization |
 | --- | --- | --- |
-| Application Service | [App Service JSON](./Table36) | ![AppSrvSchema](./Table36) |
-| Application Process/Function | [App Process/Function JSON](./Table36) | ![AppProcFuncSchema](./Table36) |
+| Application Service | [App Service JSON](./Table36/AppServ.json) | ![AppSrvSchema](./Table36/AppServSchema.png) |
+| Application Process/Function | [App Process/Function JSON](./Table36/AppProcFunc.json) | ![AppProcFuncSchema](./Table36/AppProcFuncSchema.png) |
 
 ## 8.4 Logical Access Management
 

@@ -1,0 +1,21 @@
+{
+    "Application Process": {
+        "attributes": {
+            "id": "",
+            "criticality": [
+                "NA", "UNCLASSIFIED", "VLOW", "LOW", "MODERATE", "HIGH", "VHIGH"
+            ],
+            "privilege": "",
+            "isTransactional": "",
+            "isLogged": ""
+        },
+        "instance": {
+            "tog:name": "",
+            "tog:description": "",
+            "detail": {
+                "tog:executionFrequence": "",
+                "tog:executionPeriod": ""
+            }
+        }
+    }
+}
