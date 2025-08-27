@@ -56,9 +56,9 @@ Snapshot Protege Ontology File: [SABSA Matrics 2018 - Ch08](./Table39/sabsa_matr
 
 ### Figure 64: Developing SABSA Physical Security Architecture
 
-![Figure64](./Figure64)
+![Figure64](./Figure64/Figure64_Developing-SABSA-Physical-Security-Architecture.png)
 
-Snapshot ArchiMate Model: [Figure 64: Developing the SABSA Physical Security Architecture](./Figure64)
+Snapshot ArchiMate Model: [Figure 64: Developing the SABSA Physical Security Architecture](./Figure64/ArchiMate_SABSA_Figure64.archimate)
 
 ## 9.1 Data and Technology Assets
 
