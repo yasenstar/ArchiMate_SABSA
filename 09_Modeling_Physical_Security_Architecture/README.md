@@ -45,9 +45,9 @@ Physical Activities:
 
 Below we're again using Protege to expand our SABSA Matrix Ontology:
 
-![table38&39-ontolgoy](./Table38-39)
+![table38&39-ontolgoy](./Table39/SABSA-Component-Security-Architecture.png)
 
-Snapshot Protege Ontology File: [SABSA Matrics 2018 - Ch08](sabsa_matrices_2018_ch09.rdf)
+Snapshot Protege Ontology File: [SABSA Matrics 2018 - Ch08](./Table39/sabsa_matrices_2018_ch09-table39.rdf)
 
 ### Figure 64: Developing SABSA Physical Security Architecture
 
