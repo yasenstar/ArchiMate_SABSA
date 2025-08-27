@@ -62,11 +62,19 @@ Snapshot ArchiMate Model: [Figure 64: Developing the SABSA Physical Security Arc
 
 ## 9.1 Data and Technology Assets
 
+The principal `Assets` in this cell are the persisted formats of information/knowledge (applications and data) and IT infrastructure (hardware, system software, and network components).
+
+The "bricks & mortar" type of physicla `Assets` are described in [Section 9.5: Physical Environment](#95-physical-environment)
+
 ### 9.1.1 Artifact
 
-![Figure65](./Figure65)
+In standard ArchiMate notation, `Artifact` serves as the universal passive structure element of the `Technology Layer`. It is overloaded to represent any kind of `data object` in the file system: executables, scripits, data and configuration files, databases, documents, specifications - everything in fact, except `System Software`.
 
-Snapshot ArchiMate Model: [Figure 65: Stereotypes of Artifact](./Figure65)
+The Security Overlay refines `Artifact` into sub-types that better reflect its different purposes and provides appropriate properties: see below Figure 65.
+
+![Figure65](./Figure65/Figure65_Stereotypes-of-Artifact.png)
+
+Snapshot ArchiMate Model: [Figure 65: Stereotypes of Artifact](./Figure65/ArchiMate_SABSA_Figure65.archimate)
 
 #### 9.1.1.1 Executable
 

@@ -454,90 +454,102 @@
     </folder>
   </folder>
   <folder name="Application" id="id-9e30c0d3f0414793a2618e763adcf8cb" type="application">
-    <folder name="Figure01" id="id-e5e731067c7d4e409a4ec3a28ab2d031">
-      <element xsi:type="archimate:ApplicationService" name="Acceptance" id="id-c758b16d1dfb4aabbee3118d12c46a04"/>
-      <element xsi:type="archimate:ApplicationService" name="Assessment" id="id-88bb14e00fde4fa499ed210bc8f0db6f"/>
-      <element xsi:type="archimate:ApplicationService" name="Customer Administration" id="id-0b9ce44817e84a85affa295d3015cecf"/>
-      <element xsi:type="archimate:ApplicationComponent" name="Payment System" id="id-1540825032d5418ca47265ce26ce967b"/>
-      <element xsi:type="archimate:ApplicationComponent" name="Acceptance System" id="id-46107f4650b9489381325b434cde43e7"/>
-      <element xsi:type="archimate:ApplicationComponent" name="Assessment System" id="id-0b7116b53b1c44f49c538f449a178447"/>
-      <element xsi:type="archimate:ApplicationComponent" name="Customer Administration" id="id-7cb305c7a16a4a589832ea985090d47a"/>
+    <folder name="ch08" id="id-556c54a6c5ad47e79a730bac99b5b843">
+      <folder name="Figure55" id="id-e9f807459d5f44b4ab508f06afb06bff">
+        <element xsi:type="archimate:ApplicationService" name="Application Service" id="id-531d7b3997d84739b2f2937d4f5e18a0"/>
+      </folder>
+      <folder name="Figure56" id="id-a5edd78f36e44626a7b35b577f622c4f">
+        <element xsi:type="archimate:DataObject" name="Employee Data" id="id-5e3bdf62754142fea3b3bbdc1d505886"/>
+        <element xsi:type="archimate:ApplicationService" name="Office Network Domain" id="id-abeec2bb6f4747e9b5ac0fb45b743e75"/>
+        <element xsi:type="archimate:ApplicationService" name="Authentication" id="id-7ea48a1b5a06413eb6421b94e974c3f9"/>
+      </folder>
+      <folder name="Figure61" id="id-8303b7a44da343cdb58e19aa6335259d">
+        <element xsi:type="archimate:ApplicationService" name="Internal Service" id="id-1822a30142c94336b5bb1aa1e137bd25">
+          <property key="availability" value="MODERATE"/>
+          <property key="latency" value="1s"/>
+          <property key="throughput" value="20"/>
+          <property key="rto" value="PRIORITY1"/>
+          <property key="rpo" value="PRIORITY2"/>
+        </element>
+      </folder>
+      <folder name="Figure62" id="id-7d81a5a4b3884d988b2ee26384dc3259">
+        <element xsi:type="archimate:ApplicationService" name="Single Sign-On" id="id-dea9d76ec181497aab935b86a3cf1803"/>
+      </folder>
+      <folder name="Figure63" id="id-dbaaf9fc478e488295ecb01f3dcb0939">
+        <element xsi:type="archimate:ApplicationInterface" name="LAM GUI" id="id-27c779d5d118426998ae54fb3e8e628e"/>
+        <element xsi:type="archimate:ApplicationService" name="LAM Services" id="id-a3fb4ae249c246f1bb2fd4f38a244d34"/>
+        <element xsi:type="archimate:ApplicationFunction" name="Access Management" id="id-56e9f525b693452d878df6a1d4cedbae"/>
+        <element xsi:type="archimate:ApplicationComponent" name="Access Management Application" id="id-7ebd6b38f6114e13bf6cf13f7ce3c5b7"/>
+      </folder>
     </folder>
-    <folder name="Figure08" id="id-a909544412d44eccb087859dd7c31e35">
-      <element xsi:type="archimate:ApplicationService" name="Implemented Control Measure" id="id-8b80c314ca1446db8c46ff1c8d111dfe"/>
+    <folder name="ch07" id="id-e76d9ca25b794b6cb8d2b3359a8644c8">
+      <folder name="Figure47" id="id-d76e15180a94458e9450fd501716ca93">
+        <element xsi:type="archimate:ApplicationInterface" name="Application Interface (a)" id="id-91f3d6f7d0884ab68f3296fc6f0901ac"/>
+        <element xsi:type="archimate:ApplicationInterface" name="Application Interface (b)" id="id-f3c80a38acfe424fb6d6418c02c09b95"/>
+        <element xsi:type="archimate:ApplicationInterface" name="Application Interface (c)" id="id-defcefebbdcf4c87ba14dc274d6b4c89"/>
+        <element xsi:type="archimate:ApplicationService" name="Application Service (a)" id="id-b6bd782bb8dc4aacb39f3b743ecb9930"/>
+        <element xsi:type="archimate:ApplicationService" name="Application Service (b)" id="id-19efaded9a2b4a53b98f9b71a20f3b23"/>
+        <element xsi:type="archimate:ApplicationService" name="Application Service (c)" id="id-138231602e0b40498da0360b8b5eb2d4"/>
+        <element xsi:type="archimate:ApplicationService" name="Authentication (a)" id="id-2cc2f442b8384e8cba52bec6f771d2cc"/>
+        <element xsi:type="archimate:ApplicationService" name="Authentication (b)" id="id-159972db74c243e59ee30eea3838b68f"/>
+        <element xsi:type="archimate:ApplicationService" name="Authentication (c)" id="id-cea9967ba09c41cf930534dab77ee1b9"/>
+        <element xsi:type="archimate:ApplicationService" name="Access Control (a)" id="id-140b6e81001943fc87788a559f331c79"/>
+        <element xsi:type="archimate:ApplicationService" name="Access Control (c)" id="id-e989861f2f4f420fac4c010ccb501546"/>
+        <element xsi:type="archimate:ApplicationService" name="Access Control (b)" id="id-137ff625f25a41359d706efd82435206"/>
+      </folder>
+      <folder name="Figure48" id="id-5386420980fa46d1bb158e33a86e7a90">
+        <element xsi:type="archimate:ApplicationEvent" name="Application Event" id="id-b2efe02937b94939ba2f9ec5e3e77a27"/>
+      </folder>
+      <folder name="Figure49" id="id-4242efbf6f8c49a6a00b1af099a938d7">
+        <element xsi:type="archimate:ApplicationComponent" name="«Application Role»" id="id-1472e5011de5489f98b4f159c337efee"/>
+      </folder>
+      <folder name="Figure50" id="id-bba8437c814b4776bd8cfcbeceaa34ea">
+        <element xsi:type="archimate:ApplicationComponent" name="Application Z" id="id-0fa4303301f946e1aaad3ddb5e79bd92"/>
+        <element xsi:type="archimate:ApplicationService" name="Application Z Service" id="id-9049561e69b64e25b18769d4ed5b7fd6"/>
+      </folder>
     </folder>
-    <folder name="Figure20" id="id-9ab265b9434c49a9b0ad3931523042f0">
-      <element xsi:type="archimate:ApplicationFunction" name="Application Function" id="id-ed32e5f8a4bd4c278c8e149f866b0e7f">
-        <property key="privilege" value="DELEGATE"/>
-        <property key="acidProperties" value="TRUE"/>
-        <property key="isLogged" value="TRUE"/>
-        <property key="executionFrequency" value="{&quot;low&quot;:&quot;200&quot;, &quot;mod&quot;:&quot;500&quot;, &quot;high&quot;:&quot;1000&quot;}"/>
-        <property key="executionPeriod" value="P1D"/>
-      </element>
-      <element xsi:type="archimate:ApplicationComponent" name="Application" id="id-a8a31d949b964190aa4498c144c9f9df"/>
-      <element xsi:type="archimate:DataObject" name="Data" id="id-73a724c2d202427b83db2bf48b4f6b30"/>
+    <folder name="ch06" id="id-564b41c9192941348d824713903cdc87">
+      <folder name="Figure28" id="id-c01131d58c694db0963fcf83f9ec5b44">
+        <element xsi:type="archimate:ApplicationComponent" name="Application Component" id="id-57a4e72cfa9a4b59832bf5cc55131d62"/>
+        <element xsi:type="archimate:ApplicationComponent" name="RBAC Check" id="id-b3850e2a596f4f4b9e0897c7d76d4d45">
+          <property key="Stereotype" value="«Control»"/>
+        </element>
+      </folder>
     </folder>
-    <folder name="Figure25" id="id-34b4b92bb2c440048787fd3e657ee51e">
-      <element xsi:type="archimate:DataObject" name="Checksum" id="id-777a5b44767d48c5a43fc3106d818b08"/>
-      <element xsi:type="archimate:DataObject" name="HMAC / Digital Signature" id="id-d0e1046c41db41fd980bf616579a5d39"/>
-      <element xsi:type="archimate:ApplicationService" name="Identity &amp; Access Management" id="id-f5156e77d5ea4afdb688b702a78e2286"/>
-      <element xsi:type="archimate:DataObject" name="Role Authorizations &amp; Toxic Pairs" id="id-b982fda00d6e45c8999ed34e2e44b8d3"/>
+    <folder name="ch05" id="id-7e136e1acd3b47c2ba26f740586d1808">
+      <folder name="Figure20" id="id-9ab265b9434c49a9b0ad3931523042f0">
+        <element xsi:type="archimate:ApplicationFunction" name="Application Function" id="id-ed32e5f8a4bd4c278c8e149f866b0e7f">
+          <property key="privilege" value="DELEGATE"/>
+          <property key="acidProperties" value="TRUE"/>
+          <property key="isLogged" value="TRUE"/>
+          <property key="executionFrequency" value="{&quot;low&quot;:&quot;200&quot;, &quot;mod&quot;:&quot;500&quot;, &quot;high&quot;:&quot;1000&quot;}"/>
+          <property key="executionPeriod" value="P1D"/>
+        </element>
+        <element xsi:type="archimate:ApplicationComponent" name="Application" id="id-a8a31d949b964190aa4498c144c9f9df"/>
+        <element xsi:type="archimate:DataObject" name="Data" id="id-73a724c2d202427b83db2bf48b4f6b30"/>
+      </folder>
+      <folder name="Figure25" id="id-34b4b92bb2c440048787fd3e657ee51e">
+        <element xsi:type="archimate:DataObject" name="Checksum" id="id-777a5b44767d48c5a43fc3106d818b08"/>
+        <element xsi:type="archimate:DataObject" name="HMAC / Digital Signature" id="id-d0e1046c41db41fd980bf616579a5d39"/>
+        <element xsi:type="archimate:ApplicationService" name="Identity &amp; Access Management" id="id-f5156e77d5ea4afdb688b702a78e2286"/>
+        <element xsi:type="archimate:DataObject" name="Role Authorizations &amp; Toxic Pairs" id="id-b982fda00d6e45c8999ed34e2e44b8d3"/>
+      </folder>
     </folder>
-    <folder name="Figure28" id="id-c01131d58c694db0963fcf83f9ec5b44">
-      <element xsi:type="archimate:ApplicationComponent" name="Application Component" id="id-57a4e72cfa9a4b59832bf5cc55131d62"/>
-      <element xsi:type="archimate:ApplicationComponent" name="RBAC Check" id="id-b3850e2a596f4f4b9e0897c7d76d4d45">
-        <property key="Stereotype" value="«Control»"/>
-      </element>
+    <folder name="ch04" id="id-f556e0d8b5da4ac9a32add93bfc9b8ca">
+      <folder name="Figure08" id="id-a909544412d44eccb087859dd7c31e35">
+        <element xsi:type="archimate:ApplicationService" name="Implemented Control Measure" id="id-8b80c314ca1446db8c46ff1c8d111dfe"/>
+      </folder>
     </folder>
-    <folder name="Figure47" id="id-d76e15180a94458e9450fd501716ca93">
-      <element xsi:type="archimate:ApplicationInterface" name="Application Interface (a)" id="id-91f3d6f7d0884ab68f3296fc6f0901ac"/>
-      <element xsi:type="archimate:ApplicationInterface" name="Application Interface (b)" id="id-f3c80a38acfe424fb6d6418c02c09b95"/>
-      <element xsi:type="archimate:ApplicationInterface" name="Application Interface (c)" id="id-defcefebbdcf4c87ba14dc274d6b4c89"/>
-      <element xsi:type="archimate:ApplicationService" name="Application Service (a)" id="id-b6bd782bb8dc4aacb39f3b743ecb9930"/>
-      <element xsi:type="archimate:ApplicationService" name="Application Service (b)" id="id-19efaded9a2b4a53b98f9b71a20f3b23"/>
-      <element xsi:type="archimate:ApplicationService" name="Application Service (c)" id="id-138231602e0b40498da0360b8b5eb2d4"/>
-      <element xsi:type="archimate:ApplicationService" name="Authentication (a)" id="id-2cc2f442b8384e8cba52bec6f771d2cc"/>
-      <element xsi:type="archimate:ApplicationService" name="Authentication (b)" id="id-159972db74c243e59ee30eea3838b68f"/>
-      <element xsi:type="archimate:ApplicationService" name="Authentication (c)" id="id-cea9967ba09c41cf930534dab77ee1b9"/>
-      <element xsi:type="archimate:ApplicationService" name="Access Control (a)" id="id-140b6e81001943fc87788a559f331c79"/>
-      <element xsi:type="archimate:ApplicationService" name="Access Control (c)" id="id-e989861f2f4f420fac4c010ccb501546"/>
-      <element xsi:type="archimate:ApplicationService" name="Access Control (b)" id="id-137ff625f25a41359d706efd82435206"/>
-    </folder>
-    <folder name="Figure48" id="id-5386420980fa46d1bb158e33a86e7a90">
-      <element xsi:type="archimate:ApplicationEvent" name="Application Event" id="id-b2efe02937b94939ba2f9ec5e3e77a27"/>
-    </folder>
-    <folder name="Figure49" id="id-4242efbf6f8c49a6a00b1af099a938d7">
-      <element xsi:type="archimate:ApplicationComponent" name="«Application Role»" id="id-1472e5011de5489f98b4f159c337efee"/>
-    </folder>
-    <folder name="Figure50" id="id-bba8437c814b4776bd8cfcbeceaa34ea">
-      <element xsi:type="archimate:ApplicationComponent" name="Application Z" id="id-0fa4303301f946e1aaad3ddb5e79bd92"/>
-      <element xsi:type="archimate:ApplicationService" name="Application Z Service" id="id-9049561e69b64e25b18769d4ed5b7fd6"/>
-    </folder>
-    <folder name="Figure55" id="id-e9f807459d5f44b4ab508f06afb06bff">
-      <element xsi:type="archimate:ApplicationService" name="Application Service" id="id-531d7b3997d84739b2f2937d4f5e18a0"/>
-    </folder>
-    <folder name="Figure56" id="id-a5edd78f36e44626a7b35b577f622c4f">
-      <element xsi:type="archimate:DataObject" name="Employee Data" id="id-5e3bdf62754142fea3b3bbdc1d505886"/>
-      <element xsi:type="archimate:ApplicationService" name="Office Network Domain" id="id-abeec2bb6f4747e9b5ac0fb45b743e75"/>
-      <element xsi:type="archimate:ApplicationService" name="Authentication" id="id-7ea48a1b5a06413eb6421b94e974c3f9"/>
-    </folder>
-    <folder name="Figure61" id="id-8303b7a44da343cdb58e19aa6335259d">
-      <element xsi:type="archimate:ApplicationService" name="Internal Service" id="id-1822a30142c94336b5bb1aa1e137bd25">
-        <property key="availability" value="MODERATE"/>
-        <property key="latency" value="1s"/>
-        <property key="throughput" value="20"/>
-        <property key="rto" value="PRIORITY1"/>
-        <property key="rpo" value="PRIORITY2"/>
-      </element>
-    </folder>
-    <folder name="Figure62" id="id-7d81a5a4b3884d988b2ee26384dc3259">
-      <element xsi:type="archimate:ApplicationService" name="Single Sign-On" id="id-dea9d76ec181497aab935b86a3cf1803"/>
-    </folder>
-    <folder name="Figure63" id="id-dbaaf9fc478e488295ecb01f3dcb0939">
-      <element xsi:type="archimate:ApplicationInterface" name="LAM GUI" id="id-27c779d5d118426998ae54fb3e8e628e"/>
-      <element xsi:type="archimate:ApplicationService" name="LAM Services" id="id-a3fb4ae249c246f1bb2fd4f38a244d34"/>
-      <element xsi:type="archimate:ApplicationFunction" name="Access Management" id="id-56e9f525b693452d878df6a1d4cedbae"/>
-      <element xsi:type="archimate:ApplicationComponent" name="Access Management Application" id="id-7ebd6b38f6114e13bf6cf13f7ce3c5b7"/>
+    <folder name="ch01" id="id-8889a67479d4491e8006adf831efbd81">
+      <folder name="Figure01" id="id-e5e731067c7d4e409a4ec3a28ab2d031">
+        <element xsi:type="archimate:ApplicationService" name="Acceptance" id="id-c758b16d1dfb4aabbee3118d12c46a04"/>
+        <element xsi:type="archimate:ApplicationService" name="Assessment" id="id-88bb14e00fde4fa499ed210bc8f0db6f"/>
+        <element xsi:type="archimate:ApplicationService" name="Customer Administration" id="id-0b9ce44817e84a85affa295d3015cecf"/>
+        <element xsi:type="archimate:ApplicationComponent" name="Payment System" id="id-1540825032d5418ca47265ce26ce967b"/>
+        <element xsi:type="archimate:ApplicationComponent" name="Acceptance System" id="id-46107f4650b9489381325b434cde43e7"/>
+        <element xsi:type="archimate:ApplicationComponent" name="Assessment System" id="id-0b7116b53b1c44f49c538f449a178447"/>
+        <element xsi:type="archimate:ApplicationComponent" name="Customer Administration" id="id-7cb305c7a16a4a589832ea985090d47a"/>
+      </folder>
     </folder>
   </folder>
   <folder name="Technology &amp; Physical" id="id-3552867304ea454ba90676ebe5c2e7fb" type="technology">
@@ -579,6 +591,12 @@
     <folder name="Figure56" id="id-fec4f7dd0a7a45178c58eda22722d9e2">
       <element xsi:type="archimate:Material" name="Sticky Note" id="id-cef6ddf1d64d4ad48ced5152214215f1"/>
       <element xsi:type="archimate:Device" name="Workstation" id="id-51d3ae1c01f8431bb1a5d35caaea2a23"/>
+    </folder>
+    <folder name="Figure65" id="id-7d89a65318ee4429ae393abf47192867">
+      <element xsi:type="archimate:Artifact" name="Artifact" id="id-0bd16ec6d8c74a429ff4cc70765f2110"/>
+      <element xsi:type="archimate:Artifact" name="«Executable»" id="id-f32be5fff4f1427b914032d6b93356d3"/>
+      <element xsi:type="archimate:Artifact" name="«Data»" id="id-20e32c93727d43da9c6d25e132bb0f82"/>
+      <element xsi:type="archimate:Artifact" name="«Confiugration»" id="id-11a2fb006e414d2f8d9c070df515c509"/>
     </folder>
   </folder>
   <folder name="Motivation" id="id-bbb476089acd451a9e9bf35393320ece" type="motivation">
@@ -1893,6 +1911,9 @@ The appropriateness of communication is particularly important for any informati
       <folder name="Figure64" id="id-2e3838e4c99e44f3b5aae62ac1476585">
         <element xsi:type="archimate:Grouping" name="Physical Security Architecture" id="id-d40c9501238d43d3b9202f63d95ab037"/>
       </folder>
+      <folder name="Figure65" id="id-a4b54b55bb8441fa9c8714f07d117537">
+        <element xsi:type="archimate:Grouping" name="Artifact Stereotypes" id="id-711eae4f5d2741459fc05d5a3de102fb"/>
+      </folder>
     </folder>
   </folder>
   <folder name="Relations" id="id-cd65d9de30dc45aaac7bacfbfd548cf8" type="relations">
@@ -3089,6 +3110,12 @@ The appropriateness of communication is particularly important for any informati
         <element xsi:type="archimate:RealizationRelationship" id="id-b222bb74ea464fda8ca2218816343f59" source="id-aef3e32cf6ac4bd2b97949ddce2084d8" target="id-bd2dd847e26c4898a6a845187330cc1e"/>
         <element xsi:type="archimate:RealizationRelationship" id="id-ccb39d06d73645db8f7b02612fa9a772" source="id-aef3e32cf6ac4bd2b97949ddce2084d8" target="id-0fb6f558714541c5b01309741937e83b"/>
         <element xsi:type="archimate:RealizationRelationship" id="id-c1d0294c1bc24c5c8b4ba6cc30304fb7" source="id-2ad71e586c0f4fed863ebc4203aea19e" target="id-e2db99fd61fe4b9a8dac9ee5e154cff9"/>
+      </folder>
+      <folder name="Figure65" id="id-094c7324c42c4f4d8f48ee6bfc64860e">
+        <element xsi:type="archimate:CompositionRelationship" id="id-88028fdc92b940ea940fe48cc5f45db2" source="id-711eae4f5d2741459fc05d5a3de102fb" target="id-20e32c93727d43da9c6d25e132bb0f82"/>
+        <element xsi:type="archimate:CompositionRelationship" id="id-934b558d2983450692248d29328c7e87" source="id-711eae4f5d2741459fc05d5a3de102fb" target="id-11a2fb006e414d2f8d9c070df515c509"/>
+        <element xsi:type="archimate:CompositionRelationship" id="id-4dce6cdd7b554839a8ffaf6e6d2b81d1" source="id-711eae4f5d2741459fc05d5a3de102fb" target="id-f32be5fff4f1427b914032d6b93356d3"/>
+        <element xsi:type="archimate:SpecializationRelationship" id="id-8df1a895f5af48139879825d692fd5b3" source="id-711eae4f5d2741459fc05d5a3de102fb" target="id-0bd16ec6d8c74a429ff4cc70765f2110"/>
       </folder>
     </folder>
   </folder>
@@ -8406,6 +8433,37 @@ The appropriateness of communication is particularly important for any informati
         <property key="Last Updated" value="2025/8/27"/>
         <property key="Last Updated by" value="Xiaoqi Zhao"/>
       </element>
+      <element xsi:type="archimate:ArchimateDiagramModel" name="Figure65_Stereotypes-of-Artifact" id="id-d7f13af2006744a79d303b9bfdac7a4b">
+        <child xsi:type="archimate:Note" id="id-e273dd4c79a24254997eae23d6adcb0b" font="1|Segoe UI|9.75|1|WINDOWS|1|-13|0|0|0|700|0|0|0|0|3|2|1|34|Segoe UI" textPosition="1" borderType="2">
+          <bounds x="60" y="24" width="409" height="28"/>
+          <feature name="labelExpression" value="$view{name}"/>
+        </child>
+        <child xsi:type="archimate:Note" id="id-9e7a0fb99bbc4e778b463db2c82c2f9d" textAlignment="1" borderType="2">
+          <bounds x="492" y="36" width="185" height="41"/>
+          <feature name="labelExpression" value="Last Updated by: $view{property:Last Updated by}&#xD;&#xA;Last Updated at: $view{property:Last Updated}"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-422659fa8fba4bdea8026c663ca68e45" targetConnections="id-678ab2eb96a245679a43cce0cc5e0645" textPosition="2" archimateElement="id-0bd16ec6d8c74a429ff4cc70765f2110" type="1">
+          <bounds x="-36" y="132" width="120" height="55"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-688c6fc2f2004e1b9cf130025ff0d5cc" textAlignment="1" archimateElement="id-711eae4f5d2741459fc05d5a3de102fb">
+          <bounds x="144" y="106" width="478" height="107"/>
+          <sourceConnection xsi:type="archimate:Connection" id="id-60bfcbad99ab414c8ab4a2641550e35c" source="id-688c6fc2f2004e1b9cf130025ff0d5cc" target="id-db8dbe632de6490fb2de8ac7d1b0ff00" archimateRelationship="id-88028fdc92b940ea940fe48cc5f45db2"/>
+          <sourceConnection xsi:type="archimate:Connection" id="id-7a2479d5898b486f98be227ca9a6b37c" source="id-688c6fc2f2004e1b9cf130025ff0d5cc" target="id-a1f4f40afdb34a0c9f2b8d2e0cc3bf03" archimateRelationship="id-934b558d2983450692248d29328c7e87"/>
+          <sourceConnection xsi:type="archimate:Connection" id="id-c420dd69baf24e07ad2d8385b41d08df" source="id-688c6fc2f2004e1b9cf130025ff0d5cc" target="id-9b38f847f5274fadbd172b25afeea892" archimateRelationship="id-4dce6cdd7b554839a8ffaf6e6d2b81d1"/>
+          <sourceConnection xsi:type="archimate:Connection" id="id-678ab2eb96a245679a43cce0cc5e0645" source="id-688c6fc2f2004e1b9cf130025ff0d5cc" target="id-422659fa8fba4bdea8026c663ca68e45" archimateRelationship="id-8df1a895f5af48139879825d692fd5b3"/>
+          <child xsi:type="archimate:DiagramObject" id="id-db8dbe632de6490fb2de8ac7d1b0ff00" targetConnections="id-60bfcbad99ab414c8ab4a2641550e35c" textPosition="2" archimateElement="id-20e32c93727d43da9c6d25e132bb0f82" type="1">
+            <bounds x="186" y="36" width="120" height="55"/>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="id-a1f4f40afdb34a0c9f2b8d2e0cc3bf03" targetConnections="id-7a2479d5898b486f98be227ca9a6b37c" textPosition="2" archimateElement="id-11a2fb006e414d2f8d9c070df515c509" type="1">
+            <bounds x="336" y="36" width="120" height="55"/>
+          </child>
+          <child xsi:type="archimate:DiagramObject" id="id-9b38f847f5274fadbd172b25afeea892" targetConnections="id-c420dd69baf24e07ad2d8385b41d08df" textPosition="2" archimateElement="id-f32be5fff4f1427b914032d6b93356d3" type="1">
+            <bounds x="36" y="36" width="120" height="55"/>
+          </child>
+        </child>
+        <property key="Last Updated" value="2025/8/27"/>
+        <property key="Last Updated by" value="Xiaoqi Zhao"/>
+      </element>
     </folder>
     <folder name="ch10" id="id-bb311a60bf054245bbf32c4eaf57419e"/>
     <element xsi:type="archimate:ArchimateDiagramModel" name="View_Template" id="id-3f3990687f324997aec5ba577fbc56d8">
@@ -8414,7 +8472,7 @@ The appropriateness of communication is particularly important for any informati
         <feature name="labelExpression" value="$view{name}"/>
       </child>
       <child xsi:type="archimate:Note" id="id-06db8c0567804c84a2cafdbc8df9325f" textAlignment="1" borderType="2">
-        <bounds x="360" y="72" width="185" height="41"/>
+        <bounds x="432" y="36" width="185" height="41"/>
         <feature name="labelExpression" value="Last Updated by: $view{property:Last Updated by}&#xD;&#xA;Last Updated at: $view{property:Last Updated}"/>
       </child>
       <property key="Last Updated" value="2999/12/31"/>
