@@ -1,0 +1,934 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018/"
+     xml:base="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:sabsa_matrices_2018="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#BelongsTo -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#BelongsTo">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#Includes"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#Activity"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#Artifacts"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#Layer"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#Matrix_Type"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#View"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#Includes -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#Includes"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#Activity -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#Activity"/>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#Artifacts -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#Artifacts"/>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#Layer -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#Layer"/>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#Matrix_Type -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#Matrix_Type"/>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#View -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#View"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#Business_Driver_Development -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#Business_Driver_Development">
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#Activity"/>
+        <sabsa_matrices_2018:BelongsTo rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#1_Assets_What"/>
+        <sabsa_matrices_2018:BelongsTo rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#1_Contextual_Architecture"/>
+        <rdfs:comment>Business Benchmarking; Identification of New Drivers</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#Business_Geography -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#Business_Geography">
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#Artifacts"/>
+        <sabsa_matrices_2018:BelongsTo rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#1_Architecture_Matrix"/>
+        <sabsa_matrices_2018:BelongsTo rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#1_Contextual_Architecture"/>
+        <sabsa_matrices_2018:BelongsTo rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#5_Location_Where"/>
+        <rdfs:comment>Inventory of Buildings, Sites, Territories, Jurisdictions, etc.</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#Business_Governance -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#Business_Governance">
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#Artifacts"/>
+        <sabsa_matrices_2018:BelongsTo rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#1_Architecture_Matrix"/>
+        <sabsa_matrices_2018:BelongsTo rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#1_Contextual_Architecture"/>
+        <sabsa_matrices_2018:BelongsTo rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#4_People_Who"/>
+        <rdfs:comment>Organizational Structure &amp; the Extended Enterprise</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#Business_Meta-Processes -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#Business_Meta-Processes">
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#Artifacts"/>
+        <sabsa_matrices_2018:BelongsTo rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#1_Architecture_Matrix"/>
+        <sabsa_matrices_2018:BelongsTo rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#1_Contextual_Architecture"/>
+        <sabsa_matrices_2018:BelongsTo rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#3_Process_How"/>
+        <rdfs:comment>Business Value Chain; Business Capabilities, Services &amp; Functions</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#Business_Portfolio_Management -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#Business_Portfolio_Management">
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#Activity"/>
+        <sabsa_matrices_2018:BelongsTo rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#2_Conceptual_Architecture"/>
+        <sabsa_matrices_2018:BelongsTo rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#5_Location_Where"/>
+        <rdfs:comment>Business Footprint; Points of Supply &amp; Access</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#Business_Risk -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#Business_Risk">
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#Artifacts"/>
+        <sabsa_matrices_2018:BelongsTo rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#1_Architecture_Matrix"/>
+        <sabsa_matrices_2018:BelongsTo rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#1_Contextual_Architecture"/>
+        <sabsa_matrices_2018:BelongsTo rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#2_Motivation_Why"/>
+        <rdfs:comment>Opportunities &amp; Threats Inventory</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#Business_Risk_Analysis -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#Business_Risk_Analysis">
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#Activity"/>
+        <sabsa_matrices_2018:BelongsTo rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#1_Contextual_Architecture"/>
+        <sabsa_matrices_2018:BelongsTo rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#2_Motivation_Why"/>
+        <rdfs:comment>Analysis of Internal &amp; external Risk Factors</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#Business_Time_Dependence -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#Business_Time_Dependence">
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#Artifacts"/>
+        <sabsa_matrices_2018:BelongsTo rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#1_Architecture_Matrix"/>
+        <sabsa_matrices_2018:BelongsTo rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#1_Contextual_Architecture"/>
+        <sabsa_matrices_2018:BelongsTo rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#6_Time_When"/>
+        <rdfs:comment>Time dependencies of Business Goals and Value Creation</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#Capability_Management -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#Capability_Management">
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#Activity"/>
+        <sabsa_matrices_2018:BelongsTo rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#1_Contextual_Architecture"/>
+        <sabsa_matrices_2018:BelongsTo rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#3_Process_How"/>
+        <rdfs:comment>Managing Processes &amp; Capabilities for Stakeholder Value</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#Componnet_Assets -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#Componnet_Assets">
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#Artifacts"/>
+        <sabsa_matrices_2018:BelongsTo rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#1_Assets_What"/>
+        <sabsa_matrices_2018:BelongsTo rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#5_Component_Architecture"/>
+        <rdfs:comment>Products and Tools, including Data Repositories &amp; Processors</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#Data_Assets -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#Data_Assets">
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#Artifacts"/>
+        <sabsa_matrices_2018:BelongsTo rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#1_Assets_What"/>
+        <sabsa_matrices_2018:BelongsTo rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#4_Physical_Architecture"/>
+        <rdfs:comment>Data Dictionary &amp; Data Storage;
+Devices Inventory</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#Delivery_Management -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#Delivery_Management">
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#Activity"/>
+        <sabsa_matrices_2018:BelongsTo rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#1_Architecture_Matrix"/>
+        <sabsa_matrices_2018:BelongsTo rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#3_Logical_Architecture"/>
+        <sabsa_matrices_2018:BelongsTo rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#3_Process_How"/>
+        <rdfs:comment>SLA Management;
+Supply Chain Management;
+BCM;
+Financial Management;
+Transition Management</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#Delivery_Planning -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#Delivery_Planning">
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#Activity"/>
+        <sabsa_matrices_2018:BelongsTo rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#2_Conceptual_Architecture"/>
+        <sabsa_matrices_2018:BelongsTo rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#3_Process_How"/>
+        <rdfs:comment>SLA Planning; BCP; Financial Planning; Transition Planning; Services Catalog</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#Delivery_and_Continuity_Management -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#Delivery_and_Continuity_Management">
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#Activity"/>
+        <sabsa_matrices_2018:BelongsTo rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#1_Assets_What"/>
+        <sabsa_matrices_2018:BelongsTo rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#5_Component_Architecture"/>
+        <rdfs:comment>Assurance of Operational Excellence &amp; Continuity</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#Developing_Risk_Objectives -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#Developing_Risk_Objectives">
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#Activity"/>
+        <sabsa_matrices_2018:BelongsTo rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#2_Conceptual_Architecture"/>
+        <sabsa_matrices_2018:BelongsTo rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#2_Motivation_Why"/>
+        <rdfs:comment>Maintaining the Risk Modeling Framework; Risk Analysis on Business Attributes Profile</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#Domain_Framework -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#Domain_Framework">
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#Artifacts"/>
+        <sabsa_matrices_2018:BelongsTo rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#2_Conceptual_Architecture"/>
+        <sabsa_matrices_2018:BelongsTo rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#5_Location_Where"/>
+        <rdfs:comment>Security Domain Concepts &amp; Framework</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#Domain_Maps -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#Domain_Maps">
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#Artifacts"/>
+        <sabsa_matrices_2018:BelongsTo rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#1_Architecture_Matrix"/>
+        <sabsa_matrices_2018:BelongsTo rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#3_Logical_Architecture"/>
+        <sabsa_matrices_2018:BelongsTo rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#5_Location_Where"/>
+        <rdfs:comment>Domain Definition;
+Inter-Domain Associations &amp; Interactions</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#Enterprise-Wide_User_Management -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#Enterprise-Wide_User_Management">
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#Activity"/>
+        <sabsa_matrices_2018:BelongsTo rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#1_Architecture_Matrix"/>
+        <sabsa_matrices_2018:BelongsTo rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#3_Logical_Architecture"/>
+        <sabsa_matrices_2018:BelongsTo rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#4_People_Who"/>
+        <rdfs:comment>Trust Modeling;
+Identity &amp; Access Management;
+Account Administration &amp; Provisioning</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#Environment_Management -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#Environment_Management">
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#Activity"/>
+        <sabsa_matrices_2018:BelongsTo rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#5_Component_Architecture"/>
+        <sabsa_matrices_2018:BelongsTo rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#5_Location_Where"/>
+        <rdfs:comment>Management of Building, Sites, Platforms &amp; Networks</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#Evaluation_Management -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#Evaluation_Management">
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#Activity"/>
+        <sabsa_matrices_2018:BelongsTo rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#1_Architecture_Matrix"/>
+        <sabsa_matrices_2018:BelongsTo rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#3_Logical_Architecture"/>
+        <sabsa_matrices_2018:BelongsTo rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#6_Time_When"/>
+        <rdfs:comment>Monitoring &amp; Reporting KPIs &amp; KRIs</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#Human_Entities -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#Human_Entities">
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#Artifacts"/>
+        <sabsa_matrices_2018:BelongsTo rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#4_People_Who"/>
+        <sabsa_matrices_2018:BelongsTo rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#5_Component_Architecture"/>
+        <rdfs:comment>Identities, Job Descriptions;
+Roles;
+Functions;
+Actions &amp; Access Control Lists</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#Human_Interface -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#Human_Interface">
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#Artifacts"/>
+        <sabsa_matrices_2018:BelongsTo rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#4_People_Who"/>
+        <sabsa_matrices_2018:BelongsTo rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#4_Physical_Architecture"/>
+        <rdfs:comment>User Interface to Business Systems;
+Identity &amp; Access Control Systems</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#Information_Assets -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#Information_Assets">
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#Artifacts"/>
+        <sabsa_matrices_2018:BelongsTo rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#1_Architecture_Matrix"/>
+        <sabsa_matrices_2018:BelongsTo rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#1_Assets_What"/>
+        <sabsa_matrices_2018:BelongsTo rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#3_Logical_Architecture"/>
+        <rdfs:comment>Information
+Asset Register
+Business Information Model</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#Infrastructure -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#Infrastructure">
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#Artifacts"/>
+        <sabsa_matrices_2018:BelongsTo rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#4_Physical_Architecture"/>
+        <sabsa_matrices_2018:BelongsTo rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#5_Location_Where"/>
+        <rdfs:comment>Workspaces;
+Host Platforms, Layout of Devices &amp; Networks</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#Locator -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#Locator">
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#Artifacts"/>
+        <sabsa_matrices_2018:BelongsTo rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#5_Component_Architecture"/>
+        <sabsa_matrices_2018:BelongsTo rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#5_Location_Where"/>
+        <rdfs:comment>Nodes;
+Addresses &amp; other Locators;
+Components Configuration</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#Logical_Asset_Management -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#Logical_Asset_Management">
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#Activity"/>
+        <sabsa_matrices_2018:BelongsTo rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#1_Architecture_Matrix"/>
+        <sabsa_matrices_2018:BelongsTo rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#1_Assets_What"/>
+        <sabsa_matrices_2018:BelongsTo rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#3_Logical_Architecture"/>
+        <rdfs:comment>Knowledge Management;
+Release &amp; Deployment Management</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#Operational_Risk_Management -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#Operational_Risk_Management">
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#Activity"/>
+        <sabsa_matrices_2018:BelongsTo rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#2_Motivation_Why"/>
+        <sabsa_matrices_2018:BelongsTo rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#5_Component_Architecture"/>
+        <rdfs:comment>Risk Assessment;
+Risk Monitoring &amp; Reporting;
+Risk Treatment</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#Operations_Management -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#Operations_Management">
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#Activity"/>
+        <sabsa_matrices_2018:BelongsTo rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#3_Process_How"/>
+        <sabsa_matrices_2018:BelongsTo rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#4_Physical_Architecture"/>
+        <rdfs:comment>Job, Incident, Event &amp; Disaster Recovery Management</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#Performance_Data_Collection -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#Performance_Data_Collection">
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#Activity"/>
+        <sabsa_matrices_2018:BelongsTo rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#4_Physical_Architecture"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#Performance_Management -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#Performance_Management">
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#Activity"/>
+        <sabsa_matrices_2018:BelongsTo rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#1_Contextual_Architecture"/>
+        <sabsa_matrices_2018:BelongsTo rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#6_Time_When"/>
+        <rdfs:comment>Define &amp; Monitor Business-Driven Performance Targets</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#Physical_Asset_Management -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#Physical_Asset_Management">
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#Activity"/>
+        <sabsa_matrices_2018:BelongsTo rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#1_Assets_What"/>
+        <sabsa_matrices_2018:BelongsTo rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#4_Physical_Architecture"/>
+        <rdfs:comment>Change Management;
+Platform &amp; Data Storage Management</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#Policy_Management -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#Policy_Management">
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#Activity"/>
+        <sabsa_matrices_2018:BelongsTo rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#1_Architecture_Matrix"/>
+        <sabsa_matrices_2018:BelongsTo rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#2_Motivation_Why"/>
+        <sabsa_matrices_2018:BelongsTo rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#3_Logical_Architecture"/>
+        <rdfs:comment>Risk Modeling;
+Management of Policy Development &amp; Maintenance;
+Policy Publication Compliance Management</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#Process -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#Process">
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#Artifacts"/>
+        <sabsa_matrices_2018:BelongsTo rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#3_Process_How"/>
+        <sabsa_matrices_2018:BelongsTo rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#5_Component_Architecture"/>
+        <rdfs:comment>Tools &amp; Protocols for Process Delivery;
+Application Products</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#Process_Delivery_Management -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#Process_Delivery_Management">
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#Activity"/>
+        <sabsa_matrices_2018:BelongsTo rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#3_Process_How"/>
+        <sabsa_matrices_2018:BelongsTo rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#5_Component_Architecture"/>
+        <rdfs:comment>Management &amp; Support of Systems, Applications &amp; Services</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#Process_Mechanisms -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#Process_Mechanisms">
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#Artifacts"/>
+        <sabsa_matrices_2018:BelongsTo rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#3_Process_How"/>
+        <sabsa_matrices_2018:BelongsTo rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#4_Physical_Architecture"/>
+        <rdfs:comment>Working Procedures;
+Application Software;
+Middleware;
+Systems;
+Security;
+Mechanisms Process Control Points</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#Processing_Schedule -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#Processing_Schedule">
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#Artifacts"/>
+        <sabsa_matrices_2018:BelongsTo rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#4_Physical_Architecture"/>
+        <sabsa_matrices_2018:BelongsTo rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#6_Time_When"/>
+        <rdfs:comment>Timing &amp; Sequencing of Processes &amp; Sessions</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#Proxy_Asset_Development -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#Proxy_Asset_Development">
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#Activity"/>
+        <sabsa_matrices_2018:BelongsTo rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#1_Assets_What"/>
+        <sabsa_matrices_2018:BelongsTo rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#2_Conceptual_Architecture"/>
+        <rdfs:comment>Defining Business Attributes Profile; Performance Criteria, Key Performance Indicators (KPIs) &amp; Key Risk Indicators (KRIs)</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#Relationship_Management -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#Relationship_Management">
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#Activity"/>
+        <sabsa_matrices_2018:BelongsTo rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#1_Contextual_Architecture"/>
+        <sabsa_matrices_2018:BelongsTo rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#4_People_Who"/>
+        <rdfs:comment>Managing Suppliers, Service Providers, Customers &amp; Employees</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#Resources_Management -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#Resources_Management">
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#Activity"/>
+        <sabsa_matrices_2018:BelongsTo rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#4_Physical_Architecture"/>
+        <sabsa_matrices_2018:BelongsTo rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#5_Location_Where"/>
+        <rdfs:comment>Physical &amp; Environment Security Management;
+Real Estate &amp; Facilities Management</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#Risk_Data_Management -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#Risk_Data_Management">
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#Activity"/>
+        <sabsa_matrices_2018:BelongsTo rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#2_Motivation_Why"/>
+        <sabsa_matrices_2018:BelongsTo rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#4_Physical_Architecture"/>
+        <rdfs:comment>Risk Procedure Management;
+Risk Metadata Management</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#Risk_Management -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#Risk_Management">
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#Artifacts"/>
+        <sabsa_matrices_2018:BelongsTo rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#2_Motivation_Why"/>
+        <sabsa_matrices_2018:BelongsTo rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#5_Component_Architecture"/>
+        <rdfs:comment>Risk Analysis Tools;
+Risk Registers;
+Risk Monitoring &amp; Reporting Tools</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#Risk_Management_Policies -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#Risk_Management_Policies">
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#Artifacts"/>
+        <sabsa_matrices_2018:BelongsTo rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#1_Architecture_Matrix"/>
+        <sabsa_matrices_2018:BelongsTo rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#2_Motivation_Why"/>
+        <sabsa_matrices_2018:BelongsTo rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#3_Logical_Architecture"/>
+        <rdfs:comment>Risk Models;
+Domain Policies;
+Assurance Criteria &amp; Framework</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#Risk_Management_Practices -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#Risk_Management_Practices">
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#Artifacts"/>
+        <sabsa_matrices_2018:BelongsTo rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#2_Motivation_Why"/>
+        <sabsa_matrices_2018:BelongsTo rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#4_Physical_Architecture"/>
+        <rdfs:comment>Risk Management Rules &amp; Procedures;
+Risk Metadata</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#Role_Management -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#Role_Management">
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#Activity"/>
+        <sabsa_matrices_2018:BelongsTo rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#2_Conceptual_Architecture"/>
+        <sabsa_matrices_2018:BelongsTo rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#4_People_Who"/>
+        <rdfs:comment>Maintain Trust Modeling Framework; Liabilities; Define Roles &amp; Responsibilities</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#Service_Catalog_Management -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#Service_Catalog_Management">
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#Activity"/>
+        <sabsa_matrices_2018:BelongsTo rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#1_Architecture_Matrix"/>
+        <sabsa_matrices_2018:BelongsTo rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#3_Logical_Architecture"/>
+        <sabsa_matrices_2018:BelongsTo rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#5_Location_Where"/>
+        <rdfs:comment>Configuration Management;
+Capacity Planning;
+Availability Management</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#Service_Level_Definition -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#Service_Level_Definition">
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#Activity"/>
+        <sabsa_matrices_2018:BelongsTo rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#2_Conceptual_Architecture"/>
+        <sabsa_matrices_2018:BelongsTo rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#6_Time_When"/>
+        <rdfs:comment>Manage Performance Criteria &amp; Targets; Abstracting Attribute Performance Targets</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#Step_Timing_Sequencing -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#Step_Timing_Sequencing">
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#Artifacts"/>
+        <sabsa_matrices_2018:BelongsTo rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#5_Component_Architecture"/>
+        <sabsa_matrices_2018:BelongsTo rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#6_Time_When"/>
+        <rdfs:comment>Time Schedules;
+Clocks, Timers &amp; Interrupts</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#Strategies_for_Process_Assurance -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#Strategies_for_Process_Assurance">
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#Artifacts"/>
+        <sabsa_matrices_2018:BelongsTo rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#2_Conceptual_Architecture"/>
+        <sabsa_matrices_2018:BelongsTo rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#3_Process_How"/>
+        <rdfs:comment>Operational Process Inventory; Proess Mapping Framework</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#Supply_Chain_Management -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#Supply_Chain_Management">
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#Activity"/>
+        <sabsa_matrices_2018:BelongsTo rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#1_Contextual_Architecture"/>
+        <sabsa_matrices_2018:BelongsTo rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#5_Location_Where"/>
+        <rdfs:comment>Supply &amp; Demand Management Deployment &amp; Consumption</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#Time_Management_Framework -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#Time_Management_Framework">
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#Artifacts"/>
+        <sabsa_matrices_2018:BelongsTo rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#2_Conceptual_Architecture"/>
+        <sabsa_matrices_2018:BelongsTo rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#6_Time_When"/>
+        <rdfs:comment>Through-Life risk Management Framework; Attribute Performance Targets</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#Trust_Relationships -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#Trust_Relationships">
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#Artifacts"/>
+        <sabsa_matrices_2018:BelongsTo rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#1_Architecture_Matrix"/>
+        <sabsa_matrices_2018:BelongsTo rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#3_Logical_Architecture"/>
+        <sabsa_matrices_2018:BelongsTo rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#4_People_Who"/>
+        <rdfs:comment>Domain Authorities;
+Entity Schema;
+Privilege Profiles;
+Trust Relationship Models</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#User_Support -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#User_Support">
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#Activity"/>
+        <sabsa_matrices_2018:BelongsTo rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#4_People_Who"/>
+        <sabsa_matrices_2018:BelongsTo rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#4_Physical_Architecture"/>
+        <rdfs:comment>Service Desk, Problem &amp; Request Management</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#1_Architecture_Matrix -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#1_Architecture_Matrix">
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#Matrix_Type"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#1_Assets_What -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#1_Assets_What">
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#View"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#1_Contextual_Architecture -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#1_Contextual_Architecture">
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#Layer"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#2_Conceptual_Architecture -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#2_Conceptual_Architecture">
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#Layer"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#2_Management_Matrix -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#2_Management_Matrix">
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#Matrix_Type"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#2_Motivation_Why -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#2_Motivation_Why">
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#View"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#3_Logical_Architecture -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#3_Logical_Architecture">
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#Layer"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#3_Process_How -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#3_Process_How">
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#View"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#4_People_Who -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#4_People_Who">
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#View"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#4_Physical_Architecture -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#4_Physical_Architecture">
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#Layer"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#5_Component_Architecture -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#5_Component_Architecture">
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#Layer"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#5_Location_Where -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#5_Location_Where">
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#View"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#6_Management_Architecture -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#6_Management_Architecture">
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#Layer"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#6_Time_When -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#6_Time_When">
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#View"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#Buisness_Value_&amp;_Knowledge_Strategy -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#Buisness_Value_&amp;_Knowledge_Strategy">
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#Artifacts"/>
+        <sabsa_matrices_2018:BelongsTo rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#1_Architecture_Matrix"/>
+        <sabsa_matrices_2018:BelongsTo rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#1_Assets_What"/>
+        <sabsa_matrices_2018:BelongsTo rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#1_Contextual_Architecture"/>
+        <sabsa_matrices_2018:BelongsTo rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#2_Conceptual_Architecture"/>
+        <rdfs:comment>Business Attributes Taxonomy &amp; Profile (with integrated performance target)</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#Business_Goals_&amp;_Decisions -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#Business_Goals_&amp;_Decisions">
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#Artifacts"/>
+        <sabsa_matrices_2018:BelongsTo rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#1_Architecture_Matrix"/>
+        <sabsa_matrices_2018:BelongsTo rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#1_Assets_What"/>
+        <sabsa_matrices_2018:BelongsTo rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#1_Contextual_Architecture"/>
+        <rdfs:comment>Business Value; Taxonomy of Business Assets, including Goals &amp; Objectives, Success Factors, Targets</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#Calendar_&amp;_Timetable -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#Calendar_&amp;_Timetable">
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#Artifacts"/>
+        <sabsa_matrices_2018:BelongsTo rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#1_Architecture_Matrix"/>
+        <sabsa_matrices_2018:BelongsTo rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#3_Logical_Architecture"/>
+        <sabsa_matrices_2018:BelongsTo rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#6_Time_When"/>
+        <rdfs:comment>Start Times, Lifetimes &amp; Deadlines</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#Governance_Relationship_&amp;_Personnel_Management -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#Governance_Relationship_&amp;_Personnel_Management">
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#Activity"/>
+        <sabsa_matrices_2018:BelongsTo rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#4_People_Who"/>
+        <sabsa_matrices_2018:BelongsTo rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#5_Component_Architecture"/>
+        <rdfs:comment>Management &amp; Support of Enterprise-wide &amp; Extended Enterprise Relationships</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#Process_Maps_&amp;_Services -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#Process_Maps_&amp;_Services">
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#Artifacts"/>
+        <sabsa_matrices_2018:BelongsTo rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#1_Architecture_Matrix"/>
+        <sabsa_matrices_2018:BelongsTo rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#3_Logical_Architecture"/>
+        <sabsa_matrices_2018:BelongsTo rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#3_Process_How"/>
+        <rdfs:comment>Information Flows;
+Functional Transformations;
+Service-Oriented Architecture;
+Services Catalog;
+Application Functionality &amp; Services</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#Risk_Management_&amp;_Strategy_&amp;_Objectives -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#Risk_Management_&amp;_Strategy_&amp;_Objectives">
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#Artifacts"/>
+        <sabsa_matrices_2018:BelongsTo rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#2_Conceptual_Architecture"/>
+        <sabsa_matrices_2018:BelongsTo rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#2_Motivation_Why"/>
+        <rdfs:comment>Enablement &amp; Control Objectives; Policy Architecture; Risk Categories; Risk Management</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#Security_&amp;_Risk_Governance_&amp;_Trust_Framework -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#Security_&amp;_Risk_Governance_&amp;_Trust_Framework">
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#Artifacts"/>
+        <sabsa_matrices_2018:BelongsTo rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#2_Conceptual_Architecture"/>
+        <sabsa_matrices_2018:BelongsTo rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#4_People_Who"/>
+        <rdfs:comment>Owners Custodians &amp; Users; Trust Modeling Framework</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#Time_&amp;_Performance_Management -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#Time_&amp;_Performance_Management">
+        <rdf:type rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#Activity"/>
+        <sabsa_matrices_2018:BelongsTo rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#5_Component_Architecture"/>
+        <sabsa_matrices_2018:BelongsTo rdf:resource="http://www.semanticweb.org/v0cn037/ontologies/2025/5/sabsa_matrices_2018#6_Time_When"/>
+        <rdfs:comment>Management of Calendar &amp; Timetable</rdfs:comment>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+
