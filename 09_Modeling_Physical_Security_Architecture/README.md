@@ -88,6 +88,14 @@ Snapshot ArchiMate Model: [Figure 66: Configuration Files](./Figure66/ArchiMate_
 
 ### 9.1.2 Device and Node
 
+`Nodes` represent a computational or physical resource that hosts, manipulates or interacts with other computational or physical resources.
+
+`Devices` model physical IT resources (i.e., hardware) upon which system software and `Artifacts` may be stored or deployed for execution.
+
+When modeling security infrastructure, it is sometimes useful to model `nodes` and `devices` having a specific security purpose as distinct stereotypes so taht role-specific properties can be assigned.
+
+Below Figure 67 example shows a Hardware Security Module (HSM) being modeled as a stereotyped `Device` with properties that reflect FIPS-140-2 assurance levels and a VPN Gateway as a stereotyped `Node` with preperties that reflect the Common Criteria Evaluation Assurance Levels (EAL) for the protection profile of a type of product.
+
 ![Figure67](./Figure67)
 
 Snapshot ArchiMate Model: [Figure 67: Stereotyping Security Nodes and Devices](./Figure67)
