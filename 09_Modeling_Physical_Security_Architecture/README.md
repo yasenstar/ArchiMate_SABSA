@@ -96,9 +96,9 @@ When modeling security infrastructure, it is sometimes useful to model `nodes` a
 
 Below Figure 67 example shows a Hardware Security Module (HSM) being modeled as a stereotyped `Device` with properties that reflect FIPS-140-2 assurance levels and a VPN Gateway as a stereotyped `Node` with preperties that reflect the Common Criteria Evaluation Assurance Levels (EAL) for the protection profile of a type of product.
 
-![Figure67](./Figure67)
+![Figure67](./Figure67/Figure67_Stereotyping-Security-Nodes-and-Devices.png)
 
-Snapshot ArchiMate Model: [Figure 67: Stereotyping Security Nodes and Devices](./Figure67)
+Snapshot ArchiMate Model: [Figure 67: Stereotyping Security Nodes and Devices](./Figure67/ArchiMate_SABSA_Figure67.archimate)
 
 ## 9.2 Risk Management Practices
 

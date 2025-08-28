@@ -618,6 +618,24 @@
       </element>
       <element xsi:type="archimate:Node" name="App Server" id="id-227a1377373445d1b9bd6994132e8bfb"/>
     </folder>
+    <folder name="Figure67" id="id-63cb9c3b788843d696e545fe2904b227">
+      <element xsi:type="archimate:Device" name="Device" id="id-f8a35676c9554b519a10a7f683ff7b13">
+        <property key="Stereotype" value="«HSM»"/>
+        <property key="envFailureProtecdtion" value="4"/>
+        <property key="tamperResistance" value="4"/>
+        <property key="idBasedAuthn" value="3"/>
+        <property key="enhancedKeyProtection" value="3"/>
+        <property key="tamperDetectionResponse" value="3"/>
+        <property key="tamperEvident" value="2"/>
+      </element>
+      <element xsi:type="archimate:Node" name="Node" id="id-8636e57bf9f84a1c9204327844d8482f">
+        <property key="Stereotype" value="«VPN Gateway»"/>
+        <property key="identificataion&amp;authentication" value="EAL1"/>
+        <property key="management" value="EAL2+"/>
+        <property key="trustedChannel" value="EAL2+"/>
+        <property key="selfProtection" value="EAL2"/>
+      </element>
+    </folder>
   </folder>
   <folder name="Motivation" id="id-bbb476089acd451a9e9bf35393320ece" type="motivation">
     <folder name="ch07" id="id-8ff50ae6483f427a8f12f05ae1c12f39">
@@ -8524,6 +8542,26 @@ The appropriateness of communication is particularly important for any informati
             <feature name="labelExpression" value="${property:Stereotype}&#xD;&#xA;${name}"/>
             <sourceConnection xsi:type="archimate:Connection" id="id-00c95463a6914fc2b2bde7e9df2e3f17" source="id-a83186c671fd4aa98063d0ed41e893fb" target="id-d1110dda3d444c468657b4be12d9195d" archimateRelationship="id-4c785eeae16540a29ccbbf3b1a6b5d88"/>
           </child>
+        </child>
+        <property key="Last Updated" value="2025/8/28"/>
+        <property key="Last Updated by" value="Xiaoqi Zhao"/>
+      </element>
+      <element xsi:type="archimate:ArchimateDiagramModel" name="Figure67_Stereotyping-Security-Nodes-and-Devices" id="id-231feee4ef9e4844813ce96b9df73448">
+        <child xsi:type="archimate:Note" id="id-f85490719750413d8dd38f20e1b9cc05" font="1|Segoe UI|9.75|1|WINDOWS|1|-13|0|0|0|700|0|0|0|0|3|2|1|34|Segoe UI" textPosition="1" borderType="2">
+          <bounds x="36" y="24" width="433" height="28"/>
+          <feature name="labelExpression" value="$view{name}"/>
+        </child>
+        <child xsi:type="archimate:Note" id="id-7c5c0bc4399c4aba9b6c75f27a8a8af6" textAlignment="1" borderType="2">
+          <bounds x="272" y="252" width="185" height="41"/>
+          <feature name="labelExpression" value="Last Updated by: $view{property:Last Updated by}&#xD;&#xA;Last Updated at: $view{property:Last Updated}"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-e6eafd4ef97341dca04b802e752191c9" font="1|Segoe UI|15.75|0|WINDOWS|1|-21|0|0|0|400|0|0|0|0|3|2|1|34|Segoe UI" textPosition="1" archimateElement="id-f8a35676c9554b519a10a7f683ff7b13" type="1">
+          <bounds x="-48" y="72" width="217" height="169"/>
+          <feature name="labelExpression" value="${property:Stereotype}&#xD;&#xA;${name}"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-92e8da38d66648c2bb0d87d0764405f9" archimateElement="id-8636e57bf9f84a1c9204327844d8482f" type="1">
+          <bounds x="192" y="72" width="265" height="169"/>
+          <feature name="labelExpression" value="${property:Stereotype}&#xD;&#xA;${name}&#xD;&#xA;------------------------&#xD;&#xA;identificataion&amp;authentication: ${property:identificataion&amp;authentication}&#xD;&#xA;management: ${property:management}&#xD;&#xA;trustedChannel: ${property:trustedChannel}&#xD;&#xA;selfProtection: ${property:selfProtection}"/>
         </child>
         <property key="Last Updated" value="2025/8/28"/>
         <property key="Last Updated by" value="Xiaoqi Zhao"/>
