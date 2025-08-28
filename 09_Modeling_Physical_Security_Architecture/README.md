@@ -82,9 +82,9 @@ Snapshot ArchiMate Model: [Figure 65: Stereotypes of Artifact](./Figure65/ArchiM
 
 #### 9.1.1.3 Configuration
 
-![Figure66](./Figure66)
+![Figure66](./Figure66/Figure66_Configuration-Files.png)
 
-Snapshot ArchiMate Model: [Figure 66: Configuration Files](./Figure66)
+Snapshot ArchiMate Model: [Figure 66: Configuration Files](./Figure66/ArchiMate_SABSA_Figure66.archimate)
 
 ### 9.1.2 Device and Node
 
