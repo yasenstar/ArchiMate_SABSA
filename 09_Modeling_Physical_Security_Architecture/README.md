@@ -110,9 +110,9 @@ The main exception to this is an organizataion's process for approving deviation
 
 Below Figure 68 illustrates how highly relevant risk information is readily at hand:
 
-![Figure68](./Figure68)
+![Figure68](./Figure68/Figure68_Risk-Managment-Practices.png)
 
-Snapshot ArchiMate Model: [Figure 68: Risk Management Practices](./Figure68)
+Snapshot ArchiMate Model: [Figure 68: Risk Management Practices](./Figure68/ArchiMate_SABSA_Figure68.archimate)
 
 ## 9.3 Process Mechanisms
 
