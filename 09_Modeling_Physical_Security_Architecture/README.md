@@ -122,9 +122,9 @@ From a security perspective, `Technology Services` fall into 2 main categories:
 
 Below Figure 69 illustrates the pattern by which a conceptual security service, authentication, is `realized` by two distinct `Technology Services`: one which provides a single sign-on (SSO) `capability` for the organization domain, and the other, the local authentication mechanisms of a cloud application.
 
-![Figure69](./Figure69)
+![Figure69](./Figure69/Figure69_Realization-of-Security-Services.png)
 
-Snapshot ArchiMate Model: [Figure 69: Realization of Security Services](./Figure69)
+Snapshot ArchiMate Model: [Figure 69: Realization of Security Services](./Figure69/ArchiMate_SABSA_Figure69.archimate)
 
 ### 9.3.1 Technology Functions and Services
 
