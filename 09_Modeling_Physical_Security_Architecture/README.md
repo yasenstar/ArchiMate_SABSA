@@ -106,6 +106,10 @@ Snapshot ArchiMate Model: [Figure 67: Stereotyping Security Nodes and Devices](.
 
 Software Defects are either published in product threat advisories, CVE (Common Vulnerabilities and Exposures, [CVE.org](https://www.cve.org)) lists, or discovered in custom code.
 
+The main exception to this is an organizataion's process for approving deviations. Often there is legitimate business pressure for software to be deployed inot Production despite defects: a planned security control may not have been completed in time, or a penetration test has uncovereed a problem at the eleventh hour. In such circumstances, a decision must be made on risk. Models can be analyzed as "what if" scenarios to inform these risk decisions.
+
+Below Figure 68 illustrates how highly relevant risk information is readily at hand:
+
 ![Figure68](./Figure68)
 
 Snapshot ArchiMate Model: [Figure 68: Risk Management Practices](./Figure68)
