@@ -104,6 +104,8 @@ Snapshot ArchiMate Model: [Figure 67: Stereotyping Security Nodes and Devices](.
 
 ### 9.2.1 Defect
 
+Software Defects are either published in product threat advisories, CVE (Common Vulnerabilities and Exposures, [CVE.org](https://www.cve.org)) lists, or discovered in custom code.
+
 ![Figure68](./Figure68)
 
 Snapshot ArchiMate Model: [Figure 68: Risk Management Practices](./Figure68)
