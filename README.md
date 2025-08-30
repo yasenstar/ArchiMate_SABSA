@@ -8,7 +8,7 @@
   - [Extended Variable Views on SABSA](#extended-variable-views-on-sabsa)
   - [Other References](#other-references)
   - [Tools Used for Demo and Tutorial](#tools-used-for-demo-and-tutorial)
-  - [Modeling Tutorial Videos](#modeling-tutorial-videos)
+  - [Modeling Tutorial Videos and Repositories](#modeling-tutorial-videos-and-repositories)
   - [Markdown Editing Tips](#markdown-editing-tips)
 
 
@@ -78,11 +78,12 @@ The practice in this repository is to detail go through the guide, and using Arc
 - Knowlege on Metamodel with relationship: [Protégé](https://protege.stanford.edu/software.php#desktop-protege)
 - Non-ArchiMate Diagramming, e.g. hierarchical chart: [PlantUML](https://plantuml.com/)
 
-## Modeling Tutorial Videos
+## Modeling Tutorial Videos and Repositories
 
 - YouTube Channel: [YouTube Video List](https://www.youtube.com/playlist?list=PL6DEHvciXKeVoCRsMg9Z3_eZSilbf8W1e)
 - DouYin 抖音: [Video List in DouYin](https://www.douyin.com/video/7510864092345765156)
 - Udemy Course: [Modeling SABSA in ArchiMate using Archi (and Protege, PlantUML and JSON)](https://www.udemy.com/course/modeling-sabsa-in-archimate-using-archi/?referralCode=A7C514E23B59103E9FC3)
+- Repository in Gitee: https://gitee.com/yasenstar/ArchiMate_SABSA
 
 ## Markdown Editing Tips
 
