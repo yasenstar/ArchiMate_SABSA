@@ -93,6 +93,7 @@ Key in special character in Markdown through ALT + code (need to use number pad)
 - ® : Copyright, Alt + 0174
 - ™ : Alt + 0153
 - é : Alt + 130
+- ∞ : note that "Alt + 236 or 8734" is not working in my machine, instead, using Windows Emoji keyboard works (Press `Win + .` then click `Symbols -> Math Symbols -> Select ∞)
 
 Key in special characters in Markdown through HTML syntax:
 
