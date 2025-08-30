@@ -331,7 +331,7 @@
 <node TEXT="8.6.1 Application Security Events" ID="ID_699441374" CREATED="1748269087344" MODIFIED="1748269096691"/>
 </node>
 </node>
-<node TEXT="09. Modeling Physical Security Architecture" POSITION="bottom_or_right" ID="ID_263707404" CREATED="1747668200563" MODIFIED="1747668211797">
+<node TEXT="09. Modeling Physical Security Architecture" FOLDED="true" POSITION="bottom_or_right" ID="ID_263707404" CREATED="1747668200563" MODIFIED="1747668211797">
 <node TEXT="9.0 Physical Overview" FOLDED="true" ID="ID_1441460584" CREATED="1755604164110" MODIFIED="1755604219777">
 <node TEXT="Table 38: SABSA Physical Architecture" POSITION="bottom_or_right" ID="ID_86274301" CREATED="1755604178989" MODIFIED="1755604188928"/>
 <node TEXT="Figure 64: Developing the SABSA Physical Security Architecture" POSITION="bottom_or_right" ID="ID_556451012" CREATED="1748269109269" MODIFIED="1748269125721"/>
