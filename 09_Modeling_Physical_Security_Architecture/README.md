@@ -126,6 +126,15 @@ Below Figure 69 illustrates the pattern by which a conceptual security service, 
 
 Snapshot ArchiMate Model: [Figure 69: Realization of Security Services](./Figure69/ArchiMate_SABSA_Figure69.archimate)
 
+Similar patterns can be deployed for other security services provided by the infrastructure:
+- Security Incident Event Management (SIEM)
+- Privileged Access Management Virus Scan
+- Data Leak Prvention, and so on
+
+The _closed loops_, including the invocation fo the conceptual Authentication service, its technical implementations and the `services` being protected, means that the model can not only verify that assurance strength `requirements` required by each `Application Service` are met, but also trace any Compliance `requirements` by identifying the closed loops described in [Section 7.2.2](../07_Modeling_Conceptual_Security_Architecture/README.md#722-policy-architecture).
+
+Turning to `Technology Services` in general, while the ability to enforce access control is as important as the earlier analysis of `Application Services`, it is often mitigated by being co-located on the same `Node`, local network (`Communication Network`), or network domain. Priority should focus, therefore, on service invocations (调用) that originate outside trust domain boundaries.
+
 ### 9.3.1 Technology Functions and Services
 
 | Element | Schema File | Schema Visualization |
