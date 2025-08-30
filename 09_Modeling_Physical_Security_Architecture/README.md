@@ -164,12 +164,9 @@ Turning to `Technology Services` in general, while the ability to enforce access
 
 | Element | Schema File | Schema Visualization |
 | --- | --- | --- |
-| Technology Service | [Tech Srv JSON](./Table40) | ![TechSrvSchema](./Table40) |
-| Technology Service | [Tech Srv JSON](./Table40) | ![TechSrvSchema](./Table40) |
-| Technology Service | [Tech Srv JSON](./Table40) | ![TechSrvSchema](./Table40) |
-| Technology Service | [Tech Srv JSON](./Table40) | ![TechSrvSchema](./Table40) |
-| Technology Service | [Tech Srv JSON](./Table40) | ![TechSrvSchema](./Table40) |
-
+| «Executable» | [Executable JSON](./Table40/Executable.json) | ![ExecutableSchema](./Table40/ExecutableSchema.png) |
+| «Data»| [Data JSON](./Table40/Data.json) | ![DataSchema](./Table40/DataSchema.png) |
+| «Defect» Service | [Defect JSON](./Table40/Defect.json) | ![DefectSchema](./Table40/DefectSchema.png) |
 
 ---
 

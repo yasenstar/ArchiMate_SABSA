@@ -1,0 +1,15 @@
+{
+    "«Data»": {
+        "tog:DataObject (extension)": {
+            "attributes": {},
+            "instance": {
+                "tog:name": "",
+                "tog:description": ""
+            }
+        },
+        "attributes": {
+            "stereotypeOf": "",
+            "type": ""
+        }
+    }
+}

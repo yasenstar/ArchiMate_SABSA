@@ -1,0 +1,15 @@
+{
+    "«Executable»": {
+        "tog:SystemSoftware (extension)": {
+            "attributes": {},
+            "instance": {
+                "tog:name": "",
+                "tog:description": "",
+                "tog:authenticityCheck (0..∞)": {}
+            }
+        },
+        "attributes": {
+            "stereotypeOf": ""
+        }
+    }
+}

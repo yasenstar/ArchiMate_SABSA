@@ -1,5 +1,7 @@
 # 10 Conclusion
 
+![Congratulation](./Congratulation.png)
+
 ---
 
 [<button type="button">«Chapter 09</button>](../09_Modeling_Physical_Security_Architecture/README.md) [<button type="button">HOME</button>](../README.md)
