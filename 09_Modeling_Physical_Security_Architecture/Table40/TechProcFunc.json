@@ -1,0 +1,26 @@
+{
+    "Technology Process / Techonology Function": {
+        "attributes": {
+            "grp tog:TechBehaviourAttributes": {
+                "id": "",
+                "criticality": [
+                    "NA", "UNCLASSIFIED", "VLOW", "LOW", "MODERATE", "HIGH", "VHIGH"
+                ],
+                "privilege": [
+                    "SELF", "USER", "ADMIN", "ROOT"
+                ],
+                "piiLegalBasis": "",
+                "isTransactional": "",
+                "isLogged": ""
+            }
+        },
+        "instance": {
+            "tog:name": "",
+            "tog:description": "",
+            "detail": {
+                "tog:executionFrequency": "",
+                "tog:executionPeriod": ""
+            }
+        }
+    }
+}

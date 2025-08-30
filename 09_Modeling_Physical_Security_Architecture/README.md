@@ -16,7 +16,7 @@
   - [9.3 Process Mechanisms](#93-process-mechanisms)
     - [9.3.1 Technology Functions and Services](#931-technology-functions-and-services)
     - [9.3.2 System Software](#932-system-software)
-  - [9.4 Human-Mechaine Interfaces](#94-human-mechaine-interfaces)
+  - [9.4 Human-Mechine Interfaces](#94-human-mechine-interfaces)
     - [9.4.1 Technology Interface](#941-technology-interface)
   - [9.5 Physical Environment](#95-physical-environment)
   - [9.6 Timing and Interrupts](#96-timing-and-interrupts)
@@ -139,18 +139,22 @@ Turning to `Technology Services` in general, while the ability to enforce access
 
 | Element | Schema File | Schema Visualization |
 | --- | --- | --- |
-| Technology Service | [Tech Srv JSON](./Table40) | ![TechSrvSchema](./Table40) |
-| Technology Process</br>Technology Function | [Tech Proc & Func JSON](./Table40) | ![TechProcFuncSchema](./Table40) |
+| Technology Service | [Tech Srv JSON](./Table40/TechService.json) | ![TechSrvSchema](./Table40/TechnologyServiceSchema.png) |
+| Technology Process</br>Technology Function | [Tech Proc & Func JSON](./Table40/TechProcFunc.json) | ![TechProcFuncSchema](./Table40/TechProcFuncSchema.png) |
 
 ### 9.3.2 System Software
 
-## 9.4 Human-Mechaine Interfaces
+| Element | Schema File | Schema Visualization |
+| --- | --- | --- |
+| System Software | [Tech Srv JSON](./Table40/SystemSoftware.json) | ![TechSrvSchema](./Table40/SystemSoftwareSchema.png) |
+
+## 9.4 Human-Mechine Interfaces
 
 ### 9.4.1 Technology Interface
 
 | Element | Schema File | Schema Visualization |
 | --- | --- | --- |
-| Technology Interface | [Tech Int JSON](./Table40) | ![TechIntSchema](./Table40) |
+| Technology Interface | [Tech Int JSON](./Table40/TechInterface.json) | ![TechIntSchema](./Table40/TechnologyInterfaceSchema.png) |
 
 ## 9.5 Physical Environment
 

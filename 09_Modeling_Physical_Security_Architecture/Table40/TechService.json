@@ -1,0 +1,19 @@
+{
+    "Technology Service": {
+        "attributes": {
+            "id": "",
+            "identityProof": "",
+            "authenicationStrength": "",
+            "authenicationTrust": "",
+            "availability": "",
+            "capacity": "",
+            "latency": "",
+            "rto": "",
+            "rpo": ""
+        },
+        "instance": {
+            "tog:name": "",
+            "tog:description": ""
+        }
+    }
+}

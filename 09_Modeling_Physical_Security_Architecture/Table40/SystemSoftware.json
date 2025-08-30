@@ -1,0 +1,23 @@
+{
+    "SystemSoftware": {
+        "attributes": {
+            "id": "",
+            "provider": "",
+            "providerURI": "",
+            "acquisitionModel": "",
+            "thisVersion": "",
+            "latestVersion": "",
+            "patchStatus": "",
+            "lastPatched": ""
+        },
+        "instance": {
+            "tog:name": "",
+            "tog:description": "",
+            "tog:authenticityCheck(0..∞)": {
+                "custom:CodeAuthenticity": {
+                    "attributes": {}
+                }
+            }
+        }
+    }
+}
