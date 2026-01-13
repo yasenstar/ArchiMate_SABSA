@@ -1,5 +1,15 @@
 # ArchiMate_SABSA
 
+[![YouTube Channel Subscribers](https://img.shields.io/youtube/channel/subscribers/UCTshmTJGpJunOz23vCEhzWg)](https://www.youtube.com/@yasenzhao)
+[![Static Badge](https://img.shields.io/badge/My_LinkedIn--XiaoqiZhao-blue)](https://www.linkedin.com/in/xiaoqi-zhao)
+
+![GitHub Repo stars](https://img.shields.io/github/stars/yasenstar/ArchiMate_SABSA)
+![GitHub forks](https://img.shields.io/github/forks/yasenstar/ArchiMate_SABSA)
+![GitHub License](https://img.shields.io/github/license/yasenstar/ArchiMate_SABSA)
+![GitHub language count](https://img.shields.io/github/languages/count/yasenstar/ArchiMate_SABSA)
+[![pages-build-deployment](https://github.com/yasenstar/ArchiMate_SABSA/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/yasenstar/PArchiMate_SABSAowerBI_Tutorial/actions/workflows/pages/pages-build-deployment)
+
+
 - [ArchiMate\_SABSA](#archimate_sabsa)
   - [Read and Check Detail (Content in the Book)](#read-and-check-detail-content-in-the-book)
   - [Resources](#resources)
@@ -103,4 +113,4 @@ Key in special characters in Markdown through HTML syntax:
 
 ---
 
-Comments are welcome, leave your thoughts in [Discussion Board](https://github.com/yasenstar/ArchiMate_SABSA/discussions).
+Comments are welcome, leave your thoughts in [Discussion Board](https://github.com/yasenstar/ArchiMate_SABSA/discussions). Last updated at 1/13/2026, 1:05:25 PM
