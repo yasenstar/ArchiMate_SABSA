@@ -16,6 +16,7 @@
   - [Content Mindmap](#content-mindmap)
   - [Brief Introduction](#brief-introduction)
   - [Extended Variable Views on SABSA](#extended-variable-views-on-sabsa)
+  - [SABSA in comparison with other "Security" Framework](#sabsa-in-comparison-with-other-security-framework)
   - [Other References](#other-references)
   - [Tools Used for Demo and Tutorial](#tools-used-for-demo-and-tutorial)
   - [Modeling Tutorial Videos and Repositories](#modeling-tutorial-videos-and-repositories)
@@ -73,6 +74,20 @@ The practice in this repository is to detail go through the guide, and using Arc
 - [SABSA Framework for Enterprise Architects (avolution)](./Docs/SABSA_Framework_Viewed_from_avolution.md)
 - [SABSA – In 3 Minutes](https://www.vanharen.net/standards/sabsa/sabsa-in-3-minutes/), local copy: [LINK](./Docs/SABSA_in_3min_Van-Haren-Group.pdf)
 - [Enterprise Security Architect - A Top-down Approach from ISACA in 2017](https://www.isaca.org/resources/isaca-journal/issues/2017/volume-4/enterprise-security-architecturea-top-down-approach), local copy: [LINK](./Docs/Enterprise_Security_Architecture—A_Top-down_Approach_ISACA_2017.pdf)
+
+## SABSA in comparison with other "Security" Framework
+
+| | SABSA | COBIT | NIST |
+| --- | --- | --- | --- |
+| **Primary Focus** | Business-driven security architecture and risk-aligned design | Enterprise IT governance, performance, and compliance oversight | Cybersecurity risk management, and courity standards |
+| **Methodology** | Layered architecture model driven by business risk context | Governance and management objectives, control frameworks, maturity models | Risk-based frameworks (CSF, RMF, SP8000 series) |
+| **Scope** | End-to-end enterprise security architecture | Organization-wide IT governance and controls | Technical and operational cybersecurity |
+| **Purpose** | Design security aligned with business risk | Ensure IT value and risk management | Establish effective security controls |
+| **Use Case** | Zero-Trust architecture, identity design | IT governance audits, compliance | Cybersecurity implementation |
+| **Integration Insight** | HOW security is architected | WHO governs and WHY controls matter | WHAT security controls to implement |
+| **Summary** | Architecture Blueprint | HOW | Security Controls & Standards|
+
+Thanks for sharing the great insight from Rechard Branson.
 
 ## Other References
 
